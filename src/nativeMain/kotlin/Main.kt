@@ -12,10 +12,14 @@ private val PrettyPrintJson = Json {
     prettyPrint = true
 }
 
-fun main() {
+fun helloWorld() {
     val message = Message(
         topic = "Kotlin/Native",
         content = "Hello!"
     )
     println(PrettyPrintJson.encodeToString(message))
+}
+
+fun main() {
+    helloWorld()
 }
