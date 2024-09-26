@@ -35,6 +35,7 @@ kotlin {
     sourceSets {
         nativeMain.dependencies {
             implementation(libs.kotlinxSerializationJson)
+            implementation("com.squareup.okio:okio:3.9.1")
         }
     }
 }
