@@ -1,0 +1,30 @@
+KONTENTY:
+# HO 1:
+1: MESSSI
+  1: 19300000, 9290000, FANeris, Tomko, Maendrake, Cvaniak, Bonio, Eillord, Karoll, Logray, Sqbaniec
+2: Kacper17
+  1: 16900000, 7810000, Wojciecch, Golon, Jenny, Doriss, Logray, Bonio, Senitovacua
+3: MESSI
+  1: 4500000, , Kacper17, Golon, Doriss, Logray, Karoll, Bozydaar, Jenny, Tomko, Bonio
+4: Karoll
+  1: 6400000, 5920000, Kacper17, MESSSI, Wojciecch, Golon, Logray, Tomko, Bonio, DrPolon, JuriOwsienko69
+# HO 2:
+5:
+  1: 6270000, , Kacper17, MESSSI, Wojciecch, Golon, Logray, Tomko, Bonio, DrPolon, JuriOwsienko69
+6: MESSSI
+  1: 6130000, 1240000, Kacper17, Wojciecch, Senitovacua, RoksamaDuszomAS3 (50%), FausT, FANeris, Karpik2115, Logray, Jenny
+7: Karoll
+  1: 16700000, 5600000, Kacper17, Klaudiuszs, MESSSI, Wojciecch, Logray, Eillord, FausT, Jenny, JuriOwsienko69, DrPolon
+8: Jenny
+  1: 3100000, 1000000, Kacper17, Senitovacua, Logray, Klaudiuszs, Doriss, FausT, Karpik2115 (50%), JuriOwsienko69, DrPolon
+9:
+  1: 13900000, 6200000, Kacper17, Logray, Karoll, Grubas5999, Maendrake, Wojciecch, Golon, Karpik2115, Jenny, Klaudiuszs
+# HO 3:
+10:
+  1: 5660000, , Kacper17, FausT, Appa, Golon, Doriss, Jenny, Logray
+
+REKRUTACJA:
+FANeris: 2
+JuriOwsienko69: 1
+Maendrake: 2
+ZaluzjaSolonez: 1

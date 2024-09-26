@@ -3,14 +3,14 @@
 ## FORMAT PLIKU WEJŚCIOWEGO (nawiasy oznaczają komenatrz, nie są częścią pliku):
 ```
 {Wszystkie kontenty z danego cyklu rozliczeniowego w ręcznie zapisanym formacie (nazwa skarbonki nie ma znaczenia)}
-{Nagłówek} SKARBONKI:
+{Nagłówek} KONTENTY:
+{opcjonalnie, nazwa skarbonki poprzedzona znakiem #. Linie rozpoczęte znakiem # są ignorowane przez algorytm (np. # HO1:)}
 {Numer Kontentu} 1: {nick organizatora lub puste jeśli brak}
-  {Numery Zwózki} 1: {ilość kasy w itemach}, {ilość kasy w kasie (sam przecinek jeśli brak)}, {uczestnik 1}, {uczestnik 2}, ... (nie licząc organizatora)
+  {Numery Zwózki} 1: {ilość kasy w itemach}, {ilość kasy w złocie (sam przecinek jeśli brak)}, {uczestnik 1}, {uczestnik 2}, ... (nie licząc organizatora)
   2: {ilość kasy w itemach}, itd ...
 2: {nick organizatora lub puste jeśli brak}
   1: itd ...
 3: itd ...
-
 
 REKRUTACJA:
 {Nick Rekutera}: {Ilość punktów zwrotu podatku}
@@ -24,11 +24,11 @@ itd ...
    1. Odlicz od każdej kwoty w itemach i w kasie 20% - 10% na poczet gildii oraz 10% na poczet zwrotów podatku, zaokrąglając pozostałe kwoty rozliczeniowe w dół do pełnych tysięcy.
    2. JEŚLI KONTENT MA ORGANIZATORA: dolicz organizatorowi 1 punkt zwrotu podatku. Dodaj go do listy rozliczanych jeśli w niej nie jest.
    3. Dla każdej zwózki:
-      1. Oblicz równą część kwoty w itemach i w kasie dla każdego uczestnika zwózki, zaokrąglając w dół do pełnych tysięcy.
+      1. Oblicz **JEDNOSTKĘ** wypłaty osobno dla itemów i kasy wyliczoną według wzoru: łączna kwota podzielona przez sumę: (2 za każdego pełnoprawnego uczestnika, 1 za każdego uczestnika z dopiskiem (50%) po nicku), zaokrąglając w dół do pełnych tysięcy
       2. JEŚLI KONTENT MA ORGANIZATORA: Oblicz wartość punktów zwrotu dla uczestników tej zwózki, dzieląc 1 przez ilość zwózek w contencie (np. 4 zwózki -> 0.25 punkta zwrotu łącznie do podziału)
       3. Dla każdego uczestnika zwózki (licząc organizatora, jeśli jest):
-         1. Dodaj go do listy rozliczanych jeśli w niej nie jest. Dolicz mu obliczone kwoty w itemach i w kasie
-         2. JEŚLI KONTENT MA ORGANIZATORA I DANY UCZESTNIK NIE JEST ORGANIZATOREM: dolicz mu równą część (bez organizatora) obliczonej wartości zwrotu dla zwózki (np. 5 uczestników zwózki nie licząc organizatora, każdy zwykły uczestnik dostaje 0.05 punkta zwrotu)
+         1. Dodaj go do listy rozliczanych jeśli w niej nie jest. Dolicz mu obliczone kwoty w itemach i w kasie według wzoru: **JEDNOSTKA** * (2 za pełnoprawnego uczestnika, 1 za uczestnika z dopiskiem (50%)).
+         2. JEŚLI KONTENT MA ORGANIZATORA I DANY UCZESTNIK NIE JEST ORGANIZATOREM: dolicz mu równą część (bez organizatora) obliczonej wartości zwrotu dla zwózki (np. 5 uczestników zwózki nie licząc organizatora, 4 zwózki, każdy zwykły uczestnik dostaje 0.05 punkta zwrotu)
 4. Weź rekrutacje, pogrupuj po rekruterach
 5. Dla każdego rekrutera:
    1. Dodaj go do listy rozliczanych jeśli w niej nie jest. Dopisz mu podane punkty zwrotu podatku.
@@ -40,3 +40,7 @@ itd ...
    2. Dla każdego rozliczanego: `Nick,Rozliczenie w itemach,Rozliczenie w kasie,Zwrot podatku`
 9. Rozdziel rozliczenie do skrzyń, napisz wiadomość z ogłoszeniem rozliczenia.
 TODO: Generować wiadomość z ogłoszeniem rozliczenia (markdown)
+
+# UWAGI:
+- Wszystkie wartości są zawsze liczbami naturalnymi
+- Rozmiar liter w nickach nie ma znaczenia
