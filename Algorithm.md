@@ -23,12 +23,13 @@ itd ...
 3. Dla każdego kontentu:
    1. Odlicz od każdej kwoty w itemach i w kasie 20% - 10% na poczet gildii oraz 10% na poczet zwrotów podatku, zaokrąglając pozostałe kwoty rozliczeniowe w dół do pełnych tysięcy.
    2. JEŚLI KONTENT MA ORGANIZATORA: dolicz organizatorowi 1 punkt zwrotu podatku. Dodaj go do listy rozliczanych jeśli w niej nie jest.
+   3. JEŚLI KONTENT MA ORGANIZATORA: Oblicz wartość punktu zwrotu do podziału w ramach zwózki, dzieląc 1 przez ilość zwózek w contencie (np. 4 zwózki -> 0.25 punkta zwrotu do podziału w każdej zwózce)
    3. Dla każdej zwózki:
       1. Oblicz **JEDNOSTKĘ** wypłaty osobno dla itemów i kasy wyliczoną według wzoru: łączna kwota podzielona przez sumę: (2 za każdego pełnoprawnego uczestnika, 1 za każdego uczestnika z dopiskiem (50%) po nicku), zaokrąglając w dół do pełnych tysięcy
-      2. JEŚLI KONTENT MA ORGANIZATORA: Oblicz wartość punktów zwrotu dla uczestników tej zwózki, dzieląc 1 przez ilość zwózek w contencie (np. 4 zwózki -> 0.25 punkta zwrotu łącznie do podziału)
+      2. JEŚLI KONTENT MA ORGANIZATORA: Oblicz wartość punktów zwrotu dla każdego uczestnika według wzoru: (wartość punktu zwrotu dla zwózki / ilość uczestników zwózki, nie licząc organizatora), zaoakrąglając w dół do pełnych tysięcy (np. punkty zwrotu dla zwózki = 0.2, 4 uczestników bez organizatora -> wartość punktów zwrotu dla uczestnika = 0.05)
       3. Dla każdego uczestnika zwózki (licząc organizatora, jeśli jest):
          1. Dodaj go do listy rozliczanych jeśli w niej nie jest. Dolicz mu obliczone kwoty w itemach i w kasie według wzoru: **JEDNOSTKA** * (2 za pełnoprawnego uczestnika, 1 za uczestnika z dopiskiem (50%)).
-         2. JEŚLI KONTENT MA ORGANIZATORA I DANY UCZESTNIK NIE JEST ORGANIZATOREM: dolicz mu równą część (bez organizatora) obliczonej wartości zwrotu dla zwózki (np. 5 uczestników zwózki nie licząc organizatora, 4 zwózki, każdy zwykły uczestnik dostaje 0.05 punkta zwrotu)
+         2. JEŚLI KONTENT MA ORGANIZATORA I DANY UCZESTNIK NIE JEST ORGANIZATOREM: dolicz mu obliczoną wartość punktów zwrotu dla zwózki.
 4. Weź rekrutacje, pogrupuj po rekruterach
 5. Dla każdego rekrutera:
    1. Dodaj go do listy rozliczanych jeśli w niej nie jest. Dopisz mu podane punkty zwrotu podatku.

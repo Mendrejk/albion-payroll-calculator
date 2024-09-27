@@ -56,20 +56,30 @@ fun load_input_file(): Input {
     }
 
     val contents = groupedContentsLines.map { contentLines ->
-        val currentParticipants = mutableListOf<Participant>()
-        var currentItemsTotal = 0
-        var currentCashTotal = 0
-
         val (contentId, organizerName) = run {
             val parts = contentLines.first().split(":").map { it.trim() }
             val id = parts.getOrNull(0)?.toIntOrNull() ?: 0
             val name = parts.getOrNull(1)?.takeIf { it.isNotEmpty() }
             Pair(id, name)
         }
-
         val organizer = organizerName?.let {
-            participants.getOrPut(it) { Participant(it) }
+            val organizer = participants.getOrPut(it) { Participant(it) }
+            organizer.returnPoints += 1
+            organizer
         }
+
+        val haulLines = contentLines.drop(1)
+
+        val numberOfHauls = haulLines.count {it.split(":").size == 2}
+        val perHaulReturnPoints = if (organizer != null && numberOfHauls > 0) {
+            1.0 / numberOfHauls
+        } else {
+            0
+        }
+
+        val currentParticipants = mutableListOf<Participant>()
+        var currentItemsTotal = 0
+        var currentCashTotal = 0
 
         contentLines.drop(1).forEach { line ->
             line.split(":").map { it.trim() }.takeIf { it.size == 2 }?.let { parts ->
