@@ -60,7 +60,7 @@ fun parseParticipant(participantString: String): Pair<String, Boolean> {
     } else {
         trimmedName
     }
-    return Pair(name, hasReducedShare)
+    return Pair(name, !hasReducedShare)
 }
 
 fun calculateTaxAndReturns(amount: Int): Triple<Int, Int, Int> {
@@ -74,7 +74,7 @@ fun calculateTaxAndReturns(amount: Int): Triple<Int, Int, Int> {
 
 fun parseInputFile(): Input {
     val lines = mutableListOf<String>()
-    FileSystem.SYSTEM.read("wejscie.txt".toPath()) {
+    FileSystem.SYSTEM.read("przykladoweWejscie.txt".toPath()) { // TODO: change to "wejscie.txt"
         while (true) {
             val line = readUtf8Line() ?: break
             if (line.isNotBlank() && !line.startsWith("#")) {
@@ -103,7 +103,7 @@ fun parseInputFile(): Input {
 
     val participants = mutableMapOf<String, Participant>()
 
-    // TODO: add checks for invalid shape of the wejscie.txt file
+    // TODO: add checks for invalid shape of the input file
     // if something is wrong, it should be logged
     val contentInputs = groupedContentsLines.map { contentLines ->
         val (contentId, organizer) = run {
@@ -180,7 +180,11 @@ fun calculateItemsAndCash(contentInputs: List<ContentInput>): List<Content> {
                 val returnPointsPerParticipant = returnPointsPerHaul / haul.participants.size
 
                 val haulSharePoints: Int =
-                    if (organizer != null) 2 else 0 + haul.participants.sumOf { (if (it.hasFullShare) 2 else 1).toInt() }
+                    if (organizer != null) {
+                        2
+                    } else {
+                        0
+                    } + haul.participants.sumOf { (if (it.hasFullShare) 2 else 1).toInt() }
                 val cashHaulShareUnit = (haul.cashAfterTax / haulSharePoints / 1000) * 1000
                 val itemsHaulShareUnit = (haul.itemsAfterTax / haulSharePoints / 1000) * 1000
 
@@ -208,8 +212,8 @@ fun calculateItemsAndCash(contentInputs: List<ContentInput>): List<Content> {
                     cashLeftToDistribute -= cashHaulShareUnit * participationShare
                 }
 
-                assert(itemsLeftToDistribute in 0..999)
-                assert(cashLeftToDistribute in 0..999)
+                assert(itemsLeftToDistribute == itemsRemainder)
+                assert(cashLeftToDistribute == cashRemainder)
             }
 
             Content(id,
@@ -280,23 +284,44 @@ fun calculatePayroll(): Payroll {
 }
 
 fun writePayrollOutput(payroll: Payroll) {
-    val headers = listOf("Nick", "Wypłata w przedmiotach", "Wypłata w gotówce", "Zwrot podatku")
-    val separator = headers.joinToString(" | ") { "-".repeat(it.length) }
-    val headerLine = headers.joinToString(" | ")
+    val headers = listOf("Nick", "Wypłata w przedmiotach", "Wypłata w gotówce", "Zwrot podatku", "Punkty Zwrotu Podatku")
+
+    // Calculate the maximum width for each column
+    val columnWidths = headers.mapIndexed { index, header ->
+        maxOf(header.length, payroll.participants.values.maxOf { participant ->
+            when (index) {
+                0 -> participant.name.length
+                1 -> participant.itemsAfterTax.toString().length
+                2 -> participant.cashAfterTax.toString().length
+                3 -> (participant.returnsFromItems + participant.returnsFromCash).toString().length
+                4 -> participant.returnPoints.toString().length
+                else -> 0
+            }
+        })
+    }
+
+    val separator = columnWidths.joinToString(" | ") { "-".repeat(it) }
+    val headerLine = headers.mapIndexed { index, header ->
+        header.padEnd(columnWidths[index])
+    }.joinToString(" | ")
 
     val rows = payroll.participants.values.map { participant ->
         listOf(
-            participant.name,
-            participant.itemsAfterTax.toString(),
-            participant.cashAfterTax.toString(),
-            (participant.returnsFromItems + participant.returnsFromCash).toString()
+            participant.name.padEnd(columnWidths[0]),
+            participant.itemsAfterTax.toString().padEnd(columnWidths[1]),
+            participant.cashAfterTax.toString().padEnd(columnWidths[2]),
+            (participant.returnsFromItems + participant.returnsFromCash).toString().padEnd(columnWidths[3]),
+            participant.returnPoints.toString().padEnd(columnWidths[4])
         ).joinToString(" | ")
     }
 
     val output = buildString {
         appendLine("Podatek w przedmiotach: ${payroll.itemsTaxTotal}")
         appendLine("Podatek w gotówce: ${payroll.cashTaxTotal}")
+        appendLine("Suma wypłat w przedmiotach: ${payroll.participants.values.sumOf { it.itemsAfterTax }}")
+        appendLine("Suma wypłat w gotówce: ${payroll.participants.values.sumOf { it.cashAfterTax }}")
         appendLine("Suma zwrotów w przedmiotach: ${payroll.participants.values.sumOf { it.returnsFromItems }}")
+        appendLine("Suma zwrotów w gotówce: ${payroll.participants.values.sumOf { it.returnsFromCash }}")
         appendLine(headerLine)
         appendLine(separator)
         rows.forEach { appendLine(it) }
