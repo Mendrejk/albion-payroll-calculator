@@ -74,7 +74,7 @@ fun calculateTaxAndReturns(amount: Int): Triple<Int, Int, Int> {
 
 fun parseInputFile(): Input {
     val lines = mutableListOf<String>()
-    FileSystem.SYSTEM.read("przykladoweWejscie.txt".toPath()) { // TODO: change to "wejscie.txt"
+    FileSystem.SYSTEM.read("wejscie.txt".toPath()) {
         while (true) {
             val line = readUtf8Line() ?: break
             if (line.isNotBlank() && !line.startsWith("#")) {
@@ -110,7 +110,7 @@ fun parseInputFile(): Input {
             val contentHeader = contentLines.first().split(":").map { it.trim() }
             val contentId = contentHeader.getOrNull(0)?.toIntOrNull() ?: 0
             val organizer = contentHeader.getOrNull(1)?.takeIf { it.isNotEmpty() }?.let {
-                participants.getOrPut(it) { Participant(it) } // TODO: can the organiser be 50%?
+                participants.getOrPut(it) { Participant(it) } // TODO: organiser can also be counted as 50%!
             }
             Pair(contentId, organizer)
         }
