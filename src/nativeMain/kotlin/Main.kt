@@ -9,6 +9,20 @@ data class Participant(
     var returnTotal: Int = 0
 )
 
+data class HaulInput(val itemsBeforeTax: Int, val cashBeforeTax: Int, val participants: List<Participant>)
+data class ContentInput(
+    val id: Int,
+    val organizer: Participant?,
+    val returnPointsPerHaul: Int,
+    val hauls: List<HaulInput>
+)
+
+data class Haul(
+    val itemsTotal: Int,
+    val cashTotal: Int,
+    val participants: List<Participant>
+)
+
 data class Content(
     val id: Int,
     val itemsTotal: Int,
@@ -55,26 +69,37 @@ fun load_input_file(): Input {
         acc
     }
 
+    // TODO: add checks for invalid shape of the wejscie.txt file
+    // if something is wrong, it should be logged
     val contents = groupedContentsLines.map { contentLines ->
-        val (contentId, organizerName) = run {
-            val parts = contentLines.first().split(":").map { it.trim() }
-            val id = parts.getOrNull(0)?.toIntOrNull() ?: 0
-            val name = parts.getOrNull(1)?.takeIf { it.isNotEmpty() }
-            Pair(id, name)
-        }
-        val organizer = organizerName?.let {
-            val organizer = participants.getOrPut(it) { Participant(it) }
-            organizer.returnPoints += 1
-            organizer
+        val (contentId, organizer) = run {
+            val contentHeader = contentLines.first().split(":").map { it.trim() }
+            val contentId = contentHeader.getOrNull(0)?.toIntOrNull() ?: 0
+            val organizer = contentHeader.getOrNull(1)?.takeIf { it.isNotEmpty() }?.let {
+                val organizer = participants.getOrPut(it) { Participant(it) }
+                organizer.returnPoints += 1
+                organizer
+            }
+            Pair(contentId, organizer)
         }
 
-        val haulLines = contentLines.drop(1)
+        val haulsLines = contentLines.drop(1)
+        val returnPointsPerHaul = organizer?.let {
+            val numberOfHauls = haulsLines.count { it.split(":").size == 2 }
+            if (numberOfHauls > 0) 1.0 / numberOfHauls else 0
+        }
 
-        val numberOfHauls = haulLines.count {it.split(":").size == 2}
-        val perHaulReturnPoints = if (organizer != null && numberOfHauls > 0) {
-            1.0 / numberOfHauls
-        } else {
-            0
+        val haulInputs = haulsLines.mapNotNull { haulLine ->
+            haulLine.split(":").map { it.trim() }.takeIf { it.size == 2 }?.let { (_, haulData) ->
+                haulData.split(",").map { it.trim() }.takeIf { it.size >= 3 }?.let { collectionParts ->
+                    val itemsBeforeTax = collectionParts[0].toInt()
+                    val cashBeforeTax = collectionParts[1].toIntOrNull() ?: 0
+                    val participants = collectionParts.drop(2).map { participantName ->
+                        participants.getOrPut(participantName) { Participant(participantName) }
+                    }
+                    HaulInput(itemsBeforeTax, cashBeforeTax, participants)
+                }
+            }
         }
 
         val currentParticipants = mutableListOf<Participant>()
