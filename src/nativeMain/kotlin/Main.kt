@@ -1,32 +1,37 @@
 import okio.FileSystem
 import okio.Path.Companion.toPath
 
+
 data class Participant(
     val name: String,
     var returnPoints: Int = 0,
-    var itemsAfterTaxTotal: Int = 0,
-    var cashAfterTaxTotal: Int = 0,
-    var returnTotal: Int = 0
+    var itemsAfterTax: Int = 0,
+    var cashAfterTax: Int = 0,
+    var returnsTotal: Int = 0
 )
 
 data class HaulInput(val itemsBeforeTax: Int, val cashBeforeTax: Int, val participants: List<Participant>)
-data class ContentInput(
-    val id: Int,
-    val organizer: Participant?,
-    val returnPointsPerHaul: Double,
-    val hauls: List<HaulInput>
-)
 
 data class Haul(
-    val itemsAfterTaxTotal: Int,
-    val cashAfterTaxTotal: Int,
+    val itemsAfterTax: Int,
+    val cashAfterTax: Int,
+    val itemsTax: Int,
+    val cashTax: Int,
+    val returnsFromItems: Int,
+    val returnsFromCash: Int,
     val participants: List<Participant>
+)
+
+data class ContentInput(
+    val id: Int, val organizer: Participant?, val returnPointsPerHaul: Double, val hauls: List<Haul>
 )
 
 data class Content(
     val id: Int,
-    val itemsAfterTaxTotal: Int,
-    val cashAfterTaxTotal: Int,
+    val itemsTaxTotal: Int,
+    val cashTaxTotal: Int,
+    val returnsFromItemsTotal: Int,
+    val returnsFromCashTotal: Int,
     val organizer: Participant?,
     val participants: List<Participant>
 )
@@ -102,17 +107,27 @@ fun load_input_file(): Input {
                     }
                 }
             }
-            ContentInput(contentId, organizer, returnPointsPerHaul, haulInputs)
+
+            val hauls = haulInputs.map { haulInput ->
+                val (itemsAfterTax, returnsFromItems, itemsTax) = calculateTaxAndReturns(haulInput.itemsBeforeTax)
+                val (cashAfterTax, returnsFromCash, cashTax) = calculateTaxAndReturns(haulInput.cashBeforeTax)
+
+                Haul(
+                    itemsAfterTax,
+                    cashAfterTax,
+                    itemsTax,
+                    cashTax,
+                    returnsFromItems,
+                    returnsFromCash,
+                    haulInput.participants
+                )
+            }
+
+            ContentInput(contentId, organizer, returnPointsPerHaul, hauls)
         }
 
-        // Convert ContentInputs to Contents
-        val hauls = contentInput.hauls.map { haulInput ->
-            val haul = Haul(haulInput.itemsBeforeTax, haulInput.cashBeforeTax, haulInput.participants)
-            haul.participants.forEach { it.itemsAfterTaxTotal += haul.itemsAfterTaxTotal }
-            haul.participants.forEach { it.cashAfterTaxTotal += haul.cashAfterTaxTotal }
-            haul.participants.forEach { it.returnTotal += haulInput.participants.size }
-            haul
-        }
+        // Create Contents from ContentInputs
+        // During this step, we should grant cash, items and returns to participants on a per-haul basis
 
         val currentParticipants = mutableListOf<Participant>()
         var currentItemsTotal = 0
@@ -139,6 +154,16 @@ fun load_input_file(): Input {
 fun calculate_payroll() {
     // 1. Load the input file
 }
+
+
+fun calculateTaxAndReturns(amount: Int): Triple<Int, Int, Int> {
+    val afterTax = (amount * 0.8).toInt() / 1000 * 1000 // round down to thousands
+    val returns = (amount * 0.1).toInt() / 1000 * 1000
+    val tax = amount - afterTax - returns
+
+    return Triple(afterTax, returns, tax)
+}
+
 
 fun main() {
 }
