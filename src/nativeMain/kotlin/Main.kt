@@ -226,6 +226,9 @@ fun calculate_payroll() {
 
     val contents = calculateItemsAndCash(contentInputs)
 
+    recruitmentInputs.forEach { recruitmentInput ->
+        recruitmentInput.recruiter.returnPoints += recruitmentInput.points.toDouble()
+    }
 }
 
 fun main() {
