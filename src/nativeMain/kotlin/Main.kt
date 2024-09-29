@@ -8,7 +8,8 @@ data class Participant(
     var returnPoints: Double = 0.0,
     var itemsAfterTax: Int = 0,
     var cashAfterTax: Int = 0,
-    var returnsTotal: Int = 0
+    var returnsFromItems: Int = 0,
+    var returnsFromCash: Int = 0
 )
 
 data class HaulParticipant(val participant: Participant, val hasFullShare: Boolean)
@@ -47,6 +48,9 @@ data class Content(
     val participants: List<Participant>
 )
 
+data class Payroll(
+    val itemsTaxTotal: Int, val cashTaxTotal: Int, val participants: Participants
+)
 
 fun parseParticipant(participantString: String): Pair<String, Boolean> {
     val trimmedName = participantString.trim()
@@ -221,15 +225,88 @@ fun calculateItemsAndCash(contentInputs: List<ContentInput>): List<Content> {
     }
 }
 
-fun calculate_payroll() {
+fun distributeReturns(
+    participants: Participants, contents: List<Content>, recruitmentReturnPoints: Double
+): Pair<Int, Int> {
+    // check if all return points assigned are equal to the sum of recruitment return points and (2 * number of contents with organizers)
+    val expectedReturnPoints = recruitmentReturnPoints + (2 * contents.count { it.organizer != null })
+    val returnPointsTotal = participants.values.sumOf { it.returnPoints }
+    if (returnPointsTotal != expectedReturnPoints) {
+        println("Return points do not add up! Expected: $expectedReturnPoints, actual: $returnPointsTotal")
+    }
+
+    // Sum the return from items and cash for all contents
+    val allReturnsFromItems = contents.sumOf { it.returnsFromItemsTotal }
+    val allReturnsFromCash = contents.sumOf { it.returnsFromCashTotal }
+    // Calculate the value of one return point
+    val valuePerReturnPointItems = allReturnsFromItems / returnPointsTotal
+    val valuePerReturnPointCash = allReturnsFromCash / returnPointsTotal
+
+    // Distribute the returns to each participant, rounding down to thousands.
+    val (itemTaxFromReturnsRemainder, cashTaxFromReturnsRemainder) = participants.values.fold(0 to 0) { (itemRemainder, cashRemainder), participant ->
+        val returnFromItemsToAdd = (participant.returnPoints * valuePerReturnPointItems).toInt() / 1000 * 1000
+        val returnFromCashToAdd = (participant.returnPoints * valuePerReturnPointCash).toInt() / 1000 * 1000
+
+        val itemDifference = (participant.returnPoints * valuePerReturnPointItems).toInt() - returnFromItemsToAdd
+        val cashDifference = (participant.returnPoints * valuePerReturnPointCash).toInt() - returnFromCashToAdd
+
+        participant.returnsFromItems += returnFromItemsToAdd
+        participant.returnsFromCash += returnFromCashToAdd
+
+        itemRemainder + itemDifference to cashRemainder + cashDifference
+    }
+
+    return itemTaxFromReturnsRemainder to cashTaxFromReturnsRemainder
+}
+
+fun calculatePayroll(): Payroll {
     val (contentInputs, recruitmentInputs, participants) = parseInputFile()
 
     val contents = calculateItemsAndCash(contentInputs)
 
-    recruitmentInputs.forEach { recruitmentInput ->
-        recruitmentInput.recruiter.returnPoints += recruitmentInput.points.toDouble()
+    val recruitmentReturnPoints = recruitmentInputs.sumOf { recruitmentInput ->
+        val recruitmentPoints = recruitmentInput.points.toDouble()
+        recruitmentInput.recruiter.returnPoints += recruitmentPoints // give the recruiter his recruitment return points
+        recruitmentPoints
+    }
+
+    val (itemTaxFromReturnsRemainder, cashTaxFromReturnsRemainder) = distributeReturns(
+        participants, contents, recruitmentReturnPoints
+    )
+    val itemsTaxTotal = contents.sumOf { it.itemsTaxTotal } + itemTaxFromReturnsRemainder
+    val cashTaxTotal = contents.sumOf { it.cashTaxTotal } + cashTaxFromReturnsRemainder
+
+    return Payroll(itemsTaxTotal, cashTaxTotal, participants)
+}
+
+fun writePayrollOutput(payroll: Payroll) {
+    val headers = listOf("Nick", "Wypłata w przedmiotach", "Wypłata w gotówce", "Zwrot podatku")
+    val separator = headers.joinToString(" | ") { "-".repeat(it.length) }
+    val headerLine = headers.joinToString(" | ")
+
+    val rows = payroll.participants.values.map { participant ->
+        listOf(
+            participant.name,
+            participant.itemsAfterTax.toString(),
+            participant.cashAfterTax.toString(),
+            (participant.returnsFromItems + participant.returnsFromCash).toString()
+        ).joinToString(" | ")
+    }
+
+    val output = buildString {
+        appendLine("Podatek w przedmiotach: ${payroll.itemsTaxTotal}")
+        appendLine("Podatek w gotówce: ${payroll.cashTaxTotal}")
+        appendLine("Suma zwrotów w przedmiotach: ${payroll.participants.values.sumOf { it.returnsFromItems }}")
+        appendLine(headerLine)
+        appendLine(separator)
+        rows.forEach { appendLine(it) }
+    }
+
+    FileSystem.SYSTEM.write("wyjscie.txt".toPath()) {
+        writeUtf8(output)
     }
 }
 
 fun main() {
+    writePayrollOutput(calculatePayroll())
 }
