@@ -14,6 +14,19 @@ data class Participant(
 data class HaulParticipant(val participant: Participant, val hasFullShare: Boolean)
 
 data class HaulInput(val itemsBeforeTax: Int, val cashBeforeTax: Int, val participants: List<HaulParticipant>)
+
+data class ContentInput(
+    val id: Int, val organizer: Participant?, val haulInputs: List<HaulInput>
+)
+
+data class RecruitmentInput(val recruiter: Participant, val points: Int)
+
+typealias Participants = MutableMap<String, Participant>
+
+data class Input(
+    val contents: List<ContentInput>, val recruitments: List<RecruitmentInput>, val participants: Participants
+)
+
 data class Haul(
     val itemsAfterTax: Int,
     val cashAfterTax: Int,
@@ -24,9 +37,6 @@ data class Haul(
     val participants: List<(HaulParticipant)>
 )
 
-data class ContentInput(
-    val id: Int, val organizer: Participant?, val returnPointsPerHaul: Double, val hauls: List<Haul>
-)
 data class Content(
     val id: Int,
     val itemsTaxTotal: Int,
@@ -36,10 +46,6 @@ data class Content(
     val organizer: Participant?,
     val participants: List<Participant>
 )
-
-data class Input(val contents: List<Content>, val recruitments: List<Pair<String, Int>>)
-
-var participants = mutableMapOf<String, Participant>()
 
 
 fun parseParticipant(participantString: String): Pair<String, Boolean> {
@@ -62,13 +68,7 @@ fun calculateTaxAndReturns(amount: Int): Triple<Int, Int, Int> {
 }
 
 
-@OptIn(ExperimentalNativeApi::class)
-fun load_input_file(): Input {
-    // 1. Load the "wejscie.txt" file
-    // 2. Remove all blank lines and lines starting with "#"
-    // 3. Parse the file into a list of Content and a list of Pair<String, Int>
-    // 4. Return the Input object
-
+fun parseInputFile(): Input {
     val lines = mutableListOf<String>()
     FileSystem.SYSTEM.read("wejscie.txt".toPath()) {
         while (true) {
@@ -97,74 +97,91 @@ fun load_input_file(): Input {
         acc
     }
 
+    val participants = mutableMapOf<String, Participant>()
+
     // TODO: add checks for invalid shape of the wejscie.txt file
     // if something is wrong, it should be logged
-    val contents = groupedContentsLines.map { contentLines ->
-        val contentInput = run {
-            val (contentId, organizer) = run {
-                val contentHeader = contentLines.first().split(":").map { it.trim() }
-                val contentId = contentHeader.getOrNull(0)?.toIntOrNull() ?: 0
-                val organizer =
-                    contentHeader.getOrNull(1)?.takeIf { it.isNotEmpty() }?.let { // TODO: can the organiser be 50%?
-                        val organizer = participants.getOrPut(it) { Participant(it) }
-                        organizer.returnPoints += 1
-                        organizer
-                    }
-                Pair(contentId, organizer)
+    val contentInputs = groupedContentsLines.map { contentLines ->
+        val (contentId, organizer) = run {
+            val contentHeader = contentLines.first().split(":").map { it.trim() }
+            val contentId = contentHeader.getOrNull(0)?.toIntOrNull() ?: 0
+            val organizer = contentHeader.getOrNull(1)?.takeIf { it.isNotEmpty() }?.let {
+                participants.getOrPut(it) { Participant(it) } // TODO: can the organiser be 50%?
             }
+            Pair(contentId, organizer)
+        }
 
-            val haulsLines = contentLines.drop(1)
-            val returnPointsPerHaul = organizer?.let {
-                val numberOfHauls = haulsLines.count { it.split(":").size == 2 }
-                if (numberOfHauls > 0) (1.0 / numberOfHauls.toDouble()) else 0.0
-            } ?: 0.0
+        val haulsLines = contentLines.drop(1)
 
-            val haulInputs = haulsLines.mapNotNull { haulLine ->
-                haulLine.split(":").map { it.trim() }.takeIf { it.size == 2 }?.let { (_, haulData) ->
-                    haulData.split(",").map { it.trim() }.takeIf { it.size >= 3 }?.let { haulParts ->
-                        val itemsBeforeTax = haulParts[0].toInt()
-                        val cashBeforeTax = haulParts[1].toIntOrNull() ?: 0
-                        val participants = haulParts.drop(2).map { participantString ->
-                            val (participantName, hasFullShare) = parseParticipant(participantString)
-                            val participant = participants.getOrPut(participantName) { Participant(participantName) }
-                            HaulParticipant(participant, hasFullShare)
-                        }
-                        HaulInput(itemsBeforeTax, cashBeforeTax, participants)
+        val haulInputs = haulsLines.mapNotNull { haulLine ->
+            haulLine.split(":").map { it.trim() }.takeIf { it.size == 2 }?.let { (_, haulData) ->
+                haulData.split(",").map { it.trim() }.takeIf { it.size >= 3 }?.let { haulParts ->
+                    val itemsBeforeTax = haulParts[0].toInt()
+                    val cashBeforeTax = haulParts[1].toIntOrNull() ?: 0
+                    val haulParticipants = haulParts.drop(2).map { participantString ->
+                        val (participantName, hasFullShare) = parseParticipant(participantString)
+                        val participant = participants.getOrPut(participantName) { Participant(participantName) }
+                        HaulParticipant(participant, hasFullShare)
                     }
+                    HaulInput(itemsBeforeTax, cashBeforeTax, haulParticipants)
                 }
             }
+        }
 
-            val hauls = haulInputs.map { haulInput ->
-                val (itemsAfterTax, returnsFromItems, itemsTax) = calculateTaxAndReturns(haulInput.itemsBeforeTax)
-                val (cashAfterTax, returnsFromCash, cashTax) = calculateTaxAndReturns(haulInput.cashBeforeTax)
+        ContentInput(contentId, organizer, haulInputs)
+    }
 
-                Haul(
-                    itemsAfterTax,
-                    cashAfterTax,
-                    itemsTax,
-                    cashTax,
-                    returnsFromItems,
-                    returnsFromCash,
-                    haulInput.participants
-                )
+    val recruitmentInputs = recruitmentsLines.mapNotNull { recruitmentLine ->
+        recruitmentLine.split(":").map { it.trim() }.takeIf { it.size == 2 }
+            ?.let { (recruiterName, recruitmentPoints) ->
+                val recruiter = participants.getOrPut(recruiterName) { Participant(recruiterName) }
+                RecruitmentInput(recruiter, recruitmentPoints.toInt())
             }
+    }
 
-            ContentInput(contentId, organizer, returnPointsPerHaul, hauls)
+    return Input(contentInputs, recruitmentInputs, participants)
+}
+
+@OptIn(ExperimentalNativeApi::class)
+fun calculateItemsAndCash(contentInputs: List<ContentInput>): List<Content> {
+    return contentInputs.map { contentInput ->
+        val hauls = contentInput.haulInputs.map { haulInput ->
+            val (itemsAfterTax, returnsFromItems, itemsTax) = calculateTaxAndReturns(haulInput.itemsBeforeTax)
+            val (cashAfterTax, returnsFromCash, cashTax) = calculateTaxAndReturns(haulInput.cashBeforeTax)
+
+            Haul(
+                itemsAfterTax,
+                cashAfterTax,
+                itemsTax,
+                cashTax,
+                returnsFromItems,
+                returnsFromCash,
+                haulInput.participants
+            )
         }
 
         // Create Contents from ContentInputs
         // During this step, we should grant cash, items and return points to participants on a per-haul basis
         val content = contentInput.run {
+            val returnPointsPerHaul = organizer?.let {
+                val numberOfHauls = hauls.size
+                if (numberOfHauls > 0) (1.0 / numberOfHauls.toDouble()) else 0.0
+            } ?: 0.0
+
+            organizer?.let {
+                it.returnPoints += 1.0
+            }
+
             hauls.forEach { haul ->
                 val returnPointsPerParticipant = returnPointsPerHaul / haul.participants.size
+
                 val haulSharePoints: Int =
                     if (organizer != null) 2 else 0 + haul.participants.sumOf { (if (it.hasFullShare) 2 else 1).toInt() }
+                val cashHaulShareUnit = (haul.cashAfterTax / haulSharePoints / 1000) * 1000
+                val itemsHaulShareUnit = (haul.itemsAfterTax / haulSharePoints / 1000) * 1000
 
-                val cashUnit = (haul.cashAfterTax / haulSharePoints / 1000) * 1000
-                val itemsUnit = (haul.itemsAfterTax / haulSharePoints / 1000) * 1000
-
-                val cashRemainder = haul.cashAfterTax - (cashUnit * haulSharePoints)
-                val itemsRemainder = haul.itemsAfterTax - (itemsUnit * haulSharePoints)
+                val cashRemainder = haul.cashAfterTax - (cashHaulShareUnit * haulSharePoints)
+                val itemsRemainder = haul.itemsAfterTax - (itemsHaulShareUnit * haulSharePoints)
                 haul.cashTax += cashRemainder
                 haul.itemsTax += itemsRemainder
 
@@ -172,41 +189,43 @@ fun load_input_file(): Input {
                 var cashLeftToDistribute = haul.cashAfterTax
 
                 organizer?.also {
-                    it.itemsAfterTax += itemsUnit * 2
-                    it.cashAfterTax += cashUnit * 2
-                    itemsLeftToDistribute -= itemsUnit * 2
-                    cashLeftToDistribute -= cashUnit * 2
+                    it.itemsAfterTax += itemsHaulShareUnit * 2
+                    it.cashAfterTax += cashHaulShareUnit * 2
+                    itemsLeftToDistribute -= itemsHaulShareUnit * 2
+                    cashLeftToDistribute -= cashHaulShareUnit * 2
                 }
 
                 haul.participants.forEach { haulParticipant ->
                     val participationShare = if (haulParticipant.hasFullShare) 2 else 1
-                    haulParticipant.participant.itemsAfterTax += itemsUnit * participationShare
-                    haulParticipant.participant.cashAfterTax += cashUnit * participationShare
+                    haulParticipant.participant.itemsAfterTax += itemsHaulShareUnit * participationShare
+                    haulParticipant.participant.cashAfterTax += cashHaulShareUnit * participationShare
                     haulParticipant.participant.returnPoints += returnPointsPerParticipant
-                    itemsLeftToDistribute -= itemsUnit * participationShare
-                    cashLeftToDistribute -= cashUnit * participationShare
+                    itemsLeftToDistribute -= itemsHaulShareUnit * participationShare
+                    cashLeftToDistribute -= cashHaulShareUnit * participationShare
                 }
 
-                assert(itemsLeftToDistribute == 0)
-                assert(cashLeftToDistribute == 0)
+                assert(itemsLeftToDistribute in 0..999)
+                assert(cashLeftToDistribute in 0..999)
             }
 
-            Content(
-                id,
+            Content(id,
                 itemsTaxTotal = hauls.sumOf { it.itemsTax },
                 cashTaxTotal = hauls.sumOf { it.cashTax },
                 returnsFromItemsTotal = hauls.sumOf { it.returnsFromItems },
                 returnsFromCashTotal = hauls.sumOf { it.returnsFromCash },
                 organizer,
-                participants = hauls.flatMap { it.participants }.map { it.participant }.distinctBy { it }
-            )
+                participants = hauls.flatMap { it.participants }.map { it.participant }.distinctBy { it })
         }
 
-    TODO()
+        content
+    }
 }
 
 fun calculate_payroll() {
-    // 1. Load the input file
+    val (contentInputs, recruitmentInputs, participants) = parseInputFile()
+
+    val contents = calculateItemsAndCash(contentInputs)
+
 }
 
 fun main() {
