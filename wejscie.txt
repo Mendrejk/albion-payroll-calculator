@@ -1,35 +1,24 @@
 KONTENTY:
-# HO 1:
-1: MESSSI
-  1: 19300000, 9290000, FANeris, Tomko, Maendrake, Cvaniak, Bonio, Eillord, Karoll, Logray, Sqbaniec
-2: Kacper17
-  1: 16900000, 7810000, Wojciecch, Golon, Jenny, Doriss, Logray, Bonio, Senitovacua
-3: MESSSI
-  1: 4500000, , Kacper17, Golon, Doriss, Logray, Karoll, Bozydaar, Jenny, Tomko, Bonio
-4: Karoll
-  1: 6400000, 5920000, Kacper17, MESSSI, Wojciecch, Golon, Logray, Tomko, Bonio, DrPolon, JuriOwsienko69
-# HO 2:
-5:
-  1: 6270000, , Kacper17, MESSSI, Wojciecch, Golon, Logray, Tomko, Bonio, DrPolon, JuriOwsienko69
-6: MESSSI
-  1: 6130000, 1240000, Kacper17, Wojciecch, Senitovacua, RoksamaDuszomAS3 (50%), FausT, FANeris, Karpik2115, Logray, Jenny
-7: Karoll
-  1: 16700000, 5600000, Kacper17, Klaudiuszs, MESSSI, Wojciecch, Logray, Eillord, FausT, Jenny, JuriOwsienko69, DrPolon
-8: Jenny
-  1: 3100000, 1000000, Kacper17, Senitovacua, Logray, Klaudiuszs, Doriss, FausT, Karpik2115 (50%), JuriOwsienko69, DrPolon
-9:
-  1: 13900000, 6200000, Kacper17, Logray, Karoll, Grubas5999, Maendrake, Wojciecch, Golon, Karpik2115, Jenny, Klaudiuszs
-# HO 3:
-10:
-  1: 5660000, , Kacper17, FausT, Appa, Golon, Doriss, Jenny, Logray
-11: Kacper17
-  1: 5240000, , MESSSI, Jenny, Klaudiuszs, Eillord, Karoll, FANeris, bocian20cm, KOSA19, Asada
-# HO 4:
-12:
-  1: 7550000, , Logray, KOSA19, Krampet, Golon, Appa, FANeris
+1: Zdredowany
+  1: 13800000, 3030000, FORT STERLING, TAK, Kacper17, MESSSI, Appa, DrPolon, KapitanAfryka, Jenny
+# HO HILLS LOOT 1:
+2: ZOX3N
+  1: 13500000, , HO HILLS, TAK, Kacper17, Jenny, Vircynger, Mupik, Schisym, Appa
+  2: 2230000, , HO BEACH, TAK, Kacper17, Jenny, Vircynger
+  3: 2880000, , HO BEACH, NIE, Kacper17, Go1on, Mupik, Vircynger
+3: Kacper17
+  1: 23800000, 8680000, HO HILLS, TAK, ZOX3N, Go1on, DrPolon, Zdredowany, Karoll, Eillord, Maendrake, Doriss, Senitovacua, Logray, Appa, JuriOwsienko69, Wojciecch (50%)
+4: MESSSI
+  1: 3640000, 870000, HO BEACH, TAK, Kacper17, Widik, Cvaniak, Hohla, Grubas5999, Logray, JuriOwsienko69, Tomko
+5: Kacper17
+  1: 5350000, 2470000, HO BEACH, TAK, KapitanAfryka, Doriss, Faust, Mupik, Bonio, Widik, Senitovacua, Zdredowany
+6: Kacper17
+  1: 19410000, 9180000, HO BEACH, TAK, Go1on, DrPolon, Zdredowany, ZOX3N, Karoll, Eillord, Maendrake, Doriss
+7: Kacper17
+  1: 5700000, 1600000, HO BEACH, TAK, Go1on, Zdredowany, Karoll, Maendrake, Logray, Appa, ZOX3N, Taya, MESSSI
 
 REKRUTACJA:
-FANeris: 2
-JuriOwsienko69: 1
-Maendrake: 2
-ZaluzjaSolonez: 2
+ZaluzjaSolonez: 1
+FANeris: 1
+Inka: 1
+Maendrake: 1

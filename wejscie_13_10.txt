@@ -1,0 +1,10 @@
+KONTENTY:
+# FORT SKARBONKA 2
+1: Krampet
+  1: 3690000, , Kacper17, Kotori, Tomko, bocian20cm
+  2: 2270000, , Kacper17, Tomko, bocian20cm, Wojciecch, Kotori
+  3: 4640000, , Kacper17, FANeris, Vircynger, Tomko, bocian20cm, Kotori
+  4: 1550000, , Kacper17, Kotori, Cvaniak, Vircynger, bocian20cm, Tomko, FANeris
+
+REKRUTACJA:
+FANeris: 1

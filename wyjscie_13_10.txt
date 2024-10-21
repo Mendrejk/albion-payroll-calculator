@@ -1,0 +1,17 @@
+Podatek w przedmiotach: 1235996
+Podatek w gotówce: 0
+Suma wypłat w przedmiotach: 9704000
+Suma wypłat w gotówce: 0
+Suma zwrotów w przedmiotach: 1210000
+Suma zwrotów w gotówce: 0
+Nick       | Wypłata w przedmiotach | Wypłata w gotówce | Zwrot podatku | Punkty Zwrotu Podatku
+---------- | ---------------------- | ----------------- | ------------- | ---------------------
+Krampet    | 1576000                | 0                 | 405000        | 1.0                  
+Kacper17   | 1576000                | 0                 | 76000         | 0.18988095238095237  
+Kotori     | 1576000                | 0                 | 76000         | 0.18988095238095237  
+Tomko      | 1576000                | 0                 | 76000         | 0.18988095238095237  
+bocian20cm | 1576000                | 0                 | 76000         | 0.18988095238095237  
+Wojciecch  | 302000                 | 0                 | 20000         | 0.05                 
+FANeris    | 684000                 | 0                 | 436000        | 1.0773809523809523   
+Vircynger  | 684000                 | 0                 | 31000         | 0.07738095238095238  
+Cvaniak    | 154000                 | 0                 | 14000         | 0.03571428571428571  

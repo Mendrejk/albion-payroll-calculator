@@ -1,0 +1,10 @@
+KONTENTY:
+# HO 2:
+1: Karoll
+  1: 20700000, 5570000, Kacper17, Wojciecch (50%), Bonio, JuriOwsienko69, Filx (50%), Tomko, Zdredowany, FANeris, MESSSI
+# FORT SKARBONKA 2
+2: Klaudiuszs
+  1: 3100000, , Vircynger, Tomko, Logray, Inka, Bocian20cm, Wojciecch, Zdredowany
+  2: 4811000, , Vircynger, Tomko, Logray, Inka, Bocian20cm, Wojciecch, Zdredowany, Krampet
+
+REKRUTACJA:

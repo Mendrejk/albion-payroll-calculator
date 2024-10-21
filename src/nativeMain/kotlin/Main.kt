@@ -6,7 +6,7 @@ import kotlin.experimental.ExperimentalNativeApi
 data class Participant(
     val name: String,
     var returnPoints: Double = 0.0,
-    var itemsAfterTax: Int = 0,
+    var itemsAfterTaxPerLocation: MutableMap<String, Int> = mutableMapOf(),
     var cashAfterTax: Int = 0,
     var returnsFromItems: Int = 0,
     var returnsFromCash: Int = 0
@@ -14,7 +14,13 @@ data class Participant(
 
 data class HaulParticipant(val participant: Participant, val hasFullShare: Boolean)
 
-data class HaulInput(val itemsBeforeTax: Int, val cashBeforeTax: Int, val participants: List<HaulParticipant>)
+data class HaulInput(
+    val itemsBeforeTax: Int,
+    val cashBeforeTax: Int,
+    val location: String,
+    val hadOrganizer: Boolean,
+    val participants: List<HaulParticipant>
+)
 
 data class ContentInput(
     val id: Int, val organizer: Participant?, val haulInputs: List<HaulInput>
@@ -35,6 +41,8 @@ data class Haul(
     var cashTax: Int,
     val returnsFromItems: Int,
     val returnsFromCash: Int,
+    val location: String,
+    val hadOrganizer: Boolean,
     val participants: List<(HaulParticipant)>
 )
 
@@ -119,15 +127,17 @@ fun parseInputFile(): Input {
 
         val haulInputs = haulsLines.mapNotNull { haulLine ->
             haulLine.split(":").map { it.trim() }.takeIf { it.size == 2 }?.let { (_, haulData) ->
-                haulData.split(",").map { it.trim() }.takeIf { it.size >= 3 }?.let { haulParts ->
+                haulData.split(",").map { it.trim() }.takeIf { it.size >= 5 }?.let { haulParts ->
                     val itemsBeforeTax = haulParts[0].toInt()
                     val cashBeforeTax = haulParts[1].toIntOrNull() ?: 0
-                    val haulParticipants = haulParts.drop(2).map { participantString ->
+                    val location = haulParts[2]
+                    val hadOrganizer = haulParts[3] == "TAK"
+                    val haulParticipants = haulParts.drop(4).map { participantString ->
                         val (participantName, hasFullShare) = parseParticipant(participantString)
                         val participant = participants.getOrPut(participantName) { Participant(participantName) }
                         HaulParticipant(participant, hasFullShare)
                     }
-                    HaulInput(itemsBeforeTax, cashBeforeTax, haulParticipants)
+                    HaulInput(itemsBeforeTax, cashBeforeTax, location, hadOrganizer, haulParticipants)
                 }
             }
         }
@@ -160,6 +170,8 @@ fun calculateItemsAndCash(contentInputs: List<ContentInput>): List<Content> {
                 cashTax,
                 returnsFromItems,
                 returnsFromCash,
+                haulInput.location,
+                haulInput.hadOrganizer,
                 haulInput.participants
             )
         }
@@ -172,15 +184,16 @@ fun calculateItemsAndCash(contentInputs: List<ContentInput>): List<Content> {
                 if (numberOfHauls > 0) (1.0 / numberOfHauls.toDouble()) else 0.0
             } ?: 0.0
 
-            organizer?.let {
-                it.returnPoints += 1.0
+            organizer?.let { organizer ->
+                val organizerShareOfHauls = hauls.count { it.hadOrganizer } / hauls.count().toDouble()
+                organizer.returnPoints += 1.0 * organizerShareOfHauls
             }
 
             hauls.forEach { haul ->
                 val returnPointsPerParticipant = returnPointsPerHaul / haul.participants.size
 
                 val haulSharePoints: Int =
-                    if (organizer != null) {
+                    if ((organizer != null) && haul.hadOrganizer) {
                         2
                     } else {
                         0
@@ -194,23 +207,45 @@ fun calculateItemsAndCash(contentInputs: List<ContentInput>): List<Content> {
                 haul.itemsTax += itemsRemainder
 
                 var itemsLeftToDistribute = haul.itemsAfterTax
+//                println("Items left to distribute: $itemsLeftToDistribute")
                 var cashLeftToDistribute = haul.cashAfterTax
 
-                organizer?.also {
-                    it.itemsAfterTax += itemsHaulShareUnit * 2
-                    it.cashAfterTax += cashHaulShareUnit * 2
-                    itemsLeftToDistribute -= itemsHaulShareUnit * 2
-                    cashLeftToDistribute -= cashHaulShareUnit * 2
+                if (haul.hadOrganizer) {
+                    organizer?.also {
+                        val existingLocation = it.itemsAfterTaxPerLocation.contains(haul.location)
+                        if (existingLocation) {
+                            it.itemsAfterTaxPerLocation[haul.location] =
+                                it.itemsAfterTaxPerLocation[haul.location]!! + itemsHaulShareUnit * 2
+                        } else {
+                            it.itemsAfterTaxPerLocation[haul.location] = itemsHaulShareUnit * 2
+                        }
+
+                        it.cashAfterTax += cashHaulShareUnit * 2
+                        itemsLeftToDistribute -= itemsHaulShareUnit * 2
+                        cashLeftToDistribute -= cashHaulShareUnit * 2
+                    }
                 }
+
+                var sumOfDistributedItems: Int = 0
 
                 haul.participants.forEach { haulParticipant ->
                     val participationShare = if (haulParticipant.hasFullShare) 2 else 1
-                    haulParticipant.participant.itemsAfterTax += itemsHaulShareUnit * participationShare
+                    val existingLocation = haulParticipant.participant.itemsAfterTaxPerLocation.contains(haul.location)
+                    if (existingLocation) {
+                        haulParticipant.participant.itemsAfterTaxPerLocation[haul.location] =
+                            haulParticipant.participant.itemsAfterTaxPerLocation[haul.location]!! + itemsHaulShareUnit * participationShare
+                    } else {
+                        haulParticipant.participant.itemsAfterTaxPerLocation[haul.location] =
+                            itemsHaulShareUnit * participationShare
+                    }
                     haulParticipant.participant.cashAfterTax += cashHaulShareUnit * participationShare
                     haulParticipant.participant.returnPoints += returnPointsPerParticipant
                     itemsLeftToDistribute -= itemsHaulShareUnit * participationShare
                     cashLeftToDistribute -= cashHaulShareUnit * participationShare
+                    sumOfDistributedItems += itemsHaulShareUnit * participationShare
                 }
+
+                println("Sum of distributed items: $sumOfDistributedItems")
 
                 assert(itemsLeftToDistribute == itemsRemainder)
                 assert(cashLeftToDistribute == cashRemainder)
@@ -236,7 +271,7 @@ fun distributeReturns(
     val expectedReturnPoints = recruitmentReturnPoints + (2 * contents.count { it.organizer != null })
     val returnPointsTotal = participants.values.sumOf { it.returnPoints }
     if (returnPointsTotal != expectedReturnPoints) {
-        println("Return points do not add up! Expected: $expectedReturnPoints, actual: $returnPointsTotal")
+        println("Return points do not add up! Expected: $expectedReturnPoints, actual: $returnPointsTotal") // TODO fix - organizer does not always have to get full points
     }
 
     // Sum the return from items and cash for all contents
@@ -284,18 +319,23 @@ fun calculatePayroll(): Payroll {
 }
 
 fun writePayrollOutput(payroll: Payroll) {
-    val headers = listOf("Nick", "Wypłata w przedmiotach", "Wypłata w gotówce", "Zwrot podatku", "Punkty Zwrotu Podatku")
+    val headers = mutableListOf("Nick", "Wypłata w gotówce", "Zwrot podatku", "Punkty Zwrotu Podatku")
+
+    // Collect all unique locations
+    val allLocations = payroll.participants.values.flatMap { it.itemsAfterTaxPerLocation.keys }.distinct()
+
+    // Add headers for each location
+    headers.addAll(allLocations.map { "Wypłata w przedmiotach $it" })
 
     // Calculate the maximum width for each column
     val columnWidths = headers.mapIndexed { index, header ->
         maxOf(header.length, payroll.participants.values.maxOf { participant ->
             when (index) {
                 0 -> participant.name.length
-                1 -> participant.itemsAfterTax.toString().length
-                2 -> participant.cashAfterTax.toString().length
-                3 -> (participant.returnsFromItems + participant.returnsFromCash).toString().length
-                4 -> participant.returnPoints.toString().length
-                else -> 0
+                1 -> participant.cashAfterTax.toString().length
+                2 -> (participant.returnsFromItems + participant.returnsFromCash).toString().length
+                3 -> participant.returnPoints.toString().length
+                else -> participant.itemsAfterTaxPerLocation[allLocations[index - 4]]?.toString()?.length ?: 0
             }
         })
     }
@@ -306,19 +346,27 @@ fun writePayrollOutput(payroll: Payroll) {
     }.joinToString(" | ")
 
     val rows = payroll.participants.values.map { participant ->
-        listOf(
+        val row = mutableListOf(
             participant.name.padEnd(columnWidths[0]),
-            participant.itemsAfterTax.toString().padEnd(columnWidths[1]),
-            participant.cashAfterTax.toString().padEnd(columnWidths[2]),
-            (participant.returnsFromItems + participant.returnsFromCash).toString().padEnd(columnWidths[3]),
-            participant.returnPoints.toString().padEnd(columnWidths[4])
-        ).joinToString(" | ")
+            participant.cashAfterTax.toString().padEnd(columnWidths[1]),
+            (participant.returnsFromItems + participant.returnsFromCash).toString().padEnd(columnWidths[2]),
+            participant.returnPoints.toString().padEnd(columnWidths[3])
+        )
+
+        // Add values for each location
+        row.addAll(allLocations.map { location ->
+            participant.itemsAfterTaxPerLocation[location]?.toString()
+                ?.padEnd(columnWidths[headers.indexOf("Wypłata w przedmiotach $location")])
+                ?: "".padEnd(columnWidths[headers.indexOf("Wypłata w przedmiotach $location")])
+        })
+
+        row.joinToString(" | ")
     }
 
     val output = buildString {
         appendLine("Podatek w przedmiotach: ${payroll.itemsTaxTotal}")
         appendLine("Podatek w gotówce: ${payroll.cashTaxTotal}")
-        appendLine("Suma wypłat w przedmiotach: ${payroll.participants.values.sumOf { it.itemsAfterTax }}")
+        appendLine("Suma wypłat w przedmiotach: ${payroll.participants.values.sumOf { it.itemsAfterTaxPerLocation.values.sum() }}")
         appendLine("Suma wypłat w gotówce: ${payroll.participants.values.sumOf { it.cashAfterTax }}")
         appendLine("Suma zwrotów w przedmiotach: ${payroll.participants.values.sumOf { it.returnsFromItems }}")
         appendLine("Suma zwrotów w gotówce: ${payroll.participants.values.sumOf { it.returnsFromCash }}")
