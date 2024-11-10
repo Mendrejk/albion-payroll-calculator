@@ -1,24 +1,50 @@
 KONTENTY:
-1: Zdredowany
-  1: 13800000, 3030000, FORT STERLING, TAK, Kacper17, MESSSI, Appa, DrPolon, KapitanAfryka, Jenny
-# HO HILLS LOOT 1:
-2: ZOX3N
-  1: 13500000, , HO HILLS, TAK, Kacper17, Jenny, Vircynger, Mupik, Schisym, Appa
-  2: 2230000, , HO BEACH, TAK, Kacper17, Jenny, Vircynger
-  3: 2880000, , HO BEACH, NIE, Kacper17, Go1on, Mupik, Vircynger
+1:
+  1: 9290000, 640000, HO BEACH 1, TAK, Kacper17, Zdredowany, Klaudiuszs, Logray, MESSSI, ZboczonyStaszek, EuroMelon
+2: Kacper17
+  1: 4460000, , HO BEACH 2, TAK, Bonio, Go1on, JuriOwsienko69, Logray, Wojciecch, Z0X3N, Grubas5999, Senitovacua, MESSSI, ItsBlank
 3: Kacper17
-  1: 23800000, 8680000, HO HILLS, TAK, ZOX3N, Go1on, DrPolon, Zdredowany, Karoll, Eillord, Maendrake, Doriss, Senitovacua, Logray, Appa, JuriOwsienko69, Wojciecch (50%)
-4: MESSSI
-  1: 3640000, 870000, HO BEACH, TAK, Kacper17, Widik, Cvaniak, Hohla, Grubas5999, Logray, JuriOwsienko69, Tomko
-5: Kacper17
-  1: 5350000, 2470000, HO BEACH, TAK, KapitanAfryka, Doriss, Faust, Mupik, Bonio, Widik, Senitovacua, Zdredowany
-6: Kacper17
-  1: 19410000, 9180000, HO BEACH, TAK, Go1on, DrPolon, Zdredowany, ZOX3N, Karoll, Eillord, Maendrake, Doriss
-7: Kacper17
-  1: 5700000, 1600000, HO BEACH, TAK, Go1on, Zdredowany, Karoll, Maendrake, Logray, Appa, ZOX3N, Taya, MESSSI
+  1: 11040000, 1840000, HO BEACH 2, TAK, Bonio, Demon24, Go1on, Hohla, JuriOwsienko69, Sqbaniec, Z0X3N, ZaluzjaSolonez
+4: Zdredowany
+  1: 2100000, , HO BEACH 2, TAK, Kacper17, Bonio, Go1on, Karoll, Maendrake, MESSSI, Z0X3N, Wojciecch, Eillord
+5: Karoll
+  1: 2600000, , HO BEACH 2, TAK, Kacper17, Go1on, Sqbaniec, Zdredowany, Logray, Z0X3N, MESSSI, Karki55 (50%), DrPolon, JuriOwsienko69
+  2: 28700000, 12150000, HO BEACH 2, TAK, Kacper17, PanFausT, Zdredowany, Go1on, Klaudiuszs, Logray, Sqbaniec, Z0X3N, MESSSI
+6: JennyEU
+  1: 5700000, 1530000, HO BEACH 2, TAK, Kacper17, Karoll, EuroMelon, Bonio, Krzychu, Z0X3N, Go1on, Maendrake, Wojciecch
+7:
+  1: 5570000, 1690000, FORT 3, TAK, Kacper17, GentelmanGarry, Kruczysko, ZaluzjaSolonez, JennyEU
+8: Karoll
+  1: 10600000, 3020000, HO DALE 1, TAK, Kacper17, Zdredowany, ExeJacob (50%), ItsBlank, Go1on, Klaudiuszs, Chad187, Logray, Karki55 (50%), Z0X3N
+9: EuroMelon
+  1: 10000000, , HO DALE 1, TAK, Kacper17, Zdredowany, Karoll, Krampet, Vircynger, Wojciecch, Z0X3N, JennyEU
+  2: 9300000, , HO DALE 1, TAK, Kacper17, Zdredowany, Karoll, Vircynger, Wojciecch, Z0X3N, JennyEU
+10:
+  1: 3400000, 300000, LYMHURST 1, TAK, Kacper17, Vareex, CARS2ONMP3, GentelmanGarry, Kruczysko, JennyEU, Vircynger
+  2: 6070000, 792000, LYMHURST 1, TAK, Kacper17, GentelmanGarry, Kruczysko, JennyEU
+11: MESSSI
+  1: 0, 0, CONTENT SZKOLENIOWY, TAK, Karki55, Wojciecch, KCAKakaKacyk, Kacper17, EuroMelon, Go1on
+12: MESSSI
+  1: 0, 0, CTA, TAK, Kacper17, DrPolon, EuroMelon, Doriss, PanFausT, ZboczonyStaszek, Klaudiuszs, Logray, FANeris, Mupik
+13: Zdredowany
+  1: 0, 0, CTA, TAK, JennyEU, Kacper17, Z0X3N, EuroMelon, Krzychu, Karoll, JuriOwsienko69, Bonio, DrPolon, Maendrake, ZboczonyStaszek, Vareex, Klaudiuszs, MESSSI, KCAKakaKACYK, Eillord
+14: Zdredowany
+  1: 0, 0, CTA, TAK, JennyEU, Kacper17, Z0X3N, Masiu86, Karoll, JuriOwsienko69, Kruczysko, EuroMelon, MESSSI, Klaudiuszs, Wojciecch
+15: Zdredowany
+  1: 0, 0, CTA, TAK, Kacper17, Krzychu, Go1on, EuroMelon, Z0X3N, FANeris, Logray, MESSSI, Doriss, Wojciecch
+16: Zdredowany
+  1: 0, 0, CTA, TAK, Appa, Kacper17, Krzychu, Go1on, Z0X3N, Karki55, EuroMelon, ZboczonyStaszek, Maendrake, DRX460T, Eillord, Klaudiuszs, MESSSI, Doriss, Logray
+17: Zdredowany
+  1: 0, 0, CTA, TAK, Maendrake, Logray, ZboczonyStaszek, KapitanAfryka, EuroMelon, Karoll, Klaudiuszs, Kacper17, Vircynger
+18: MESSSI
+  1: 0, 0, CTA, TAK, DrPolon, Sqbaniec, Go1on, Doriss, Filx, Z0X3N, Krzychu, KCAKakaKACYK
+19: Zdredowany
+  1: 0, 0, CTA, TAK, ZaluzjaSolonez, MESSSI, Klaudiuszs, Kacper17, Go1on, EuroMelon, Karoll, Krzychu, PanFausT, JuriOwsienko69, Z0X3N, INKA, Doriss, Brynol, KCAKakaKACYK, Pianek, FANeris, Wojciecch, Maendrake, Bonio
+20: MESSSI
+  1: 0, 0, CTA, TAK, Bonio, Brynol, EuroMelon, FANeris, INKA, JuriOwsienko69, Kacper17, Kruczysko, Maendrake, MESSSI, Wojciecch, Yashi
+21: Zdredowany
+  1: 0, 0, CTA, TAK, PanFausT, Doriss, Go1on, Karoll, KCAKakaKACYK, Klaudiuszs, Krampet, Krzychu, Pianek, Z0X3N
 
 REKRUTACJA:
-ZaluzjaSolonez: 1
-FANeris: 1
-Inka: 1
 Maendrake: 1
+Kacper17: 1

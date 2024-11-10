@@ -1,0 +1,24 @@
+KONTENTY:
+1: Zdredowany
+  1: 13800000, 3030000, FORT STERLING, TAK, Kacper17, MESSSI, Appa, DrPolon, KapitanAfryka, Jenny
+# HO HILLS LOOT 1:
+2: ZOX3N
+  1: 13500000, , HO HILLS, TAK, Kacper17, Jenny, Vircynger, Mupik, Schisym, Appa
+  2: 2230000, , HO BEACH, TAK, Kacper17, Jenny, Vircynger
+  3: 2880000, , HO BEACH, NIE, Kacper17, Go1on, Mupik, Vircynger
+3: Kacper17
+  1: 23800000, 8680000, HO HILLS, TAK, ZOX3N, Go1on, DrPolon, Zdredowany, Karoll, Eillord, Maendrake, Doriss, Senitovacua, Logray, Appa, JuriOwsienko69, Wojciecch (50%)
+4: MESSSI
+  1: 3640000, 870000, HO BEACH, TAK, Kacper17, Widik, Cvaniak, Hohla, Grubas5999, Logray, JuriOwsienko69, Tomko
+5: Kacper17
+  1: 5350000, 2470000, HO BEACH, TAK, KapitanAfryka, Doriss, Faust, Mupik, Bonio, Widik, Senitovacua, Zdredowany
+6: Kacper17
+  1: 19410000, 9180000, HO BEACH, TAK, Go1on, DrPolon, Zdredowany, ZOX3N, Karoll, Eillord, Maendrake, Doriss
+7: Kacper17
+  1: 5700000, 1600000, HO BEACH, TAK, Go1on, Zdredowany, Karoll, Maendrake, Logray, Appa, ZOX3N, Taya, MESSSI
+
+REKRUTACJA:
+ZaluzjaSolonez: 1
+FANeris: 1
+Inka: 1
+Maendrake: 1

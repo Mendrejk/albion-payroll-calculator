@@ -1,0 +1,60 @@
+KONTENTY:
+1: Z0X3N
+  1: 1286000, 120000, HO BEACH 1+2, TAK, Kacper17, FANeris, JennyEU, MESSSI, Vircynger
+2:
+  1: 7484000, 679000, HO BEACH 1+2, TAK, Kacper17, Zdredowany, Vircynger
+3: Karoll
+  1: 5430000, 1320000, HO BEACH 1+2, TAK, Kacper17, Bonio, Appa, Eillord, Wojciecch, Mupik, Senitovacua, Z0X3N, Klaudiuszs
+4: Kacper17
+  1: 8300000, , HO BEACH 1+2, TAK, Appa, Karoll, DrPolon, EuroMelon, Doriss, FausT, Klaudiuszs, Zdredowany, Mupik, MESSSI, Bonio, Z0X3N
+5: Karoll
+  1: 14700000, 5080000, HO BEACH 1+2, TAK, Kacper17, EuroMelon, ExeJacob (50%), FANeris, MESSSI, Mupik, Senitovacua, Wojciecch, Z0X3N
+6: Karoll
+  1: 14010000, 5500000, HO BEACH 1+2, TAK, Kacper17, MESSSI, ItsBlank, Z0X3N, Zdredowany, EuroMelon, Sqbaniec, Senitovacua, Doriss, FausT
+7: Karoll
+  1: 5570000, 2410000, HO BEACH 1+2, TAK, Kacper17, MESSSI, EuroMelon, Krzychu, Logray, Sqbaniec, Senitovacua, DrTurtle, Bonio
+8: Karoll
+  1: 4320000, 2612000, HO BEACH 1+2, TAK, Kacper17, MESSSI, Logray, Krzychu, EuroMelon
+9:
+  1: 5540000, 950000, HO BEACH 3, TAK, KapitanAfryka, FANeris, Bonio, Krzychu, Hohla, Z0X3N
+10:
+  1: 1160000, , HO BEACH 3, TAK, KapitanAfryka, FANeris, Bonio, Krzychu, Hohla, Z0X3N, Mupik
+11: Kacper17
+  1: 20500000, , FORT 1+2, TAK, Bonio, Z0X3N, Appa, Vircynger, FANeris, Klaudiuszs, MESSSI
+12: FANeris
+  1: 9900000, , FORT 1+2, TAK, Kacper17, Zdredowany, Klaudiuszs, Mupik, Perfavor, Maendrake
+13: Bonio
+  1: 6300000, , FORT 1+2, TAK, MESSSI, Zdredowany, FANeris, Z0X3N, Karoll, Filx, Klaudiuszs
+  2: 12500000, , FORT 1+2, NIE, Kacper17, Zdredowany, FANeris, FausT, Z0X3N, Karoll, Klaudiuszs, Perfavor, Mupik
+14: Kacper17
+  1: 21500000, , FORT 1+2, TAK, Bonio, Z0X3N, Maendrake, Appa, Mupik, Asada, Zdredowany
+15: Zdredowany
+  1: 8200000, 1800000, FORT 3, TAK, Kacper17, Karoll, FausT, Doriss, FANeris, MESSSI
+  2: 10470000, 3900000, FORT 3, TAK, Kacper17, Karoll, FausT, Doriss, FANeris, Klaudiuszs
+  3: 10530000, 130000, FORT 3, TAK, Kacper17, Karoll, FANeris, Klaudiuszs, FausT, Doriss
+16:
+  1: 5555000, , HO HILLS 1, TAK, FANeris, Z0X3N, Kacper17, Vircynger, JennyEU, MESSSI, Mupik, Krampet
+  2: 4600000, , HO HILLS 1, TAK, FANeris, Kacper17, Vircynger, Mupik
+17: Karoll
+  1: 16200000, 6500000, HO HILLS 1, TAK, Kacper17, Maendrake, Zdredowany, MESSSI, Mupik, ItsBlank, Z0X3N, Senitovacua, Go1on
+18:
+  1: 3600000, , HO HILLS 1, TAK, Kacper17, Bonio, DrPolon, Klaudiuszs
+  2: 800000, 205000, HO HILLS 1, TAK, Kacper17, Bonio
+19: Zdredowany
+  1: 21100000, , LYMHURST 1+2, TAK, Kacper17, Krampet, MESSSI, Inka, Bonio, Klaudiuszs, FANeris
+  2: 10400000, , LYMHURST 1+2, TAK, Kacper17, MESSSI, Inka, Bonio, Klaudiuszs, FANeris
+  3: 10200000, , LYMHURST 1+2, TAK, Kacper17, Bonio, Klaudiuszs, FANeris, Appa, DrPolon, Krampet
+20: Zdredowany
+  1: 5800000, , LYMHURST 1+2, TAK, Kacper17, Bonio, Klaudiuszs, MESSSI, Cvaniak, Mupik
+  2: 4360000, , LYMHURST 1+2, TAK, Kacper17, JuriOwsienko69, Klaudiuszs, MESSSI, Cvaniak
+21:
+  1: 7940000, , LYMHURST 1+2, TAK, Kacper17, FANeris, Maendrake, Kruczysko, Hohla, Mupik, Pervavor, ZaluzjaSolonez
+22:
+  1: 4400000, , LYMHURST 1+2, TAK, Kacper17, Maendrake, Kruczysko, Hohla, Mupik, Pervavor, ZaluzjaSolonez
+23: MESSSI
+  1: 0, 0, FORT 1, TAK, DrTurtle, Kacper17, Maendrake, Karoll, JuriOwsienko69, Bonio, Kruczysko, KapitanAfryka, DrPolon, Krzychu, FANeris, ZboczonyStaszek, Klaudiuszs, Zdredowany
+
+REKRUTACJA:
+FANeris: 6
+ZaluzjaSolonez: 1
+Inka: 1
