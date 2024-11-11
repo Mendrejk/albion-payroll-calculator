@@ -334,11 +334,15 @@ fun calculatePayroll(): Payroll {
 fun writePayrollOutput(payroll: Payroll) {
     val headers = mutableListOf("Nick", "Wypłata w gotówce", "Zwrot podatku", "Punkty Zwrotu Podatku")
 
-    // Collect all unique locations
-    val allLocations = payroll.participants.values.flatMap { it.itemsAfterTaxPerLocation.keys }.distinct() // TODO: with copilot collect all unique tabs, but also include what location the tab is in
+    // Collect all unique location-tab pairs
+    val allLocationTabs = payroll.participants.values.flatMap { participant ->
+        participant.itemsAfterTaxPerTabPerLocation.flatMap { (location, tabs) ->
+            tabs.keys.map { tab -> "$location - $tab" }
+        }
+    }.distinct().sorted()
 
-    // Add headers for each location
-    headers.addAll(allLocations.map { "Wypłata w przedmiotach $it" })
+    // Add headers for each location-tab pair
+    headers.addAll(allLocationTabs.map { "Wypłata w przedmiotach $it" })
 
     // Calculate the maximum width for each column
     val columnWidths = headers.mapIndexed { index, header ->
@@ -348,7 +352,10 @@ fun writePayrollOutput(payroll: Payroll) {
                 1 -> participant.cashAfterTax.toString().length
                 2 -> (participant.returnsFromItems + participant.returnsFromCash).toString().length
                 3 -> participant.returnPoints.toString().length
-                else -> participant.itemsAfterTaxPerLocation[allLocations[index - 4]]?.toString()?.length ?: 0
+                else -> {
+                    val (location, tab) = allLocationTabs[index - 4].split(" ")
+                    participant.itemsAfterTaxPerTabPerLocation[location]?.get(tab)?.toString()?.length ?: 0
+                }
             }
         })
     }
@@ -366,11 +373,12 @@ fun writePayrollOutput(payroll: Payroll) {
             participant.returnPoints.toString().padEnd(columnWidths[3])
         )
 
-        // Add values for each location
-        row.addAll(allLocations.map { location ->
-            participant.itemsAfterTaxPerLocation[location]?.toString()
-                ?.padEnd(columnWidths[headers.indexOf("Wypłata w przedmiotach $location")])
-                ?: "".padEnd(columnWidths[headers.indexOf("Wypłata w przedmiotach $location")])
+        // Add values for each location-tab pair
+        row.addAll(allLocationTabs.map { locationTab ->
+            val (location, tab) = locationTab.split("-").map { it.trim() }
+            participant.itemsAfterTaxPerTabPerLocation[location]?.get(tab)?.toString()
+                ?.padEnd(columnWidths[headers.indexOf("Wypłata w przedmiotach $locationTab")])
+                ?: "".padEnd(columnWidths[headers.indexOf("Wypłata w przedmiotach $locationTab")])
         })
 
         row.joinToString(" | ")
@@ -379,7 +387,7 @@ fun writePayrollOutput(payroll: Payroll) {
     val output = buildString {
         appendLine("Podatek w przedmiotach: ${payroll.itemsTaxTotal}")
         appendLine("Podatek w gotówce: ${payroll.cashTaxTotal}")
-        appendLine("Suma wypłat w przedmiotach: ${payroll.participants.values.sumOf { it.itemsAfterTaxPerLocation.values.sum() }}")
+        appendLine("Suma wypłat w przedmiotach: ${payroll.participants.values.sumOf { it.itemsAfterTaxPerTabPerLocation.values.sumOf { tabs -> tabs.values.sum() } }}")
         appendLine("Suma wypłat w gotówce: ${payroll.participants.values.sumOf { it.cashAfterTax }}")
         appendLine("Suma zwrotów w przedmiotach: ${payroll.participants.values.sumOf { it.returnsFromItems }}")
         appendLine("Suma zwrotów w gotówce: ${payroll.participants.values.sumOf { it.returnsFromCash }}")
@@ -392,6 +400,7 @@ fun writePayrollOutput(payroll: Payroll) {
         writeUtf8(output)
     }
 }
+
 
 fun main() {
     writePayrollOutput(calculatePayroll())
