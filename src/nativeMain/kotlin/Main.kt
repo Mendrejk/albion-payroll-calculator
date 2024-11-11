@@ -20,11 +20,12 @@ data class HaulInput(
     val location: String,
     val tab: String,
     val hadOrganizer: Boolean,
+    val caller: HaulParticipant?,
     val participants: List<HaulParticipant>
 )
 
 data class ContentInput(
-    val id: Int, val organizer: Participant?, val haulInputs: List<HaulInput> // TODO: Add caller
+    val id: Int, val organizer: Participant?, val haulInputs: List<HaulInput>
 )
 
 data class RecruitmentInput(val recruiter: Participant, val points: Int)
@@ -45,6 +46,7 @@ data class Haul(
     val location: String,
     val tab: String,
     val hadOrganizer: Boolean,
+    val caller: HaulParticipant?,
     val participants: List<(HaulParticipant)>
 )
 
@@ -129,18 +131,23 @@ fun parseInputFile(): Input {
 
         val haulInputs = haulsLines.mapNotNull { haulLine ->
             haulLine.split(":").map { it.trim() }.takeIf { it.size == 2 }?.let { (_, haulData) ->
-                haulData.split(",").map { it.trim() }.takeIf { it.size >= 6 }?.let { haulParts ->
+                haulData.split(",").map { it.trim() }.takeIf { it.size >= 7 }?.let { haulParts ->
                     val itemsBeforeTax = haulParts[0].toInt()
                     val cashBeforeTax = haulParts[1].toIntOrNull() ?: 0
                     val location = haulParts[2]
                     val tab = haulParts[3]
                     val hadOrganizer = haulParts[4] == "TAK"
-                    val haulParticipants = haulParts.drop(5).map { participantString ->
+                    val caller = haulParts[5].takeIf { it.isNotEmpty() }?.let {
+                        val (callerName, hasFullShare) = parseParticipant(it)
+                        val caller = participants.getOrPut(callerName) { Participant(callerName) }
+                        HaulParticipant(caller, hasFullShare)
+                    }
+                    val haulParticipants = haulParts.drop(6).map { participantString ->
                         val (participantName, hasFullShare) = parseParticipant(participantString)
                         val participant = participants.getOrPut(participantName) { Participant(participantName) }
                         HaulParticipant(participant, hasFullShare)
                     }
-                    HaulInput(itemsBeforeTax, cashBeforeTax, location, tab, hadOrganizer, haulParticipants)
+                    HaulInput(itemsBeforeTax, cashBeforeTax, location, tab, hadOrganizer, caller, haulParticipants)
                 }
             }
         }
@@ -176,6 +183,7 @@ fun calculateItemsAndCash(contentInputs: List<ContentInput>): List<Content> {
                 haulInput.location,
                 haulInput.tab,
                 haulInput.hadOrganizer,
+                haulInput.caller,
                 haulInput.participants
             )
         }
@@ -188,20 +196,15 @@ fun calculateItemsAndCash(contentInputs: List<ContentInput>): List<Content> {
                 if (numberOfHauls > 0) (1.0 / numberOfHauls.toDouble()) else 0.0
             } ?: 0.0
 
-            organizer?.let { organizer ->
-                val organizerShareOfHauls = hauls.count { it.hadOrganizer } / hauls.count().toDouble()
-                organizer.returnPoints += 1.0 * organizerShareOfHauls
-            }
+            val organizerCallerSharePerHaul = if (hauls.isNotEmpty()) (0.5 / hauls.size.toDouble()) else 0.0
 
             hauls.forEach { haul ->
                 val returnPointsPerParticipant = returnPointsPerHaul / haul.participants.size
 
-                val haulSharePoints: Int =
-                    if ((organizer != null) && haul.hadOrganizer) {
-                        2
-                    } else {
-                        0
-                    } + haul.participants.sumOf { (if (it.hasFullShare) 2 else 1).toInt() }
+                val haulSharePoints =
+                    (if (organizer != null && haul.hadOrganizer) 2 else 0) +
+                            (haul.caller?.let { if (it.hasFullShare) 2 else 1 } ?: 0) +
+                            haul.participants.sumOf { (if (it.hasFullShare) 2 else 1).toInt() }
                 val cashHaulShareUnit = (haul.cashAfterTax / haulSharePoints / 1000) * 1000
                 val itemsHaulShareUnit = (haul.itemsAfterTax / haulSharePoints / 1000) * 1000
 
@@ -211,7 +214,6 @@ fun calculateItemsAndCash(contentInputs: List<ContentInput>): List<Content> {
                 haul.itemsTax += itemsRemainder
 
                 var itemsLeftToDistribute = haul.itemsAfterTax
-//                println("Items left to distribute: $itemsLeftToDistribute")
                 var cashLeftToDistribute = haul.cashAfterTax
 
                 if (haul.hadOrganizer) {
@@ -225,7 +227,8 @@ fun calculateItemsAndCash(contentInputs: List<ContentInput>): List<Content> {
                                 location[haul.tab] = itemsHaulShareUnit * 2
                             }
                         } else {
-                            it.itemsAfterTaxPerTabPerLocation[haul.location] = mutableMapOf(haul.tab to itemsHaulShareUnit * 2)
+                            it.itemsAfterTaxPerTabPerLocation[haul.location] =
+                                mutableMapOf(haul.tab to itemsHaulShareUnit * 2)
                         }
 
                         it.cashAfterTax += cashHaulShareUnit * 2
@@ -234,8 +237,37 @@ fun calculateItemsAndCash(contentInputs: List<ContentInput>): List<Content> {
                     }
                 }
 
-                var sumOfDistributedItems: Int = 0
+                haul.caller?.also {
+                    val participationShare = if (it.hasFullShare) 2 else 1
+                    val location = it.participant.itemsAfterTaxPerTabPerLocation[haul.location]
+                    if (location != null) {
+                        var tab = location[haul.tab]
+                        if (tab != null) {
+                            tab += itemsHaulShareUnit * participationShare
+                        } else {
+                            location[haul.tab] = itemsHaulShareUnit * participationShare
+                        }
+                    } else {
+                        it.participant.itemsAfterTaxPerTabPerLocation[haul.location] =
+                            mutableMapOf(haul.tab to itemsHaulShareUnit * participationShare)
+                    }
 
+                    it.participant.cashAfterTax += cashHaulShareUnit * participationShare
+                    itemsLeftToDistribute -= itemsHaulShareUnit * participationShare
+                    cashLeftToDistribute -= cashHaulShareUnit * participationShare
+                }
+
+                if (haul.hadOrganizer) {
+                    organizer?.let {
+                        it.returnPoints += organizerCallerSharePerHaul
+                    }
+                }
+                haul.caller?.let {
+                    it.participant.returnPoints += organizerCallerSharePerHaul
+                }
+
+                println(haul.caller!!.participant.name)
+                println(haul.participants.map { it.participant.name })
                 haul.participants.forEach { haulParticipant ->
                     val participationShare = if (haulParticipant.hasFullShare) 2 else 1
 
@@ -248,18 +280,20 @@ fun calculateItemsAndCash(contentInputs: List<ContentInput>): List<Content> {
                             location[haul.tab] = itemsHaulShareUnit * participationShare
                         }
                     } else {
-                        haulParticipant.participant.itemsAfterTaxPerTabPerLocation[haul.location] = mutableMapOf(haul.tab to itemsHaulShareUnit * participationShare)
+                        haulParticipant.participant.itemsAfterTaxPerTabPerLocation[haul.location] =
+                            mutableMapOf(haul.tab to itemsHaulShareUnit * participationShare)
                     }
 
                     haulParticipant.participant.cashAfterTax += cashHaulShareUnit * participationShare
                     haulParticipant.participant.returnPoints += returnPointsPerParticipant
                     itemsLeftToDistribute -= itemsHaulShareUnit * participationShare
                     cashLeftToDistribute -= cashHaulShareUnit * participationShare
-                    sumOfDistributedItems += itemsHaulShareUnit * participationShare
                 }
 
-                println("Sum of distributed items: $sumOfDistributedItems")
-
+                println(itemsLeftToDistribute)
+                println(itemsRemainder)
+                println(cashLeftToDistribute)
+                println(cashRemainder)
                 assert(itemsLeftToDistribute == itemsRemainder)
                 assert(cashLeftToDistribute == cashRemainder)
             }
