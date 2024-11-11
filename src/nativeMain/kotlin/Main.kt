@@ -200,10 +200,12 @@ fun calculateItemsAndCash(contentInputs: List<ContentInput>): List<Content> {
 
             hauls.forEach { haul ->
                 val returnPointsPerParticipant = returnPointsPerHaul / haul.participants.size
+                val isCallerSameAsOrganizer = haul.caller?.participant?.name == organizer?.name
 
                 val haulSharePoints =
                     (if (organizer != null && haul.hadOrganizer) 2 else 0) +
-                            (haul.caller?.let { if (it.hasFullShare) 2 else 1 } ?: 0) +
+                            (haul.caller?.let { if (isCallerSameAsOrganizer) 0 else if (it.hasFullShare) 2 else 1 }
+                                ?: 0) +
                             haul.participants.sumOf { (if (it.hasFullShare) 2 else 1).toInt() }
                 val cashHaulShareUnit = (haul.cashAfterTax / haulSharePoints / 1000) * 1000
                 val itemsHaulShareUnit = (haul.itemsAfterTax / haulSharePoints / 1000) * 1000
@@ -237,24 +239,26 @@ fun calculateItemsAndCash(contentInputs: List<ContentInput>): List<Content> {
                     }
                 }
 
-                haul.caller?.also {
-                    val participationShare = if (it.hasFullShare) 2 else 1
-                    val location = it.participant.itemsAfterTaxPerTabPerLocation[haul.location]
-                    if (location != null) {
-                        var tab = location[haul.tab]
-                        if (tab != null) {
-                            tab += itemsHaulShareUnit * participationShare
+                if (!isCallerSameAsOrganizer) {
+                    haul.caller?.also {
+                        val participationShare = if (it.hasFullShare) 2 else 1
+                        val location = it.participant.itemsAfterTaxPerTabPerLocation[haul.location]
+                        if (location != null) {
+                            var tab = location[haul.tab]
+                            if (tab != null) {
+                                tab += itemsHaulShareUnit * participationShare
+                            } else {
+                                location[haul.tab] = itemsHaulShareUnit * participationShare
+                            }
                         } else {
-                            location[haul.tab] = itemsHaulShareUnit * participationShare
+                            it.participant.itemsAfterTaxPerTabPerLocation[haul.location] =
+                                mutableMapOf(haul.tab to itemsHaulShareUnit * participationShare)
                         }
-                    } else {
-                        it.participant.itemsAfterTaxPerTabPerLocation[haul.location] =
-                            mutableMapOf(haul.tab to itemsHaulShareUnit * participationShare)
-                    }
 
-                    it.participant.cashAfterTax += cashHaulShareUnit * participationShare
-                    itemsLeftToDistribute -= itemsHaulShareUnit * participationShare
-                    cashLeftToDistribute -= cashHaulShareUnit * participationShare
+                        it.participant.cashAfterTax += cashHaulShareUnit * participationShare
+                        itemsLeftToDistribute -= itemsHaulShareUnit * participationShare
+                        cashLeftToDistribute -= cashHaulShareUnit * participationShare
+                    }
                 }
 
                 if (haul.hadOrganizer) {
@@ -315,11 +319,7 @@ fun distributeReturns(
     participants: Participants, contents: List<Content>, recruitmentReturnPoints: Double
 ): Pair<Int, Int> {
     // check if all return points assigned are equal to the sum of recruitment return points and (2 * number of contents with organizers)
-    val expectedReturnPoints = recruitmentReturnPoints + (2 * contents.count { it.organizer != null })
     val returnPointsTotal = participants.values.sumOf { it.returnPoints }
-    if (returnPointsTotal != expectedReturnPoints) {
-        println("Return points do not add up! Expected: $expectedReturnPoints, actual: $returnPointsTotal") // TODO fix - organizer does not always have to get full points
-    }
 
     // Sum the return from items and cash for all contents
     val allReturnsFromItems = contents.sumOf { it.returnsFromItemsTotal }
