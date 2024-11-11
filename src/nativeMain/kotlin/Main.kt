@@ -6,7 +6,7 @@ import kotlin.experimental.ExperimentalNativeApi
 data class Participant(
     val name: String,
     var returnPoints: Double = 0.0,
-    var itemsAfterTaxPerLocation: MutableMap<String, Int> = mutableMapOf(),
+    var itemsAfterTaxPerTabPerLocation: MutableMap<String, MutableMap<String, Int>> = mutableMapOf(),
     var cashAfterTax: Int = 0,
     var returnsFromItems: Int = 0,
     var returnsFromCash: Int = 0
@@ -18,12 +18,13 @@ data class HaulInput(
     val itemsBeforeTax: Int,
     val cashBeforeTax: Int,
     val location: String,
+    val tab: String,
     val hadOrganizer: Boolean,
     val participants: List<HaulParticipant>
 )
 
 data class ContentInput(
-    val id: Int, val organizer: Participant?, val haulInputs: List<HaulInput>
+    val id: Int, val organizer: Participant?, val haulInputs: List<HaulInput> // TODO: Add caller
 )
 
 data class RecruitmentInput(val recruiter: Participant, val points: Int)
@@ -42,6 +43,7 @@ data class Haul(
     val returnsFromItems: Int,
     val returnsFromCash: Int,
     val location: String,
+    val tab: String,
     val hadOrganizer: Boolean,
     val participants: List<(HaulParticipant)>
 )
@@ -127,17 +129,18 @@ fun parseInputFile(): Input {
 
         val haulInputs = haulsLines.mapNotNull { haulLine ->
             haulLine.split(":").map { it.trim() }.takeIf { it.size == 2 }?.let { (_, haulData) ->
-                haulData.split(",").map { it.trim() }.takeIf { it.size >= 5 }?.let { haulParts ->
+                haulData.split(",").map { it.trim() }.takeIf { it.size >= 6 }?.let { haulParts ->
                     val itemsBeforeTax = haulParts[0].toInt()
                     val cashBeforeTax = haulParts[1].toIntOrNull() ?: 0
                     val location = haulParts[2]
-                    val hadOrganizer = haulParts[3] == "TAK"
-                    val haulParticipants = haulParts.drop(4).map { participantString ->
+                    val tab = haulParts[3]
+                    val hadOrganizer = haulParts[4] == "TAK"
+                    val haulParticipants = haulParts.drop(5).map { participantString ->
                         val (participantName, hasFullShare) = parseParticipant(participantString)
                         val participant = participants.getOrPut(participantName) { Participant(participantName) }
                         HaulParticipant(participant, hasFullShare)
                     }
-                    HaulInput(itemsBeforeTax, cashBeforeTax, location, hadOrganizer, haulParticipants)
+                    HaulInput(itemsBeforeTax, cashBeforeTax, location, tab, hadOrganizer, haulParticipants)
                 }
             }
         }
@@ -171,6 +174,7 @@ fun calculateItemsAndCash(contentInputs: List<ContentInput>): List<Content> {
                 returnsFromItems,
                 returnsFromCash,
                 haulInput.location,
+                haulInput.tab,
                 haulInput.hadOrganizer,
                 haulInput.participants
             )
@@ -212,12 +216,16 @@ fun calculateItemsAndCash(contentInputs: List<ContentInput>): List<Content> {
 
                 if (haul.hadOrganizer) {
                     organizer?.also {
-                        val existingLocation = it.itemsAfterTaxPerLocation.contains(haul.location)
-                        if (existingLocation) {
-                            it.itemsAfterTaxPerLocation[haul.location] =
-                                it.itemsAfterTaxPerLocation[haul.location]!! + itemsHaulShareUnit * 2
+                        val location = it.itemsAfterTaxPerTabPerLocation[haul.location]
+                        if (location != null) {
+                            var tab = location[haul.tab]
+                            if (tab != null) {
+                                tab += itemsHaulShareUnit * 2
+                            } else {
+                                location[haul.tab] = itemsHaulShareUnit * 2
+                            }
                         } else {
-                            it.itemsAfterTaxPerLocation[haul.location] = itemsHaulShareUnit * 2
+                            it.itemsAfterTaxPerTabPerLocation[haul.location] = mutableMapOf(haul.tab to itemsHaulShareUnit * 2)
                         }
 
                         it.cashAfterTax += cashHaulShareUnit * 2
@@ -230,14 +238,19 @@ fun calculateItemsAndCash(contentInputs: List<ContentInput>): List<Content> {
 
                 haul.participants.forEach { haulParticipant ->
                     val participationShare = if (haulParticipant.hasFullShare) 2 else 1
-                    val existingLocation = haulParticipant.participant.itemsAfterTaxPerLocation.contains(haul.location)
-                    if (existingLocation) {
-                        haulParticipant.participant.itemsAfterTaxPerLocation[haul.location] =
-                            haulParticipant.participant.itemsAfterTaxPerLocation[haul.location]!! + itemsHaulShareUnit * participationShare
+
+                    val location = haulParticipant.participant.itemsAfterTaxPerTabPerLocation[haul.location]
+                    if (location != null) {
+                        var tab = location[haul.tab]
+                        if (tab != null) {
+                            tab += itemsHaulShareUnit * participationShare
+                        } else {
+                            location[haul.tab] = itemsHaulShareUnit * participationShare
+                        }
                     } else {
-                        haulParticipant.participant.itemsAfterTaxPerLocation[haul.location] =
-                            itemsHaulShareUnit * participationShare
+                        haulParticipant.participant.itemsAfterTaxPerTabPerLocation[haul.location] = mutableMapOf(haul.tab to itemsHaulShareUnit * participationShare)
                     }
+
                     haulParticipant.participant.cashAfterTax += cashHaulShareUnit * participationShare
                     haulParticipant.participant.returnPoints += returnPointsPerParticipant
                     itemsLeftToDistribute -= itemsHaulShareUnit * participationShare
@@ -322,7 +335,7 @@ fun writePayrollOutput(payroll: Payroll) {
     val headers = mutableListOf("Nick", "Wypłata w gotówce", "Zwrot podatku", "Punkty Zwrotu Podatku")
 
     // Collect all unique locations
-    val allLocations = payroll.participants.values.flatMap { it.itemsAfterTaxPerLocation.keys }.distinct()
+    val allLocations = payroll.participants.values.flatMap { it.itemsAfterTaxPerLocation.keys }.distinct() // TODO: with copilot collect all unique tabs, but also include what location the tab is in
 
     // Add headers for each location
     headers.addAll(allLocations.map { "Wypłata w przedmiotach $it" })
