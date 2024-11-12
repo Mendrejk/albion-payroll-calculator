@@ -166,6 +166,14 @@ fun parseInputFile(): Input {
     return Input(contentInputs, recruitmentInputs, participants)
 }
 
+fun determineReturnMultiplier(howManyParticipants: Int): Double {
+    if (howManyParticipants == 1) return 1.0
+    return ((howManyParticipants - 1) / 5 + 1).toDouble() // 1 for 1-5, 2 for 6-10, 3 for 11-15, etc.
+}
+
+const val PARTICIPANT_RETURN_BASE = 0.1
+const val ORGANISER_CALLER_RETURN_BASE = 0.5
+
 @OptIn(ExperimentalNativeApi::class)
 fun calculateItemsAndCash(contentInputs: List<ContentInput>): List<Content> {
     return contentInputs.map { contentInput ->
@@ -191,15 +199,14 @@ fun calculateItemsAndCash(contentInputs: List<ContentInput>): List<Content> {
         // Create Contents from ContentInputs
         // During this step, we should grant cash, items and return points to participants on a per-haul basis
         val content = contentInput.run {
-            val returnPointsPerHaul = organizer?.let {
-                val numberOfHauls = hauls.size
-                if (numberOfHauls > 0) (1.0 / numberOfHauls.toDouble()) else 0.0
-            } ?: 0.0
-
-            val organizerCallerSharePerHaul = if (hauls.isNotEmpty()) (0.5 / hauls.size.toDouble()) else 0.0
+            val allParticipantsCount = (listOfNotNull(organizer) + hauls.flatMap { haul ->
+                listOfNotNull(haul.caller?.participant) + haul.participants.map { it.participant }
+            }).distinctBy { it.name }.count()
+            val returnMultiplier = determineReturnMultiplier(allParticipantsCount)
+            val participantReturnPerHaul = PARTICIPANT_RETURN_BASE * returnMultiplier / hauls.size.toDouble()
+            val organizerCallerReturnPerHaul = ORGANISER_CALLER_RETURN_BASE * returnMultiplier / hauls.size.toDouble()
 
             hauls.forEach { haul ->
-                val returnPointsPerParticipant = returnPointsPerHaul / haul.participants.size
                 val isCallerSameAsOrganizer = haul.caller?.participant?.name == organizer?.name
 
                 val haulSharePoints =
@@ -220,18 +227,8 @@ fun calculateItemsAndCash(contentInputs: List<ContentInput>): List<Content> {
 
                 if (haul.hadOrganizer) {
                     organizer?.also {
-                        val location = it.itemsAfterTaxPerTabPerLocation[haul.location]
-                        if (location != null) {
-                            var tab = location[haul.tab]
-                            if (tab != null) {
-                                tab += itemsHaulShareUnit * 2
-                            } else {
-                                location[haul.tab] = itemsHaulShareUnit * 2
-                            }
-                        } else {
-                            it.itemsAfterTaxPerTabPerLocation[haul.location] =
-                                mutableMapOf(haul.tab to itemsHaulShareUnit * 2)
-                        }
+                        val location = it.itemsAfterTaxPerTabPerLocation.getOrPut(haul.location) { mutableMapOf() }
+                        location[haul.tab] = location.getOrPut(haul.tab) { 0 } + itemsHaulShareUnit * 2
 
                         it.cashAfterTax += cashHaulShareUnit * 2
                         itemsLeftToDistribute -= itemsHaulShareUnit * 2
@@ -242,18 +239,9 @@ fun calculateItemsAndCash(contentInputs: List<ContentInput>): List<Content> {
                 if (!isCallerSameAsOrganizer) {
                     haul.caller?.also {
                         val participationShare = if (it.hasFullShare) 2 else 1
-                        val location = it.participant.itemsAfterTaxPerTabPerLocation[haul.location]
-                        if (location != null) {
-                            var tab = location[haul.tab]
-                            if (tab != null) {
-                                tab += itemsHaulShareUnit * participationShare
-                            } else {
-                                location[haul.tab] = itemsHaulShareUnit * participationShare
-                            }
-                        } else {
-                            it.participant.itemsAfterTaxPerTabPerLocation[haul.location] =
-                                mutableMapOf(haul.tab to itemsHaulShareUnit * participationShare)
-                        }
+                        val location =
+                            it.participant.itemsAfterTaxPerTabPerLocation.getOrPut(haul.location) { mutableMapOf() }
+                        location[haul.tab] = location.getOrPut(haul.tab) { 0 } + itemsHaulShareUnit * participationShare
 
                         it.participant.cashAfterTax += cashHaulShareUnit * participationShare
                         itemsLeftToDistribute -= itemsHaulShareUnit * participationShare
@@ -263,41 +251,26 @@ fun calculateItemsAndCash(contentInputs: List<ContentInput>): List<Content> {
 
                 if (haul.hadOrganizer) {
                     organizer?.let {
-                        it.returnPoints += organizerCallerSharePerHaul
+                        it.returnPoints += organizerCallerReturnPerHaul
                     }
                 }
                 haul.caller?.let {
-                    it.participant.returnPoints += organizerCallerSharePerHaul
+                    it.participant.returnPoints += organizerCallerReturnPerHaul
                 }
 
-                println(haul.caller!!.participant.name)
-                println(haul.participants.map { it.participant.name })
                 haul.participants.forEach { haulParticipant ->
                     val participationShare = if (haulParticipant.hasFullShare) 2 else 1
 
-                    val location = haulParticipant.participant.itemsAfterTaxPerTabPerLocation[haul.location]
-                    if (location != null) {
-                        var tab = location[haul.tab]
-                        if (tab != null) {
-                            tab += itemsHaulShareUnit * participationShare
-                        } else {
-                            location[haul.tab] = itemsHaulShareUnit * participationShare
-                        }
-                    } else {
-                        haulParticipant.participant.itemsAfterTaxPerTabPerLocation[haul.location] =
-                            mutableMapOf(haul.tab to itemsHaulShareUnit * participationShare)
-                    }
+                    val location =
+                        haulParticipant.participant.itemsAfterTaxPerTabPerLocation.getOrPut(haul.location) { mutableMapOf() }
+                    location[haul.tab] = location.getOrPut(haul.tab) { 0 } + itemsHaulShareUnit * participationShare
 
                     haulParticipant.participant.cashAfterTax += cashHaulShareUnit * participationShare
-                    haulParticipant.participant.returnPoints += returnPointsPerParticipant
+                    haulParticipant.participant.returnPoints += participantReturnPerHaul
                     itemsLeftToDistribute -= itemsHaulShareUnit * participationShare
                     cashLeftToDistribute -= cashHaulShareUnit * participationShare
                 }
 
-                println(itemsLeftToDistribute)
-                println(itemsRemainder)
-                println(cashLeftToDistribute)
-                println(cashRemainder)
                 assert(itemsLeftToDistribute == itemsRemainder)
                 assert(cashLeftToDistribute == cashRemainder)
             }
@@ -365,6 +338,14 @@ fun calculatePayroll(): Payroll {
     return Payroll(itemsTaxTotal, cashTaxTotal, participants)
 }
 
+fun formatNumberWithSpaces(number: Int): String {
+    return number.toString().reversed().chunked(3).joinToString(" ").reversed()
+}
+
+fun formatNumberWithSpacesAndK(number: Int): String {
+    return "${formatNumberWithSpaces(number / 1000)}k"
+}
+
 fun writePayrollOutput(payroll: Payroll) {
     val headers = mutableListOf("Nick", "Wypłata w gotówce", "Zwrot podatku", "Punkty Zwrotu Podatku")
 
@@ -383,12 +364,12 @@ fun writePayrollOutput(payroll: Payroll) {
         maxOf(header.length, payroll.participants.values.maxOf { participant ->
             when (index) {
                 0 -> participant.name.length
-                1 -> participant.cashAfterTax.toString().length
-                2 -> (participant.returnsFromItems + participant.returnsFromCash).toString().length
+                1 -> formatNumberWithSpacesAndK(participant.cashAfterTax).length
+                2 -> formatNumberWithSpacesAndK(participant.returnsFromItems + participant.returnsFromCash).length
                 3 -> participant.returnPoints.toString().length
                 else -> {
-                    val (location, tab) = allLocationTabs[index - 4].split(" ")
-                    participant.itemsAfterTaxPerTabPerLocation[location]?.get(tab)?.toString()?.length ?: 0
+                    val (location, tab) = allLocationTabs[index - 4].split(" - ")
+                    formatNumberWithSpacesAndK(participant.itemsAfterTaxPerTabPerLocation[location]?.get(tab) ?: 0).length
                 }
             }
         })
@@ -402,29 +383,28 @@ fun writePayrollOutput(payroll: Payroll) {
     val rows = payroll.participants.values.map { participant ->
         val row = mutableListOf(
             participant.name.padEnd(columnWidths[0]),
-            participant.cashAfterTax.toString().padEnd(columnWidths[1]),
-            (participant.returnsFromItems + participant.returnsFromCash).toString().padEnd(columnWidths[2]),
+            formatNumberWithSpacesAndK(participant.cashAfterTax).padEnd(columnWidths[1]),
+            formatNumberWithSpacesAndK(participant.returnsFromItems + participant.returnsFromCash).padEnd(columnWidths[2]),
             participant.returnPoints.toString().padEnd(columnWidths[3])
         )
 
         // Add values for each location-tab pair
         row.addAll(allLocationTabs.map { locationTab ->
-            val (location, tab) = locationTab.split("-").map { it.trim() }
-            participant.itemsAfterTaxPerTabPerLocation[location]?.get(tab)?.toString()
-                ?.padEnd(columnWidths[headers.indexOf("Wypłata w przedmiotach $locationTab")])
-                ?: "".padEnd(columnWidths[headers.indexOf("Wypłata w przedmiotach $locationTab")])
+            val (location, tab) = locationTab.split(" - ").map { it.trim() }
+            formatNumberWithSpacesAndK(participant.itemsAfterTaxPerTabPerLocation[location]?.get(tab) ?: 0)
+                .padEnd(columnWidths[headers.indexOf("Wypłata w przedmiotach $locationTab")])
         })
 
         row.joinToString(" | ")
     }
 
     val output = buildString {
-        appendLine("Podatek w przedmiotach: ${payroll.itemsTaxTotal}")
-        appendLine("Podatek w gotówce: ${payroll.cashTaxTotal}")
-        appendLine("Suma wypłat w przedmiotach: ${payroll.participants.values.sumOf { it.itemsAfterTaxPerTabPerLocation.values.sumOf { tabs -> tabs.values.sum() } }}")
-        appendLine("Suma wypłat w gotówce: ${payroll.participants.values.sumOf { it.cashAfterTax }}")
-        appendLine("Suma zwrotów w przedmiotach: ${payroll.participants.values.sumOf { it.returnsFromItems }}")
-        appendLine("Suma zwrotów w gotówce: ${payroll.participants.values.sumOf { it.returnsFromCash }}")
+        appendLine("Podatek w przedmiotach: ${formatNumberWithSpacesAndK(payroll.itemsTaxTotal)}")
+        appendLine("Podatek w gotówce: ${formatNumberWithSpacesAndK(payroll.cashTaxTotal)}")
+        appendLine("Suma wypłat w przedmiotach: ${formatNumberWithSpacesAndK(payroll.participants.values.sumOf { it.itemsAfterTaxPerTabPerLocation.values.sumOf { tabs -> tabs.values.sum() } })}")
+        appendLine("Suma wypłat w gotówce: ${formatNumberWithSpacesAndK(payroll.participants.values.sumOf { it.cashAfterTax })}")
+        appendLine("Suma zwrotów w przedmiotach: ${formatNumberWithSpacesAndK(payroll.participants.values.sumOf { it.returnsFromItems })}")
+        appendLine("Suma zwrotów w gotówce: ${formatNumberWithSpacesAndK(payroll.participants.values.sumOf { it.returnsFromCash })}")
         appendLine(headerLine)
         appendLine(separator)
         rows.forEach { appendLine(it) }
@@ -435,7 +415,73 @@ fun writePayrollOutput(payroll: Payroll) {
     }
 }
 
+fun sumCashAndItemsByLocation(participants: Participants): Map<String, Map<String, Int>> {
+    val locationSums = mutableMapOf<String, MutableMap<String, Int>>()
+
+    participants.values.forEach { participant ->
+        participant.itemsAfterTaxPerTabPerLocation.forEach { (location, tabs) ->
+            val locationSum = locationSums.getOrPut(location) { mutableMapOf() }
+            tabs.forEach { (tab, items) ->
+                locationSum[participant.name] = (locationSum[participant.name] ?: 0) + items
+            }
+        }
+        locationSums.getOrPut("W KASIE") { mutableMapOf() }[participant.name] =
+            (locationSums.getOrPut("W KASIE") { mutableMapOf() }[participant.name] ?: 0) + participant.cashAfterTax
+        locationSums.getOrPut("ZWROT PODATKU (CZAS NA ODEBRANIE DO NASTĘPNEGO ROZLICZENIA)") { mutableMapOf() }[participant.name] =
+            (locationSums.getOrPut("ZWROT PODATKU (CZAS NA ODEBRANIE DO NASTĘPNEGO ROZLICZENIA)") { mutableMapOf() }[participant.name]
+                ?: 0) + participant.returnsFromItems + participant.returnsFromCash
+    }
+
+    return locationSums
+}
+
+fun writePayrollToMarkdown(payroll: Payroll) {
+    val locationSums = sumCashAndItemsByLocation(payroll.participants)
+
+    val sortedLocations = locationSums.keys.sortedWith(compareByDescending<String> { location ->
+        when (location) {
+            "W KASIE" -> Int.MAX_VALUE
+            "ZWROT PODATKU (CZAS NA ODEBRANIE DO NASTĘPNEGO ROZLICZENIA)" -> Int.MAX_VALUE - 1
+            else -> locationSums[location]?.values?.sum() ?: 0
+        }
+    })
+
+    val markdownContent = buildString {
+        sortedLocations.forEach { location ->
+            appendLine("## ${location.uppercase()}")
+            locationSums[location]?.entries?.sortedByDescending { it.value }?.forEach { (participant, amount) ->
+                if (amount > 0) {
+                    appendLine("@$participant ${formatNumberWithSpaces(amount / 1000)}k")
+                }
+            }
+            appendLine()
+        }
+
+        payroll.participants.values.flatMap { participant ->
+            participant.itemsAfterTaxPerTabPerLocation.flatMap { (location, tabs) ->
+                tabs.keys.map { tab -> Triple(location, tab, participant) }
+            }
+        }.groupBy { it.first to it.second }.forEach { (locationTab, participants) ->
+            val (location, tab) = locationTab
+            appendLine("## ${location.uppercase()} - ${tab.uppercase()}")
+            participants.groupBy { it.third.name }.mapValues { (_, groupedParticipants) ->
+                groupedParticipants.sumOf { it.third.itemsAfterTaxPerTabPerLocation[location]?.get(tab) ?: 0 }
+            }.entries.sortedByDescending { it.value }.forEach { (participant, amount) ->
+                if (amount > 0) {
+                    appendLine("@$participant ${formatNumberWithSpaces(amount / 1000)}k")
+                }
+            }
+            appendLine()
+        }
+    }
+
+    FileSystem.SYSTEM.write("wyjscie_discord.md".toPath()) {
+        writeUtf8(markdownContent)
+    }
+}
 
 fun main() {
-    writePayrollOutput(calculatePayroll())
+    val payroll = calculatePayroll()
+    writePayrollOutput(payroll)
+    writePayrollToMarkdown(payroll)
 }
