@@ -28,7 +28,7 @@ data class ContentInput(
     val id: Int, val organizer: Participant?, val haulInputs: List<HaulInput>
 )
 
-data class RecruitmentInput(val recruiter: Participant, val points: Int)
+data class RecruitmentInput(val recruiter: Participant, val points: Double)
 
 typealias Participants = MutableMap<String, Participant>
 
@@ -159,7 +159,7 @@ fun parseInputFile(): Input {
         recruitmentLine.split(":").map { it.trim() }.takeIf { it.size == 2 }
             ?.let { (recruiterName, recruitmentPoints) ->
                 val recruiter = participants.getOrPut(recruiterName) { Participant(recruiterName) }
-                RecruitmentInput(recruiter, recruitmentPoints.toInt())
+                RecruitmentInput(recruiter, recruitmentPoints.toDouble())
             }
     }
 
@@ -171,8 +171,8 @@ fun determineReturnMultiplier(howManyParticipants: Int): Double {
     return ((howManyParticipants - 1) / 5 + 1).toDouble() // 1 for 1-5, 2 for 6-10, 3 for 11-15, etc.
 }
 
-const val PARTICIPANT_RETURN_BASE = 0.1
-const val ORGANISER_CALLER_RETURN_BASE = 0.5
+const val PARTICIPANT_RETURN_BASE = 0.05
+const val ORGANISER_CALLER_RETURN_BASE = 0.25
 
 @OptIn(ExperimentalNativeApi::class)
 fun calculateItemsAndCash(contentInputs: List<ContentInput>): List<Content> {

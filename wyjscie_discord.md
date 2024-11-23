@@ -1,252 +1,235 @@
 ## W KASIE
-@Zdredowany 7 984k
-@Kacper17 7 384k
-@Bonio 7 104k
-@Go1on 6 492k
-@ZboczonyStaszek 6 330k
-@EuroMelon 6 006k
-@Karoll 5 832k
-@Eillord 4 972k
-@JuriOwsienko69 4 418k
-@MESSSI 3 976k
-@Brynol 3 806k
-@XPerLuna 3 689k
-@Z0X3N 3 386k
-@Sqbaniec 3 338k
-@Hohla 2 968k
-@Wojciecch 2 878k
-@Senitovacua 2 400k
-@Klaudiuszs 2 260k
-@ItsBlank 2 158k
-@Grubas 2 158k
-@Krzychu 1 972k
-@KapitanAfryka 1 972k
-@Jagerowsky 1 972k
-@Akex 1 866k
-@Slepy081 1 434k
-@Chad187 1 151k
-@LGPH 1 024k
-@Mupik 996k
-@Vareex 986k
-@Krampet 842k
-@Senitovauca 600k
-@ZaluzjaSolonez 468k
-@Wolvrine 180k
-@Tarzaaan 180k
-@DrPolon 180k
+@Z0X3N 2 880k
+@Bonio 2 736k
+@MESSSI 2 736k
+@Chad187 2 044k
+@Kacper17 1 994k
+@Zdredowany 1 896k
+@XPerLuna 1 804k
+@Go1on 1 718k
+@SipYouUp 1 678k
+@Karoll 1 630k
+@MercyTheAngel 1 578k
+@BigDamage 1 324k
+@Logray 1 262k
+@Wojciecch 1 172k
+@LGPH 1 166k
+@TBlazee 1 166k
+@Klaudiuszs 919k
+@Vanify 722k
+@Krzychu 692k
+@Brynol 658k
+@Mupik 574k
+@Klaudiusz 560k
+@JuriOwsienko69 552k
+@Voxer01 552k
+@FANeris 456k
+@ZboczonyStaszek 456k
+@Iguro 444k
+@Hohla 402k
+@Maendrake 402k
+@Akex 214k
+@Vareex 162k
+@EuroMelon 150k
+@KapitanAfryka 132k
+@AndradiLux 96k
+@ItsBlank 54k
+@ZaluzjaSolonez 54k
 
 ## ZWROT PODATKU (CZAS NA ODEBRANIE DO NASTĘPNEGO ROZLICZENIA)
-@Zdredowany 6 522k
-@MESSSI 6 127k
-@Kacper17 5 769k
-@Karoll 5 339k
-@EuroMelon 1 504k
-@Go1on 1 432k
-@ZboczonyStaszek 1 432k
-@Z0X3N 1 218k
-@Bonio 1 145k
-@Hohla 1 074k
-@JuriOwsienko69 1 074k
-@XPerLuna 966k
-@INKA 859k
-@Slepy081 787k
-@Eillord 752k
-@Brynol 752k
-@Klaudiuszs 715k
-@Maendrake 680k
-@Vareex 572k
-@KapitanAfryka 572k
-@Krzychu 536k
-@JuicyCat 536k
-@Akex 501k
-@Sqbaniec 501k
-@Wojciecch 501k
-@Mupik 465k
-@Chad187 429k
-@Senitovacua 393k
-@ItsBlank 357k
-@ZaluzjaSolonez 357k
-@Masiu86 285k
-@Kruczysko 250k
-@LGPH 178k
-@PiroKiller 178k
-@FausT 178k
-@Krampet 142k
-@Jagerowsky 142k
-@FANeris 106k
-@DrPolon 106k
-@Grubas 106k
-@Hyme1Jadwiga 106k
-@KCAKakaKACYK 106k
-@Senitovauca 71k
-@Wolvrine 71k
-@Tarzaaan 71k
-@DRX460T 71k
+@MESSSI 4 773k
+@Zdredowany 4 097k
+@ZaluzjaSolonez 1 987k
+@Bonio 1 966k
+@Kacper17 1 536k
+@JuriOwsienko69 1 392k
+@Maendrake 1 003k
+@Z0X3N 860k
+@Inka 860k
+@Chad187 696k
+@Karoll 696k
+@Vareex 634k
+@Go1on 593k
+@ZboczonyStaszek 572k
+@KapitanAfryka 511k
+@Kruczysko 511k
+@XPerLuna 491k
+@EuroMelon 430k
+@Logray 408k
+@Krzychu 408k
+@SipYouUp 388k
+@Voxer01 388k
+@MercyTheAngel 368k
+@GentelmanGarry 368k
+@Klaudiuszs 306k
+@Slepy081 306k
+@Wojciecch 286k
+@Mupik 245k
+@LGPH 225k
+@TBlazee 225k
+@Eillord 225k
+@PiroKiller 225k
+@Vanify 183k
+@KCAKakaKACYK 183k
+@JuicyCat 183k
+@Brynol 163k
+@Akex 163k
+@Krampet 163k
+@Sqbany1 163k
+@BigDamage 142k
+@AndradiLux 122k
+@FANeris 122k
+@Iguro 122k
+@Vircynger 122k
+@Senior 122k
+@Cvaniak 101k
+@Demon24 101k
+@Jenny 101k
+@Hohla 81k
+@ItsBlank 81k
+@HeyImaJimmi 81k
+@DRX460T 81k
+@Klaudiusz 40k
+@Grubas5999 40k
+@MalinowyMuffin 40k
 
-## HO DALE
-@Zdredowany 14 554k
-@Kacper17 14 554k
-@ZboczonyStaszek 14 338k
-@EuroMelon 13 030k
-@Bonio 12 790k
-@Go1on 11 266k
-@Eillord 8 976k
-@JuriOwsienko69 8 976k
-@Karoll 8 568k
-@Hohla 7 772k
-@XPerLuna 7 599k
-@MESSSI 7 246k
-@Brynol 5 986k
-@Sqbaniec 5 698k
-@Krzychu 5 482k
-@Klaudiuszs 5 482k
-@KapitanAfryka 5 482k
-@Jagerowsky 5 482k
-@Z0X3N 5 074k
-@Wojciecch 4 730k
-@Senitovacua 3 710k
-@ItsBlank 3 494k
-@Grubas 3 494k
-@Akex 2 784k
-@Vareex 2 741k
-@LGPH 2 568k
-@Mupik 2 290k
-@Slepy081 1 764k
-@Chad187 504k
-@ZaluzjaSolonez 504k
-@Wolvrine 504k
-@Tarzaaan 504k
-@DrPolon 504k
-@Maendrake 216k
-@FANeris 216k
+## LYMHURST
+@MESSSI 13 502k
+@Bonio 12 878k
+@Z0X3N 12 330k
+@Zdredowany 11 526k
+@Kacper17 9 016k
+@Go1on 8 864k
+@Karoll 8 402k
+@Logray 7 624k
+@Chad187 7 512k
+@Voxer01 7 064k
+@MercyTheAngel 6 994k
+@XPerLuna 6 750k
+@SipYouUp 6 456k
+@ZboczonyStaszek 5 448k
+@Krzychu 5 188k
+@EuroMelon 4 268k
+@KapitanAfryka 4 060k
+@ZaluzjaSolonez 3 816k
+@LGPH 3 272k
+@TBlazee 3 272k
+@BigDamage 3 234k
+@Wojciecch 3 232k
+@Klaudiuszs 3 198k
+@Vareex 2 976k
+@Hohla 2 968k
+@Maendrake 2 968k
+@Vanify 2 144k
+@Mupik 2 136k
+@Krampet 1 960k
+@Kruczysko 1 960k
+@Vircynger 1 960k
+@Senior 1 960k
+@PiroKiller 1 960k
+@GentelmanGarry 1 960k
+@ItsBlank 1 856k
+@Brynol 1 832k
+@Iguro 1 752k
+@JuriOwsienko69 1 520k
+@Cvaniak 1 508k
+@Eillord 1 508k
+@Grubas5999 1 508k
+@FANeris 1 240k
+@Akex 1 176k
+@Klaudiusz 1 128k
+@AndradiLux 904k
+@Slepy081 624k
+@Sqbany1 624k
+@HeyImaJimmi 624k
 
-## HO BEACH
-@Zdredowany 5 346k
-@Karoll 5 116k
-@MESSSI 4 542k
-@Go1on 4 132k
-@Brynol 4 118k
-@Bonio 4 014k
-@Z0X3N 3 948k
-@Kacper17 3 918k
-@Sqbaniec 3 068k
-@Chad187 2 584k
-@XPerLuna 2 424k
-@Eillord 2 232k
-@EuroMelon 2 114k
-@Slepy081 2 048k
-@Akex 2 048k
-@Krampet 1 884k
-@JuriOwsienko69 1 280k
-@Klaudiuszs 1 280k
-@Senitovauca 1 080k
-@ZboczonyStaszek 1 064k
-@ZaluzjaSolonez 1 050k
-@Wojciecch 1 050k
-@Hohla 946k
-@Mupik 834k
-@Senitovacua 804k
-@ItsBlank 394k
-@Krzychu 394k
-@Maendrake 164k
-@INKA 118k
-@Vareex 115k
-@KapitanAfryka 115k
+## FORT STERLING
+@Kacper17 1 046k
+@Zdredowany 1 046k
+@Bonio 594k
+@Go1on 594k
+@Vareex 594k
+@Cvaniak 594k
+@Maendrake 594k
+@Vircynger 594k
+@Senior 594k
+@PiroKiller 594k
+@Inka 594k
+@Krampet 452k
 
 ## CTA
 
-## SZKOLENIE
+## OBÓZ SZKOLENIOWY
 
-## HO BEACH - 1
-@MESSSI 512k
-@Zdredowany 512k
-@ItsBlank 394k
-@Krzychu 394k
-@Go1on 348k
-@Eillord 348k
-@EuroMelon 348k
-@ZboczonyStaszek 348k
-@Karoll 282k
-@Hohla 230k
-@Bonio 230k
-@JuriOwsienko69 230k
-@Klaudiuszs 230k
-@XPerLuna 174k
-@Kacper17 164k
-@Slepy081 164k
-@Z0X3N 164k
-@Maendrake 164k
-@Akex 164k
-@Mupik 118k
-@INKA 118k
-@Vareex 115k
-@KapitanAfryka 115k
+## LYMHURST - 1
+@MESSSI 13 502k
+@Bonio 12 878k
+@Z0X3N 12 330k
+@Zdredowany 11 526k
+@Kacper17 9 016k
+@Go1on 8 864k
+@Karoll 8 402k
+@Logray 7 624k
+@Chad187 7 512k
+@Voxer01 7 064k
+@MercyTheAngel 6 994k
+@XPerLuna 6 750k
+@SipYouUp 6 456k
+@ZboczonyStaszek 5 448k
+@Krzychu 5 188k
+@EuroMelon 4 268k
+@KapitanAfryka 4 060k
+@ZaluzjaSolonez 3 816k
+@LGPH 3 272k
+@TBlazee 3 272k
+@BigDamage 3 234k
+@Wojciecch 3 232k
+@Klaudiuszs 3 198k
+@Vareex 2 976k
+@Hohla 2 968k
+@Maendrake 2 968k
+@Vanify 2 144k
+@Mupik 2 136k
+@Krampet 1 960k
+@Kruczysko 1 960k
+@Vircynger 1 960k
+@Senior 1 960k
+@PiroKiller 1 960k
+@GentelmanGarry 1 960k
+@ItsBlank 1 856k
+@Brynol 1 832k
+@Iguro 1 752k
+@JuriOwsienko69 1 520k
+@Cvaniak 1 508k
+@Eillord 1 508k
+@Grubas5999 1 508k
+@FANeris 1 240k
+@Akex 1 176k
+@Klaudiusz 1 128k
+@AndradiLux 904k
+@Slepy081 624k
+@Sqbany1 624k
+@HeyImaJimmi 624k
 
-## HO BEACH - 2+3
-@Karoll 4 834k
-@Zdredowany 4 834k
-@Brynol 4 118k
-@MESSSI 4 030k
-@Z0X3N 3 784k
-@Go1on 3 784k
-@Bonio 3 784k
-@Kacper17 3 754k
-@Sqbaniec 3 068k
-@Chad187 2 584k
-@XPerLuna 2 250k
-@Slepy081 1 884k
-@Akex 1 884k
-@Eillord 1 884k
-@Krampet 1 884k
-@EuroMelon 1 766k
-@Senitovauca 1 080k
-@JuriOwsienko69 1 050k
-@Klaudiuszs 1 050k
-@ZaluzjaSolonez 1 050k
-@Wojciecch 1 050k
-@Senitovacua 804k
-@Mupik 716k
-@ZboczonyStaszek 716k
-@Hohla 716k
+## FORT STERLING - 2
+@Bonio 594k
+@Go1on 594k
+@Kacper17 594k
+@Zdredowany 594k
+@Vareex 594k
+@Cvaniak 594k
+@Maendrake 594k
+@Vircynger 594k
+@Senior 594k
+@PiroKiller 594k
+@Inka 594k
 
-## HO DALE - 1+2+3+4
-@Zdredowany 14 554k
-@Kacper17 14 554k
-@ZboczonyStaszek 14 338k
-@EuroMelon 13 030k
-@Bonio 12 790k
-@Go1on 11 266k
-@Eillord 8 976k
-@JuriOwsienko69 8 976k
-@Karoll 8 568k
-@Hohla 7 772k
-@XPerLuna 7 599k
-@MESSSI 7 246k
-@Brynol 5 986k
-@Sqbaniec 5 698k
-@Krzychu 5 482k
-@Klaudiuszs 5 482k
-@KapitanAfryka 5 482k
-@Jagerowsky 5 482k
-@Z0X3N 5 074k
-@Wojciecch 4 730k
-@Senitovacua 3 710k
-@ItsBlank 3 494k
-@Grubas 3 494k
-@Akex 2 784k
-@Vareex 2 741k
-@LGPH 2 568k
-@Mupik 2 290k
-@Slepy081 1 764k
-@Chad187 504k
-@ZaluzjaSolonez 504k
-@Wolvrine 504k
-@Tarzaaan 504k
-@DrPolon 504k
-@Maendrake 216k
-@FANeris 216k
+## CTA - 1
 
-## CTA - CTA
+## OBÓZ SZKOLENIOWY - 1
 
-## SZKOLENIE - STATIK T7
+## FORT STERLING - 1
+@Kacper17 452k
+@Zdredowany 452k
+@Krampet 452k
 

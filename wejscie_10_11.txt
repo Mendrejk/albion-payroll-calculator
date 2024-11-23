@@ -1,0 +1,52 @@
+KONTENTY:
+1: Karoll
+  1: 2070000, , HO BEACH, 1, TAK, MESSSI, Zdredowany, Kacper17, Slepy081, Z0X3N, Maendrake, ItsBlank, Akex, Krzychu
+2: MESSSI
+  1: 1410000, , HO BEACH, 1, TAK, MESSSI, Zdredowany, Karoll, Go1on, Eillord, Mupik, EuroMelon, ZboczonyStaszek, XPerLuna (50%), INKA
+3: MESSSI
+  1: 3890000, , HO BEACH, 1, TAK, MESSSI, Zdredowany, Hohla, Go1on, ZboczonyStaszek, XPerLuna (50%), Vareex (50%), ItsBlank, Bonio, Eillord, EuroMelon, JuriOwsienko69, Klaudiuszs, Krzychu, KapitanAfryka (50%)
+4: Karoll
+  1: 14100000, 4240000, HO BEACH, 2+3, TAK, Kacper17, Senitovacua, Zdredowany, Akex, Sqbaniec, XPerLuna (50%), Slepy081, Brynol, Eillord, Chad187 (50%), Krampet, Go1on, Z0X3N, Bonio
+  2: 18900000, 10520000, HO BEACH, 2+3, TAK, MESSSI, Senitovacua, Zdredowany, Akex, Sqbaniec, XPerLuna (50%), Slepy081, Brynol, Eillord, Chad187 (50%), Krampet, Go1on, Z0X3N, Bonio
+5: Karoll
+  1: 14800000, 6560000, HO BEACH, 2+3, TAK, MESSSI, Kacper17, Brynol, Go1on, Zdredowany, Bonio, Chad187 (50%), Z0X3N, Sqbaniec, XPerLuna (50%)
+6: Zdredowany
+  1: 14440000, 3960000, HO BEACH, 2+3, TAK, Kacper17, JuriOwsienko69, Karoll, Chad187, EuroMelon, ZaluzjaSolonez, Wojciecch, Brynol, Klaudiuszs, MESSSI
+7: Karoll
+  1: 10760000, , HO BEACH, 2+3, TAK, Kacper17, Bonio, Hohla, Go1on, Zdredowany, EuroMelon, Mupik, Z0X3N, ZboczonyStaszek, XPerLuna, MESSSI
+8: Karoll
+  1: 3540000, , HO DALE, 1+2+3+4, TAK, Kacper17, Zdredowany, EuroMelon, Z0X3N, Maendrake, Senitovacua, Slepy081, Wojciecch, MESSSI, Sqbaniec, Akex, FANeris
+9: Karoll
+  1: 12760000, 5400000, HO DALE, 1+2+3+4, TAK, Kacper17, Zdredowany, Bonio, Wojciecch, LGPH, XPerLuna, ZboczonyStaszek, Z0X3N, Akex
+10: Karoll
+  1: 21300000, 8150000, HO DALE, 1+2+3+4, TAK, Kacper17, Zdredowany, LGPH, XPerLuna, ZboczonyStaszek, Akex, Slepy081, MESSSI, Z0X3N, EuroMelon
+11:
+  1: 6300000, 2270000, HO DALE, 1+2+3+4, NIE, , Kacper17, Brynol, Zdredowany, Bonio, Chad187, Wolvrine, ZaluzjaSolonez, ZboczonyStaszek, Tarzaaan, DrPolon
+12: MESSSI
+  1: 116500000, 41910000, HO DALE, 1+2+3+4, TAK, MESSSI, Kacper17, Zdredowany, ZboczonyStaszek, Go1on, XPerLuna (50%), KapitanAfryka, Sqbaniec, Hohla, Bonio, Brynol, Vareex (50%), JuriOwsienko69, Eillord, Krzychu, Jagerowsky, EuroMelon, Klaudiuszs
+13: Karoll
+  1: 56800000, 35090000, HO DALE, 1+2+3+4, TAK, Kacper17, Bonio, Wojciecch, Eillord, Zdredowany, Go1on, Grubas, ItsBlank, EuroMelon, Senitovacua, ZboczonyStaszek, JuriOwsienko69
+14: Karoll
+  1: 31500000, 13710000, HO DALE, 1+2+3+4, TAK, Kacper17, Hohla, Zdredowany, Z0X3N, ZboczonyStaszek, Go1on, XPerLuna, EuroMelon, Mupik, Bonio
+15: MESSSI
+  1: 0, 0, Szkolenie, STATIK T7, TAK, MESSSI, Kacper17, Kruczysko, DRX460T, Hohla, Wojciecch, Vareex
+16: Kacper17
+  1: 0, 0, CTA, CTA, TAK, , JuicyCat, Wojciecch
+17: Kacper17
+  1: 0, 0, CTA, CTA, TAK, , Klaudiuszs, JuriOwsienko69, DrPolon
+18: Zdredowany
+  1: 0, 0, CTA, CTA, TAK, , Kacper17, Slepy081, Krzychu, MESSSI, ItsBlank, Z0X3N, Karoll, Maendrake
+19: Zdredowany
+  1: 0, 0, CTA, CTA, TAK, , KapitanAfryka, Kacper17, Z0X3N, MESSSI, Go1on, Krzychu, EuroMelon, Karoll, Maendrake, Vareex, ZboczonyStaszek, Hohla, JuriOwsienko69, INKA, JuicyCat
+20: Zdredowany
+  1: 0, 0, CTA, CTA, TAK, , Kacper17, EuroMelon, Go1on, Maendrake, Karoll, Hohla, ZboczonyStaszek, Hyme1Jadwiga, Klaudiuszs, Vareex, JuriOwsienko69, KCAKakaKACYK
+21: Kacper17
+  1: 0, 0, CTA, CTA, NIE, , JuriOwsienko69, Klaudiuszs
+22: Zdredowany
+  1: 0, 0, CTA, CTA, NIE, , Senitovacua, Kacper17, Hohla, MESSSI, Go1on, EuroMelon, Masiu86, ZboczonyStaszek, JuriOwsienko69, INKA, Slepy081
+23: Zdredowany
+  1: 0, 0, CTA, CTA, NIE, , Kruczysko, ZaluzjaSolonez, PiroKiller, Kacper17, Maendrake, MESSSI, Go1on, EuroMelon, INKA, JuriOwsienko69, Bonio, ZboczonyStaszek, Brynol, Z0X3N, Hohla, Klaudiuszs, Masiu86, Karoll, FausT, Slepy081, Eillord, Mupik, KapitanAfryka
+
+REKRUTACJA:
+JuicyCat: 1.5
+INKA: 1.5

@@ -13,9 +13,9 @@
 @XPerLuna 3 689k
 @Z0X3N 3 386k
 @Sqbaniec 3 338k
+@Senitovacua 3 000k
 @Hohla 2 968k
 @Wojciecch 2 878k
-@Senitovacua 2 400k
 @Klaudiuszs 2 260k
 @ItsBlank 2 158k
 @Grubas 2 158k
@@ -29,57 +29,57 @@
 @Mupik 996k
 @Vareex 986k
 @Krampet 842k
-@Senitovauca 600k
 @ZaluzjaSolonez 468k
 @Wolvrine 180k
 @Tarzaaan 180k
 @DrPolon 180k
 
 ## ZWROT PODATKU (CZAS NA ODEBRANIE DO NASTĘPNEGO ROZLICZENIA)
-@Kacper17 7 095k
-@MESSSI 6 418k
-@Zdredowany 6 091k
-@Karoll 5 402k
-@JuicyCat 1 678k
-@INKA 1 406k
-@EuroMelon 1 222k
-@Z0X3N 1 163k
-@Wojciecch 1 162k
-@ZboczonyStaszek 1 140k
-@Go1on 1 088k
-@JuriOwsienko69 1 018k
-@XPerLuna 938k
-@Hohla 848k
-@Bonio 844k
-@Klaudiuszs 751k
-@Slepy081 710k
-@Maendrake 571k
-@Akex 566k
-@Eillord 484k
-@Krzychu 478k
-@Vareex 478k
-@ItsBlank 441k
-@Brynol 430k
-@Mupik 391k
-@Sqbaniec 361k
-@DrPolon 357k
-@Senitovacua 333k
-@Chad187 319k
-@KapitanAfryka 256k
-@LGPH 252k
-@Kruczysko 224k
-@DRX460T 178k
-@ZaluzjaSolonez 165k
-@Masiu86 143k
-@FANeris 96k
-@Grubas 96k
-@Hyme1Jadwiga 88k
-@KCAKakaKACYK 88k
-@Krampet 81k
-@Jagerowsky 63k
-@PiroKiller 46k
-@FausT 46k
-@Senitovauca 40k
+@MESSSI 6 406k
+@Kacper17 5 620k
+@Karoll 5 582k
+@Zdredowany 3 634k
+@INKA 1 648k
+@EuroMelon 1 573k
+@Go1on 1 498k
+@ZboczonyStaszek 1 498k
+@JuicyCat 1 311k
+@Z0X3N 1 273k
+@Bonio 1 198k
+@Hohla 1 123k
+@JuriOwsienko69 1 123k
+@XPerLuna 1 011k
+@Slepy081 823k
+@Eillord 786k
+@Brynol 786k
+@Klaudiuszs 749k
+@Maendrake 711k
+@Vareex 599k
+@KapitanAfryka 599k
+@Krzychu 561k
+@Akex 524k
+@Sqbaniec 524k
+@Wojciecch 524k
+@Mupik 486k
+@Senitovacua 486k
+@Chad187 449k
+@ItsBlank 374k
+@ZaluzjaSolonez 374k
+@Masiu86 299k
+@Kruczysko 262k
+@LGPH 186k
+@PiroKiller 186k
+@FausT 186k
+@Krampet 149k
+@Jagerowsky 149k
+@FANeris 112k
+@DrPolon 112k
+@Grubas 112k
+@Hyme1Jadwiga 112k
+@KCAKakaKACYK 112k
+@Wolvrine 74k
+@Tarzaaan 74k
+@DRX460T 74k
 
 ## HO DALE
 @Zdredowany 14 554k
@@ -134,16 +134,15 @@
 @EuroMelon 2 114k
 @Slepy081 2 048k
 @Akex 2 048k
+@Senitovacua 1 884k
 @Krampet 1 884k
 @JuriOwsienko69 1 280k
 @Klaudiuszs 1 280k
-@Senitovauca 1 080k
 @ZboczonyStaszek 1 064k
 @ZaluzjaSolonez 1 050k
 @Wojciecch 1 050k
 @Hohla 946k
 @Mupik 834k
-@Senitovacua 804k
 @ItsBlank 394k
 @Krzychu 394k
 @Maendrake 164k
@@ -195,14 +194,13 @@
 @Slepy081 1 884k
 @Akex 1 884k
 @Eillord 1 884k
+@Senitovacua 1 884k
 @Krampet 1 884k
 @EuroMelon 1 766k
-@Senitovauca 1 080k
 @JuriOwsienko69 1 050k
 @Klaudiuszs 1 050k
 @ZaluzjaSolonez 1 050k
 @Wojciecch 1 050k
-@Senitovacua 804k
 @Mupik 716k
 @ZboczonyStaszek 716k
 @Hohla 716k
