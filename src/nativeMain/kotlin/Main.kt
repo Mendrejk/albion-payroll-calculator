@@ -1,6 +1,9 @@
 import okio.FileSystem
 import okio.Path.Companion.toPath
 import kotlin.experimental.ExperimentalNativeApi
+import kotlinx.datetime.Clock
+import kotlinx.datetime.TimeZone
+import kotlinx.datetime.toLocalDateTime
 
 
 data class Participant(
@@ -346,6 +349,14 @@ fun formatNumberWithSpacesAndK(number: Int): String {
     return "${formatNumberWithSpaces(number / 1000)}k"
 }
 
+fun formatCurrentDate(): String {
+    val currentDate = Clock.System.now().toLocalDateTime(TimeZone.currentSystemDefault()).date
+    val day = currentDate.dayOfMonth.toString().padStart(2, '0')
+    val month = currentDate.monthNumber.toString().padStart(2, '0')
+    val year = currentDate.year.toString()
+    return "${day}_${month}_${year}"
+}
+
 fun writePayrollOutput(payroll: Payroll) {
     val headers = mutableListOf("Nick", "Wypłata w gotówce", "Zwrot podatku", "Punkty Zwrotu Podatku")
 
@@ -357,7 +368,7 @@ fun writePayrollOutput(payroll: Payroll) {
     }.distinct().sorted()
 
     // Add headers for each location-tab pair
-    headers.addAll(allLocationTabs.map { "Wypłata w przedmiotach $it" })
+    headers.addAll(allLocationTabs.map { "LOOT $it" })
 
     // Calculate the maximum width for each column
     val columnWidths = headers.mapIndexed { index, header ->
@@ -392,7 +403,7 @@ fun writePayrollOutput(payroll: Payroll) {
         row.addAll(allLocationTabs.map { locationTab ->
             val (location, tab) = locationTab.split(" - ").map { it.trim() }
             formatNumberWithSpacesAndK(participant.itemsAfterTaxPerTabPerLocation[location]?.get(tab) ?: 0)
-                .padEnd(columnWidths[headers.indexOf("Wypłata w przedmiotach $locationTab")])
+                .padEnd(columnWidths[headers.indexOf("LOOT $locationTab")])
         })
 
         row.joinToString(" | ")
@@ -410,7 +421,7 @@ fun writePayrollOutput(payroll: Payroll) {
         rows.forEach { appendLine(it) }
     }
 
-    FileSystem.SYSTEM.write("wyjscie.txt".toPath()) {
+    FileSystem.SYSTEM.write("wyjscie_${formatCurrentDate()}.txt".toPath()) {
         writeUtf8(output)
     }
 }
@@ -448,7 +459,12 @@ fun writePayrollToMarkdown(payroll: Payroll) {
 
     val markdownContent = buildString {
         sortedLocations.forEach { location ->
-            appendLine("## ${location.uppercase()}")
+            val locationName = when (location) {
+                "W KASIE" -> "W KASIE / CASH"
+                "ZWROT PODATKU (CZAS NA ODEBRANIE DO NASTĘPNEGO ROZLICZENIA)" -> location
+                else -> "LOOT $location"
+            }
+            appendLine("## ${locationName.uppercase()}")
             locationSums[location]?.entries?.sortedByDescending { it.value }?.forEach { (participant, amount) ->
                 if (amount > 0) {
                     appendLine("@$participant ${formatNumberWithSpaces(amount / 1000)}k")
@@ -463,7 +479,7 @@ fun writePayrollToMarkdown(payroll: Payroll) {
             }
         }.groupBy { it.first to it.second }.forEach { (locationTab, participants) ->
             val (location, tab) = locationTab
-            appendLine("## ${location.uppercase()} - ${tab.uppercase()}")
+            appendLine("## LOOT ${location.uppercase()} - ${tab.uppercase()}")
             participants.groupBy { it.third.name }.mapValues { (_, groupedParticipants) ->
                 groupedParticipants.sumOf { it.third.itemsAfterTaxPerTabPerLocation[location]?.get(tab) ?: 0 }
             }.entries.sortedByDescending { it.value }.forEach { (participant, amount) ->
@@ -475,7 +491,7 @@ fun writePayrollToMarkdown(payroll: Payroll) {
         }
     }
 
-    FileSystem.SYSTEM.write("wyjscie_discord.md".toPath()) {
+    FileSystem.SYSTEM.write("wyjscie_discord_${formatCurrentDate()}.md".toPath()) {
         writeUtf8(markdownContent)
     }
 }

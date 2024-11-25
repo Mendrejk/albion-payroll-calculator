@@ -36,6 +36,7 @@ kotlin {
         nativeMain.dependencies {
             implementation(libs.kotlinxSerializationJson)
             implementation("com.squareup.okio:okio:3.9.1")
+            implementation("org.jetbrains.kotlinx:kotlinx-datetime:0.4.0")
         }
     }
 }
