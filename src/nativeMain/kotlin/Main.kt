@@ -125,7 +125,8 @@ fun parseInputFile(): Input {
             val contentHeader = contentLines.first().split(":").map { it.trim() }
             val contentId = contentHeader.getOrNull(0)?.toIntOrNull() ?: 0
             val organizer = contentHeader.getOrNull(1)?.takeIf { it.isNotEmpty() }?.let {
-                participants.getOrPut(it) { Participant(it) } // TODO: organiser can also be counted as 50%!
+                val lowercaseOrganizer = it.lowercase()
+                participants.getOrPut(lowercaseOrganizer) { Participant(lowercaseOrganizer) } // TODO: organiser can also be counted as 50%!
             }
             Pair(contentId, organizer)
         }
@@ -146,7 +147,7 @@ fun parseInputFile(): Input {
                         HaulParticipant(caller, hasFullShare)
                     }
                     val haulParticipants = haulParts.drop(6).map { participantString ->
-                        val (participantName, hasFullShare) = parseParticipant(participantString)
+                        val (participantName, hasFullShare) = parseParticipant(participantString.lowercase())
                         val participant = participants.getOrPut(participantName) { Participant(participantName) }
                         HaulParticipant(participant, hasFullShare)
                     }
@@ -161,7 +162,8 @@ fun parseInputFile(): Input {
     val recruitmentInputs = recruitmentsLines.mapNotNull { recruitmentLine ->
         recruitmentLine.split(":").map { it.trim() }.takeIf { it.size == 2 }
             ?.let { (recruiterName, recruitmentPoints) ->
-                val recruiter = participants.getOrPut(recruiterName) { Participant(recruiterName) }
+                val lowercaseRecruiterName = recruiterName.lowercase()
+                val recruiter = participants.getOrPut(lowercaseRecruiterName) { Participant(lowercaseRecruiterName) }
                 RecruitmentInput(recruiter, recruitmentPoints.toDouble())
             }
     }
