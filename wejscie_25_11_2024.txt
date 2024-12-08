@@ -1,0 +1,8 @@
+KONTENTY:
+1:
+  1: 3110000, , FORT STERLING, 2, NIE, , Kacper17, Zdredowany, Hohla, Go1on
+2:
+  1: 7820000, , BEACH, 2, NIE, , Kacper17, FausT, EuroMelon, Krampet, Sqbany1, Zdredowany, Appa
+
+REKRUTACJA:
+Maendrake: 3

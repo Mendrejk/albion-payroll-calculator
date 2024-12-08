@@ -1,0 +1,18 @@
+Podatek w przedmiotach: 1 105k
+Podatek w gotówce: 0k
+Suma wypłat w przedmiotach: 8 732k
+Suma wypłat w gotówce: 0k
+Suma zwrotów w przedmiotach: 1 093k
+Suma zwrotów w gotówce: 0k
+Nick       | Wypłata w gotówce | Zwrot podatku | Punkty Zwrotu Podatku | LOOT BEACH - 2 | LOOT FORT STERLING - 2
+---------- | ----------------- | ------------- | --------------------- | -------------- | ----------------------
+Kacper17   | 0k                | 0k            | 0.0                   | 892k           | 622k                  
+Zdredowany | 0k                | 0k            | 0.0                   | 892k           | 622k                  
+Hohla      | 0k                | 0k            | 0.0                   | 0k             | 622k                  
+Go1on      | 0k                | 0k            | 0.0                   | 0k             | 622k                  
+FausT      | 0k                | 0k            | 0.0                   | 892k           | 0k                    
+EuroMelon  | 0k                | 0k            | 0.0                   | 892k           | 0k                    
+Krampet    | 0k                | 0k            | 0.0                   | 892k           | 0k                    
+Sqbany1    | 0k                | 0k            | 0.0                   | 892k           | 0k                    
+Appa       | 0k                | 0k            | 0.0                   | 892k           | 0k                    
+Maendrake  | 0k                | 1 093k        | 3.0                   | 0k             | 0k                    

@@ -1,0 +1,52 @@
+Podatek w przedmiotach: 10 089k
+Podatek w gotówce: 2 799k
+Suma wypłat w przedmiotach: 80 226k
+Suma wypłat w gotówce: 21 794k
+Suma zwrotów w przedmiotach: 10 014k
+Suma zwrotów w gotówce: 2 710k
+Nick           | Wypłata w gotówce | Zwrot podatku | Punkty Zwrotu Podatku | LOOT BEACH - 1 | LOOT BEACH - 2 | LOOT BEACH - 3 (DALE) | LOOT CTA - 0
+-------------- | ----------------- | ------------- | --------------------- | -------------- | -------------- | --------------------- | ------------
+Kacper17       | 974k              | 1 340k        | 2.8                   | 3 140k         | 1 730k         | 1 250k                | 0k          
+Vareex         | 2 274k            | 573k          | 1.2000000000000002    | 3 140k         | 2 592k         | 1 250k                | 0k          
+FANeris        | 144k              | 142k          | 0.30000000000000004   | 478k           | 1 730k         | 1 250k                | 0k          
+FeniX2137      | 144k              | 23k           | 0.05                  | 478k           | 0k             | 0k                    | 0k          
+Bonio          | 1 556k            | 430k          | 0.9                   | 1 292k         | 2 592k         | 1 250k                | 0k          
+Wojciecch      | 256k              | 502k          | 1.05                  | 1 292k         | 0k             | 0k                    | 0k          
+MESSSI         | 2 252k            | 2 321k        | 4.85                  | 3 058k         | 2 592k         | 0k                    | 0k          
+Stormcaster    | 22k               | 95k           | 0.2                   | 82k            | 0k             | 0k                    | 0k          
+KapitanAfryka  | 1 322k            | 142k          | 0.30000000000000004   | 82k            | 3 860k         | 0k                    | 0k          
+Krzychu        | 2 130k            | 407k          | 0.8500000000000001    | 2 662k         | 2 592k         | 0k                    | 0k          
+Z0X3N          | 808k              | 454k          | 0.9500000000000001    | 2 580k         | 1 730k         | 0k                    | 0k          
+Vanify         | 2 108k            | 166k          | 0.35                  | 2 580k         | 2 592k         | 0k                    | 0k          
+AndradiLux     | 808k              | 119k          | 0.25                  | 2 580k         | 0k             | 0k                    | 0k          
+Chad187        | 808k              | 119k          | 0.25                  | 2 580k         | 0k             | 0k                    | 0k          
+ItsBlank       | 2 018k            | 95k           | 0.2                   | 1 848k         | 2 592k         | 0k                    | 0k          
+BigDamage      | 90k               | 71k           | 0.15000000000000002   | 732k           | 0k             | 1 250k                | 0k          
+TBlazee        | 1 390k            | 119k          | 0.25                  | 732k           | 2 592k         | 0k                    | 0k          
+MercyTheAngel  | 90k               | 71k           | 0.15000000000000002   | 732k           | 0k             | 0k                    | 0k          
+Krampet        | 0k                | 119k          | 0.25                  | 0k             | 1 730k         | 720k                  | 0k          
+Ertecse        | 0k                | 142k          | 0.30000000000000004   | 0k             | 1 730k         | 0k                    | 0k          
+Maendrake      | 1 300k            | 190k          | 0.4                   | 0k             | 2 592k         | 0k                    | 0k          
+Schisym        | 1 300k            | 47k           | 0.1                   | 0k             | 2 592k         | 0k                    | 0k          
+Zdredowany     | 0k                | 1 628k        | 3.4                   | 0k             | 0k             | 1 250k                | 0k          
+Go1on          | 0k                | 382k          | 0.8                   | 0k             | 0k             | 1 250k                | 0k          
+Karoll         | 0k                | 263k          | 0.55                  | 0k             | 0k             | 720k                  | 0k          
+Pablo676       | 0k                | 0k            | 0.0                   | 0k             | 0k             | 720k                  | 0k          
+Iguro          | 0k                | 0k            | 0.0                   | 0k             | 0k             | 720k                  | 0k          
+LGPH           | 0k                | 0k            | 0.0                   | 0k             | 0k             | 720k                  | 0k          
+Enmu           | 0k                | 0k            | 0.0                   | 0k             | 0k             | 1 250k                | 0k          
+Technocon      | 0k                | 0k            | 0.0                   | 0k             | 0k             | 720k                  | 0k          
+EuroMelon      | 0k                | 286k          | 0.6000000000000001    | 0k             | 0k             | 0k                    | 0k          
+JuriOwsienko69 | 0k                | 190k          | 0.4                   | 0k             | 0k             | 0k                    | 0k          
+Hohla          | 0k                | 71k           | 0.15000000000000002   | 0k             | 0k             | 0k                    | 0k          
+Inka           | 0k                | 861k          | 1.8                   | 0k             | 0k             | 0k                    | 0k          
+Brynol         | 0k                | 71k           | 0.15000000000000002   | 0k             | 0k             | 0k                    | 0k          
+JuicyCat       | 0k                | 71k           | 0.15000000000000002   | 0k             | 0k             | 0k                    | 0k          
+Slepy081       | 0k                | 71k           | 0.15000000000000002   | 0k             | 0k             | 0k                    | 0k          
+Mupik          | 0k                | 71k           | 0.15000000000000002   | 0k             | 0k             | 0k                    | 0k          
+Vircynger      | 0k                | 71k           | 0.15000000000000002   | 0k             | 0k             | 0k                    | 0k          
+DrTurtle       | 0k                | 71k           | 0.15000000000000002   | 0k             | 0k             | 0k                    | 0k          
+GapiK          | 0k                | 71k           | 0.15000000000000002   | 0k             | 0k             | 0k                    | 0k          
+KCAKakaKACYK   | 0k                | 71k           | 0.15000000000000002   | 0k             | 0k             | 0k                    | 0k          
+Klaudiuszs     | 0k                | 71k           | 0.15000000000000002   | 0k             | 0k             | 0k                    | 0k          
+ZaluzjaSolonez | 0k                | 717k          | 1.5                   | 0k             | 0k             | 0k                    | 0k          

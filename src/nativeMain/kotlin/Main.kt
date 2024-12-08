@@ -205,7 +205,7 @@ fun calculateItemsAndCash(contentInputs: List<ContentInput>): List<Content> {
             val allParticipantsCount = (listOfNotNull(organizer) + hauls.flatMap { haul ->
                 listOfNotNull(haul.caller?.participant) + haul.participants.map { it.participant }
             }).distinctBy { it.name }.count()
-            val returnMultiplier = determineReturnMultiplier(allParticipantsCount)
+            val returnMultiplier = if (organizer != null) determineReturnMultiplier(allParticipantsCount) else 0.0
             val participantReturnPerHaul = PARTICIPANT_RETURN_BASE * returnMultiplier / hauls.size.toDouble()
             val organizerCallerReturnPerHaul = ORGANISER_CALLER_RETURN_BASE * returnMultiplier / hauls.size.toDouble()
 

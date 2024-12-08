@@ -1,0 +1,34 @@
+KONTENTY:
+1: Kacper17
+  1: 4190000, 1274000, BEACH, 1, TAK, Kacper17, Vareex, FANeris, FeniX2137, Bonio, Wojciecch, MESSSI
+  2: 730000, 200000, BEACH, 1, TAK, Kacper17, Bonio, Stormcaster, KapitanAfryka, Krzychu, Wojciecch, Vareex
+2: MESSSI
+  1: 20810000, 8090000, BEACH, 1, TAK, MESSSI, Kacper17, Vareex, Z0X3N, Krzychu, Vanify, AndradiLux, Chad187, ItsBlank
+3: MESSSI
+  1: 11900000, 1490000, BEACH, 1, TAK, MESSSI, Kacper17, Vareex, Z0X3N, Krzychu, Bonio, BigDamage, TBlazee, Wojciecch, Vanify, AndradiLux, Chad187, MercyTheAngel
+4:
+  1: 9510000, , BEACH, 2, NIE, , Kacper17, Krampet, FANeris, KapitanAfryka, Z0X3N, Ertecse
+  2: 2890000, , BEACH, 2, NIE, , Kacper17, Krampet, Z0X3N, Ertecse, FANeris
+5: MESSSI
+  1: 32400000, 16250000, BEACH, 2, TAK, MESSSI, Vareex, Bonio, Maendrake, Krzychu, Vanify, KapitanAfryka, TBlazee, ItsBlank, Schisym
+6:
+  1: 12600000, , BEACH, 3 (DALE), NIE, , Kacper17, Bonio, Zdredowany, Go1on, Vareex, Krampet, FANeris, Karoll, BigDamage, Pablo676, Iguro, LGPH, Enmu, Technocon
+  2: 5300000, , BEACH, 3 (DALE), NIE, , Kacper17, Bonio, Zdredowany, Go1on, Vareex, FANeris, BigDamage, Enmu
+7: Kacper17
+  1: 0, 0, CTA, 0, TAK, , MESSSI, Krampet, Ertecse, Zdredowany, Karoll, Vareex, Go1on, EuroMelon, Krzychu, Z0X3N, FANeris, Wojciecch
+8: Zdredowany
+  1: 0, 0, CTA, 0, TAK, , Kacper17, MESSSI, Go1on, JuriOwsienko69, Z0X3N, Wojciecch
+9: Zdredowany
+  1: 0, 0, CTA, 0, TAK, , Karoll, Kacper17, Hohla, Go1on, Inka, EuroMelon, JuriOwsienko69, Wojciecch, Bonio, Brynol, Z0X3N, Stormcaster, JuicyCat, Vareex
+10: Zdredowany
+  1: 0, 0, CTA, 0, TAK, , Go1on, JuriOwsienko69, Karoll, Z0X3N, Slepy081, MESSSI, Kacper17, Vareex, Mupik, EuroMelon
+11: Zdredowany
+  1: 0, 0, CTA, 0, TAK, , Maendrake, EuroMelon, Krzychu, KapitanAfryka, Vareex, MESSSI, Kacper17, Go1on, Wojciecch, Bonio
+12: Zdredowany
+  1: 0, 0, CTA, 0, TAK, , Kacper17, Karoll, Go1on, Krampet, Bonio, FANeris, Wojciecch
+13: MESSSI
+  1: 0, 0, CTA, 0, TAK, , Z0X3N, Krzychu, Inka, Wojciecch, Bonio, Maendrake, Vareex, Vircynger, Kacper17, DrTurtle, Ertecse, GapiK, KCAKakaKACYK, Klaudiuszs
+
+REKRUTACJA:
+ZaluzjaSolonez: 1.5
+Inka: 1.5
