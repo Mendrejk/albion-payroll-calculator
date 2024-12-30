@@ -1,0 +1,37 @@
+Podatek w przedmiotach: 2 235k
+Podatek w gotówce: 742k
+Suma wypłat w przedmiotach: 17 760k
+Suma wypłat w gotówce: 5 736k
+Suma zwrotów w przedmiotach: 2 204k
+Suma zwrotów w gotówce: 701k
+Nick            | Wypłata w gotówce | Zwrot podatku | Punkty Zwrotu Podatku | LOOT CTA - 0 | LOOT HO Beach - 1
+--------------- | ----------------- | ------------- | --------------------- | ------------ | -----------------
+bonio           | 478k              | 205k          | 0.95                  | 0k           | 1 480k           
+messsi          | 478k              | 161k          | 0.75                  | 0k           | 1 480k           
+zdredowany      | 478k              | 733k          | 3.4                   | 0k           | 1 480k           
+karoll          | 478k              | 128k          | 0.6                   | 0k           | 1 480k           
+go1on           | 478k              | 96k           | 0.45000000000000007   | 0k           | 1 480k           
+gapik           | 478k              | 107k          | 0.5                   | 0k           | 1 480k           
+kosa19          | 478k              | 31k           | 0.15000000000000002   | 0k           | 1 480k           
+vanify          | 478k              | 31k           | 0.15000000000000002   | 0k           | 1 480k           
+itsblank        | 478k              | 31k           | 0.15000000000000002   | 0k           | 1 480k           
+vareex          | 478k              | 150k          | 0.7000000000000001    | 0k           | 1 480k           
+stormcaster     | 478k              | 63k           | 0.30000000000000004   | 0k           | 1 480k           
+wojciecch       | 478k              | 31k           | 0.15000000000000002   | 0k           | 1 480k           
+inka            | 0k                | 431k          | 2.0                   | 0k           | 0k               
+krampet         | 0k                | 75k           | 0.35                  | 0k           | 0k               
+maendrake       | 0k                | 53k           | 0.25                  | 0k           | 0k               
+faust           | 0k                | 53k           | 0.25                  | 0k           | 0k               
+kacper17        | 0k                | 118k          | 0.55                  | 0k           | 0k               
+logray          | 0k                | 21k           | 0.1                   | 0k           | 0k               
+ertecse         | 0k                | 21k           | 0.1                   | 0k           | 0k               
+vircynger       | 0k                | 53k           | 0.25                  | 0k           | 0k               
+eillord         | 0k                | 53k           | 0.25                  | 0k           | 0k               
+kapitanafryka   | 0k                | 31k           | 0.15000000000000002   | 0k           | 0k               
+masiu86         | 0k                | 31k           | 0.15000000000000002   | 0k           | 0k               
+klaudiuszs      | 0k                | 31k           | 0.15000000000000002   | 0k           | 0k               
+zboczonystaszek | 0k                | 31k           | 0.15000000000000002   | 0k           | 0k               
+euromelon       | 0k                | 63k           | 0.30000000000000004   | 0k           | 0k               
+voxer01         | 0k                | 31k           | 0.15000000000000002   | 0k           | 0k               
+faneris         | 0k                | 21k           | 0.1                   | 0k           | 0k               
+pirokiller      | 0k                | 21k           | 0.1                   | 0k           | 0k               

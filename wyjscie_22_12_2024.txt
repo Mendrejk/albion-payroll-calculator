@@ -1,0 +1,27 @@
+Podatek w przedmiotach: 5 641k
+Podatek w gotówce: 2 448k
+Suma wypłat w przedmiotach: 44 944k
+Suma wypłat w gotówce: 19 364k
+Suma zwrotów w przedmiotach: 5 614k
+Suma zwrotów w gotówce: 2 413k
+Nick            | Wypłata w gotówce | Zwrot podatku | Punkty Zwrotu Podatku | LOOT CTA - 0 | LOOT HO BEACH - 1 | LOOT HO BEACH - 2
+--------------- | ----------------- | ------------- | --------------------- | ------------ | ----------------- | -----------------
+kacper17        | 3 266k            | 3 794k        | 2.1000000000000005    | 0k           | 6 236k            | 1 328k           
+wojciecch       | 308k              | 90k           | 0.05                  | 0k           | 712k              | 0k               
+quesek          | 308k              | 90k           | 0.05                  | 0k           | 712k              | 0k               
+kosa19          | 308k              | 90k           | 0.05                  | 0k           | 712k              | 0k               
+go1on           | 2 630k            | 360k          | 0.2                   | 0k           | 5 524k            | 0k               
+karoll          | 2 958k            | 300k          | 0.16666666666666666   | 0k           | 5 524k            | 784k             
+cosmicqt        | 1 315k            | 180k          | 0.1                   | 0k           | 2 762k            | 0k               
+stormcaster     | 1 643k            | 360k          | 0.19999999999999998   | 0k           | 2 762k            | 1 328k           
+vanify          | 2 630k            | 180k          | 0.1                   | 0k           | 5 524k            | 0k               
+z0x3n           | 2 630k            | 360k          | 0.2                   | 0k           | 5 524k            | 0k               
+zboczonystaszek | 328k              | 360k          | 0.2                   | 0k           | 0k                | 1 328k           
+coldbeach997    | 328k              | 180k          | 0.1                   | 0k           | 0k                | 1 328k           
+demon24         | 56k               | 60k           | 0.03333333333333333   | 0k           | 0k                | 200k             
+eillord         | 328k              | 120k          | 0.06666666666666667   | 0k           | 0k                | 784k             
+inka            | 328k              | 120k          | 0.06666666666666667   | 0k           | 0k                | 784k             
+gapik           | 0k                | 240k          | 0.13333333333333333   | 0k           | 0k                | 544k             
+juicycat        | 0k                | 60k           | 0.03333333333333333   | 0k           | 0k                | 544k             
+gildia          | 0k                | 903k          | 0.5                   | 0k           | 0k                | 0k               
+maendrake       | 0k                | 180k          | 0.1                   | 0k           | 0k                | 0k               

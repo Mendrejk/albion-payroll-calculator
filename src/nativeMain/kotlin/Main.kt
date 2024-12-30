@@ -140,9 +140,9 @@ fun parseInputFile(): Input {
                     val cashBeforeTax = haulParts[1].toIntOrNull() ?: 0
                     val location = haulParts[2]
                     val tab = haulParts[3]
-                    val hadOrganizer = haulParts[4] == "TAK"
+                    val hadOrganizer = haulParts[4].lowercase() == "tak"
                     val caller = haulParts[5].takeIf { it.isNotEmpty() }?.let {
-                        val (callerName, hasFullShare) = parseParticipant(it)
+                        val (callerName, hasFullShare) = parseParticipant(it.lowercase())
                         val caller = participants.getOrPut(callerName) { Participant(callerName) }
                         HaulParticipant(caller, hasFullShare)
                     }

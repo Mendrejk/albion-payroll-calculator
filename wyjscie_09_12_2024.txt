@@ -1,0 +1,53 @@
+Podatek w przedmiotach: 29 393k
+Podatek w gotówce: 4 572k
+Suma wypłat w przedmiotach: 233 788k
+Suma wypłat w gotówce: 35 582k
+Suma zwrotów w przedmiotach: 29 218k
+Suma zwrotów w gotówce: 4 438k
+Nick            | Wypłata w gotówce | Zwrot podatku | Punkty Zwrotu Podatku | LOOT BEACH - 1 | LOOT BEACH - 2 | LOOT BEACH - 3 | LOOT BEACH - Loot z Dale 2 | LOOT CTA - 0 | LOOT FORT - 2
+--------------- | ----------------- | ------------- | --------------------- | -------------- | -------------- | -------------- | -------------------------- | ------------ | -------------
+zdredowany      | 2 972k            | 5 271k        | 5.1000000000000005    | 5 404k         | 2 268k         | 6 102k         | 1 102k                     | 0k           | 4 890k       
+kapitanafryka   | 1 000k            | 568k          | 0.55                  | 940k           | 1 820k         | 0k             | 0k                         | 0k           | 0k           
+z0x3n           | 1 854k            | 1 032k        | 1.0                   | 4 464k         | 3 508k         | 0k             | 1 880k                     | 0k           | 1 306k       
+karoll          | 1 628k            | 1 240k        | 1.2000000000000002    | 940k           | 3 508k         | 0k             | 492k                       | 0k           | 0k           
+inka            | 434k              | 1 808k        | 1.75                  | 4 464k         | 580k           | 1 706k         | 0k                         | 0k           | 0k           
+go1on           | 2 524k            | 1 136k        | 1.1                   | 4 464k         | 2 992k         | 3 304k         | 1 940k                     | 0k           | 2 826k       
+krzychu         | 1 322k            | 774k          | 0.75                  | 4 464k         | 2 336k         | 1 092k         | 0k                         | 0k           | 0k           
+naxx07          | 0k                | 258k          | 0.25                  | 0k             | 0k             | 0k             | 0k                         | 0k           | 0k           
+drturtle        | 0k                | 102k          | 0.1                   | 0k             | 0k             | 0k             | 0k                         | 0k           | 0k           
+klaudiuszs      | 1 266k            | 878k          | 0.85                  | 4 464k         | 1 820k         | 1 092k         | 492k                       | 0k           | 1 306k       
+messsi          | 2 790k            | 5 167k        | 5.0                   | 4 464k         | 3 508k         | 1 092k         | 1 102k                     | 0k           | 2 064k       
+masiu86         | 0k                | 258k          | 0.25                  | 0k             | 0k             | 0k             | 0k                         | 0k           | 0k           
+krampet         | 0k                | 1 291k        | 1.25                  | 3 024k         | 580k           | 5 010k         | 2 168k                     | 0k           | 0k           
+vareex          | 362k              | 1 032k        | 1.0                   | 940k           | 0k             | 3 304k         | 2 254k                     | 0k           | 0k           
+voxer01         | 3 514k            | 878k          | 0.8500000000000001    | 5 404k         | 2 992k         | 0k             | 372k                       | 0k           | 3 584k       
+stormcaster     | 434k              | 258k          | 0.25                  | 4 464k         | 0k             | 0k             | 0k                         | 0k           | 1 306k       
+euromelon       | 114k              | 360k          | 0.35                  | 0k             | 580k           | 5 010k         | 610k                       | 0k           | 0k           
+faneris         | 1 314k            | 516k          | 0.5000000000000001    | 0k             | 1 752k         | 5 010k         | 2 168k                     | 0k           | 2 064k       
+kruczysko       | 0k                | 102k          | 0.1                   | 0k             | 580k           | 1 706k         | 0k                         | 0k           | 0k           
+kacper17        | 3 460k            | 2 945k        | 2.8499999999999996    | 4 464k         | 2 992k         | 4 396k         | 2 490k                     | 0k           | 3 584k       
+maendrake       | 0k                | 102k          | 0.1                   | 0k             | 0k             | 0k             | 0k                         | 0k           | 0k           
+bonio           | 2 846k            | 2 738k        | 2.65                  | 5 404k         | 2 992k         | 0k             | 1 102k                     | 0k           | 2 826k       
+glueckskeks     | 114k              | 154k          | 0.15000000000000002   | 0k             | 0k             | 0k             | 610k                       | 0k           | 0k           
+cosmicqt        | 370k              | 464k          | 0.45000000000000007   | 940k           | 258k           | 0k             | 610k                       | 0k           | 0k           
+mercytheangel   | 114k              | 154k          | 0.15000000000000002   | 0k             | 0k             | 0k             | 610k                       | 0k           | 0k           
+braunerkeks     | 114k              | 154k          | 0.15000000000000002   | 0k             | 0k             | 0k             | 610k                       | 0k           | 0k           
+heisseraffe     | 114k              | 154k          | 0.15000000000000002   | 0k             | 0k             | 0k             | 610k                       | 0k           | 0k           
+xperluna        | 1 968k            | 774k          | 0.7500000000000001    | 4 464k         | 3 508k         | 0k             | 1 102k                     | 0k           | 0k           
+vanify          | 796k              | 464k          | 0.45000000000000007   | 5 404k         | 0k             | 0k             | 1 102k                     | 0k           | 0k           
+bigdamage       | 756k              | 310k          | 0.30000000000000004   | 5 404k         | 580k           | 0k             | 610k                       | 0k           | 0k           
+demon24         | 96k               | 258k          | 0.25                  | 0k             | 516k           | 4 396k         | 2 168k                     | 0k           | 0k           
+ertecse         | 0k                | 0k            | 0.0                   | 0k             | 0k             | 0k             | 296k                       | 0k           | 0k           
+kcakakakacyk    | 0k                | 102k          | 0.1                   | 0k             | 0k             | 3 304k         | 0k                         | 0k           | 0k           
+sqbany          | 0k                | 102k          | 0.1                   | 0k             | 0k             | 3 304k         | 0k                         | 0k           | 0k           
+wojciecch       | 136k              | 310k          | 0.30000000000000004   | 0k             | 516k           | 0k             | 492k                       | 0k           | 0k           
+zboczonystaszek | 96k               | 154k          | 0.15000000000000002   | 0k             | 516k           | 0k             | 0k                         | 0k           | 0k           
+chad187         | 888k              | 310k          | 0.30000000000000004   | 0k             | 2 336k         | 0k             | 0k                         | 0k           | 0k           
+rederv          | 0k                | 0k            | 0.0                   | 0k             | 580k           | 0k             | 0k                         | 0k           | 0k           
+eillord         | 492k              | 154k          | 0.15000000000000002   | 0k             | 1 172k         | 0k             | 0k                         | 0k           | 0k           
+jennyeu         | 492k              | 154k          | 0.15000000000000002   | 0k             | 1 172k         | 0k             | 0k                         | 0k           | 0k           
+tblazee         | 642k              | 154k          | 0.15000000000000002   | 5 404k         | 0k             | 0k             | 0k                         | 0k           | 0k           
+iguro           | 208k              | 154k          | 0.15000000000000002   | 3 964k         | 0k             | 0k             | 0k                         | 0k           | 0k           
+itsblank        | 208k              | 154k          | 0.15000000000000002   | 940k           | 0k             | 0k             | 0k                         | 0k           | 0k           
+kosa19          | 104k              | 154k          | 0.15000000000000002   | 470k           | 0k             | 0k             | 0k                         | 0k           | 0k           
+zaluzjasolonez  | 40k               | 154k          | 0.15000000000000002   | 0k             | 0k             | 0k             | 492k                       | 0k           | 0k           

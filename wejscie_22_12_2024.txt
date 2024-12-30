@@ -1,0 +1,20 @@
+KONTENTY:
+1: Bonio
+  1: 22200000, 7180000, HO Beach, 1, TAK, MESSSI, Zdredowany, Karoll, Go1on, Gapik, Kosa19, Vanify, ItsBlank, Vareex, Stormcaster, Wojciecch
+2: Zdredowany
+  1: 0, 0, CTA, 0, TAK, , Karoll, Inka, Krampet, Bonio, Maendrake, FausT, Kacper17, Logray
+3: Zdredowany
+  1: 0, 0, CTA, 0, TAK, , Vareex, Kacper17
+4: Zdredowany
+  1: 0, 0, CTA, 0, TAK, , Ertecse, Karoll, Bonio, Vareex, Vircynger, Kacper17, GapiK, eillord
+5: Zdredowany
+  1: 0, 0, CTA, 0, TAK, , KapitanAfryka, masiu86, inka, go1on, klaudiuszs, maendrake, zboczonystaszek, vareex, vircynger, kacper17, euromelon, voxer01, faust
+6: Zdredowany
+  1: 0, 0, CTA, 0, TAK, , Karoll, stormcaster, inka, go1on, vareex, kacper17, eillord, krampet, gapik, euromelon
+7: Zdredowany
+  1: 0, 0, CTA, 0, TAK, , Karoll, Inka, faneris, vareex, krampet, pirokiller, gapik
+8: zdredowany
+  1: 0, 0, CTA, 0, TAK,
+
+REKRUTACJA:
+Inka: 1.5

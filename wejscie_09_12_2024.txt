@@ -1,0 +1,13 @@
+KONTENTY:
+1: Kacper17
+  1: 3560000, 1542000, HO BEACH, 1, TAK, Kacper17, Wojciecch, Quesek, KOSA19
+2: Kacper17
+  1: 41440000, 19730000, HO BEACH, 1, TAK, , Go1on, Karoll, Cosmicqt (50%), Stormcaster (50%), Vanify, Z0X3N
+3: Kacper17
+  1: 2000000, 564000, HO BEACH, 2, TAK, Kacper17, Karoll, ZboczonyStaszek, ColdBeach997, demon24, Eillord, Stormcaster, Inka
+  2: 5120000, 2390000, HO BEACH, 2, TAK, Kacper17, Karoll, ZboczonyStaszek, ColdBeach997, Eillord, Stormcaster, Inka
+  3: 4080000, 0, HO BEACH, 2, TAK, Kacper17, ZboczonyStaszek, ColdBeach997, Stormcaster, GapiK, JuicyCat
+4: Gildia
+  1: 0, 0, CTA, 0, TAK, , Z0X3N, Maendrake, ZboczonyStaszek, Kacper17, Go1on, GapiK
+
+REKRUTACJA:
