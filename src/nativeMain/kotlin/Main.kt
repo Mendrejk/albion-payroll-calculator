@@ -31,12 +31,16 @@ data class ContentInput(
     val id: Int, val organizer: Participant?, val haulInputs: List<HaulInput>
 )
 
+data class CtaInput(
+    val id: Int, val caller: Participant, val participants: List<Participant>
+)
+
 data class RecruitmentInput(val recruiter: Participant, val points: Double)
 
 typealias Participants = MutableMap<String, Participant>
 
 data class Input(
-    val contents: List<ContentInput>, val recruitments: List<RecruitmentInput>, val participants: Participants
+    val contents: List<ContentInput>, val ctas: List<CtaInput>, val recruitments: List<RecruitmentInput>, val participants: Participants
 )
 
 data class Haul(
@@ -98,8 +102,8 @@ fun parseInputFile(): Input {
         }
     }
 
-    val (contentsLines, recruitmentsLines) = lines.fold(mutableListOf<MutableList<String>>()) { acc, line ->
-        if (line.startsWith("KONTENTY:") || line.startsWith("REKRUTACJA:")) {
+    val (contentsLines, ctaLines, recruitmentsLines) = lines.fold(mutableListOf<MutableList<String>>()) { acc, line ->
+        if (line.startsWith("KONTENTY:") || line.startsWith("CTA:") || line.startsWith("REKRUTACJA:")) {
             acc.add(mutableListOf())
         } else {
             acc.lastOrNull()?.add(line)
@@ -159,6 +163,19 @@ fun parseInputFile(): Input {
         ContentInput(contentId, organizer, haulInputs)
     }
 
+    val ctaInputs = ctaLines.mapNotNull { ctaLine ->
+        ctaLine.split(":").map { it.trim() }.takeIf { it.size == 2 }?.let { (ctaId, ctaData) ->
+            ctaData.split("-").map { it.trim() }.takeIf { it.size == 2 }?.let { (callerName, ctaParticipantsData) ->
+                val caller = participants.getOrPut(callerName.lowercase()) { Participant(callerName.lowercase()) }
+                val ctaParticipants =
+                    ctaParticipantsData.split(",").map { it.trim().lowercase() }.map { ctaParticipantName ->
+                        participants.getOrPut(ctaParticipantName) { Participant(ctaParticipantName) }
+                    }
+                CtaInput(ctaId.toIntOrNull() ?: 0 , caller, ctaParticipants)
+            }
+        }
+    }
+
     val recruitmentInputs = recruitmentsLines.mapNotNull { recruitmentLine ->
         recruitmentLine.split(":").map { it.trim() }.takeIf { it.size == 2 }
             ?.let { (recruiterName, recruitmentPoints) ->
@@ -168,7 +185,7 @@ fun parseInputFile(): Input {
             }
     }
 
-    return Input(contentInputs, recruitmentInputs, participants)
+    return Input(contentInputs, ctaInputs, recruitmentInputs, participants)
 }
 
 fun determineReturnMultiplier(howManyParticipants: Int): Double {
@@ -280,7 +297,8 @@ fun calculateItemsAndCash(contentInputs: List<ContentInput>): List<Content> {
                 assert(cashLeftToDistribute == cashRemainder)
             }
 
-            Content(id,
+            Content(
+                id,
                 itemsTaxTotal = hauls.sumOf { it.itemsTax },
                 cashTaxTotal = hauls.sumOf { it.cashTax },
                 returnsFromItemsTotal = hauls.sumOf { it.returnsFromItems },
@@ -290,6 +308,20 @@ fun calculateItemsAndCash(contentInputs: List<ContentInput>): List<Content> {
         }
 
         content
+    }
+}
+
+fun calculateCtas(ctaInputs: List<CtaInput>) {
+    ctaInputs.forEach { ctaInput ->
+        val allParticipantsCount = ctaInput.participants.size + 1 // 1 for the caller
+        val returnMultiplier = determineReturnMultiplier(allParticipantsCount) * 2 // times 2 because it's a CTA
+        val participantReturn = PARTICIPANT_RETURN_BASE * returnMultiplier
+        val callerReturn = ORGANISER_CALLER_RETURN_BASE * returnMultiplier
+
+        ctaInput.caller.returnPoints += callerReturn
+        ctaInput.participants.forEach { participant ->
+            participant.returnPoints += participantReturn
+        }
     }
 }
 
@@ -324,9 +356,10 @@ fun distributeReturns(
 }
 
 fun calculatePayroll(): Payroll {
-    val (contentInputs, recruitmentInputs, participants) = parseInputFile()
+    val (contentInputs, ctaInputs, recruitmentInputs, participants) = parseInputFile()
 
     val contents = calculateItemsAndCash(contentInputs)
+    calculateCtas(ctaInputs)
 
     val recruitmentReturnPoints = recruitmentInputs.sumOf { recruitmentInput ->
         val recruitmentPoints = recruitmentInput.points.toDouble()
@@ -382,7 +415,9 @@ fun writePayrollOutput(payroll: Payroll) {
                 3 -> participant.returnPoints.toString().length
                 else -> {
                     val (location, tab) = allLocationTabs[index - 4].split(" - ")
-                    formatNumberWithSpacesAndK(participant.itemsAfterTaxPerTabPerLocation[location]?.get(tab) ?: 0).length
+                    formatNumberWithSpacesAndK(
+                        participant.itemsAfterTaxPerTabPerLocation[location]?.get(tab) ?: 0
+                    ).length
                 }
             }
         })
