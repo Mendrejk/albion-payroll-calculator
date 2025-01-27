@@ -1,0 +1,40 @@
+Podatek w przedmiotach: 4 236k
+Podatek w gotówce: 1 815k
+Suma wypłat w przedmiotach: 33 670k
+Suma wypłat w gotówce: 13 892k
+Suma zwrotów w przedmiotach: 4 193k
+Suma zwrotów w gotówce: 1 724k
+Nick            | Wypłata w gotówce | Zwrot podatku | Punkty Zwrotu Podatku | LOOT BEACH - 1
+--------------- | ----------------- | ------------- | --------------------- | --------------
+karoll          | 2 732k            | 722k          | 9.850000000000001     | 6 586k        
+lissovsky       | 1 734k            | 172k          | 2.3666666666666667    | 3 534k        
+kacper17        | 1 190k            | 975k          | 13.299999999999999    | 2 334k        
+go1on           | 1 322k            | 322k          | 4.4                   | 2 884k        
+oliwier45       | 778k              | 10k           | 0.15000000000000002   | 1 744k        
+ertecse         | 1 476k            | 123k          | 1.6833333333333331    | 3 502k        
+wojciecch       | 1 316k            | 179k          | 2.4499999999999997    | 2 934k        
+kcakakakacyk    | 418k              | 35k           | 0.5                   | 1 012k        
+gapik           | 316k              | 224k          | 3.066666666666667     | 1 124k        
+smazonyorzech   | 998k              | 253k          | 3.4499999999999997    | 3 112k        
+eillord         | 328k              | 117k          | 1.6                   | 1 080k        
+inka            | 336k              | 451k          | 6.15                  | 720k          
+fbzb            | 508k              | 190k          | 2.6                   | 1 312k        
+klaudiuszs      | 172k              | 244k          | 3.35                  | 592k          
+szibav2sigma    | 172k              | 193k          | 2.65                  | 592k          
+drx460t         | 48k               | 76k           | 1.05                  | 304k          
+beslarin        | 48k               | 113k          | 1.55                  | 304k          
+faust           | 0k                | 43k           | 0.6000000000000001    | 0k            
+sheyter         | 0k                | 182k          | 2.4999999999999996    | 0k            
+maendrake       | 0k                | 182k          | 2.5                   | 0k            
+superkrzeslo    | 0k                | 43k           | 0.6000000000000001    | 0k            
+tomko           | 0k                | 226k          | 3.1                   | 0k            
+gierszak        | 0k                | 80k           | 1.1                   | 0k            
+zboczonystaszek | 0k                | 102k          | 1.4                   | 0k            
+jolko232        | 0k                | 87k           | 1.2000000000000002    | 0k            
+paueu           | 0k                | 102k          | 1.4                   | 0k            
+filx            | 0k                | 58k           | 0.8                   | 0k            
+zaluzjasolonez  | 0k                | 315k          | 4.300000000000001     | 0k            
+panfaust        | 0k                | 14k           | 0.2                   | 0k            
+drpolon         | 0k                | 28k           | 0.4                   | 0k            
+masiu86         | 0k                | 28k           | 0.4                   | 0k            
+appa            | 0k                | 28k           | 0.4                   | 0k            

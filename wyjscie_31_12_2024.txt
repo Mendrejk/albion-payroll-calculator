@@ -1,0 +1,27 @@
+Podatek w przedmiotach: 4 478k
+Podatek w gotówce: 843k
+Suma wypłat w przedmiotach: 35 493k
+Suma wypłat w gotówce: 6 591k
+Suma zwrotów w przedmiotach: 4 428k
+Suma zwrotów w gotówce: 815k
+Nick           | Wypłata w gotówce | Zwrot podatku | Punkty Zwrotu Podatku | LOOT BEACH - 1 | LOOT BEACH - 2 | LOOT CTA - 0
+-------------- | ----------------- | ------------- | --------------------- | -------------- | -------------- | ------------
+kacper17       | 702k              | 1 861k        | 3.75                  | 1 240k         | 3 000k         | 0k          
+ertecse        | 702k              | 297k          | 0.6000000000000001    | 1 240k         | 3 000k         | 0k          
+gapik          | 182k              | 223k          | 0.45000000000000007   | 1 240k         | 518k           | 0k          
+go1on          | 520k              | 148k          | 0.30000000000000004   | 1 240k         | 2 098k         | 0k          
+inka           | 702k              | 297k          | 0.6000000000000001    | 1 240k         | 2 616k         | 0k          
+karoll         | 884k              | 670k          | 1.35                  | 1 240k         | 3 518k         | 0k          
+maendrake      | 702k              | 297k          | 0.6000000000000001    | 1 240k         | 3 000k         | 0k          
+zaluzjasolonez | 0k                | 173k          | 0.3500000000000001    | 278k           | 155k           | 0k          
+smazonyorzech  | 351k              | 223k          | 0.45000000000000007   | 0k             | 1 692k         | 0k          
+kcakakakacyk   | 0k                | 48k           | 0.10000000000000002   | 0k             | 898k           | 0k          
+grubas5999     | 0k                | 23k           | 0.05000000000000001   | 0k             | 310k           | 0k          
+grabukk        | 351k              | 272k          | 0.55                  | 0k             | 1 153k         | 0k          
+bobrvs         | 351k              | 198k          | 0.4000000000000001    | 0k             | 1 153k         | 0k          
+juicycat       | 520k              | 48k           | 0.10000000000000002   | 0k             | 1 788k         | 0k          
+stormcaster    | 442k              | 173k          | 0.3500000000000001    | 0k             | 1 118k         | 0k          
+superkrzeslo   | 91k               | 73k           | 0.15000000000000002   | 0k             | 259k           | 0k          
+paueu          | 91k               | 73k           | 0.15000000000000002   | 0k             | 259k           | 0k          
+masiu86        | 0k                | 73k           | 0.15000000000000002   | 0k             | 0k             | 0k          
+bobrys         | 0k                | 73k           | 0.15000000000000002   | 0k             | 0k             | 0k          

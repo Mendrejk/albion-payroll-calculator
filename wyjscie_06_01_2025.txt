@@ -1,0 +1,31 @@
+Podatek w przedmiotach: 10 548k
+Podatek w gotówce: 3 897k
+Suma wypłat w przedmiotach: 83 890k
+Suma wypłat w gotówce: 30 506k
+Suma zwrotów w przedmiotach: 10 481k
+Suma zwrotów w gotówce: 3 807k
+Nick           | Wypłata w gotówce | Zwrot podatku | Punkty Zwrotu Podatku | LOOT HO BEACH - 1 | LOOT HO BEACH - 2 | LOOT HO BEACH - 3
+-------------- | ----------------- | ------------- | --------------------- | ----------------- | ----------------- | -----------------
+kcakakakacyk   | 934k              | 137k          | 0.125                 | 2 300k            | 0k                | 0k               
+kacper17       | 5 580k            | 2 433k        | 2.2                   | 6 528k            | 4 736k            | 1 166k           
+karoll         | 6 000k            | 3 706k        | 3.35                  | 6 800k            | 5 338k            | 1 166k           
+ertecse        | 5 558k            | 663k          | 0.6                   | 6 800k            | 3 722k            | 1 166k           
+smazonyorzech  | 3 600k            | 525k          | 0.4750000000000001    | 3 620k            | 2 852k            | 2 204k           
+gapik          | 1 762k            | 995k          | 0.9000000000000001    | 880k              | 2 720k            | 1 166k           
+lissovsky      | 2 799k            | 2 876k        | 2.6                   | 880k              | 4 412k            | 2 957k           
+eillord        | 296k              | 54k           | 0.05                  | 272k              | 436k              | 0k               
+inka           | 450k              | 497k          | 0.45000000000000007   | 0k                | 466k              | 3 540k           
+paueu          | 235k              | 386k          | 0.35                  | 0k                | 166k              | 2 957k           
+stormcaster    | 1 502k            | 221k          | 0.19999999999999998   | 0k                | 2 452k            | 1 336k           
+demon24        | 302k              | 165k          | 0.15000000000000002   | 0k                | 610k              | 0k               
+go1on          | 326k              | 275k          | 0.25                  | 0k                | 300k              | 1 166k           
+superkrzeslo   | 52k               | 110k          | 0.1                   | 0k                | 150k              | 0k               
+szibav2sigma   | 52k               | 110k          | 0.1                   | 0k                | 150k              | 0k               
+grubas5999     | 170k              | 275k          | 0.25                  | 0k                | 1 072k            | 0k               
+tomko          | 0k                | 110k          | 0.1                   | 0k                | 0k                | 1 336k           
+appa           | 0k                | 36k           | 0.03333333333333333   | 0k                | 0k                | 366k             
+drx460t        | 0k                | 54k           | 0.05                  | 0k                | 0k                | 1 038k           
+schisym        | 222k              | 165k          | 0.15000000000000002   | 0k                | 0k                | 1 166k           
+maendrake      | 222k              | 165k          | 0.15000000000000002   | 0k                | 0k                | 1 166k           
+zaluzjasolonez | 222k              | 165k          | 0.15000000000000002   | 0k                | 0k                | 1 166k           
+wojciecch      | 222k              | 165k          | 0.15000000000000002   | 0k                | 0k                | 1 166k           

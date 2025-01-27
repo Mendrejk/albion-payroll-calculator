@@ -1,0 +1,18 @@
+KONTENTY:
+1:
+  1: 8420000, 0, BEACH, 1, NIE, , Kacper17, Ertecse, gapik, go1on, inka, karoll, maendrake
+  2: 2780000, 0, BEACH, 1, NIE, , Kacper17, ertecse, gapik, go1on, inka, karoll, maendrake, zaluzjasolonez
+2:
+  1: 2400000, 0, BEACH, 2, NIE, , Kacper17, maendrake, ertecse, karoll, smazonyorzech
+3: Kacper17
+  1: 3500000, 0, BEACH, 2, TAK, Kacper17, ertecse, kcakakakacyk, maendrake, go1on, karoll, inka, smazonyorzech (50%), zaluzjasolonez (50%), grubas5999
+  2: 7000000, 0, BEACH, 2, TAK, Kacper17, ertecse, kcakakakacyk, maendrake, go1on, karoll, inka, smazonyorzech (50%), grabukk (50%), bobrvs (50%), juicycat
+  3: 13500000, 5860000, BEACH, 2, TAK, kacper17, ertecse, maendrake, go1on, karoll, inka, smazonyorzech (50%), grabukk (50%), bobrvs (50%), juicycat, stormcaster (50%)
+4: Karoll
+  1: 6800000, 2390000, BEACH, 2, TAK, kacper17, karoll, bobrvs (50%), ertecse, maendrake, smazonyorzech (50%), superkrzeslo (50%), gapik, paueu (50%), inka, grabukk (50%), stormcaster
+5: Kacper17
+  1: 0, 0, CTA, 0, TAK, , Inka, Go1on, Masiu86, GapiK, Bobrvs, Grabukk, Ertecse, Karoll, Maendrake, ZaluzjaSolonez
+6: Kacper17
+  1: 0, 0, CTA, 0, TAK, , Zaluzjasolonez, maendrake, grabukk, smazonyorzech, bobrys, karoll, inka, stormcaster, ertecse, gapik
+
+REKRUTACJA:

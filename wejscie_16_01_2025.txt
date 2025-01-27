@@ -1,0 +1,41 @@
+KONTENTY:
+1: Karoll
+  1: 4160000, 2820000, BEACH, 1, TAK, Lissovsky, Kacper17, go1on, oliwier45
+2: Ertecse
+  1: 10440000, 4634000, BEACH, 1, TAK, Lissovsky, Kacper17, karoll, wojciecch
+3: KCAKakaKACYK
+  1: 3300000, 814000, BEACH, 1, TAK, Karoll, Go1on, gapik
+  2: 300000, 250000, BEACH, 1, TAK, Karoll, go1on, gapik, lissovsky
+  3: 1900000, 1362000, BEACH, 1, TAK, karoll, go1on, lissovsky, ertecse
+4: karoll
+  1: 800000, 797000, BEACH, 1, TAK, karoll, go1on, lissovsky, ertecse, wojciecch
+5: karoll
+  1: 8100000, 2462000, BEACH, 1, TAK, karoll, go1on, smazonyorzech, oliwier45, eillord, ertecse
+6: karoll
+  1: 2400000, 500000, BEACH, 1, TAK, karoll, ertecse, lissovsky, gapik, smazonyorzech, wojciecch
+  2: 600000, 300000, BEACH, 1, TAK, karoll, gapik, smazonyorzech, wojciecch, lissovsky
+7: karoll
+  1: 4500000, 2108000, BEACH, 1, TAK, karoll, inka, wojciecch, smazonyorzech, fbzb
+8: karoll
+  1: 3700000, 1085000, BEACH, 1, TAK, karoll, smazonyorzech, fbzb, klaudiuszs, szibav2sigma
+9: drx460t
+  1: 1900000, 300000, BEACH, 1, TAK, lissovsky, smazonyorzech, beslarin, karoll
+
+CTA:
+1: Kacper17 - faust, sheyter, smazonyorzech, go1on, eillord, karoll, maendrake, inka, gapik, szibav2sigma, lissovsky, superkrzeslo, wojciecch, tomko
+2: Kacper17 - maendrake, inka, sheyter, smazonyorzech, go1on, karoll, gapik, szibav2sigma, lissovsky, superkrzeslo, tomko, faust, gierszak, wojciecch
+3: Kacper17 - smazonyorzech, inka, klaudiuszs, tomko, sheyter, gapik, wojciecch, go1on, zboczonystaszek, karoll, maendrake, jolko232, gierszak, szibav2sigma, eillord, paueu, fbzb, filx
+4: Kacper17 - inka, tomko, sheyter, gapik, go1on, maendrake, smazonyorzech, klaudiuszs, szibav2sigma, fbzb, beslarin, zboczonystaszek, eillord, karoll, paueu, ertecse, wojciecch
+5: go1on - inka, zboczonystaszek, tomko, ertecse, sheyter, szibav2sigma, smazonyorzech, karoll
+6: Kacper17 - klaudiuszs, maendrake, fbzb, beslarin, eillord, paueu, gapik, drx460t
+7: go1on - inka, tomko, ertecse, sheyter, szibav2sigma, smazonyorzech, karoll
+8: klaudiuszs - kacper17, maendrake, fbzb, beslarin, eillord, paueu, gapik, drx460t
+9: karoll - go1on, szibav2sigma, maendrake, smazonyorzech, ertecse, lissovsky, tomko, wojciecch, filx, inka, beslarin, zboczonystaszek, jolko232, gapik, zaluzjasolonez, fbzb, klaudiuszs
+10: karoll - inka, tomko, smazonyorzech, panfaust, klaudiuszs, paueu, fbzb, zaluzjasolonez
+11: kacper17 - klaudiuszs, maendrake, go1on, inka, tomko, smazonyorzech, sheyter, fbzb, karoll, gapik, zaluzjasolonez, beslarin
+12: kacper17 - zaluzjasolonez, tomko, drx460t, smazonyorzech, sheyter, lissovsky, fbzb, jolko232, karoll, inka, drpolon, szibav2sigma, masiu86, gapik, klaudiuszs, gierszak, appa, wojciecch
+
+REKRUTACJA:
+kacper17: 1.5
+zaluzjasolonez: 3.0
+inka: 3.0

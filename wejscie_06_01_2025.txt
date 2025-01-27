@@ -1,0 +1,33 @@
+KONTENTY:
+1: KCAKakaKACYK
+  1: 11500000, 4670000, HO BEACH, 1, TAK, Kacper17, Karoll, Ertecse
+  2: 18100000, 8395000, HO BEACH, 1, NIE, Kacper17, Karoll, Ertecse, SmazonyOrzech
+2: Karoll
+  1: 3800000, 2440000, HO BEACH, 1, TAK, Gapik, kacper17, ertecse, lissovsky
+  2: 1700000, 1856000, HO BEACH, 1, TAK, gapik, ertecse, lissovsky, eillord
+3:
+  1: 2730000, 0, HO BEACH, 2, NIE, , Karoll, Ertecse, Gapik, lissovsky, eillord
+4: karoll
+  1: 1040000, 780000, HO BEACH, 2, TAK, karoll, inka, paueu, smazonyorzech, ertecse
+5: karoll
+  1: 2880000, 1574000, HO BEACH, 2, TAK, kacper17, ertecse, stormcaster, demon24
+  2: 14950000, 9392000, HO BEACH, 2, TAK, kacper17, ertecse, stormcaster, smazonyorzech, lissovsky
+6: lissovsky
+  1: 2300000, 1930000, HO BEACH, 2, TAK, lissovsky, kacper17, ertecse, gapik, karoll
+7: karoll
+  1: 3400000, 1710000, HO BEACH, 2, TAK, lissovsky, kacper17, gapik, smazonyorzech
+8: karoll
+  1: 3000000, 1040000, HO BEACH, 2, TAK, kacper17, demon24 (50%), ertecse, gapik, go1on, inka, smazonyorzech (50%), superkrzeslo (50%), szibaV2Sigma (50%)
+9: karoll
+  1: 6700000, 1074000, HO BEACH, 2, TAK, grubas5999, kacper17, gapik, lissovsky
+10: lissovsky
+  1: 4960000, 0, HO BEACH, 3, TAK, lissovsky, inka, paueu, tomko, stormcaster
+  2: 1120000, 0, HO BEACH, 3, TAK, lissovsky, inka, paueu, tomko, stormcaster
+  3: 2750000, 0, HO BEACH, 3, TAK, lissovsky, inka, paueu, tomko, stormcaster, appa
+11: lissovsky
+  1: 4490000, 0, HO BEACH, 3, TAK, lissovsky, inka, paueu, drx460t, smazonyorzech
+  2: 2000000, 0, HO BEACH, 3, TAK, lissovsky, inka, paueu, drx460t, smazonyorzech
+12: karoll
+  1: 17500000, 3350000, HO BEACH, 3, TAK, kacper17, smazonyorzech, schisym, lissovsky (50%), gapik, maendrake, ertecse, paueu (50%), go1on, zaluzjasolonez, inka, wojciecch
+
+REKRUTACJA:
