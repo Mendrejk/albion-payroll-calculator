@@ -1,0 +1,57 @@
+Podatek w przedmiotach: 17 624k
+Podatek w gotówce: 4 564k
+Suma wypłat w przedmiotach: 140 168k
+Suma wypłat w gotówce: 35 443k
+Suma zwrotów w przedmiotach: 17 507k
+Suma zwrotów w gotówce: 4 419k
+Nick            | Wypłata w gotówce | Zwrot podatku | Punkty Zwrotu Podatku | LOOT BEACH - 1 | LOOT BEACH - 2 | LOOT BEACH - 3 | LOOT BEACH - 4
+--------------- | ----------------- | ------------- | --------------------- | -------------- | -------------- | -------------- | --------------
+karoll          | 4 350k            | 2 840k        | 12.725000000000003    | 4 806k         | 4 478k         | 2 958k         | 1 628k        
+ertecse         | 954k              | 457k          | 2.0500000000000003    | 1 596k         | 0k             | 556k           | 376k          
+gapik           | 2 176k            | 457k          | 2.05                  | 2 074k         | 3 080k         | 1 406k         | 0k            
+zaitis          | 346k              | 0k            | 0.0                   | 912k           | 0k             | 0k             | 0k            
+atimusz         | 2 300k            | 367k          | 1.6500000000000001    | 2 074k         | 3 080k         | 1 424k         | 1 084k        
+birh            | 688k              | 468k          | 2.1                   | 1 152k         | 0k             | 820k           | 376k          
+fbzb            | 254k              | 512k          | 2.3000000000000003    | 1 860k         | 0k             | 1 220k         | 0k            
+m4g1cz3k        | 254k              | 89k           | 0.4                   | 1 860k         | 0k             | 1 220k         | 0k            
+maendrake       | 1 032k            | 1 741k        | 7.8                   | 3 022k         | 0k             | 4 580k         | 1 084k        
+juicycat        | 132k              | 289k          | 1.3                   | 1 300k         | 0k             | 2 336k         | 0k            
+smazonyorzech   | 2 422k            | 669k          | 2.9999999999999996    | 2 490k         | 3 080k         | 2 830k         | 168k          
+sheyter         | 132k              | 89k           | 0.4                   | 1 300k         | 0k             | 0k             | 0k            
+tomko           | 1 644k            | 903k          | 4.05                  | 1 162k         | 3 080k         | 820k           | 0k            
+kacper17        | 2 004k            | 3 035k        | 13.600000000000001    | 1 162k         | 3 080k         | 5 800k         | 1 084k        
+inka            | 1 268k            | 953k          | 4.275                 | 784k           | 1 682k         | 1 424k         | 0k            
+juriowsienko69  | 2 516k            | 792k          | 3.5500000000000003    | 2 842k         | 3 080k         | 4 580k         | 1 084k        
+klaudiuszs      | 1 710k            | 501k          | 2.25                  | 392k           | 3 080k         | 1 424k         | 0k            
+matek           | 434k              | 334k          | 1.5                   | 784k           | 0k             | 586k           | 1 084k        
+leniwyszpieg    | 248k              | 144k          | 0.65                  | 784k           | 0k             | 0k             | 0k            
+wojciecch       | 146k              | 312k          | 1.4                   | 252k           | 0k             | 0k             | 0k            
+gierszak        | 1 136k            | 357k          | 1.6                   | 2 172k         | 0k             | 586k           | 376k          
+szuchol         | 146k              | 111k          | 0.5                   | 252k           | 0k             | 0k             | 0k            
+lagun           | 1 706k            | 389k          | 1.75                  | 378k           | 3 080k         | 1 424k         | 0k            
+zl1010          | 170k              | 55k           | 0.25                  | 378k           | 0k             | 820k           | 0k            
+beslarin        | 766k              | 273k          | 1.225                 | 378k           | 1 398k         | 0k             | 1 252k        
+demon24         | 692k              | 289k          | 1.3                   | 1 680k         | 0k             | 712k           | 542k          
+jolko232        | 464k              | 10k           | 0.05                  | 1 488k         | 0k             | 0k             | 0k            
+nyczuwu         | 1 181k            | 334k          | 1.5000000000000002    | 240k           | 1 540k         | 840k           | 376k          
+chytry          | 388k              | 21k           | 0.1                   | 240k           | 0k             | 128k           | 376k          
+sinnerman       | 1 226k            | 32k           | 0.15000000000000002   | 0k             | 3 080k         | 0k             | 0k            
+toxicreno       | 1 226k            | 32k           | 0.15000000000000002   | 0k             | 3 080k         | 0k             | 0k            
+vaniish         | 942k              | 317k          | 1.425                 | 0k             | 1 682k         | 714k           | 1 084k        
+zaluzjasolonez  | 180k              | 2 801k        | 12.55                 | 0k             | 0k             | 712k           | 0k            
+yashi           | 0k                | 0k            | 0.0                   | 0k             | 0k             | 1 220k         | 0k            
+faust           | 0k                | 111k          | 0.5                   | 0k             | 0k             | 2 336k         | 0k            
+zboczonystaszek | 50k               | 21k           | 0.1                   | 0k             | 0k             | 820k           | 0k            
+drx460t         | 80k               | 100k          | 0.45                  | 0k             | 0k             | 0k             | 168k          
+lissovsky       | 80k               | 334k          | 1.5                   | 0k             | 0k             | 0k             | 1 252k        
+go1on           | 0k                | 121k          | 0.55                  | 0k             | 0k             | 0k             | 1 084k        
+kenoten         | 0k                | 244k          | 1.1                   | 0k             | 0k             | 0k             | 0k            
+masnaagata      | 0k                | 178k          | 0.8                   | 0k             | 0k             | 0k             | 0k            
+drpolon         | 0k                | 200k          | 0.9                   | 0k             | 0k             | 0k             | 0k            
+pangengar       | 0k                | 111k          | 0.5                   | 0k             | 0k             | 0k             | 0k            
+szibav2sigma    | 0k                | 111k          | 0.5                   | 0k             | 0k             | 0k             | 0k            
+aruu            | 0k                | 89k           | 0.4                   | 0k             | 0k             | 0k             | 0k            
+jebanalegenda   | 0k                | 66k           | 0.30000000000000004   | 0k             | 0k             | 0k             | 0k            
+jennyeu         | 0k                | 89k           | 0.4                   | 0k             | 0k             | 0k             | 0k            
+masiu86         | 0k                | 89k           | 0.4                   | 0k             | 0k             | 0k             | 0k            
+paueu           | 0k                | 89k           | 0.4                   | 0k             | 0k             | 0k             | 0k            

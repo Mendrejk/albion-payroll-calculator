@@ -1,0 +1,56 @@
+KONTENTY:
+1:
+  1: 6850000, 2600000, BEACH, 1, NIE, , Karoll, ertecse, gapik, zaitis, atimusz, birh
+2:
+  1: 9750000, 1000000, BEACH, 1, NIE, , fbzb, m4g1cz3k, maendrake, juicycat, smazonyorzech, sheyter
+3:
+  1: 3500000, 770000, BEACH, 1, NIE, , Karoll, maendrake, m4g1cz3k, smazonyorzech, fbzb
+4: maendrake
+  1: 10300000, 3260000, BEACH, 1, TAK, tomko, kacper17, inka, juriowsienko69, atimusz, klaudiuszs (50%), gapik, matek, leniwyszpieg, karoll
+5: karoll
+  1: 1900000, 1100000, BEACH, 1, TAK, karoll, ertecse, wojciecch, smazonyorzech, gierszak, szuchol
+6: maendrake
+  1: 5200000, 1670000, BEACH, 1, TAK, tomko, kacper17, karoll, lagun, gapik, zl1010, smazonyorzech, juriowsienko69, atimusz, beslarin
+7: karoll
+  1: 9300000, 2900000, BEACH, 1, TAK, karoll, gierszak, juriowsienko69, demon24, jolko232
+  2: 1200000, 300000, BEACH, 1, TAK, karoll, gierszak, juriowsienko69, demon24, ertecse
+8: karoll
+  1: 1800000, 1890000, BEACH, 1, TAK, karoll, nyczuwu, gierszak, ertecse, birh, chytry
+  2: 2820000, 300000, BEACH, 4, TAK, karoll, nyczuwu, gierszak, ertecse, birh, chytry
+9: karoll
+  1: 28400000, 11167000, BEACH, 2, TAK, kacper17, klaudiuszs, gapik, juriowsienko69, inka, smazonyorzech, atimusz, lagun, tomko, sinnerman, nyczuwu (50%), toxicreno, vaniish
+  2: 23600000, 9560000, BEACH, 2, TAK, kacper17, karoll, klaudiuszs, gapik, juriowsienko69, smazonyorzech, atimusz, lagun, tomko, sinnerman, nyczuwu (50%), toxicreno, beslarin
+10: kacper17
+  1: 18700000, 4730000, BEACH, 3, TAK, kacper17, Klaudiuszs, ZaluzjaSolonez (50%), Inka, demon24 (50%), nyczuwu (50%), maendrake, karoll, juriowsienko69, smazonyorzech, lagun, atimusz
+11:
+  1: 6100000, 0, BEACH, 3, NIE, , kacper17, yashi, fbzb, m4g1cz3k
+12:
+  1: 14600000, 0, BEACH, 3, NIE, , kacper17, faust, juriowsienko69, juicycat, maendrake
+13:
+  1: 5900000, 380000, BEACH, 3, NIE, , maendrake, tomko, kacper17, karoll, JuriOwsienko69, SmazonyOrzech, GapiK, Ertecse, ZboczonyStaszek, ZL1010, Birh
+14: maendrake
+  1: 4900000, 300000, BEACH, 3, TAK, tomko, kacper17, karoll, juriowsienko69, smazonyorzech, gapik, zboczonystaszek, zl1010, birh
+15: karoll
+  1: 4400000, 1400000, BEACH, 3, TAK, karoll, matek, vaniish, smazonyorzech, gierszak, gapik
+16:
+  1: 800000, 600000, BEACH, 3, NIE, , karoll, vaniish, nyczuwu, ertecse, chytry
+17: karoll
+  1: 1050000, 500000, BEACH, 4, TAK, karoll, beslarin, smazonyorzech, drx460t, lissovsky
+18: maendrake
+  1: 14230000, 7520000m, BEACH, 4, TAK, kacper17, lissovsky, karoll, go1on, beslarin, atimusz, matek, vaniish, juriowsienko69, demon24 (50%)
+
+CTA:
+  1: kacper17 - maendrake, karoll, gapik, lagun, ertecse, sheyter, klaudiuszs, juicycat, tomko, atimusz, fbzb, m4g1cz3k, juriowsienko69, wojciecch, matek, demon24, kenoten, birh, lissovsky
+  2: kacper17 - masnaagata, leniwyszpieg, drpolon, birh, nyczuwu, karoll, inka, pangengar, vaniish, maendrake, smazonyorzech, lissovsky, fbzb, demon24, tomko, faust, szibav2sigma, lagun, juriowsienko69, klaudiuszs, gierszak, atimusz, wojciecch, juicycat
+  3: karoll - kacper17, fbzb, juriowsienko69, vaniish, matek, maendrake, masnaagata, gapik, tomko, smazonyorzech, klaudiuszs
+  4: karoll - tomko, kacper17, birh, drpolon, szuchol, gapik, juriowsienko69, smazonyorzech, maendrake, kenoten, aruu, matek, fbzb, beslarin, ertecse, lagun
+  5: kacper17 - tomko, jebanalegenda, birh, nyczuwu, smazonyorzech, ertecse, klaudiuszs, karoll, gapik, juriowsienko69, kenoten
+  6: kacper17 - fbzb, nyczuwu, maendrake, vaniish, smazonyorzech, ertecse, gierszak, karoll, juriowsienko69, birh
+  7: kacper17 - jennyeu, go1on, drx460t, masiu86, inka, lissovsky, smazonyorzech, ertecse, beslarin, gierszak, paueu, karoll, fbzb, juriowsienko69, juicycat, wojciecch, zaluzjasolonez
+
+REKRUTACJA:
+zaluzjasolonez: 12
+inka: 3
+maendrake: 3
+karoll: 1.3
+klaudiuszs: 0.3

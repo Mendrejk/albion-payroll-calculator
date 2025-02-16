@@ -1,0 +1,44 @@
+Podatek w przedmiotach: 6 327k
+Podatek w gotówce: 1 192k
+Suma wypłat w przedmiotach: 50 210k
+Suma wypłat w gotówce: 9 314k
+Suma zwrotów w przedmiotach: 6 262k
+Suma zwrotów w gotówce: 1 153k
+Nick           | Wypłata w gotówce | Zwrot podatku | Punkty Zwrotu Podatku | LOOT BEACH 1 - TAK | LOOT BEACH 5 - TAK
+-------------- | ----------------- | ------------- | --------------------- | ------------------ | ------------------
+karoll         | 0k                | 250k          | 1.9000000000000001    | 0k                 | 0k                
+kacper17       | 68k               | 1 141k        | 8.65                  | 536k               | 0k                
+go1on          | 838k              | 230k          | 1.7500000000000002    | 1 888k             | 3 370k            
+smazonyorzech  | 1 098k            | 198k          | 1.5000000000000002    | 1 888k             | 4 350k            
+matek          | 838k              | 45k           | 0.35                  | 1 888k             | 3 370k            
+tomko          | 1 062k            | 177k          | 1.35                  | 536k               | 3 706k            
+juri           | 838k              | 164k          | 1.25                  | 536k               | 3 370k            
+gierszak       | 288k              | 72k           | 0.55                  | 1 888k             | 640k              
+atimusz        | 838k              | 45k           | 0.35                  | 536k               | 3 370k            
+juicycat       | 68k               | 59k           | 0.45                  | 1 888k             | 0k                
+lissovsky      | 68k               | 19k           | 0.15000000000000002   | 536k               | 0k                
+sinnerman      | 68k               | 19k           | 0.15000000000000002   | 536k               | 0k                
+gapik          | 68k               | 144k          | 1.1                   | 536k               | 0k                
+faust          | 68k               | 91k           | 0.7000000000000001    | 1 888k             | 0k                
+kenoten        | 0k                | 65k           | 0.5                   | 676k               | 0k                
+sheyter        | 0k                | 13k           | 0.1                   | 1 352k             | 0k                
+paueu          | 0k                | 32k           | 0.25                  | 1 352k             | 0k                
+zaluzjasolonez | 770k              | 65k           | 0.5                   | 0k                 | 3 370k            
+wojciecch      | 260k              | 59k           | 0.45                  | 0k                 | 980k              
+birh           | 260k              | 137k          | 1.05                  | 0k                 | 980k              
+drx460t        | 260k              | 65k           | 0.5                   | 0k                 | 980k              
+zaitis         | 444k              | 98k           | 0.75                  | 0k                 | 976k              
+chytry         | 444k              | 98k           | 0.75                  | 0k                 | 976k              
+drpolon        | 444k              | 78k           | 0.6                   | 0k                 | 976k              
+00xx00eu       | 224k              | 13k           | 0.1                   | 0k                 | 336k              
+ertecse        | 0k                | 118k          | 0.8999999999999999    | 0k                 | 0k                
+fbzb           | 0k                | 98k           | 0.75                  | 0k                 | 0k                
+jebanalegenda  | 0k                | 396k          | 3.0                   | 0k                 | 0k                
+inka           | 0k                | 1 108k        | 8.4                   | 0k                 | 0k                
+beslarin       | 0k                | 32k           | 0.25                  | 0k                 | 0k                
+maendrake      | 0k                | 19k           | 0.15000000000000002   | 0k                 | 0k                
+00xx00         | 0k                | 52k           | 0.4                   | 0k                 | 0k                
+juriowsienko69 | 0k                | 52k           | 0.4                   | 0k                 | 0k                
+jolko232       | 0k                | 26k           | 0.2                   | 0k                 | 0k                
+klaudiuszs     | 0k                | 26k           | 0.2                   | 0k                 | 0k                
+zaluzjasolone  | 0k                | 2 111k        | 16.0                  | 0k                 | 0k                
