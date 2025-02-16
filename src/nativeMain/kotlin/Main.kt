@@ -314,7 +314,7 @@ fun calculateItemsAndCash(contentInputs: List<ContentInput>): List<Content> {
 fun calculateCtas(ctaInputs: List<CtaInput>) {
     ctaInputs.forEach { ctaInput ->
         val allParticipantsCount = ctaInput.participants.size + 1 // 1 for the caller
-        val returnMultiplier = determineReturnMultiplier(allParticipantsCount) * 2 // times 2 because it's a CTA
+        val returnMultiplier = determineReturnMultiplier(allParticipantsCount) * 1 // for now CTA is back to times 1
         val participantReturn = PARTICIPANT_RETURN_BASE * returnMultiplier
         val callerReturn = ORGANISER_CALLER_RETURN_BASE * returnMultiplier
 
