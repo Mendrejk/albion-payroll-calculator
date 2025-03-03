@@ -1,131 +1,124 @@
 ## W KASIE / CASH
-@smazonyorzech 1 098k
-@tomko 1 062k
-@go1on 838k
-@matek 838k
-@juri 838k
-@atimusz 838k
-@zaluzjasolonez 770k
-@zaitis 444k
-@chytry 444k
-@drpolon 444k
-@gierszak 288k
-@wojciecch 260k
-@birh 260k
-@drx460t 260k
-@00xx00eu 224k
-@kacper17 68k
-@juicycat 68k
-@lissovsky 68k
-@sinnerman 68k
-@gapik 68k
-@faust 68k
+@karoll 1 232k
+@smazonyorzech 870k
+@tomko 848k
+@kacper17 662k
+@go1on 662k
+@matek 662k
+@juri 662k
+@atimusz 662k
+@zaluzjasolonez 598k
+@zaitis 362k
+@chytry 362k
+@drpolon 362k
+@gierszak 240k
+@wojciecch 208k
+@birh 208k
+@drx460t 208k
+@00xx00 186k
+@juicycat 64k
+@lissovsky 64k
+@sinnerman 64k
+@gapik 64k
+@faust 64k
 
 ## ZWROT PODATKU (CZAS NA ODEBRANIE DO NASTĘPNEGO ROZLICZENIA)
-@zaluzjasolone 2 111k
-@kacper17 1 141k
-@inka 1 108k
-@jebanalegenda 396k
-@karoll 250k
-@go1on 230k
-@smazonyorzech 198k
-@tomko 177k
-@juri 164k
-@gapik 144k
-@birh 137k
-@ertecse 118k
-@zaitis 98k
-@chytry 98k
-@fbzb 98k
+@zaluzjasolonez 2 025k
+@kacper17 1 140k
+@inka 1 030k
+@karoll 815k
+@jebanalegenda 367k
+@go1on 170k
+@smazonyorzech 164k
+@tomko 164k
+@juri 153k
+@gapik 134k
+@birh 128k
+@ertecse 110k
 @faust 91k
-@drpolon 78k
-@gierszak 72k
-@kenoten 65k
-@zaluzjasolonez 65k
-@drx460t 65k
-@juicycat 59k
-@wojciecch 59k
-@00xx00 52k
-@juriowsienko69 52k
-@matek 45k
-@atimusz 45k
-@paueu 32k
-@beslarin 32k
-@jolko232 26k
-@klaudiuszs 26k
-@lissovsky 19k
-@sinnerman 19k
-@maendrake 19k
-@sheyter 13k
-@00xx00eu 13k
+@fbzb 91k
+@gierszak 73k
+@drpolon 73k
+@kenoten 66k
+@zaitis 66k
+@juicycat 60k
+@drx460t 60k
+@00xx00 60k
+@wojciecch 54k
+@matek 48k
+@atimusz 42k
+@chytry 42k
+@paueu 36k
+@beslarin 29k
+@jolko232 23k
+@klaudiuszs 23k
+@lissovsky 17k
+@sinnerman 17k
+@sheyter 17k
+@maendrake 17k
 
-## LOOT BEACH 5
-@smazonyorzech 4 350k
-@tomko 3 706k
-@go1on 3 370k
-@matek 3 370k
-@juri 3 370k
-@atimusz 3 370k
-@zaluzjasolonez 3 370k
-@wojciecch 980k
-@birh 980k
-@drx460t 980k
-@zaitis 976k
-@chytry 976k
-@drpolon 976k
-@gierszak 640k
-@00xx00eu 336k
+## LOOT BEACH
+@karoll 5 790k
+@smazonyorzech 4 998k
+@kacper17 4 214k
+@go1on 4 214k
+@matek 4 214k
+@tomko 3 400k
+@juri 3 120k
+@atimusz 3 120k
+@zaluzjasolonez 2 622k
+@gierszak 2 104k
+@juicycat 1 592k
+@faust 1 592k
+@sheyter 1 094k
+@paueu 1 094k
+@zaitis 792k
+@chytry 792k
+@drpolon 792k
+@wojciecch 784k
+@birh 784k
+@drx460t 784k
+@kenoten 547k
+@lissovsky 498k
+@sinnerman 498k
+@gapik 498k
+@00xx00 280k
 
-## LOOT BEACH 1
-@go1on 1 888k
-@smazonyorzech 1 888k
-@matek 1 888k
-@gierszak 1 888k
-@juicycat 1 888k
-@faust 1 888k
-@sheyter 1 352k
-@paueu 1 352k
-@kenoten 676k
-@kacper17 536k
-@tomko 536k
-@juri 536k
-@atimusz 536k
-@lissovsky 536k
-@sinnerman 536k
-@gapik 536k
+## LOOT BEACH - 1
+@karoll 1 592k
+@kacper17 1 592k
+@go1on 1 592k
+@smazonyorzech 1 592k
+@matek 1 592k
+@gierszak 1 592k
+@juicycat 1 592k
+@faust 1 592k
+@sheyter 1 094k
+@paueu 1 094k
+@kenoten 547k
+@tomko 498k
+@juri 498k
+@atimusz 498k
+@lissovsky 498k
+@sinnerman 498k
+@gapik 498k
 
-## LOOT BEACH 1 - TAK
-@go1on 1 888k
-@smazonyorzech 1 888k
-@matek 1 888k
-@gierszak 1 888k
-@juicycat 1 888k
-@faust 1 888k
-@sheyter 1 352k
-@paueu 1 352k
-@kenoten 676k
-@kacper17 536k
-@tomko 536k
-@juri 536k
-@atimusz 536k
-@lissovsky 536k
-@sinnerman 536k
-@gapik 536k
-
-## LOOT BEACH 5 - TAK
-@smazonyorzech 4 350k
-@tomko 3 706k
-@go1on 3 370k
-@matek 3 370k
-@juri 3 370k
-@atimusz 3 370k
-@zaluzjasolonez 3 370k
-@wojciecch 980k
-@birh 980k
-@drx460t 980k
-@zaitis 976k
-@chytry 976k
-@drpolon 976k
-@gierszak 640k
-@00xx00eu 336k
+## LOOT BEACH - 5
+@karoll 4 198k
+@smazonyorzech 3 406k
+@tomko 2 902k
+@kacper17 2 622k
+@go1on 2 622k
+@matek 2 622k
+@juri 2 622k
+@atimusz 2 622k
+@zaluzjasolonez 2 622k
+@zaitis 792k
+@chytry 792k
+@drpolon 792k
+@wojciecch 784k
+@birh 784k
+@drx460t 784k
+@gierszak 512k
+@00xx00 280k
 

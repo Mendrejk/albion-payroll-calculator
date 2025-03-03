@@ -1,29 +1,39 @@
 KONTENTY:
-1: karoll
-  1: 8730000, 1120000, BEACH 1, TAK, karoll, kacper17, go1on, smazonyorzech, matek, tomko, juri, gierszak, atimusz, juicycat, lissovsky, sinnerman, gapik, faust
+1: Karoll
+  1: 30600000, 14640000, BEACH, 1, TAK, karoll, GapiK, SzibaV2Sigma, Go1on, Sheyter, Tomko, Kenoten, Aruu (50%), Kosa19, matek, fbzb, lagun, jolko232
 2: karoll
-  1: 14370000, 0, BEACH 1, TAK, kacper17, go1on, matek, faust, smazonyorzech, gierszak, kenoten (50%), sheyter, paueu, juicycat
-3: kacper17
-  1: 29500000, 6740000, BEACH 5, TAK, karoll, juri, smazonyorzech, atimusz, zaluzjasolonez, tomko, matek, go1on
-4: karoll
-  1: 4900000, 1300000, BEACH 5, TAK, karoll, SmazonyOrzech, Wojciecch, Birh, DRX460T
-5: karoll
-  1: 3200000, 1100000, BEACH 5, TAK, karoll, Zaitis, chytry, DrPolon, gierszak
+  1: 13100000, 6560000, BEACH, 1, TAK, karoll, Go1on, SmazonyOrzech, Scalen, Zaitis, Ramsztain
+  2: 5500000, 1000000, BEACH, 1, TAK, karoll, Go1on, SmazonyOrzech, Scalen, Zaitis, Ramsztain
+3: go1on
+  1: 6160000, 710000, BEACH, 2, TAK, faust, Tomko, Inka, Ertecse, fbzb, Sheyter, JuicyCat, Atimusz, Kenoten, SmazonyOrzech, lissovsky, matek, klaudiuszs, juri, skubcio, karoll, wojciecch
+4: go1on
+  1: 38940000, 2260000, BEACH, 2, TAK, kacper17, Tomko, Inka, Faust, fbzb, Sheyter, juicycat, Atimusz, Kenoten, SmazonyOrzech, matek, Klaudiuszs, juri, skubcio, Karoll, Wojciecch
+5: go1on
+  1: 16900000, 0, BEACH, 2, TAK, kacper17, Tomko, Inka, Faust, Fbzb, JuicyCat, Atimusz, Kenoten, SmazonyOrzech, matek, Klaudiuszs, Juri, Karoll
 6: karoll
-  1: 2100000, 1400000, BEACH 5, TAK, karoll, chytry, DrPolon, 00xx00EU, Tomko, Zaitis
+  1: 7500000, 0, BEACH, 2, TAK, karoll, kacper17, atimusz, klaudiuszs, smazonyorzech, matek, tomko, demon24, lagun, go1on, fbzb, kosa19, numerounoo, ertecse, wojciecch, gierszak, birh, gapik
+  2: 9700000, 2070000, BEACH, 2, TAK, karoll, kacper17, smazonyorzech, matek, demon24, fbzb, LBLZA (50%), tomko, lagun, klaudiuszs, go1on
+7: karoll
+  1: 8300000, 0, BEACH, 3, TAK, karoll, Gierszak, lagun, michigunlp (50%), SlaveBohy, NumeroUnoo, Doonar, Birh, Atimusz, Zaitis, Juri, fbzb, GapiK, Kacper17, demon24, Tomko
+  2: 9600000, 0, BEACH, 3, TAK, karoll, kacper17, michigunlp (50%), SlaveBohy, NumeroUnoo, lagun, Atimusz, demon24, Tomko, GapiK, fbzb
+8: kacper17
+  1: 15200000, 3900000, BEACH, 3, TAK, karoll, Klaudiuszs, Maendrake, Juri, Atimusz, demon24, jebanalegenda, inka, go1on, gapik
+9: karoll
+  1: 10100000, 260000, BEACH, 3, TAK, karoll, Kacper17, demon24, Tomko, GapiK, Doonar, matek, Klaudiuszs, Juri, Matulik, lagun, JennyEU, Go1on
+10: karoll
+  1: 7500000, 1850000, BEACH, 3, TAK, karoll, Kacper17, demon24, GapiK, Doonar, matek, Klaudiuszs, Juri, Matulik, Beslarin, Go1on
+11:
+  1: 30400000, 7560000, BEACH, 3, NIE, , kacper17, karoll, atimusz, klaudiuszs, smazonyorzech, matek, tomko, demon24, lagun, go1on, fbzb, kosa19, numerounoo, ertecse, wojciecch, gierszak, birh, gapik
+12: kacper17
+  1: 23800000, 0, BEACH, 4, TAK, karoll, demon24, go1on, gapik, smazonyorzech, tomko, klaudiuszs, kenoten, matek, sasza, lagun, atimusz
+13: karoll
+  1: 5100000, 3000000, BEACH, 4, TAK, karoll, atimusz, sebolooo, smazonyorzech, birh, scalen
 
 CTA:
-1: kacper17 - birh, faust, drx460t, juri, smazonyorzech, ertecse, kenoten, wojciecch, karoll, go1on, zaitis, tomko, gapik, chytry, fbzb
-2: kacper17 - gapik, jebanalegenda, drx460t, inka, go1on, smazonyorzech, karoll, juri
-3: kacper17 - drpolon, jebanalegenda, birh, fbzb, go1on, karoll, faust, tomko, juri, paueu, ertecse, drx460t, smazonyorzech
-4: kacper17 - jebanalegenda, inka, faust, smazonyorzech, karoll, go1on, beslarin
-5: kacper17 - birh, ertecse, maendrake, go1on, karoll, gierszak, jebanalegenda, juri, tomko, gapik, smazonyorzech, beslarin
-6: jebanalegenda - tomko, fbzb, birh, ertecse, go1on, 00xx00, wojciecch, karoll, drpolon, kacper17, zaitis, gapik, juriowsienko69, zaluzjasolonez, jolko232
-7: jebanalegenda - tomko, birh, go1on, gierszak, atimusz, karoll, drpolon, gapik
-8: jebanalegenda - fbzb, ertecse, zaluzjasolonez, kenoten, smazonyorzech, karoll, juriowsienko69, birh, kacper17, inka, 00xx00, gapik, juicycat, tomko, klaudiuszs
+1: jebanalegenda - birh, kacper17, ertecse, zaitis, matek
+2: karoll - jennyeu, go1on, juri, tomko, beslarin, gapik, klaudiuszs, lagun, zaluzjasolonez, scalen, fbzb, atimusz
+3: jebanalegenda - birh, drpolon, go1on, maendrake, szibav2sigma, aruu, smazonyorzech, karoll, tomko, handlarzmaka, inka, klaudiuszs, gapik, atimusz, matek, kenoten, sasza, ertecse, fbzb, sheyter, juri
 
 REKRUTACJA:
-inka: 8.0
-zaluzjasolone: 16.0
-kacper17: 4.0
-karoll: 0.7
+zaluzjasolonez: 2.5
+inka: 2.5

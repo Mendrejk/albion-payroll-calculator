@@ -1,44 +1,41 @@
-Podatek w przedmiotach: 6 327k
-Podatek w gotówce: 1 192k
-Suma wypłat w przedmiotach: 50 210k
+Podatek w przedmiotach: 6 322k
+Podatek w gotówce: 1 200k
+Suma wypłat w przedmiotach: 50 217k
 Suma wypłat w gotówce: 9 314k
-Suma zwrotów w przedmiotach: 6 262k
-Suma zwrotów w gotówce: 1 153k
-Nick           | Wypłata w gotówce | Zwrot podatku | Punkty Zwrotu Podatku | LOOT BEACH 1 - TAK | LOOT BEACH 5 - TAK
--------------- | ----------------- | ------------- | --------------------- | ------------------ | ------------------
-karoll         | 0k                | 250k          | 1.9000000000000001    | 0k                 | 0k                
-kacper17       | 68k               | 1 141k        | 8.65                  | 536k               | 0k                
-go1on          | 838k              | 230k          | 1.7500000000000002    | 1 888k             | 3 370k            
-smazonyorzech  | 1 098k            | 198k          | 1.5000000000000002    | 1 888k             | 4 350k            
-matek          | 838k              | 45k           | 0.35                  | 1 888k             | 3 370k            
-tomko          | 1 062k            | 177k          | 1.35                  | 536k               | 3 706k            
-juri           | 838k              | 164k          | 1.25                  | 536k               | 3 370k            
-gierszak       | 288k              | 72k           | 0.55                  | 1 888k             | 640k              
-atimusz        | 838k              | 45k           | 0.35                  | 536k               | 3 370k            
-juicycat       | 68k               | 59k           | 0.45                  | 1 888k             | 0k                
-lissovsky      | 68k               | 19k           | 0.15000000000000002   | 536k               | 0k                
-sinnerman      | 68k               | 19k           | 0.15000000000000002   | 536k               | 0k                
-gapik          | 68k               | 144k          | 1.1                   | 536k               | 0k                
-faust          | 68k               | 91k           | 0.7000000000000001    | 1 888k             | 0k                
-kenoten        | 0k                | 65k           | 0.5                   | 676k               | 0k                
-sheyter        | 0k                | 13k           | 0.1                   | 1 352k             | 0k                
-paueu          | 0k                | 32k           | 0.25                  | 1 352k             | 0k                
-zaluzjasolonez | 770k              | 65k           | 0.5                   | 0k                 | 3 370k            
-wojciecch      | 260k              | 59k           | 0.45                  | 0k                 | 980k              
-birh           | 260k              | 137k          | 1.05                  | 0k                 | 980k              
-drx460t        | 260k              | 65k           | 0.5                   | 0k                 | 980k              
-zaitis         | 444k              | 98k           | 0.75                  | 0k                 | 976k              
-chytry         | 444k              | 98k           | 0.75                  | 0k                 | 976k              
-drpolon        | 444k              | 78k           | 0.6                   | 0k                 | 976k              
-00xx00eu       | 224k              | 13k           | 0.1                   | 0k                 | 336k              
-ertecse        | 0k                | 118k          | 0.8999999999999999    | 0k                 | 0k                
-fbzb           | 0k                | 98k           | 0.75                  | 0k                 | 0k                
-jebanalegenda  | 0k                | 396k          | 3.0                   | 0k                 | 0k                
-inka           | 0k                | 1 108k        | 8.4                   | 0k                 | 0k                
-beslarin       | 0k                | 32k           | 0.25                  | 0k                 | 0k                
-maendrake      | 0k                | 19k           | 0.15000000000000002   | 0k                 | 0k                
-00xx00         | 0k                | 52k           | 0.4                   | 0k                 | 0k                
-juriowsienko69 | 0k                | 52k           | 0.4                   | 0k                 | 0k                
-jolko232       | 0k                | 26k           | 0.2                   | 0k                 | 0k                
-klaudiuszs     | 0k                | 26k           | 0.2                   | 0k                 | 0k                
-zaluzjasolone  | 0k                | 2 111k        | 16.0                  | 0k                 | 0k                
+Suma zwrotów w przedmiotach: 6 260k
+Suma zwrotów w gotówce: 1 145k
+Nick           | Wypłata w gotówce | Zwrot podatku | Punkty Zwrotu Podatku | LOOT BEACH - 1 | LOOT BEACH - 5
+-------------- | ----------------- | ------------- | --------------------- | -------------- | --------------
+karoll         | 1 232k            | 815k          | 6.65                  | 1 592k         | 4 198k        
+kacper17       | 662k              | 1 140k        | 9.3                   | 1 592k         | 2 622k        
+go1on          | 662k              | 170k          | 1.4000000000000001    | 1 592k         | 2 622k        
+smazonyorzech  | 870k              | 164k          | 1.3499999999999999    | 1 592k         | 3 406k        
+matek          | 662k              | 48k           | 0.4                   | 1 592k         | 2 622k        
+tomko          | 848k              | 164k          | 1.35                  | 498k           | 2 902k        
+juri           | 662k              | 153k          | 1.25                  | 498k           | 2 622k        
+gierszak       | 240k              | 73k           | 0.6                   | 1 592k         | 512k          
+atimusz        | 662k              | 42k           | 0.35                  | 498k           | 2 622k        
+juicycat       | 64k               | 60k           | 0.5                   | 1 592k         | 0k            
+lissovsky      | 64k               | 17k           | 0.15000000000000002   | 498k           | 0k            
+sinnerman      | 64k               | 17k           | 0.15000000000000002   | 498k           | 0k            
+gapik          | 64k               | 134k          | 1.1                   | 498k           | 0k            
+faust          | 64k               | 91k           | 0.75                  | 1 592k         | 0k            
+kenoten        | 0k                | 66k           | 0.55                  | 547k           | 0k            
+sheyter        | 0k                | 17k           | 0.15000000000000002   | 1 094k         | 0k            
+paueu          | 0k                | 36k           | 0.30000000000000004   | 1 094k         | 0k            
+zaluzjasolonez | 598k              | 2 025k        | 16.5                  | 0k             | 2 622k        
+wojciecch      | 208k              | 54k           | 0.45                  | 0k             | 784k          
+birh           | 208k              | 128k          | 1.05                  | 0k             | 784k          
+drx460t        | 208k              | 60k           | 0.5                   | 0k             | 784k          
+zaitis         | 362k              | 66k           | 0.55                  | 0k             | 792k          
+chytry         | 362k              | 42k           | 0.35000000000000003   | 0k             | 792k          
+drpolon        | 362k              | 73k           | 0.6                   | 0k             | 792k          
+00xx00         | 186k              | 60k           | 0.5                   | 0k             | 280k          
+ertecse        | 0k                | 110k          | 0.8999999999999999    | 0k             | 0k            
+fbzb           | 0k                | 91k           | 0.75                  | 0k             | 0k            
+jebanalegenda  | 0k                | 367k          | 3.0                   | 0k             | 0k            
+inka           | 0k                | 1 030k        | 8.4                   | 0k             | 0k            
+beslarin       | 0k                | 29k           | 0.25                  | 0k             | 0k            
+maendrake      | 0k                | 17k           | 0.15000000000000002   | 0k             | 0k            
+jolko232       | 0k                | 23k           | 0.2                   | 0k             | 0k            
+klaudiuszs     | 0k                | 23k           | 0.2                   | 0k             | 0k            
