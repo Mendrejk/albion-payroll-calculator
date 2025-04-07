@@ -1,9 +1,7 @@
+import energy.runEnergyBalance
 import okio.FileSystem
 import okio.Path.Companion.toPath
 import kotlin.experimental.ExperimentalNativeApi
-import kotlinx.datetime.Clock
-import kotlinx.datetime.TimeZone
-import kotlinx.datetime.toLocalDateTime
 
 
 data class Participant(
@@ -384,14 +382,6 @@ fun formatNumberWithSpacesAndK(number: Int): String {
     return "${formatNumberWithSpaces(number / 1000)}k"
 }
 
-fun formatCurrentDate(): String {
-    val currentDate = Clock.System.now().toLocalDateTime(TimeZone.currentSystemDefault()).date
-    val day = currentDate.dayOfMonth.toString().padStart(2, '0')
-    val month = currentDate.monthNumber.toString().padStart(2, '0')
-    val year = currentDate.year.toString()
-    return "${day}_${month}_${year}"
-}
-
 fun writePayrollOutput(payroll: Payroll) {
     val headers = mutableListOf("Nick", "Wypłata w gotówce", "Zwrot podatku", "Punkty Zwrotu Podatku")
 
@@ -458,7 +448,7 @@ fun writePayrollOutput(payroll: Payroll) {
         rows.forEach { appendLine(it) }
     }
 
-    FileSystem.SYSTEM.write("wyjscie_${formatCurrentDate()}.txt".toPath()) {
+    FileSystem.SYSTEM.write("wyjscie_${getCurrentFormattedDate()}.txt".toPath()) {
         writeUtf8(output)
     }
 }
@@ -528,7 +518,7 @@ fun writePayrollToMarkdown(payroll: Payroll) {
         }
     }
 
-    FileSystem.SYSTEM.write("wyjscie_discord_${formatCurrentDate()}.md".toPath()) {
+    FileSystem.SYSTEM.write("wyjscie_discord_${getCurrentFormattedDate()}.md".toPath()) {
         writeUtf8(markdownContent)
     }
 }
@@ -559,9 +549,23 @@ fun printSimilarNames(participants: Participants, similarityThreshold: Double = 
     }
 }
 
-fun main() {
+fun runPayroll() {
     val payroll = calculatePayroll()
     writePayrollOutput(payroll)
     writePayrollToMarkdown(payroll)
     printSimilarNames(payroll.participants)
+}
+
+fun main() {
+    println("Enter 'p' for payroll or 'e' for energy balance or 'a' for all:")
+    val userChoice = readlnOrNull()?.trim()?.lowercase()
+    when (userChoice) {
+        "p" -> runPayroll()
+        "e" -> runEnergyBalance()
+        "a" -> {
+            runPayroll()
+            runEnergyBalance()
+        }
+        else -> println("Invalid option.")
+    }
 }
