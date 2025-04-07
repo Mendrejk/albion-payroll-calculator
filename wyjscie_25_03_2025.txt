@@ -1,0 +1,52 @@
+Podatek w przedmiotach: 11 784k
+Podatek w gotówce: 4 095k
+Suma wypłat w przedmiotach: 93 448k
+Suma wypłat w gotówce: 31 888k
+Suma zwrotów w przedmiotach: 11 667k
+Suma zwrotów w gotówce: 3 973k
+Nick           | Wypłata w gotówce | Zwrot podatku | Punkty Zwrotu Podatku | LOOT BEACH - 1-3
+-------------- | ----------------- | ------------- | --------------------- | ----------------
+karoll         | 3 088k            | 2 131k        | 6.2                   | 8 030k          
+kacper17       | 1 872k            | 1 718k        | 5.000000000000001     | 7 342k          
+vanorafsson    | 736k              | 240k          | 0.7                   | 2 714k          
+golon          | 1 304k            | 464k          | 1.35                  | 5 956k          
+maendrake      | 30k               | 51k           | 0.15000000000000002   | 570k            
+smokq          | 1 220k            | 432k          | 1.2600000000000002    | 3 800k          
+orzech         | 2 310k            | 251k          | 0.7333333333333334    | 7 132k          
+wilicz         | 294k              | 102k          | 0.30000000000000004   | 1 186k          
+atimusz        | 598k              | 85k           | 0.24999999999999997   | 1 956k          
+kenoten        | 30k               | 119k          | 0.35000000000000003   | 570k            
+demon          | 408k              | 102k          | 0.30000000000000004   | 1 350k          
+inka           | 736k              | 2 165k        | 6.3                   | 2 714k          
+zaluzjasolonez | 378k              | 51k           | 0.15000000000000002   | 780k            
+ertecse        | 642k              | 326k          | 0.95                  | 1 396k          
+mlecznyknur    | 378k              | 51k           | 0.15000000000000002   | 780k            
+matek123422    | 2 354k            | 291k          | 0.8500000000000001    | 6 502k          
+aruu           | 642k              | 171k          | 0.5                   | 1 396k          
+xxxkacperxxx   | 378k              | 51k           | 0.15000000000000002   | 780k            
+josecroy       | 642k              | 102k          | 0.30000000000000004   | 1 396k          
+szibav2sigma   | 1 148k            | 159k          | 0.4666666666666667    | 2 836k          
+wojciecch      | 1 220k            | 360k          | 1.05                  | 2 496k          
+carpetdiem     | 882k              | 102k          | 0.30000000000000004   | 1 940k          
+johnnyno1      | 3 322k            | 253k          | 0.74                  | 8 642k          
+zbysiuk420     | 578k              | 33k           | 0.1                   | 1 100k          
+kosa19         | 918k              | 150k          | 0.44                  | 1 966k          
+carlnie        | 1 927k            | 85k           | 0.25                  | 5 490k          
+gierszak       | 706k              | 51k           | 0.15000000000000002   | 2 144k          
+beslarin       | 706k              | 51k           | 0.15000000000000002   | 2 144k          
+rainbowek      | 353k              | 119k          | 0.35000000000000003   | 1 072k          
+birh           | 832k              | 343k          | 1.0                   | 2 002k          
+lagun          | 132k              | 51k           | 0.15000000000000002   | 308k            
+ada1701        | 556k              | 108k          | 0.31666666666666665   | 1 786k          
+sheyter        | 0k                | 0k            | 0.0                   | 1 786k          
+merlinn232     | 568k              | 205k          | 0.6000000000000001    | 1 386k          
+saszatoja      | 0k                | 601k          | 1.75                  | 0k              
+faust          | 0k                | 137k          | 0.4                   | 0k              
+gapik          | 0k                | 171k          | 0.5                   | 0k              
+sebolooo       | 0k                | 68k           | 0.2                   | 0k              
+scalen         | 0k                | 257k          | 0.75                  | 0k              
+ziombel        | 0k                | 188k          | 0.55                  | 0k              
+fbzb           | 0k                | 1 117k        | 3.25                  | 0k              
+luwyriana      | 0k                | 33k           | 0.1                   | 0k              
+muaslak        | 0k                | 33k           | 0.1                   | 0k              
+juicycat       | 0k                | 2 062k        | 6.0                   | 0k              

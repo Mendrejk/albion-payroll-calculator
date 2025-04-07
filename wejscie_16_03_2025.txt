@@ -1,0 +1,27 @@
+KONTENTY:
+1: Karoll
+  1: 1680000, 0, BEACH, 1, TAK, , dande, przemos98, gapik, matek, azaze
+2: karoll
+  1: 10400000, 2880000, BEACH, 2, TAK, karoll, ertecse, NumeroUnoo, Kenoten, matek,Birh, WiliCZ, michigunlp (50%), Kacper17, Golon, GapiK
+3: karoll
+  1: 29000000, 6110000, BEACH, 2, TAK, karoll, Kacper17, PanFausT, Inka, Sebolooo, SmazonyOrzech, fbzb, JuicyCat, VanOrafsson, Golon
+4:
+  1: 28200000, 10570000, BEACH, 2, NIE, , kacper17, panfaust, juicycat, blacktenshi, vanorafsson, wilicz, doonar, matek, gierszak, beslarin, kenoten, sziba, gapik
+5: karoll
+  1: 13300000, 5140000, BEACH, 2, TAK, karoll, kacper17, M0RGANAi (50%), lBlZA (50%), lagun (50%), Kosa19, Kenoten, Aruu, matek, Doonar, BlackTenshi, 00xx00, Sziba, SaszaToJa
+
+CTA:
+1: Kacper17 - sziba, birh, drpolon, gierszak, golon, carpetdiem, smokq, inka, atimusz, aruu, jacekjaworek, zaluzjasolonez, scalen, 00xx00, varorafsson, karoll, ertecse, panfaust, matek, beslarin, juicycat, fbzb, smazonyorzech, kenoten, lagun, zboczonystaszek, maendrake, merlinn232, gapik, lisekpenisek
+2: Kacper17 - gapik, karoll, smokq, carpetdiem, go1on, wojciecch, kenoten, zaluzjasolonez, 00xx00, sziba, demon24, ertecse, matek, scalen, fbzb, birh
+3: kacper17 - gapik, drpolon, karoll, inka, aruu, wojciecch, vanorafsson, lagun, pacholi, matek, scalen, zaluzjasolonez, fbzb, birh
+4: kacper17 - kacper17, karoll, inka, beslarin, aruu, pacholi, kenoten, przemos98, matek, juicycat, gapik, rainbowek, sziba, birh, fbzb, klaudiusz
+5: saszatoja - kacper17, luwyriana, leniwyszpieg, gapik, karoll, kenoten, ertecse, panfaust, matek, juicycat, fbzb, birh
+6: jebanalegenda - birh, kacper17, ertecse, jokerekuwu, ziombel, smokq, ada1701, maendrake, wojciecch, karoll, zboczonystaszek, kevcio, saszatoja, gapik, panfaust, dabek, juicycat, matek, fbzb, josecroy, przemos98, gierszak
+
+REKRUTACJA:
+inka: 3
+zaluzja: 10.5
+inka: 4.5
+maendrake: 1.5
+juicycat: 7.5
+fbzb: 6

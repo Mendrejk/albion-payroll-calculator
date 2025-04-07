@@ -1,0 +1,38 @@
+KONTENTY:
+1: Kacper17
+  1: 15300000, 3980000, BEACH, 1+2, TAK, faust, juicycat, zl1010, demon, birh, atimusz, orzech, scalen, josecroy, karoll, tomko, sebolooo, zaitis, sziba
+2: Karoll
+  1: 26500000, 6930000, BEACH, 1+2, TAK, karoll, kacper17, faust, go1on, josecroy, atimusz, matek, gapik, zl1010, birh, orzech, gierszak, juicycat, wojciecch, maendrake
+  2: 35920000, 14570000, BEACH, 1+2, TAK, karoll, kacper17, orzech, karoll, go1on, gierszak, beslarin, lissovsky, klaudiuszs, paueu, zl1010, gapik
+3: kacper17
+  1: 27380000, 12120000, BEACH, 1+2, TAK, karoll, aruu, matek, juicycat, maendrake, tomko, atimusz (50%), gierszak, orzech, sziba
+4: kacper17
+  1: 7400000, 0, BEACH, 1+2, TAK, karoll, tomko, atimusz, orzech, matek, polon, sebolooo (50%), juicycat, kenoten, fbzb
+  2: 15400000, 5490000, BEACH, 1+2, TAK, faust, matek, atimusz, polon, fbzb, kenoten, orzech, sebolooo, tomko, juicycat
+5: karoll
+  1: 6280000, 1600000, BEACH, 3+4, TAK, karoll, Gierszak, Scalen, JoseCroy, Sebolooo
+6: kacper17
+  1: 49120000, 22680000, BEACH, 3+4, TAK, karoll, kolt500, gapik, josecroy, Ertecse, SlaveBohy, Kosa19, 00xx00, Go1on, klaudiuszs
+7: kacper17
+  1: 18800000, 0, BEACH, 3+4, TAK, kacper17, karoll, go1on, gierszak, doonar, kubikos, matek, 00xx00, orzech, sebolooo, kenoten, lagun, wilicz, sziba, birh, gapik, polon, ertecse, beslarin, klaudiuszs
+  2: 8010000, 2260000, BEACH, 3+4, TAK, karoll, matek, go1on, doonar, kenoten, beslarin, klaudiuszs, lagun, wilicz, gierszak
+8: karoll
+  1: 66990000, 15960000, BEACH, 3+4, TAK, karoll, kacper17, ertecse, doonar, orzech, zaitis, faust, klaudiuszs, gapik, lagun
+9: kacper17
+  1: 21400000, 5070000, BEACH, 3+4, TAK, kacper17, przemos, gierszak, ramsztajn, aruu, go1on, birh, vanorafsson, gapik, leniwyszpieg, pacholi, lagun, sziba, faust
+
+CTA:
+1: kacper17 - birh, tomko, maendrake, ertecse, smokq, jebanalegenda, go1on, aruu, scalen, karoll, gapik, demon, sziba, zaluzjasolonez, muaslak, juicycat, fbzb
+2: jebanalegenda - birh, tomko, go1on, aruu, sziba, kacper17, blacktenshii, karoll, 00xx00, gapik, klaudiuszs, scalen, beslarin, muaslak, kenoten, fbzb, zboczonystaszek
+3: saszatoja - birh, tomko, zaitis, smokq, go1on, jebanalegenda, orzech, ertecse, zaluzjasolonez, karoll, gapik, polon, scalen, josecroy, lagun, juicycat, sziba
+4: jebanalegenda - gapik, birh, tomko, orzech, inka, sebolooo, wynncraft, sallas, saszatoja, blacktenshii, karoll, kacper17, gierszak, juicycat, scalen, aruu, muaslak
+5: jebanalegenda - gapik, polon, luwyriana, 00xx00, inka, carpetdiem, lissovsky, go1on, kenoten, ertecse, atimusz, kacper17, karoll, orzech, scalen, sziba, klaudiuszs, lagun, vanorafsson, muaslak, juicycat
+6: jebanalegenda - drpolon, birh, orzech, zaitis, carpetdiem, scalen, jolko232, gierszak, lagun, karoll, blacktenshii, ertecse, go1on, inka, gapik, josecroy, atimusz, jawor12321, wojciecch, saszatoja, klaudiuszs
+7: jebanalegenda - drpolon, birh, karoll, orzech, inka, scalen, kenoten, gierszak, atimusz, saszatoja, tomko, ertecse, go1on, kacper17, gapik, vanorafsson, jawor12321, beslarin, przemos98, klaudiuszs
+8: jebanalegenda - tomko, birh, alvin731, karoll, orzech, inka, carpetdiem, scalen, kenoten, klaudiuszs, aruu, atimusz, saszatoja, gapik, kacper17, smokq, josecroy, fbzb, wynncraft, przemos98, ertecse, vanorafsson, juicycat, lagun
+9: jebanalegenda - kacper17, tomko, dande, smokq, carpetdiem, go1on, klaudiuszs, scalen, kenoten, zboczonystaszek, aruu, orzech, karoll, ertecse, menelzkrosna, wynncraft, gapik, matek, jolko232, merlinn232, birh, muaslak, saszatoja, zaluzjasolonez
+
+REKRUTACJA:
+zaluzjasolonez: 12.5
+inka: 20
+karoll: 1

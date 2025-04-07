@@ -1,0 +1,31 @@
+KONTENTY:
+1: Karoll
+  1: 2130000, 690000, BEACH, 1, TAK, karoll, juicycat, faust, inka, birh, josecroy, gierszak
+  2: 5990000, 3260000, BEACH, 1, TAK, karoll, juicycat, faust, birh, josecroy, gierszak, ertecse
+  3: 1590000, 5000000, BEACH, 1, TAK, karoll, juicycat, faust, birh, josecroy, gierszak, ertecse
+2: karoll
+  1: 1090000, 386000, BEACH, 1, TAK, karoll, juicycat, atimusz, drx460t, carpetdiem, smufadek
+  2: 3200000, 1560000, BEACH, 1, TAK, karoll, juicycat, atimusz, drx460t, carpetdiem, smufadek, faust
+3: karoll
+  1: 3100000, 100000, BEACH, 1, TAK, karoll, gierszak, leniwyszpieg, jestembotem, matek
+  2: 2100000, 1400000, BEACH, 1, TAK, karoll, gierszak, leniwyszpieg, jestembotem, matek, juicycat
+  3: 1100000, 200000, BEACH, 1, TAK, karoll, gierszak, atimusz, jestembotem, matek, ertecse
+4: kacper17
+  1: 6760000, 0, BEACH, 2, TAK, kacper17, scalen, kosa19, smufadek, szibav2sigma, ertecse, faust, juicycat, demon24, golemaster, wojciecch
+5: karoll
+  1: 4340000, 0, BEACH, 2, TAK, kacper17, go1on, gierszak, lagun, matek, ertecse, smufadek, juicycat, birh, smazonyorzech, wilicz, faust, kosa19
+6:
+  1: 6340000, 0, BEACH, 3, NIE, , kacper17, karoll, smazonyorzech, go1on, gapik, lagun, inka
+  2: 8860000, 0, BEACH, 3, NIE, , kacper17, karoll, smazonyorzech, go1on, gapik, zaluzjasolonez, beslarin, lagun, inka, 00xx00
+7: saszatoja
+  1: 9950000, 0, FORT, 1, TAK, saszatoja, 00xx00, wynncraft, smazonyorzech, sebolooo, zboczonystaszek, vanorafsson, piotrod, dande, azaze, carpetdiem, szibav2sigma, przemos98, klaudiuszs, kubikos, menelzkrosna
+
+CTA:
+1: kacper17 - gapik, birh, ada1701, faust, matek, kenoten, jolko, juicycat, karoll, yashi, josecroy, lagun, scalen, 00xx00
+
+REKRUTACJA:
+zaluzjasolonez: 10.5
+inka: 4.5
+maendrake: 1.5
+juicycat: 7.5
+karoll: 4

@@ -1,0 +1,38 @@
+KONTENTY:
+1: Karoll
+  1: 8570000, 470000, BEACH, 1-3, TAK, Karoll, kacper17, vanorafsson, golon, maendrake, smokq, orzech, wilicz, atimusz, kenoten, demon, inka
+2: karoll
+  1: 10730000, 5200000, BEACH, 1-3, TAK, karoll, ZaluzjaSolonez, Ertecse, MlecznyKnur, matek123422, Aruu, xxxKacperxxx, JoseCroy, Demon, SzibaV2Sigma, Wojciecch
+3: karoll
+  1: 1300000, 620000, BEACH, 1-3, TAK, karoll, Carpetdiem, JohnnyNo1, ZbysiuK420, Wojciecch
+  2: 6700000, 3600000, BEACH, 1-3, TAK, karoll, carpetdiem, johnnyno1, zbysiuk420, wojciecch, kosa19
+4:
+  1: 6300000, 2289000, BEACH, 1-3, NIE, , kacper17, carpetdiem, golon, orzech, carlnie, johnnyno1
+5: kacper17
+  1: 29480000, 9710000, BEACH, 1-3, TAK, kacper17, gierszak, golon, inka, beslarin, vanorafsson, johnnyno1, carlnie (50%), matek123422, smokq, rainbowek (50%), orzech
+6: kacper17
+  1: 10420000, 4470000, BEACH, 1-3, TAK, kacper17, szibav2sigma, golon, karoll, smokq, johnnyno1, ertecse, wilicz, birh, aruu, wojciecch, josecroy, kosa19, lagun (50%)
+7: karoll
+  1: 13400000, 4171000, BEACH, 1-3, TAK, ada1701, orzech, johnnyno1, matek123422, carlnie
+  2: 10800000, 3800000, BEACH, 1-3, TAK, szibav2sigma, orzech, johnnyno1, matek123422, carlnie
+  3: 2200000, 1300000, BEACH, 1-3, TAK, orzech, johnnyno1, matek123422, carlnie
+8:
+  1: 6700000, 0, BEACH, 1-3, NIE, , kacper17, sheyter, golon
+9: karoll
+  1: 3700000, 1600000, BEACH, 1-3, TAK, kacper17, atimusz, birh, merlinn232, kosa19 (50%)
+  2: 2600000, 800000, BEACH, 1-3, TAK, kacper17, atimusz, birh, merlinn232, kosa19 (50%)
+  3: 800000, 150000, BEACH, 1-3, TAK, kacper17, atimusz, birh, merlinn232, smokq
+  4: 1200000, 577000, BEACH, 1-3, TAK, kacper17, atimusz, birh, merlinn232, smokq, johnnyno1
+  5: 2000000, 1200000, BEACH, 1-3, TAK, kacper17, atimusz, birh, merlinn232, smokq, johnnyno1
+
+CTA:
+1: saszatoja - birh, faust, gapik, kacper17, karoll, smokq, golon, aruu, sebolooo, wojciecch, merlinn232, ertecse, matek123422, scalen, vanorafsson, ziombel, fbzb
+2: saszatoja - birh, kacper17, karoll, smokq, ada1701, wojciecch, ertecse, scalen, matek123422, fbzb, ziombel
+3: karoll - birh, luwyriana, muaslak, smokq, merlinn232, matek123422, scalen
+4: golon - smokq, gapik, birh, ertecse, scalen, fbzb, wojciecch
+5: kacper17 - faust, birh, orzech, gapik, rainbowek, smokq, carpetdiem, kosa19, kenoten, wojciecch, merlinn232, johnnyno1, ertecse, golon, scalen, vanorafsson, fbzb, ziombel, karoll
+
+REKRUTACJA:
+inka: 6
+juicycat: 6
+fbzb: 2.6
