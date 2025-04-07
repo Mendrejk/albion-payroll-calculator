@@ -533,8 +533,35 @@ fun writePayrollToMarkdown(payroll: Payroll) {
     }
 }
 
+fun printSimilarNames(participants: Participants, similarityThreshold: Double = 0.75) {
+    val names = participants.keys.toList()
+    val similarNames = mutableMapOf<String, MutableList<String>>()
+
+    for (i in names.indices) {
+        for (j in i + 1 until names.size) {
+            val name1 = names[i].lowercase()
+            val name2 = names[j].lowercase()
+            val similarity = jaroWinklerSimilarity(name1, name2)
+            if (similarity >= similarityThreshold) {
+                similarNames.getOrPut(names[i]) { mutableListOf() }.add(names[j])
+                similarNames.getOrPut(names[j]) { mutableListOf() }.add(names[i])
+            }
+        }
+    }
+
+    if (similarNames.isNotEmpty()) {
+        println("Detected similar names:")
+        similarNames.forEach { (name, similars) ->
+            println("$name -> ${similars.joinToString(", ")}")
+        }
+    } else {
+        println("No similar names detected.")
+    }
+}
+
 fun main() {
     val payroll = calculatePayroll()
     writePayrollOutput(payroll)
     writePayrollToMarkdown(payroll)
+    printSimilarNames(payroll.participants)
 }
