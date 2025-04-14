@@ -15,6 +15,7 @@ build/
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
+!**/energia/out/
 
 ### Eclipse ###
 .apt_generated

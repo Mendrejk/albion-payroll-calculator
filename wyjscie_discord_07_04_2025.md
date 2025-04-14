@@ -1,8 +1,8 @@
 ## W KASIE / CASH
 @kacper17 7 058k
 @faust 6 054k
-@muaslak 5 300k
-@karoll 4 208k
+@muaslak 5 262k
+@karoll 4 394k
 @orzech 3 784k
 @johnny 3 692k
 @gapik 3 582k
@@ -10,10 +10,10 @@
 @juicycat 3 148k
 @smokq 2 864k
 @birh 2 688k
-@vanorafsson 2 678k
-@milki 2 414k
+@vanorafsson 2 640k
+@milki 2 376k
 @kosa 2 118k
-@atimusz 1 934k
+@atimusz 1 896k
 @wojciech 1 888k
 @lagun 1 654k
 @matek 1 610k
@@ -22,7 +22,7 @@
 @inka 930k
 @sziba 904k
 @klaudiuszs 788k
-@beslarin 784k
+@beslarin 746k
 @fbzb 676k
 @menelzkrosna 676k
 @josecroy 570k
@@ -40,41 +40,41 @@
 @merlinn 66k
 
 ## ZWROT PODATKU (CZAS NA ODEBRANIE DO NASTĘPNEGO ROZLICZENIA)
-@kacper17 10 509k
-@karoll 5 452k
-@zaluzjasolonez 4 555k
-@johnny 1 190k
-@gierszak 1 138k
-@muaslak 1 103k
-@vanorafsson 1 035k
-@faust 1 035k
-@sziba 982k
-@birh 879k
-@gapik 775k
-@orzech 672k
-@juicycat 620k
-@wilicz 517k
-@matek 465k
-@rainbowek 465k
-@atimusz 447k
-@merlinn 413k
-@kosa 413k
-@smokq 413k
-@lbiza 362k
-@kenoten 362k
-@fbzb 309k
-@michigunlp 309k
-@milki 275k
-@lagun 258k
-@inka 206k
-@ertecse 206k
-@demon 206k
-@doonar 206k
-@beslarin 154k
-@golon 154k
-@sebolooo 154k
-@wojciech 154k
-@jolko 154k
+@kacper17 10 451k
+@karoll 5 766k
+@zaluzjasolonez 4 530k
+@johnny 1 183k
+@gierszak 1 132k
+@muaslak 1 098k
+@vanorafsson 1 028k
+@faust 1 028k
+@sziba 977k
+@birh 875k
+@gapik 771k
+@orzech 669k
+@juicycat 616k
+@wilicz 514k
+@matek 463k
+@rainbowek 463k
+@merlinn 410k
+@kosa 410k
+@smokq 410k
+@lbiza 359k
+@kenoten 359k
+@atimusz 308k
+@fbzb 308k
+@michigunlp 308k
+@milki 274k
+@lagun 257k
+@inka 204k
+@ertecse 204k
+@demon 204k
+@doonar 204k
+@beslarin 153k
+@golon 153k
+@sebolooo 153k
+@wojciech 153k
+@jolko 153k
 @carlnie 102k
 @sheyter 102k
 @menelzkrosna 102k
@@ -86,23 +86,23 @@
 ## LOOT BEACH
 @kacper17 20 304k
 @faust 16 786k
-@karoll 15 042k
+@karoll 15 374k
 @johnny 13 406k
 @orzech 12 614k
 @gapik 11 516k
-@muaslak 10 994k
+@muaslak 11 326k
+@vanorafsson 11 010k
 @juicycat 10 756k
-@vanorafsson 10 678k
 @birh 7 998k
 @smokq 7 536k
 @gierszak 7 308k
 @matek 7 116k
 @sziba 7 112k
 @kosa 5 730k
+@atimusz 5 614k
+@milki 5 444k
 @inka 5 318k
-@atimusz 5 282k
 @lagun 5 170k
-@milki 5 112k
 @wilicz 4 888k
 @wojciech 4 230k
 @sebolooo 2 626k
@@ -111,9 +111,9 @@
 @golon 2 264k
 @fbzb 1 976k
 @michigunlp 1 796k
+@beslarin 1 748k
 @klaudiuszs 1 600k
 @rainbowek 1 451k
-@beslarin 1 416k
 @ertecse 1 296k
 @demon 1 296k
 @kenoten 1 296k
@@ -127,34 +127,27 @@
 @lisek 530k
 @maendrake 416k
 @staszek 416k
-
-## LOOT BEACH. 1-5
-@atimusz 400k
-@vanorafsson 400k
-@beslarin 400k
-@muaslak 400k
-@milki 400k
 
 ## LOOT BEACH - 1-5
 @kacper17 20 304k
 @faust 16 786k
-@karoll 15 042k
+@karoll 15 374k
 @johnny 13 406k
 @orzech 12 614k
 @gapik 11 516k
-@muaslak 10 994k
+@muaslak 11 326k
+@vanorafsson 11 010k
 @juicycat 10 756k
-@vanorafsson 10 678k
 @birh 7 998k
 @smokq 7 536k
 @gierszak 7 308k
 @matek 7 116k
 @sziba 7 112k
 @kosa 5 730k
+@atimusz 5 614k
+@milki 5 444k
 @inka 5 318k
-@atimusz 5 282k
 @lagun 5 170k
-@milki 5 112k
 @wilicz 4 888k
 @wojciech 4 230k
 @sebolooo 2 626k
@@ -163,9 +156,9 @@
 @golon 2 264k
 @fbzb 1 976k
 @michigunlp 1 796k
+@beslarin 1 748k
 @klaudiuszs 1 600k
 @rainbowek 1 451k
-@beslarin 1 416k
 @ertecse 1 296k
 @demon 1 296k
 @kenoten 1 296k
@@ -179,11 +172,4 @@
 @lisek 530k
 @maendrake 416k
 @staszek 416k
-
-## LOOT BEACH. 1-5 - TAK
-@atimusz 400k
-@vanorafsson 400k
-@beslarin 400k
-@muaslak 400k
-@milki 400k
 

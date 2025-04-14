@@ -1,51 +1,9 @@
 KONTENTY:
-1: Kacper17
-  1: 6770000, 2988000, BEACH, 1-5, TAK, kacper17, carpetdiem, inka, atimusz, vanorafsson, matek, juicycat
-  2: 10330000, 4071000, BEACH, 1-5, TAK, kacper17, atimusz, vanorafsson, matek, beslarin, faust, orzech, juicycat
-2: kacper17
-  1: 2400000, 1140000, BEACH, 1-5, TAK, kacper17, muaslak, rainbowek, johnny, vanorafsson, sziba
-3: kacper17
-  1: 23500000, 0, BEACH, 1-5, TAK, kacper17, ertecse, johnny, vanorafsson, demon, fbzb, sziba, gapik, merlinn (50%), Lbiza (50%), karoll, wilicz, birh, rainbowek (50%), kenoten, doonar
-4: kacper17
-  1: 14010000, 6898000, BEACH, 1-5, TAK, kacper17, carlnie, gapik, muaslak, sheyter, faust, klaudiuszs
-  2: 6990000, 3644000, BEACH, 1-5, TAK, kacper17, muaslak, sheyter, gapik, faust, juicycat, carlnie
-5: karoll
-  1: 13890000, 2750000, BEACH, 1-5, TAK, karoll, muaslak, Kosa, faust, JuicyCat, lbiza (50%), WiliCZ, Rainbowek (50%), Birh, michigunlp (50%), Kacper17, Golon, GapiK
-6:
-  1: 5200000, 1530000, BEACH, 1-5, NIE, ,  kacper17, vanorafsson, lisek, faust, atimusz, maendrake, orzech, sziba, staszek, juicycat
-7: kacper17
-  1: 47600000, 5470000, BEACH, 1-5, TAK, kacper17, orzech, vanorafsson, smokq, juicycat, johnny, faust, wilicz, sziba, karoll, michigunlp (50%), matek, inka, gapik, sebolooo
-8:
-  1: 16800000, 2550000, BEACH, 1-5, NIE, , kacper17, johnny, inka, vanorafsson, lagun, matek, sziba
-9:
-  1: 700000, 1930000, BEACH, 1-5, NIE, , kacper17, faust, vanorafsson, juicycat, johnny
-10: kacper17
-  1: 5100000, 5077000, BEACH, 1-5, TAK, gierszak, smokq, menelzkrosna, fbzb, muaslak
-11: karoll
-  1: 4010000, 312000, BEACH, 1-5, TAK, sziba, kosa, birh, vanorafsson, muaslak
-12: karoll
-  1: 1680000, 500000, BEACH, 1-5, TAK, karoll, Eillord, FausT, JuicyCat, Johnny, merlinn
-  2: 6710000, 2400000, BEACH, 1-5, TAK, karoll, Gierszak, JuicyCat, Matek, FausT, muaslak, Eillord
-13: gierszak
-  1: 10200000, 2376000, BEACH, 1-5, TAK, karoll, orzech, juicycat, faust
-14: karoll
-  1: 800000, 520000, BEACH, 1-5, TAK, karoll, Atimusz,muaslak,VanOrafsson,Beslarin
-  2: 2500000, 1400000, BEACH. 1-5, TAK, karoll, Atimusz, muaslak, VanOrafsson, Beslarin, Milki
-  3: 1600000, 450000, BEACH, 1-5, TAK, karoll, Atimusz, VanOrafsson, Beslarin, Milki
-15: karoll
-  1: 71400000, 31890000, BEACH, 1-5, TAK, kacper17, faust, milki, lagun (50%), smokq, birh, wojciech, johnny, gierszak, orzech, muaslak, kosa, gapik
-16: johnny
-  1: 4700000, 1732000, BEACH, 1-5, TAK, kacper17, atimusz, orzech, vanorafsson, milki
-  2: 4000000, 706000, BEACH, 1-5, TAK, kacper17, atimusz, orzech, vanorafsson
-17: kacper17
-  1: 7900000, 4645000, BEACH, 1-5, TAK, kacper17, faust, muaslak, josecroy, birh, karoll, lagun (50%)
-18:
-  1: 13800000, 2870000, BEACH, 1-5, NIE, , kacper17, golon, orzech, johnny, atimusz, faust, juicycat, karoll, lagun (50%)
-19:
-  1: 1000000, 680000, BEACH, 1-5, NIE, , faust, juicycat, atimusz, johnny, orzech, karoll, lisek
+1: kacper17
+  1: 27400000, 3840000, BEACH, 1, TAK, kacper17, birh, golon, faust, juicycat, milki, fbzb, wojciech, atimusz, demon (50%), johnny, kosa, lagun, merlin
+  2: 12500000, 6280000, BEACH, 1, TAK, kacper17, golon, faust, juicycat, atimusz, johnny, wojciech, birh, milki
+  3: 12600000, 4040000, BEACH, 1, TAK, kacper17, atimusz, faust, vanorafsson, orzech, golon, inka, juicycat
 
 CTA:
-1: Kacper17 - birh, orzech, muaslak, karoll, faust, gierszak, kenoten, jolko, merlinn, matek, vanorafsson
 
 REKRUTACJA:
-zaluzjasolonez: 4.4
