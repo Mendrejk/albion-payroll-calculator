@@ -1,9 +1,0 @@
-KONTENTY:
-1: kacper17
-  1: 27400000, 3840000, BEACH, 1, TAK, kacper17, birh, golon, faust, juicycat, milki, fbzb, wojciech, atimusz, demon (50%), johnny, kosa, lagun, merlin
-  2: 12500000, 6280000, BEACH, 1, TAK, kacper17, golon, faust, juicycat, atimusz, johnny, wojciech, birh, milki
-  3: 12600000, 4040000, BEACH, 1, TAK, kacper17, atimusz, faust, vanorafsson, orzech, golon, inka, juicycat
-
-CTA:
-
-REKRUTACJA:

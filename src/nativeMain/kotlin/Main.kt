@@ -138,8 +138,9 @@ fun parseInputFile(): Input {
         val haulInputs = haulsLines.mapNotNull { haulLine ->
             haulLine.split(":").map { it.trim() }.takeIf { it.size == 2 }?.let { (_, haulData) ->
                 haulData.split(",").map { it.trim() }.takeIf { it.size >= 7 }?.let { haulParts ->
-                    val itemsBeforeTax = haulParts[0].toInt()
-                    val cashBeforeTax = haulParts[1].toIntOrNull() ?: 0
+                    // TODO: we should use thousands in the data class instead of multiplying by 1000 here
+                    val itemsBeforeTax = haulParts[0].toInt() * 1000
+                    val cashBeforeTax = haulParts[1].toIntOrNull()?.times(1000) ?: 0
                     val location = haulParts[2]
                     val tab = haulParts[3]
                     val hadOrganizer = haulParts[4].lowercase() == "tak"
