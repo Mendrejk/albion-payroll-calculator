@@ -1,0 +1,54 @@
+Podatek w przedmiotach: 30 574k
+Podatek w gotówce: 12 477k
+Suma wypłat w przedmiotach: 243 490k
+Suma wypłat w gotówce: 98 148k
+Suma zwrotów w przedmiotach: 30 435k
+Suma zwrotów w gotówce: 12 268k
+Nick         | Wypłata w gotówce | Zwrot podatku | Punkty Zwrotu Podatku | LOOT BEACH - 1+2+4 | LOOT BEACH - 3+5
+------------ | ----------------- | ------------- | --------------------- | ------------------ | ----------------
+karoll       | 5 452k            | 5 694k        | 9.799999999999999     | 12 190k            | 2 708k          
+atimusz      | 5 232k            | 493k          | 0.8500000000000001    | 7 948k             | 2 908k          
+orzech       | 6 574k            | 1 481k        | 2.55                  | 10 044k            | 4 874k          
+zjaranysajan | 3 203k            | 551k          | 0.9500000000000001    | 4 485k             | 4 206k          
+wojciech     | 612k              | 290k          | 0.5                   | 1 004k             | 742k            
+tedus        | 92k               | 174k          | 0.30000000000000004   | 628k               | 0k              
+kacper17     | 5 776k            | 10 024k       | 17.25                 | 9 432k             | 4 982k          
+fbzb         | 160k              | 882k          | 1.52                  | 124k               | 0k              
+juri         | 6 448k            | 943k          | 1.6250000000000002    | 10 018k            | 4 170k          
+birh         | 2 400k            | 1 975k        | 3.4000000000000004    | 5 062k             | 2 672k          
+inka         | 6 458k            | 2 324k        | 4.0                   | 11 426k            | 3 428k          
+jolko232     | 244k              | 57k           | 0.1                   | 1 066k             | 0k              
+merlinn232   | 444k              | 174k          | 0.30000000000000004   | 1 066k             | 742k            
+sziba        | 7 254k            | 1 931k        | 3.3249999999999997    | 12 348k            | 5 060k          
+szado        | 518k              | 377k          | 0.65                  | 2 862k             | 742k            
+kosa         | 2 840k            | 581k          | 1.0                   | 2 648k             | 4 838k          
+grimonmon    | 192k              | 57k           | 0.1                   | 1 988k             | 0k              
+gierszak     | 2 690k            | 144k          | 0.25                  | 4 936k             | 0k              
+ramserion    | 160k              | 57k           | 0.1                   | 252k               | 0k              
+rainbowek    | 4 472k            | 725k          | 1.2500000000000002    | 5 434k             | 3 650k          
+smokq        | 3 546k            | 696k          | 1.2000000000000002    | 6 850k             | 742k            
+vanorafsson  | 3 624k            | 1 045k        | 1.8                   | 7 724k             | 1 554k          
+faust        | 4 954k            | 1 249k        | 2.15                  | 8 602k             | 4 226k          
+menel        | 1 034k            | 87k           | 0.15000000000000002   | 2 636k             | 998k            
+paueu        | 1 034k            | 231k          | 0.4                   | 2 636k             | 0k              
+johnny       | 4 858k            | 958k          | 1.65                  | 8 988k             | 1 818k          
+juicycat     | 3 696k            | 1 743k        | 3.0                   | 7 320k             | 520k            
+drpolon      | 2 530k            | 318k          | 0.55                  | 4 684k             | 0k              
+carpetdiem   | 1 162k            | 755k          | 1.3                   | 1 668k             | 2 296k          
+gszegosz     | 605k              | 435k          | 0.75                  | 834k               | 742k            
+lagun        | 810k              | 87k           | 0.15000000000000002   | 1 668k             | 0k              
+beslarin     | 810k              | 87k           | 0.15000000000000002   | 1 668k             | 0k              
+muaslak      | 1 142k            | 871k          | 1.5                   | 1 668k             | 2 260k          
+milki        | 1 058k            | 290k          | 0.5                   | 1 282k             | 1 966k          
+carlnie      | 592k              | 174k          | 0.30000000000000004   | 1 078k             | 983k            
+klaudiusz    | 1 928k            | 769k          | 1.325                 | 408k               | 4 206k          
+maendrake    | 906k              | 1 452k        | 2.5                   | 1 282k             | 1 410k          
+golon        | 326k              | 551k          | 0.95                  | 874k               | 742k            
+gapik        | 126k              | 551k          | 0.95                  | 874k               | 0k              
+lisekpenisek | 478k              | 464k          | 0.8                   | 874k               | 1 298k          
+chanccellor  | 132k              | 57k           | 0.1                   | 0k                 | 520k            
+zbysiu       | 1 576k            | 87k           | 0.15000000000000002   | 0k                 | 2 908k          
+ziombel      | 0k                | 551k          | 0.95                  | 0k                 | 0k              
+jenny        | 0k                | 87k           | 0.15000000000000002   | 0k                 | 0k              
+kenoten      | 0k                | 87k           | 0.15000000000000002   | 0k                 | 0k              
+masiu        | 0k                | 87k           | 0.15000000000000002   | 0k                 | 0k              

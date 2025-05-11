@@ -1,0 +1,51 @@
+KONTENTY:
+1: karoll
+  1: 4710, 695, BEACH, 1+2+4, TAK, karoll, Atimusz,Orzech,ZjaranySajan,Wojciech,tedus
+2: kacper17
+  1: 1090, 1407, BEACH, 1+2+4, TAK, kacper17, karoll, fbzb, orzech, wojciech, juri, birh
+3: karoll
+  1: 8000, 1840, BEACH, 1+2+4, TAK, karoll, Inka,Orzech,ZjaranySajan,Jolko232,Merlinn232
+4: kacper17
+  1: 17400, 1692, BEACH, 1+2+4, TAK, sziba, birh, szado, karoll, kosa, grimonmon
+5: karoll
+  1: 1900, 1200, BEACH, 1+2+4, TAK, kosa, gierszak, Ramserion, Wojciech,Rainbowek
+6: karoll
+  1: 5300, 70, BEACH, 1+2+4, TAK, karoll, Sziba,Orzech,inka,ZjaranySajan (50%),Rainbowek,Smokq,Juri,VanOrafsson
+7: orzech
+  1: 36260, 14240, BEACH, 1+2+4, TAK, kacper17, faust, juri, sziba, menel, atimusz, paueu, inka, johnny, juicycat
+8: karoll
+  1: 87840, 47470, BEACH, 1+2+4, TAK, kacper17, gierszak, atimusz, johnny, orzech, smokq, vanorafsson, inka, drpolon, juicycat, faust, sziba, rainbowek, juri
+9: karoll
+  1: 28150, 13680, BEACH, 1+2+4, TAK, karoll, Sziba,Smokq,Inka,carpetdiem,Birh,Gszegosz (50%),ZjaranySajan,Juri,Johnny,lagun,Beslarin,muaslak,VanOrafsson
+10: karoll
+  1: 4850, 0, BEACH, 1+2+4, TAK, karoll, FausT,Orzech,milki,carlnie (50%),Juri,Birh,Klaudiusz,KOSA,Maendrake
+  2: 15000, 8300, BEACH, 3+5, TAK, karoll, FausT,Orzech,milki,carlnie (50%),Birh,KOSA,Maendrake,Sziba
+11: birh
+  1: 15300, 2230, BEACH, 1+2+4, TAK, karoll, Golon,GapiK,Szado,milki,FausT,carlnie,VanOrafsson,Lisekpenisek,Sziba,Inka,Maendrake,Zjaranysajan
+12: birh
+  1: 6510, 1660, BEACH, 3+5, TAK, kacper17, muaslak, faust, juicycat, juri, kosa, chanccellor, inka, johnny
+13:
+  1: 7490, 0, BEACH, 3+5, NIE, , kacper17, menel, carpetdiem, muaslak, faust, vanorafsson
+14:
+  1: 8000, 2200, BEACH, 3+5, NIE, , Karoll,FausT,Orzech,milki,carpetdiem,carlnie (50%),LISEKPENISEK,VanOrafsson,Johnny,ZjaranySajan,Kacper17,Klaudiusz
+15: birh
+  1: 16700, 4520, BEACH, 3+5, TAK, sziba, carpetdiem,Johnny,Rainbowek,Karoll,Szado,Juri,Smokq,Wojciech,LISEKPENISEK,ZjaranySajan,Golon,Klaudiusz,merlinn232,FausT,Gszegosz,muaslak
+16: kacper17
+  1: 40000, 21690, BEACH, 3+5, TAK, kacper17, kosa, juri, orzech, inka, atimusz, rainbowek, zbysiu, zjaranysajan, klaudiusz, sziba
+
+CTA:
+1: kacper17 - birh, gapik, sziba, johnny, muaslak, rainbowek, smokq, carpetdiem, inka, szado, faust, karoll, orzech, juicycat, tedus, vanorafsson, fbzb, ziombel
+2: kacper17 - drpolon, jenny, muaslak, karoll, carpetdiem, faust, kenoten, vanorafsson, sziba, johnny, orzech, fbzb
+3: kacper17 - ziombel, muaslak, orzech, rainbowek, inka, carpetdiem, faust, johnny, vanorafsson, klaudiusz, juicycat, atimusz, fbzb
+4: kacper17 - ziombel, johnny, muaslak, smokq, masiu, klaudiusz, karoll, vanorafsson, sziba, gszegosz, faust, fbzb
+5: kacper17 - sziba, golon, atimusz, inka, faust, vanorafsson, gapik, karoll, muaslak, klaudiusz, fbzb
+6: kacper17 - birh, drpolon, ziombel, golon, muaslak, orzech, smokq, inka, carpetdiem, vanorafsson, paueu, lisekpenisek, gapik, fbzb, juri, juicycat, faust, gszegosz, sziba, johnny, klaudiusz
+7: kacper17 - birh, ziombel, golon, orzech, inka, milki, carpetdiem, klaudiusz, vanorafsson, maendrake, gapik, fbzb, faust, lisekpenisek, rainbowek, juri, karoll
+
+REKRUTACJA:
+inka: 2
+maendrake: 2
+juicycat: 2
+kacper17: 6
+karoll: 0.55
+fbzb: 0.17

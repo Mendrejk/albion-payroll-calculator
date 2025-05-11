@@ -1,0 +1,32 @@
+KONTENTY:
+1: Karoll
+  1: 34800, 4000, BEACH, 1-3, TAK, Karoll, Golon, Smokq, milki (50%), carpetdiem, ZjaranySajan, JohnnyNo1, ZbysiuK420, SmazonyOrzech, Gszegosz, Klaudiuszs, Rainbowek, JuriOwsienko69, Eillord
+2: Birh
+  1: 18800, 2300, BEACH, 1-3, TAK, Sziba, GapiK, Ziombel, LISEKPENISEK, Wojciecch,carpetdiem,Klaudiuszs,Golon, faust ,Karoll, JoseCroy, Smokq
+3:
+  1: 1900, 504, BEACH, 1-3, NIE, , Karoll, Wojciecch, SmazonyOrzech, Atimusz, ZjaranySajan
+4: Birh
+  1: 22750, 1830, BEACH, 1-3, TAK, Sziba, merlin232, Smokq, Ziombel, VanOrafsson, faust, SmazonyOrzech, Carpetdiem, Wojciecch, Karoll, Gapik, Golon, Atimusz, INKA, LISEKPENISEK
+5: karoll
+  1: 33250, 4100, BEACH, 1-3, TAK, karoll, FausT, SmazonyOrzech, INKA, carpetdiem, VanOrafsson, Atimusz, Gszegosz, ZbysiuK420, ZjaranySajan, JuriOwsienko69, Klaudiuszs, juicycat (50%), Smokq, JohnnyNo1
+6: kacper17
+  1: 12400, 2009, BEACH, 1-3, TAK, kacper17, polveczko, smokq, zbysiuk420
+7: birh
+  1: 30558, 1870, BEACH, 1-3, TAK, karoll, JuriOwsienko69, FausT, Wydra, carpetdiem, LISEKPENISEK, JoseCroy, ZjaranySajan, Ziombel, Sziba, tedus123, DrPolon, carlnie, SaszaToJa, Klaudiuszs, Beslarin
+8:
+  1: 16542, 5290, BEACH, 1-3, NIE, , kacper17, zjaranysajan, sziba, golon, menel, carpetdiem, faust, karoll, lisekpenisek
+9: kacper17
+  1: 10500, 4100, BEACH, 1-3, TAK, kacper17, golon, carpetdiem, beslarin, vanorafsson, gszegosz, wydra, zbysiuk420, smokq, johnnyno1, carlnie (50%), merlin232
+  2: 20000, 3970, BEACH, 1-3, TAK, kacper17, golon, carpetdiem, vanorafsson, gszegosz, wydra, zbysiuk420, smokq, johnnyno1, carlnie, zjaranysajan, juicycat, klaudiuszs
+10: birh
+  1: 14300, 1300, BEACH, 1-3, TAK, karoll, juicycat, ZjaranySajan, Wojciecch, carlnie, merlin232, SmazonyOrzech, Klaudiuszs, GapiK, Wydra, FausT, LISEKPENISEK, SaszaToJa, Jolko (50%)
+11: kacper17
+  1: 20900, 7260, BEACH, 5, TAK, kacper17, atimusz, wydra, inka, johnnyno1, carlnie, vanorafsson, zbysiuk420, golon ,gszegosz, maendrake
+  2: 4800, 0, BEACH, 5, TAK, kacper17, atimusz, wydra, johnnyno1, carlnie, vanorafsson, zbysiuk420, gszegosz, golon, paueu, karoll, maendrake
+  3: 14000, 6660, BEACH, 5, TAK, kacper17, atimusz, johnnyno1, carlnie, zbysiuk420, gszegosz, golon, paueu, karoll, maendrake
+
+CTA:
+1: kacper17 - drpolon, sziba, golon, karoll, smazonyorzech, klaudiuszs, carlnie, vanorafsson, gapik, wydra, faust, juicycat, juriowsienko69, johnnyno1
+2: karoll - ziombel, golon, smazonyorzech, atimusz, fbzb, klaudiuszs, carlnie, gapik, sziba, krakson, faust, muaslak, johnnyno1, wydra, juriowsienko69
+
+REKRUTACJA:
