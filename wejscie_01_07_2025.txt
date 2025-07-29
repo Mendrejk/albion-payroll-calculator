@@ -1,0 +1,29 @@
+KONTENTY:
+1: smokq
+  1: 1810, 0, BEACH, 1, TAK, kacper17, gapik, golon, krzysiu, fenix, srogonosek, fbzb, ertecse, juri, merlin, carpet
+  2: 12810, 5340, BEACH, 1, TAK, kacper17, gapik, golon, krzysiu, fenix, srogonosek, fbzb, ertecse, juri, merlin
+2: juri
+  1: 5500, 4131, BEACH, 1, TAK, juri, kacper17, muaslak, vanorafsson, ertecse, johnny, piston
+3: sasza
+  1: 15200, 0, BEACH, 1, TAK, sasza, carpet, wojciecch, vanorafsson, muaslak, fbzb, piston
+4: smokq
+  1: 2400, 970, BEACH, 1, TAK, smokq, orzech, beslarin, karoll, wojciecch
+5:
+  1: 8410, 4273, BEACH, 2, NIE, , juri, fenix, muaslak, orzech, groznydyzio, piston, wojciecch
+6:
+  1: 6390, 0, BEACH, 2, NIE, , faust, gapik, orzech, inka, fenix
+7:
+  1: 20200, 0, FORT, 3, NIE, , faust, atimusz, kacper17, orzech, vanorafsson, golon, lagun
+8:
+  1: 7600, 0 , FORT, 3, NIE, , faust, karoll, vanorafsson, orzech, muaslak, piston, paueu, fenix
+9: sasza
+  1: 7280, 1050, FORT, 1, TAK, sasza, carpet, karoll, teekamekite, eillord, piston, golon
+10: sasza
+  1: 18320, 0, FORT, 1, TAK, sasza, ertecse, smokq, karoll, carpet, lisek, golon, jenny, eillord, piston, polut, teekamekite, juri, grimonmon
+
+CTA:
+1: kacper17 - piston, smokq, golon, gapik, juri, lagun, orzech, inka, cezar, faust, vanorafsson, fenix, johnny, beslarin, niki, karoll, merlin, wojciecch
+2: kacper17 - gapik, krzysiu, smokq, cezar, faust, inka, ertecse, vanorafsson, golon, juri, srogonosek, szymonix, lisek, niki, merlin, piston, maendrake, lagun, karoll
+
+REKRUTACJA:
+fbzb: 0.33

@@ -1,0 +1,41 @@
+KONTENTY:
+1: karoll
+  1: 10200, 1450, BEACH, 2, TAK, karoll, Maendrake, Orzech, Wydra, SKJK (50%), carpet, TrueReligion, Polut, GriMonmon, GapiK, tedus, AraAraKing, inka
+2: kacper17
+  1: 5200, 2776, BEACH, 2, TAK, karoll, polut, atimusz, lisekpenisek, wojciecch, truereligion
+3: smokq
+  1: 6300, 100, BEACH, 2, TAK, kacper17, Karoll, Johnny, Go1on, Fenix, Wydra, Danut, Maendrake, Orzech
+4: kacper17
+  1: 4900, 2750, BEACH, 2, TAK, karoll, Wydra, GriMonmon, DRX460t, Maendrake
+5: karoll
+  1: 2400, 0, BEACH, 2, TAK, karoll, GapiK, VanOrafsson, Wydra, Kacper17, Polut, GriMonmon, Szymonix (50%), LISEKPENISEK, Maendrake
+  2: 9600, 4400, BEACH, 2, TAK, karoll, GapiK, VanOrafsson, Wydra, Kacper17, Polut, GriMonmon, Szymonix (50%), LISEKPENISEK, Maendrake, FausT
+7: karoll
+  1: 3200, 0, BEACH, 2, TAK, karoll, Kacper17, Orzech, Wydra, Fenix, Danut, Piston (50%), VanOrafsson, Cezar, Polut, Smokq, Maendrake, GriMonmon, TrueReligion
+  2: 16400, 7220, BEACH, 2, TAK, karoll, Kacper17, Orzech, Wydra, Fenix, Danut, Piston (50%), Polut, Smokq, Maendrake, TrueReligion
+8: smokq
+  1: 6430, 1730, BEACH, 3, TAK, kacper17, sasza, Gapik, Go1on, lisekpenisek, Wydra, carpet, Polut, Wojciecch, Faust, GriMonmon
+9: smokq
+  1: 2030, 1890, BEACH, 3, TAK, johnny, Srogonosek, FausT, Fenix, Karoll, inka, Polut, Wydra, JuicyCat, Kacper17, ziombel, Dzigipentryt, Cezar, merlin, LISEKPENISEK
+10: smokq
+  1: 3840, 780, BEACH, 3, TAK, karoll, Kacper17, Orzech, Wydra, TrueReligion, Srogonosek, JuicyCat, Fenix, Dzigipentryt, inka, Cezar, FausT
+  2: 19600, 6920, BEACH, 3, TAK, karoll, Kacper17, Orzech, Wydra, TrueReligion, JuicyCat, Fenix, Dzigipentryt, inka, Cezar, FausT
+11: karoll
+  1: 6600, 1780, BEACH, 3, TAK, karoll, GapiK, Orzech, Wydra, Filx, Eillord, TrueReligion, Fenix, FausT, Smokq, Maendrake, ZjaranySajan (50%), Szymonix (50%), fbzb, KOSA19 (50%)
+12:
+  1: 12600, 0, FORT, 1, NIE, , juicycat, faust, go1on, fbzb, lisekpenisek, smokq, kacper17
+13:
+  1: 7900, 0, FORT, 1, NIE, , smokq, faust, juicycat, juri, go1on, vanorafsson, wojciecch
+
+CTA:
+1: Sziba - drzewi, srogonosek, gapik, faust, go1on, fbzb, juri, johnny, lisekpenisek, kacper17, beslarin, truereligion, carpet, juicycat, smokq, wydra, ziombel, popiez, karoll, tedus, lisekpenisek, zaluzjasolonez, paueu, polut, grimonmon
+2: karoll - sziba, srogonosek, klaudiuszs, go1on, vanorafsson, orzech, lisekpenisek, kacper17, drx460t, carpet, muaslak, smokq, wydra, inka, freju, faust, cezar, dzigipentryt, paueu, ziombel
+3: sasza - kacper17, karoll, srogonosek, smokq, polut, jenny, inka, tedus, truereligion, juri, wydra, agmel, wojciecch, juicycat, maendrake, go1on, gapik, atimusz, cezar, eillord, beslarin, ziombel, fbzb, vanorafsson, muaslak, filx, klaudiuszs
+4: sasza - kacper17, karoll, srogonosek, smokq, polut, jenny, inka, tedus, truereligion, juri, wydra, agmel, wojciecch, juicycat, maendrake, go1on, gapik, atimusz, cezar, eillord, beslarin, ziombel, fbzb, vanorafsson, muaslak, filx, klaudiuszs
+5: kacper17 - sasza, faust, go1on, jenny, klaudiuszs, lisekpenisek, agmel, carpet, smokq, wydra, inka, vanorafsson, karoll, cezar, atimusz, maendrake, paueu, sziba, filx, zaluzjasolonez, fbzb, muaslak, eillord, juicycat, orzech, ziombel
+6: sasza - sziba, srogonosek, faust, szymonix, juri, orzech, johnny, fenix, truereligion, carpet, smokq, wydra, maendrake, kacper17, wojciecch, karoll, dzigipentryt, polut, piston, cezar, inka, merlin, ziombel, vanorafsson, juicycat, gapik, fbzb
+7: sasza - kacper17, go1on, orzech, drx460t, carpet, juicycat, smokq, ziombel, faust, cezar, fbzb, beslarin, inka, paueu
+
+REKRUTACJA:
+inka: 12
+karoll: 4.2

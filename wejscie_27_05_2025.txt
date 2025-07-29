@@ -1,0 +1,41 @@
+KONTENTY:
+1: Wojciecch
+  1: 5400, 0, BEACH, 1, TAK, karoll, juri, orzech, maendrake, paueu, kacper17, juicycat, faust, eillord, gapik, sasza
+2: Karoll
+  1: 17400, 5070, BEACH, 1, TAK, karoll, gapik, orzech, inka, kraboo, carpetdiem, fenix, araaraking, tedus, fbzb, johnny, carlnie
+3: Orzech
+  1: 8430, 0, BEACH, 2, TAK, karoll, gapik, smokq, fenix, carlnie, johnny, sasza, paueu, klaudiusz, vanorafsson, inka
+4: kacper17
+  1: 7170, 2477, BEACH, 2, TAK, gapik, wojciecch, juicycat, faust, carpetdiem, klaudiusz
+5: smokq
+  1: 9100, 1340, BEACH, 2, TAK, kacper17, karoll, golon, faust, juicycat, carlnie, orzech, fenix, johnny, klaudiusz, wydra
+6: karoll
+  1: 13400, 0, BEACH, 2, TAK, karoll, maendrake, orzech, kraboo, dzigipentryt, carlnie, eillord, wydra, paueu, vanorafsson, faust, juicycat, johnny, juri, inka, grimonmon (50%), szymonix (50%)
+7:
+  1: 5470, 0, BEACH, 3, NIE, , kacper17, karoll, maendrake, sasza, orzech, wojciecch, grimonmon, eillord
+8: smokq
+  1: 1250, 440, BEACH, 3, TAK, sziba, fenix, gapik, kacper17, sasza, maendrake, vanorafsson, klaudiusz, orzech, cezar, golon, juri, atimusz, inka, faust
+9:
+  1: 2120, 1900, BEACH, 4, NIE, , faust, gapik, atimusz, klaudiusz, orzech, wojciecch
+10: smokq
+  1: 5790, 1380, BEACH, 4, TAK, sziba, golon, atimusz, wojciecch, truereligionfein, fenix, tedus, orzech, faust, sasza, juri, klaudiusz, gapik, carpetdiem
+11:
+  1: 5990, 0, BEACH, 4, NIE, , sziba, golon, atimusz, wojciecch, truereligionfein, fenix, tedus, orzech, faust, sasza, juri, klaudiusz, gapik, carpetdiem
+12: smokq
+  1: 54780, 13110, BEACH, 3, TAK, kacper17, sziba, orzech, atimusz, fenix, vanorafsson, golon, karoll, eillord, wydra, misztalito, floydfentmaster (50%), johnny, maendrake, inka, paueu
+
+CTA:
+1: kacper17 - maniek, srogonosek, carpetdiem, golon, carlnie, ziombel, fbzb, juicycat, smokq, wydra, szado, wojciecch, karoll, grimonmon, klaudiusz, tedus, araaraking, sasza, gapik, faust, johnny, lisekpenisek, paueu, sziba
+2: kacper17 - ziombel, carpetdiem, golon, carlnie, sziba, fbzb, smokq, juri, juicycat, karoll, orzech, lisekpenisek, vanorafsson, dzigipentryt, araaraking, sasza, tedus, faust, johnny, wydra, cezar, klaudiusz
+3: kacper17 - jenny, carpetdiem, golon, truereligionfein, klaudiusz, fbzb, smokq, wydra, atimusz, majonez, wojciecch, karoll, wiaderix, vanorafsson, tedus, dzigipentryt, sasza, ziombel, faust, gszegosz, gapik, popiez, niki, juicycat, paueu, lisekpenisek
+4: kacper17 - gapik, karoll, carpetdiem, golon, carlnie, fbzb, smokq, wydra, atimusz, klaudiusz, juicycat, lisekpenisek, paueu, tedus, vanorafsson, sasza, ziombel, faust, araaraking, johnny, niki, popiez, majonez, orzech, eillord
+5: kacper17 - ziombel, dzigipentryt, golon, truereligionfein, fbzb, masiu, juri, smokq, wojciecch, juicycat, majonez, paueu, karoll, gapik, demon, faust, lisekpenisek, carlnie, agmel, inka, zaluzjasolonez, grimonmon, tedus
+6: kacper17 - klaudiusz, drx460t, orzech, fbzb, smokq, atimusz, srogonosek, vanorafsson, maendrake, paueu, karoll, faust, araaraking, johnny, inka, ziombel, juicycat, cezar
+7: kacper17 - sasza, juri, carpetdiem, golon, orzech, faust, smokq, inka, wojciecch, srogonosek, majonez, eillord, karoll, ziombel, demon, johnny, kraboo, juicycat, paueu, sziba
+8: kacper17 - carlnie, ziombel, juri, carpetdiem, golon, drx460t, orzech, faust, fbzb, smokq, inka, recezpasztetu, vanorafsson, cezar, karoll, sasza, maendrake, eillord, johnny, kraboo, atimusz, juicycat, paueu, klaudiusz
+9: kacper17 - sziba, fenix, sasza, carpetdiem, golon, truereligionfein, smazonyorzech, smokq, inka, wydra, drx460t, wojciecch, srogonosek, vanorafsson, lisekpenisek, tedus, karoll, ziombel, faust, demon, gapik, johnny, fbzb, atimusz, merlinn, eillord, klaudiusz, maendrake
+
+REKRUTACJA:
+kacper17: 6
+karoll: 18.3
+fbzb: 6.8

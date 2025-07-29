@@ -1,0 +1,25 @@
+KONTENTY:
+1: Smokq
+  1: 18500, 1420, BEACH, 1, TAK, Sziba, faust, juicycat, lisek, merlin, fenix, wojciech, tedus, gapik, ziombel, carpetdiem, juriowsienko
+2: Sasza
+  1: 0, 5800, Razorrock, 1, TAK, Sasza, gapik, klaudiusz, kacper17, golon, lisek, faust, carlnie, wydra, muaslak, ziombel, klaudiusz, vanorafsson, merlin, karoll, juriowsienko, paueu
+3: Golon
+  1: 136200, 50660, BEACH, 4-5, TAK, kacper17, karoll, inka, vanorafsson, carpetdiem, orzech, juicycat, menel, wydra, gszegosz, johnny, juriowsienko, atimusz, fenix, faust, klaudiusz, smokq, paueu, yesyou (50%)
+  2: 4200, 1350, BEACH, 4-5, TAK, kacper17, yesyou (50%), faust, juicycat, vanorafsson, orzech, atimusz, paueu, gszegosz
+4: Smokq
+  1: 19900, 0, BEACH, 4-5, TAK, kacper17, golon, faust, carpetdiem, inka, paueu, fenix, juriowsienko, klaudiusz, karoll, vanorafsson, juicycat
+5: smokq
+  1: 8400, 1380, BEACH, 4-5, TAK, karoll, sziba, orzech, inka, klaudiusz, fenix, eillord, carpetdiem, golon, kacper17, vanorafsson
+6: kacper17
+  1: 10700, 3985, BEACH, 3, TAK, klaudiusz, cezar, inka, golon, orzech
+
+CTA:
+1: Kacper17 - fenix, sziba, carpetdiem, golon, smokq, wojciech, karoll, gapik, tedus, faust, wydra
+2: Kacper17 - fenix, jenny, carpetdiem, golon, muaslak, smokq, wydra, inka, wojciech, karoll, juriowsienko, paueu, eillord, tedus, lisek, sasza, gapik, johnny, gszegosz, klaudiusz, faust
+3: Kacper17 - fenix, sziba, carpetdiem, golon, muaslak, orzech, ziombel, smokq, inka, juriowsienko, fbzb, wojciech, karoll, tedus, araaraking, sasza, gapik, johnny, cezar, lisek, eillord
+4: Sasza - fenix, gapik, carpetdiem, karoll, muaslak, ziombel, fbzb, inka, klaudiusz, faust, recezpasztetu, tedus, araaraking, sziba, johnny, niki, juicycat, lisek, juriowsienko, wydra, zaluzja, maendrake
+
+REKRUTACJA:
+fbzb: 1
+juicycat: 2
+karoll: 2

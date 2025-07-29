@@ -1,0 +1,64 @@
+KONTENTY:
+1: karoll
+  1: 1450, 790, BEACH, 1-3, TAK, karoll, riperek, teekame, orzech, piston, zabijaka, fenix
+2: karoll
+  1: 900, 0, BEACH, 1-3, TAK, karoll, fenix, orzech, atimusz, teekame, grubas, senito, grimonmon, wojciecch, muaslak
+  2: 3040, 400, BEACH, 1-3, TAK, karoll, fenix, orzech, atimusz, grubas, senito, wojciecch, muaslak
+3: smokq
+  1: 1650, 1000, BEACH, 1-3, TAK, sasza, lagun, inka, vanorafsson, teekame, grimonmon, beslarin, cezar, merlin
+4: smokq
+  1: 6940, 0, BEACH, 1-3, TAK, karoll, gapik, golon, inka, juri, teekame, ertecse, kacper17, orzech, lagun, szymonix, eillord, vanorafsson, cezar, merlin, wojciecch, johnny, muaslak, piston
+5: smokq
+  1: 5600, 2210, BEACH, 1-3, TAK, karoll, golon, teekame, ertecse, kacper17, orzech, szymonix, eillord, vanorafsson, muaslak, beslarin, piston (50%)
+6: smokq
+  1: 3100, 1087, BEACH, 1-3, TAK, smokq, orzech, teekame, jimmi, zabijaka, zawiszaczarny
+7: smokq
+  1: 10400, 1040, BEACH, 1-3, TAK, sasza, gapik, faust, grimonmon, carpet, wojciecch, teekame, polut, atimusz, riperek, juri, vanorafsson, kacper17
+8: fenix
+  1: 2300, 1225, BEACH, 1-3, TAK, fenix, carpet, riperek, teekame, kacper17, srogonosek, ciaparetka, kosa19
+9: fenix
+  1: 5000, 2659, BEACH, 1-3, TAK, fenix, carpet, wojciecch, kosa19, teekame, szymonix, merlin
+10: smokq
+  1: 23400, 1524, BEACH, 1-3, TAK, karoll, gapik, faust, ciaparetka, fenix, smokq, juri, grimonmon, teekame, cezar, piston, vanorafsson, inka, merlin, beslarin, lagun
+11: fenix
+  1: 3000, 2960, BEACH, 1-3, TAK, fenix, kacper17, kosa19, teekame, ciaparetka, szymonix, carpet
+12: smokq
+  1: 7500, 2300, BEACH, 1-3, TAK, karoll, paueu, vircynger, ertecse, sasza, faust, carpet, frosty, fenix, atimusz, juicycat, inka, wojciecch, kacper17, teekame, opiumsoby, cezar, vanorafsson, piston, juri
+13: smokq
+  1:  6200, 2686, BEACH, 1-3, TAK, smokq, fenix, piston, frosty, carpet
+14: fenix
+  1: 2100, 3180, BEACH, 1-3, TAK, fenix, groznydyzio, inka, vircynger, kittymraw
+15: fenix
+  1: 3100, 0, BEACH, 1-3, TAK, fenix, fbzb, cezar, frosty, kosa19
+16: fenix
+  1: 9360, 5429, BEACH, 1-3, TAK, srogonosek, opiumsoby, carpet, teekame, kraboo, ciaparetka, fenix, kittymraw
+17: smokq
+  1: 6760, 2090, BEACH, 4, TAK, sasza, jenny, piston, szymonix, ciaparetka, wojciecch, atimusz, ertecse, grubas, teekame, lagun, eillord, juicycat, golon, frosty, juri, faust, karoll, cezar, grimonmon
+18:
+  1: 11500, 0, FORT, 1, NIE, , lisek, sasza, paueu, vanorafsson, cezar, szymonix, teekame, senito, gapik, piston, atimusz
+19: smokq
+  1: 10400, 1950, FORT, 1, TAK, sasza, piston, juri, klaudiusz, teekame, sziba, frosty, golon, carpet, vanorafsson, cotozakot, lagun, karoll, faust
+20:
+  1: 8030, 0, FORT, 2, NIE, , faust, sasza, piston, grubas, teekame, atimusz
+21:
+  1: 10470, 0, FORT, 2, NIE, , faust, lisek, sasza, piston, teekame, szymonix, wojciecch, kacper17
+22:
+  1: 5580, 0, FORT, 3, NIE, , faust, sasza, karoll, grubas, piston, teekame
+23:
+  1: 8720, 0, FORT, 3, NIE, , faust, sasza, piston, teekame, szymonix
+
+CTA:
+1: sasza - kacper17, vircynger, gapik, faust, golon, jenny, ertecse, juri, orzech, muaslak, carpet, inka, wydra, groznydyzio, karoll, teekame, piston, pakwp, cezar, beslarin, krakson, truereligion, juicycat, grimonmon, fenix, beslarin
+2: kacper17 - karoll, sziba, gapik, faust, golon, szymonix, lagun, wydra, krakson, johnny, truereligion, carpet, juri, juicycat, smokq, inka, polut, kosa19, srogonosek, wojciecch, teekame, piston, cezar, atimusz, vanorafsson, ertecse, ziombel, lisek, merlin, araaraking
+3: kacper17 - karoll, sziba, gapik, faust, golon, ertecse, juri, krakson, fenix, grimonmon, truereligion, carpet, inka, wojciecch, srogonosek, teekame, piston, cezar, eillord, paueu, merlin, ziombel, kosa19, atimusz, vanorafsson, szymonix, dzigipentryt, wydra, polut, eillord
+4: sasza - kacper17, vircynger, gapik, faust, szymonix, ertecse, kraboo, muaslak, srogonosek, juicycat, golon, kosa19, karoll, teekame, lagun, jimmi, grimonmon, golon
+5: sasza - kacper17, karoll, johnny, faust, falksik, ertecse, frosty, smokq, juri, kaivizu2, lagun, teekame, wojciecch, golon, grimonmon, inka, vanorafsson
+
+REKRUTACJA:
+zaluzjasolonez: 12
+inka: 6
+kacper17: 6
+fbzb: 2.5
+fenix: 0.55
+smokq: 7.2
+karoll: 1.15

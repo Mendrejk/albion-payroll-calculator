@@ -1,0 +1,37 @@
+KONTENTY:
+1:
+  1: 3970, 2120, BEACH, 5+6, NIE, , kacper, beslarin, golon, inka, juri, klaudiusz, smokq
+2: smokq
+  1: 1660, 1423, BEACH, 5+6, TAK, sasza, Fenix, fbzb, TrueReligionFein, carpet, inka, Cezar, Eillord, Golon, Kacper, ziombel, Qash0, faust , VanOrafsson, Karoll, GapiK, MenelZKrosna
+3: smokq
+  1: 74470, 29415, BEACH, 5+6, TAK, kacper, Karoll, demon, inka, Fenix, Golon, VanOrafsson, carpet, GapiK, tedus, Wydra, Szymonix (50%), Polut (50%), Klaudiusz (50%)
+4: smokq
+  1: 4400, 0, BEACH, 5+6, TAK, kacper, Karoll, demon, inka, Fenix, Golon, VanOrafsson, carpet, tedus
+5: smokq
+  1: 3703, 1770, BEACH, 5+6, TAK, kacper, Cezar, GapiK, Sasza, Fenix, carpet, TrueReligionFein, Polut, Wydra, Kraboo, Golon, Karoll, Paueu
+6: smokq
+  1: 12597, 2720, BEACH, 5+6, TAK, kacper, Sziba, Sasza, ziombel, Golon, Fenix, Juri, carpet, FausT, Polut, Wydra, Karoll, Cezar, Yashi, VanOrafsson,  LISEKPENISEK,  Wojciecch, JuicyCat, TrueReligionFein, inka
+7: karoll
+  1: 16300, 7070, BEACH, 5+6, TAK, karoll, Smokq, VanOrafsson, Wydra, carpet, Fenix, TrueReligionFein, Gszegosz, inka, Kraboo, Polut, Eillord, FloydFentMaster (50%), Szymonix (50%)
+8:
+  1: 7500, 0, BEACH, 5+6, NIE, , Smokq, Kacper, Beslarin, FausT, Wojciecch, Fenix
+9: smokq
+  1: 10300, 2340, BEACH, 5+6, TAK, sziba, Golon, Fenix, carpet, Polut, Kacper, Beslarin, Cezar, FausT, muaslak, Wydra, LISEKPENISEK, drzewi, JuicyCat, Wojciecch, VanOrafsson, Klaudiusz, Maendrake, Juri, Karoll, MenelZKrosna
+10: smokq
+  1: 17900, 0, BEACH, 5+6, TAK, kacper, Wydra, Fenix, carpet, TrueReligionFein, Karoll, GriMonmon, orzech, HoXXi, Maendrake, Golon , JuicyCat, FausT,  inka, VanOrafsson, Polut
+11: smokq
+  1: 2600, 0, BEACH, 5+6, TAK, kacper, Wydra, carpet, TrueReligionFein, Karoll, GriMonmon, Orzech, HoXXi, Maendrake, Golon , inka, VanOrafsson, Polut
+  2: 4400, 1000, BEACH, 5+6, TAK, kacper, Wydra, TrueReligionFein, GriMonmon, Orzech, HoXXi, Maendrake, Golon, VanOrafsson, Polut
+12: smokq
+  1: 5600, 0, BEACH, 5+6, TAK, kacper, Karoll, Orzech, Golon, Fenix, Wydra, Polut, GapiK, inka, Maendrake, fbzb, Szymonix (50%)
+  2: 4000, 700, BEACH, 5+6, TAK, kacper, karoll, orzech, Golon, Fenix, Wydra, Polut, inka, Maendrake, fbzb, Szymonix (50%)
+  3: 2600, 0, BEACH, 5+6, TAK, kacper, karoll, orzech, Fenix, Wydra, Polut, Maendrake, Golon, Szymonix (50%)
+
+CTA:
+1: kacper - karoll, gapik, faust, golon, szymonix, sziba, drzewi, orzech, johnny, fenix, muaslak, carpet, inka, wydra, smokq, maendrake, polut, wojciecch, klaudiusz, tedus, beslarin, juicycat, lisekpenisek, araaraking, cezar, youngmason
+
+REKRUTACJA:
+juicycat: 11
+kacper: 4.4
+inka: 2.2
+fbzb: 1.1

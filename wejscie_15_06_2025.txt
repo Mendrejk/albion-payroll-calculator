@@ -1,0 +1,37 @@
+KONTENTY:
+1: smokq
+  1: 20500, 2260, BEACH, 1+2, TAK, sziba, karoll, johnny, faust, fenix, ziombel, paueu, wojciecch, beslarin, kacper, orzech, truereligion, sajan
+2: smokq
+ 1: 8900, 2240, BEACH, 1+2, TAK, kacper, faust, fenix, orzech, sajan, truereligion, wojciecch, paueu, juri, wydra, gapik, golon
+3: smokq
+  1: 9100, 1470, BEACH, 1+2, TAK, kacper, gapik, johnny, muaslak, faust, fenix, wydra, atimusz, srogonosek, sasza, merlin, polut, truereligion, dzigipentryt, vanorafsson, zaluzja, ziombel
+4: smokq
+  1: 17600, 1154, BEACH, 1+2, TAK, karoll, gapik, vanorafsson, wydra, fenix, carpet, truereligion, kacper, eillord, polut, inka, araaraking, wojciecch, merlin
+5: smokq
+  1: 9500, 3420, BEACH, 1+2, TAK, kacper, gapik, golon, fenix, inka, carpet, wydra, karoll, truereligion, cezar, merlin
+6: smokq
+  1: 1900, 770, BEACH, 1+2, TAK, karoll, gapik, fenix, wydra, dzigipentryt, orzech, merlin, eillord
+7: smokq
+  1: 2300, 1020, BEACH, 1+2, TAK, karoll, fenix, vanorafsson, faust, inka, wydra, danut, sasza, orzech, cezar, merlin
+8: smokq
+  1: 8150, 2480, BEACH, 1+2, TAK, karoll, fenix, truereligion, golon, wydra, piston, cezar, carpet, gapik, faust, sziba, orzech, ziombel, vanorafsson, merlin
+9: smokq
+  1: 16550, 7700, BEACH, 1+2, TAK, karoll, fenix, vanorafsson, wydra, orzech, cezar, carpet, golon, danut, atimusz, demon, filx, qash0 (50%)
+10: smokq
+  1: 13900, 6850, BEACH, 1+2, TAK, karoll, fenix, kacper, wojciecch, polut, gapik, cezar, fbzb, orzech, merlin
+11:
+  1: 7080, 0, BEACH, 3, NIE, , orzech, wydra, merlin, inka, piston, kacper, golon
+12:
+  1: 2480, 0 , BEACH, 3, NIE, , wydra, orzech, inka, kacper, sziba, golon
+13: smokq
+  1: 9600, 2370, BEACH, 1+2, TAK, sziba, gapik, golon, fenix, wydra, carpet, karoll, tedus, orzech, maendrake, wojciecch, kacper, grimonmon, merlin, inka, kosa, piston, cezar
+
+CTA:
+1: kacper - karoll, golon, truereligion, drx, carpet, smokq, inka, cezar, vanorafsson, maendrake, sasza, wydra, orzech, kraboo, gapik, faust, paueu, eillord, fenix, juri, ziombel, qash0
+2: sasza - sziba, faust, golon, truereligion, carpet, smokq, wydra, inka, maendrake, atimusz, cezar, juri, kacper
+3: sasza - sziba, faust, golon, juri, orzech, truereligion, danut, smokq, karoll, piston, cezar, inka, vanorafsson, ziombel, wydra, carpet, paueu
+4: sasza - karoll, sziba, srogonosek, faust, golon, szymonix, jenny, wydra, orzech, kraboo, fenix, truereligion, carpet, smokq, inka, polut, kosa, tedus, vanorafsson, piston, lisek, cezar, wojciecch, fbzb, niki55, zaluzja
+
+REKRUTACJA:
+karoll: 6.5
+zaluzja: 4

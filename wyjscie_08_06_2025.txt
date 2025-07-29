@@ -1,0 +1,59 @@
+Podatek w przedmiotach: 11 880k
+Podatek w gotówce: 3 301k
+Suma wypłat w przedmiotach: 93 621k
+Suma wypłat w gotówce: 25 340k
+Suma zwrotów w przedmiotach: 11 698k
+Suma zwrotów w gotówce: 3 154k
+Nick           | Wypłata w gotówce | Zwrot podatku | Punkty Zwrotu Podatku | LOOT BEACH - 2 | LOOT BEACH - 3 | LOOT FORT - 1
+-------------- | ----------------- | ------------- | --------------------- | -------------- | -------------- | -------------
+karoll         | 2 372k            | 2 212k        | 15.000000000000004    | 4 770k         | 2 032k         | 0k           
+maendrake      | 1 454k            | 294k          | 2.0                   | 4 176k         | 390k           | 0k           
+orzech         | 1 262k            | 250k          | 1.7000000000000002    | 2 592k         | 1 932k         | 0k           
+wydra          | 2 170k            | 448k          | 3.05                  | 4 176k         | 2 460k         | 0k           
+skjk           | 46k               | 21k           | 0.15000000000000002   | 326k           | 0k             | 0k           
+carpet         | 206k              | 235k          | 1.6                   | 652k           | 428k           | 0k           
+truereligion   | 1 570k            | 279k          | 1.9000000000000001    | 2 682k         | 1 932k         | 0k           
+polut          | 1 500k            | 309k          | 2.1000000000000005    | 3 614k         | 528k           | 0k           
+grimonmon      | 906k              | 136k          | 0.925                 | 2 424k         | 428k           | 0k           
+gapik          | 644k              | 264k          | 1.8000000000000003    | 1 584k         | 818k           | 0k           
+tedus          | 92k               | 154k          | 1.0500000000000003    | 652k           | 0k             | 0k           
+araaraking     | 92k               | 21k           | 0.15000000000000002   | 652k           | 0k             | 0k           
+inka           | 694k              | 2 078k        | 14.1                  | 652k           | 1 642k         | 0k           
+kacper17       | 2 290k            | 884k          | 6.0                   | 4 118k         | 2 070k         | 1 440k       
+atimusz        | 316k              | 147k          | 1.0                   | 594k           | 0k             | 0k           
+lisekpenisek   | 858k              | 258k          | 1.7500000000000002    | 1 526k         | 528k           | 1 440k       
+wojciecch      | 430k              | 169k          | 1.1500000000000001    | 594k           | 428k           | 902k         
+smokq          | 1 378k            | 766k          | 5.199999999999999     | 1 940k         | 2 460k         | 2 342k       
+johnny         | 102k              | 250k          | 1.7000000000000002    | 504k           | 100k           | 0k           
+go1on          | 122k              | 272k          | 1.85                  | 504k           | 428k           | 2 342k       
+fenix          | 1 264k            | 154k          | 1.0500000000000003    | 1 940k         | 2 032k         | 0k           
+danut          | 558k              | 36k           | 0.25                  | 1 940k         | 0k             | 0k           
+drx460t        | 366k              | 73k           | 0.5                   | 652k           | 0k             | 0k           
+vanorafsson    | 334k              | 246k          | 1.6750000000000003    | 1 120k         | 0k             | 902k         
+szymonix       | 219k              | 87k           | 0.6000000000000001    | 466k           | 195k           | 0k           
+faust          | 1 154k            | 297k          | 2.025                 | 730k           | 2 460k         | 2 342k       
+piston         | 275k              | 66k           | 0.45000000000000007   | 718k           | 0k             | 0k           
+cezar          | 602k              | 297k          | 2.0250000000000004    | 188k           | 1 642k         | 0k           
+sasza          | 114k              | 840k          | 5.7                   | 0k             | 428k           | 0k           
+srogonosek     | 142k              | 254k          | 1.725                 | 0k             | 336k           | 0k           
+juicycat       | 602k              | 294k          | 2.0000000000000004    | 0k             | 1 642k         | 2 342k       
+ziombel        | 94k               | 309k          | 2.1                   | 0k             | 100k           | 0k           
+dzigipentryt   | 602k              | 132k          | 0.9000000000000001    | 0k             | 1 642k         | 0k           
+merlin         | 94k               | 73k           | 0.5                   | 0k             | 100k           | 0k           
+filx           | 104k              | 154k          | 1.0500000000000003    | 0k             | 390k           | 0k           
+eillord        | 104k              | 154k          | 1.0500000000000003    | 0k             | 390k           | 0k           
+zjaranysajan   | 52k               | 21k           | 0.15000000000000002   | 0k             | 195k           | 0k           
+fbzb           | 104k              | 264k          | 1.8000000000000003    | 0k             | 390k           | 1 440k       
+kosa19         | 52k               | 21k           | 0.15000000000000002   | 0k             | 195k           | 0k           
+juri           | 0k                | 176k          | 1.2000000000000002    | 0k             | 0k             | 902k         
+sziba          | 0k                | 345k          | 2.3499999999999996    | 0k             | 0k             | 0k           
+drzewi         | 0k                | 43k           | 0.30000000000000004   | 0k             | 0k             | 0k           
+beslarin       | 0k                | 154k          | 1.0500000000000003    | 0k             | 0k             | 0k           
+popiez         | 0k                | 43k           | 0.30000000000000004   | 0k             | 0k             | 0k           
+zaluzjasolonez | 0k                | 87k           | 0.6000000000000001    | 0k             | 0k             | 0k           
+paueu          | 0k                | 147k          | 1.0                   | 0k             | 0k             | 0k           
+klaudiuszs     | 0k                | 169k          | 1.1500000000000001    | 0k             | 0k             | 0k           
+muaslak        | 0k                | 169k          | 1.1500000000000001    | 0k             | 0k             | 0k           
+freju          | 0k                | 36k           | 0.25                  | 0k             | 0k             | 0k           
+jenny          | 0k                | 132k          | 0.9000000000000001    | 0k             | 0k             | 0k           
+agmel          | 0k                | 132k          | 0.9000000000000001    | 0k             | 0k             | 0k           

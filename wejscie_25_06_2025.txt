@@ -1,0 +1,58 @@
+KONTENTY:
+1:
+  1: 6600, 0, FORT, 1+2, NIE, , faust, sziba, kacper, atimusz, johnny, paueu, jenny
+  2: 10000, 0, FORT, 1+2, NIE, , faust, sziba, kacper, atimusz, vanorafsson, truereligion, orzech
+  3: 10300, 0, FORT, 1+2, NIE, , faust, karoll, jenny, lisek, piston, gapik, wojciecch
+2:
+  1: 500, 0, FORT, 1+2, NIE, , carpet
+  2: 9000, 0, FORT, 1+2, NIE, , faust, jenny, karoll, wojciecch, lisek, piston
+  3: 9500, 0, FORT, 1+2, NIE, , faust, jenny, vanorafsson, beslarin, truereligion
+  4: 11000, 0, FORT, 1+2, NIE, , faust, jenny, karoll, lisek, piston, smokq
+3:
+  1: 7340, 1700, BEACH, 2, NIE, , faust, sqbany, vanorafsson, cotozakot, beslarin, smokq, araaraking, wojciecch
+4: kacper
+  1: 16060, 1264, BEACH, 2, TAK, gapik, faust, taya, golon, inka, ertecse
+5:
+  1: 4860, 2000, BEACH, 1+3+4, NIE, , faust, dzigipentryt, carpet, truereligion, piston, jenny, juicycat
+  2: 2760, 1120, BEACH, 1+3+4, NIE, , faust, carpet, piston, jenny, juicycat, smokq, wojciecch, karoll, lisek
+6: kacper
+  1: 3080, 619, BEACH, 1+3+4, TAK, gapik, jimmy, wydra, karoll, atimusz, johnny, sqbany
+7:
+  1: 22200, 0, BEACH, 1+3+4, NIE, , sasza, wydra, sziba, ertecse, faust, jimmy, atimusz, carpet, golon
+  2: 14100, 0, BEACH, 1+3+4, NIE, , sasza, wydra, sziba, ertecse, faust, jimmy, atimusz, carpet, orzech, kacper, gapik, karoll, jenny, golon
+8: smokq
+  1: 5640, 880, BEACH, 1+3+4, TAK, karoll, gapik, orzech, wydra, fenix, srogonosek, inka, tedus, golon, wojciecch, merlin, kacper
+9: smokq
+  1: 9060, 3860, BEACH, 1+3+4, TAK, karoll, orzech, vanorafsson, inka, fenix, truereligion, golon, cezar
+10: smokq
+  1: 7900, 3140, BEACH, 1+3+4, TAK, karoll, vanorafsson, ziombel, truereligion, faust, carpet, srogonosek, dzigipentryt, wojciecch, lisek, beslarin, cezar, grimonmon, orzech, sziba
+11: smokq
+  1: 4460, 0, BEACH, 1+3+4, TAK, karoll, sziba, vanorafsson, wydra, srogonosek, truereligion, dzigipentryt, inka, carpet, kacper, szymonix, wojciecch, cotozakot (50%)
+12: kacper
+  1: 8700, 0, BEACH, 1+3+4, TAK, kacper, szymonix, orzech, smokq, karoll, polut, wydra, maendrake, golon, truereligion
+13: smokq
+  1: 5810, 0, BEACH, 1+3+4, TAK, karoll, orzech, wydra, ertecse, carpet, inka, fenix, polut, eillord, araaraking, jenny, szymonix, filx, cezar, gapik
+14: smokq
+  1: 32400, 6420, BEACH, 1+3+4, TAK, karoll, orzech, wydra, carpet, inka, fenix, polut, eillord, araaraking, filx, cezar, gapik, sqbany
+15: kacper
+  1: 13800, 3835, BEACH, 1+3+4, TAK, karoll, fenix, truereligion, wydra, jenny, orzech
+16: smokq
+  1: 19300, 4360, BEACH, 1+3+4, TAK, sziba, lagun, faust, gapik, fenix, inka, kacper, karoll, sasza, truereligion, lisek, zaluzja, atimusz, orzech, juri
+17: smokq
+  1: 12600, 2300, BEACH, 1+3+4, TAK, karoll, golon, orzech, inka, truereligion, fenix, kacper, atimusz, gapik, sziba
+18: kacper
+  1: 13500, 1584, BEACH, 1+3+4, TAK, karoll, juri, smokq, srogonosek, danut, faust
+19:
+  1: 2100, 680, BEACH, 2, NIE, , orzech, juri, vanorafsson, drx460t, golon
+
+CTA:
+1: kacper - faust, ertecse, wydra, carpet, demon, juicycat, smokq, inka, wojciecch, srogonosek, lisek, araaraking, dzigipentryt, cotozakot, karoll
+2: kacper - karoll, gapik, faust, golon, ertecse, jenny, wydra, truereligion, sqbany, carpet, juicycat, smokq, maendrake, srogonosek, tedus, piston, lisek, cezar, sziba, lagun, jolko, merlin, sqbany
+3: kacper - sziba, jenny, ertecse, fbzb, karoll, faust, truereligion, gapik, sasza, atimusz
+4: sasza - sziba, gapik, faust, golon, lagun, juri, orzech, johnny, kacper, lagun, truereligion, carpet, smokq, inka, karoll, cezar, senitovacua, atimusz, zaluzja
+5: kacper - karoll, sziba, gapik, faust, golon, juri, orzech, truereligion, drx460t, carpet, inka, smokq, niki, srogonosek, tedus, vanorafsson, zaluzja, szymonix, ziombel, vanorafsson, lisek, truereligion, cezar, drx460t
+6: kacper - sziba, gapik, faust, golon, ertecse, juri, orzech, johnny, fenix, truereligion, carpet, inka, srogonosek, tedus, cezar, zaluzja, karoll, lisek
+
+REKRUTACJA:
+karoll: 1.02
+fbzb: 0.87

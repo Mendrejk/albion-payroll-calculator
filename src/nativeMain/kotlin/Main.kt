@@ -22,7 +22,7 @@ data class HaulInput(
     val tab: String,
     val hadOrganizer: Boolean,
     val caller: HaulParticipant?,
-    val participants: List<HaulParticipant>
+    val participants: Set<HaulParticipant>
 )
 
 data class ContentInput(
@@ -30,7 +30,7 @@ data class ContentInput(
 )
 
 data class CtaInput(
-    val id: Int, val caller: Participant, val participants: List<Participant>
+    val id: Int, val caller: Participant, val participants: Set<Participant>
 )
 
 data class RecruitmentInput(val recruiter: Participant, val points: Double)
@@ -52,7 +52,7 @@ data class Haul(
     val tab: String,
     val hadOrganizer: Boolean,
     val caller: HaulParticipant?,
-    val participants: List<(HaulParticipant)>
+    val participants: Set<(HaulParticipant)>
 )
 
 data class Content(
@@ -149,11 +149,11 @@ fun parseInputFile(): Input {
                         val caller = participants.getOrPut(callerName) { Participant(callerName) }
                         HaulParticipant(caller, hasFullShare)
                     }
-                    val haulParticipants = haulParts.drop(6).map { participantString ->
+                    val haulParticipants = HashSet(haulParts.drop(6).map { participantString ->
                         val (participantName, hasFullShare) = parseParticipant(participantString.lowercase())
                         val participant = participants.getOrPut(participantName) { Participant(participantName) }
                         HaulParticipant(participant, hasFullShare)
-                    }
+                    })
                     HaulInput(itemsBeforeTax, cashBeforeTax, location, tab, hadOrganizer, caller, haulParticipants)
                 }
             }
@@ -166,10 +166,10 @@ fun parseInputFile(): Input {
         ctaLine.split(":").map { it.trim() }.takeIf { it.size == 2 }?.let { (ctaId, ctaData) ->
             ctaData.split("-").map { it.trim() }.takeIf { it.size == 2 }?.let { (callerName, ctaParticipantsData) ->
                 val caller = participants.getOrPut(callerName.lowercase()) { Participant(callerName.lowercase()) }
-                val ctaParticipants =
+                val ctaParticipants = HashSet(
                     ctaParticipantsData.split(",").map { it.trim().lowercase() }.map { ctaParticipantName ->
                         participants.getOrPut(ctaParticipantName) { Participant(ctaParticipantName) }
-                    }
+                    })
                 CtaInput(ctaId.toIntOrNull() ?: 0 , caller, ctaParticipants)
             }
         }
@@ -493,9 +493,15 @@ fun writePayrollToMarkdown(payroll: Payroll) {
                 else -> "LOOT $location"
             }
             appendLine("## ${locationName.uppercase()}")
-            locationSums[location]?.entries?.sortedByDescending { it.value }?.forEach { (participant, amount) ->
-                if (amount > 0) {
-                    appendLine("@$participant ${formatNumberWithSpaces(amount / 1000)}k")
+            val entries = locationSums[location]?.entries?.sortedByDescending { it.value } ?: emptyList()
+            entries.forEachIndexed {index, (participant, amount) ->
+                if (locationName.startsWith("LOOT "))
+                {
+                    appendLine("${index + 1}: @$participant ${formatNumberWithSpaces(amount / 1000)}k")
+                } else {
+                    if (amount > 0) {
+                        appendLine("@$participant ${formatNumberWithSpaces(amount / 1000)}k")
+                    }
                 }
             }
             appendLine()
