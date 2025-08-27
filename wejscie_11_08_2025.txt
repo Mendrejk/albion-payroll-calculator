@@ -1,0 +1,77 @@
+KONTENTY:
+1: Smokq
+  1: 19800, 9450, BEACH, 1+2, TAK, karoll, orzech, teekame, kacper17, Fenix, Atimusz, muaslak, carpet, merlin, Alvin, kacyk, Cezar
+2:
+  1: 10100, 2620, BEACH, 1+2, NIE, , faust, juicycat, vanorafsson, carpet, juri, sqbany
+3:
+  1: 5900, 2680, BEACH, 1+2, NIE, , faust, kacper17, juicycat, vircynger, vanorafsson, beslarin, muaslak
+4: smokq
+  1: 13000, 1370, BEACH, 1+2, TAK, kacper17, Karoll, orzech, Atimusz, Teekame, juri, Fenix, kacyk, Klaudiuszs, JuicyCat, FausT, muaslak, ciaparetka (50%)
+5: fenix
+  1: 4110, 3030, BEACH, 1+2, TAK, ciaparetka, atimusz, kacper17, teekame, kosa19, ciaparetka, orzech
+6: fenix
+  1: 5800, 5510, BEACH, 1+2, TAK, ciaparetka, orzech, teekame, kacper17, fenix, johnnyno1, carpet
+7: fenix
+  1: 3190, 2403, BEACH, 1+2, TAK, ciaparetka, frosty, orzech, fenix, karoll, kittymraw, carpet
+8: smokq
+  1: 17100, 3320, BEACH, 1+2, TAK, kacper17, karoll, vanorafsson, teekame, fenix, orzech, johnnyno1, ciaparetka, beslarin, gapik, golon
+9: smokq
+  1: 4045, 0, BEACH, 1+2, TAK, kacper17, orzech, teekame, golon, fenix, atimusz, beslarin, muaslak, johnnyno1, karoll, opiumsoby
+10: fenix
+  1: 3800, 807, BEACH, 1+2, TAK, fenix, orzech, grimonmon, opiumsoby, vircynger, arkadiuspl, carpet
+11:
+  1: 2200, 962, BEACH, 1+2, NIE, , fenix, gapik, grimonmon, opiumsoby, orzech
+12:
+  1: 8800, 0, BEACH, 1+2, NIE, , faust, pistonkosiarz, teekame, jenny, ciaparetka, vircynger, alvin, gapik, carpet, lisekpenisek, drpolon, vanorafsson
+13: fenix
+  1: 9100, 2910, BEACH, 1+2, TAK, kacper17, orzech, jenny, smokq, teekame, frosty, vanorafsson, pistonkosiarz, opiumsoby, cierpienie, johnnyno1
+14:
+  1: 17500, 0, BEACH, 3, NIE, , faust, juicycat, vircynger, beslarin, teekame, carpet, atimusz, pistonkosiarz, merlin
+15:
+  1: 5800, 0, BEACH, 3, NIE, , faust, juicycat, teekame, carpet, atimusz, pistonkosiarz, kosa19, lisekpenisek, merlin
+16:
+  1: 19700, 740, BEACH, 3, NIE, , faust, juicycat, vanorafsson, teekame, vircynger, golon, pistonkosiarz, carpet
+17:
+  1: 5700, 0, BEACH, 3, NIE, , faust, juicycat, vircynger, golon, pistonkosiarz, carpet, lagun, opiumsoby, vanorafsson
+18:
+  1: 13500, 770, BEACH, 3, NIE, faust, vircynger, golon, pistonkosiarz, carpet, lagun, vanorafsson
+19:
+  1: 10900, 3370, BEACH, 4, NIE, , faust, juicycat, carpet, nubifo, teekame, vanorafsson, golon, opiumsoby, muaslak
+20:
+  1: 6500, 1820, BEACH, 4, NIE, , faust, juicycat, pistonkosiarz, vanorafsson, muaslak, atimusz, nubifo, kosa19
+21:
+  1: 9500, 1300, BEACH, 4, NIE, , faust, juicycat, orzech, vanorafsson, fenix, beslarin, golon, paueu
+22:
+  1: 7700, 1310, BEACH, 4, NIE, , beslarin, carpet, vanorafsson, kacyk
+23: kacper17
+  1: 14200, 1550, BEACH, 4, TAK, karoll, orzech, teekame, drpolon, grimonmon, vanorafsson
+24: fenix
+  1: 3400, 1742, BEACH, 4, TAK, fenix, orzech, ciaparetka, opiumsoby, kacper17, cierpienie, wojciecch
+25: smokq
+  1: 5460, 0, FORT, 1, TAK, faust, kacper17, johnnyno1, opiumsoby
+26:
+  1: 15700, 0, FORT, 3, NIE, , faust, sasza, lisekpenisek, lagun, teekame
+
+CTA:
+1: kacper17 - atimusz, teekame, pistonkosiarz, faust, juicycat, golon, orzech, smokq, gapik, karoll, frosty, alvin, cezar, ertecse, muaslak, juri, carpet, kosa19, ziombel, vanorafsson
+2: kacper17 - karoll, sziba, gapik, golon, ertecse, fenix, orzech, johnnyno1, muaslak, carpet, smokq, juicycat, frosty, klaudiuszs, pistonkosiarz, kacyk, cezar, teekame, opiumsoby, ziombel, vanorafsson
+3: kacper17 - karoll, sziba, gapik, golon, ertecse, orzech, fenix, grimonmon, muaslak, carpet, juicycat, vanorafsson, juri, j3r3m1asz, lisekpenisek, pistonkosiarz, kacyk, klaudiuszs, ciaparetka, teekame, faust, beslarin, cezar, ziombel, eillord, alvin
+4: karoll - nubifo, gapik, klaudiuszs, ciaparetka, fenix, orzech, johnnyno1, grimonmon, muaslak, smokq, inka, juicycat, frosty, lagun, juri, golon, teekame, cezar, lisekpenisek, ziombel, faust
+5: kacper17 - karoll, gapik, faust, golon, ertecse, orzech, johnnyno1, juri, kraboo, muaslak, carpet, alvin, smokq, juicycat, inka, agmel, teekame, pistonkosiarz, kacyk, vanorafsson, beslarin, nubifo, lisekpenisek, atimusz
+6: kacper17 - smokq, golon, pistonkosiarz, arkadiuspl, faust, gapik, johnnyno1, paueu, teekame, cezar, orzech, vanorafsson, karoll, muaslak, beslarin, lisekpenisek, inka, ziombel, frosty, juicycat, ciaparetka
+7: kacper17 - gapik, faust, golon, ertecse, orzech, johnnyno1, mipasyra, arkadiuspl, smokq, juicycat, agmel, frosty, juri, lisekpenisek, vanorafsson, kraboo, paueu, teekame, atimusz, ziombel, ciaparetka, muaslak, juicycat
+8: nubifo - gapik, faust, golon, jenny, orzech, grimonmon, smokq, juri, ciaparetka, vanorafsson, paueu, lisekpenisek, teekame, atimusz, muaslak, inka, karoll, juicycat, johnnyno1, ziombel
+9: kacper17 - karoll, gapik, faust, golon, ertecse, orzech, grimonmon, demon24, juicycat, frosty, juri, vanorafsson, pistonkosiarz, teekame, inka, johnnyno1, klaudiuszs, ciaparetka, paueu
+10: kacper17 - karoll, golon, orzech, johnnyno1, smokq, cezar, lisekpenisek, vanorafsson, teekame, ziombel, faust, inka, atimusz, demon24, nubifo, frosty, pistonkosiarz, opiumsoby, juicycat
+11: faust - juri, grimonmon, juicycat, karoll, carpet, teekame, orzech, ertecse, nubifo, lisekpenisek, pistonkosiarz
+12: karoll - orzech, smokq, juicycat, juri, pistonkosiarz, vanorafsson, lisekpenisek, klaudiuszs, teekame, johnnyno1, ziombel, faust
+13: nubifo - sasza, faust, ertecse, juri, orzech, fenix, kacper17, carpet, pistonkosiarz, teekame, cezar, miluju, lisekpenisek, juicycat, ziombel
+14: nubifo - faust, fenix, miluju, smokq, juicycat, pistonkosiarz, lisekpenisek, teekame, ziombel, cezar, orzech, ziombel, teekame
+15: sasza - gapik, faust, juri, orzech, fenix, grimonmon, carpet, smokq, inka, wojciecch, vanorafsson, teekame, ciaparetka
+16: kacper17, sasza, jenny, orzech, fenix, smokq, juicycat, frosty, juri, lisekpenisek, pistonkosiarz, vanorafsson, paueu, teekame, faust, carpet, johnnyno1, inka, ziombel
+
+REKRUTACJA:
+xxinka: 4.5
+xxsmokq: 10
+xxvanorafsson: 0.8
+xxfenix: 6

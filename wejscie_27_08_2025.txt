@@ -1,0 +1,50 @@
+KONTENTY:
+1: fenix
+  1: 5710, 2530, BEACH, 1, TAK, ciaparetka, teekame, kosa, kacper17, karoll, wojciecch
+2:
+  1: 3290, 1200, BEACH, 1, NIE, , faust, filx, vanorafsson, juicycat, opiumsoby, lisek, lagun, piston
+3: kacper17
+  1: 8800, 936, BEACH, 1, TAK, muaslak, teekame, lisek, karoll, kosa, orzech
+4: smokq
+  1: 37200, 16110, BEACH, 1, TAK, kacper17, orzech, golon, fenix, karoll, yuegre, cezar, carpet, filx, gapik
+5:
+  1: 18500, 0, BEACH 2+3, NIE, , faust, nubifo, yuegre, cierpienie, wojciecch, lagun, karoll, vircynger, ciaparetka, gapik
+6: fenix
+  1: 15500, 8750, BEACH, 2+3, TAK, kacper17, orzech, vanorafsson, smokq, piston, yuegre, alvin, lisek
+7:
+  1: 6800, 0, BEACH, 2+3, NIE, , faust, nubifo, atimusz, yuegre, vircynger, wojciecch
+8:
+  1: 8430, 3410, BEACH, 2+3, NIE, , tiries, kraboo, agmel, orzech, yuegre, lisek, ciaparetka
+9: fenix
+  1: 12370, 3940, BEACH, 2+3, TAK, karoll, orzech, inka, yuegre, grimonmon, opiumsoby, cezar, merlinn232
+10: fenix
+  1: 4000, 1040, BEACH, 2+3, TAK, karoll, orzech, golon, inka, yuegre, opiumsoby, cezar, kacper17, drpolon, merlinn232
+11: kacper17
+  1: 4740, 3280, BEACH, 4, TAK, fenix, wojciecch, arkadiuspl, carpet, karoll, merlinn232
+
+CTA:
+1: kacper17 - gapik, orzech, fenix, arkadiuspl, inka, smokq, vanorafsson, frosty, cezar, yuegre, paueu, teekame, faust, piston, filx, atimusz, ziombel
+2: kacper17 - faust, wojciecch, araaraking, yuegre, kraboo, lagun, klaudiusz, fenix, lisek, ciaparetka, gapik, orzech, ertecse, karoll
+3: kacper17 - sziba, gapik, orzech, fenix, kraboo, lagun, vanorafsson, klaudiusz, lisek, teekame, faust, piston, ciaparetka, alvin, ziombel, carpet
+4: kacper17 - gapik, orzech, carpet, alvin, juicycat, cl3ans0uLL, yuegre, lisek, piston, teekame, faust, ertecse, kosa, grimonmon, alvin
+5: kacper17 - gapik, teekame, faust, ertecse, muaslak, inka, orzech, piston, kosa, karoll, cl3ans0uLL, yuegre, vircynger, paueu, lisek
+6: kacper17 - ertecse, gapik, teekame, faust, ciaparetka, orzech, juicycat, piston, karoll, cl3ans0uLL, yuegre, juri, vircynger, nubifo, paueu, lisek, sasza
+7: kacper17 - karoll, faust, jenny, ertecse, orzech, carpet, juicycat, vanorafsson, wojciecch, piston, cl3ans0uLL, cezar, ciaparetka, lisek, teekame, nubifo, ziombel, filx
+8: kacper17 - karoll, gapik, ertecse, grimonmon, carpet, alvin, arkadiuspl, vanorafsson, juicycat, demon, sasza, piston, cl3ans0uLL, yuegre, teekame, kraboo, merlinn232, paueu, faust, opiumsoby, ciaparetka, filx, alvin
+9: kacper17 - faust, inka, karoll, teekame, sziba, sasza, filx, vanorafsson, ziombel, paueu, piston
+10: kacper17 - gapik, karoll, kraboo, filx, carpet, smokq, juicycat, inka, lagun, faust, wojciecch, teekame, piston, lisek
+11: kacper17 - faust, fenix, atimusz, carpet, smokq, agmel, karoll, teekame, piston, vanorafsson, gapik, juicycat
+12: kacper17 - sziba, faust, arkadiuspl, smokq, juicycat, inka, vanorafsson, grimonmon, kraboo, piston, teekame, lisek, paueu, yuegre, lagun, alvin, carpet, karoll, ziombel
+13: kacper17 - sziba, ertecse, faust, carpet, arkadiuspl, smokq, wojciecch, kraboo, yuegre, lisek, teekame, ziombel, atimusz, lagun, golon
+14: sziba - nubifo, gapik, faust, smokq, carpet, kraboo, juicycat, agmel, grimonmon, wojciecch, lagun, lisek, teekame
+15: kacper17 - ertecse, merlinn232, cezar, merlinn232, vanorafsson, lagun, teekame, yuegre, faust, wojciecch, lisek, agmel, kraboo, karoll, gapik, piston, smokq
+16: kacper17 - karoll, sasza, golon, ertecse, gapik, faust, atimusz, carpet, inka, kraboo, agmel, wojciecch, cezar, piston, yuegre, lisek, fenix
+17: nubifo - cezar, golon, faust, inka, piston, karoll, wojciecch, yuegre, fenix, opiumsoby, orzech, drpolon, carpet, juicycat, teekame, gapik, lisek
+18: kacper17 - gapik, golon, faust, orzech, carpet, arkadiuspl, juicycat, kraboo, agmel, klaudiusz, piston, cezar, merlinn232, sziba, nubifo, lagun, wojciecch, yuegre, karoll, paueu, carpet
+19: kacper17 - karoll, orzech, carpet, yuegre, smokq, inka, kraboo, agmel, lagun, cezar, vanorafsson, paueu, piston, faust, gapik, muaslak, golon, juicycat, lagun, inka
+20: kacper17 - karoll, gapik, faust, golon, ertecse, fenix, carpet, alvin, arkadiuspl, smokq, jenny, klaudiusz, cezar, beslarin, piston, lisek, vanorafsson, alvin
+
+REKRUTACJA:
+xxjuicycat: 23
+xxvanorafsson: 8.5
+xxsmokq: 1.4
