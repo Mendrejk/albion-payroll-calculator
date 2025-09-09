@@ -1,0 +1,55 @@
+KONTENTY:
+1: fenix
+  1: 6290, 2740, BEACH, 1+2, TAK, ciaparetka, grimonmon, kacper17, kraboo, agmel, merlin
+2:
+  1: 7810, 1980, BEACH, 1+2, NIE, , kacper17, faust, karoll, inka, fenix, cezar
+3: smokq
+  1: 4980, 0, BEACH, 1+2, TAK, karoll, kacper17, smazonyorzech, golon, fenix, yuegre, carpet, piston, ciaparetka, grubas, beslarin, inka, vanorafsson, muaslak, paueu, ertecse, merlin (50%)
+4: fenix
+  1: 14800, 5630, BEACH, 1+2, TAK, kacper17, smazonyorzech, inka, ciaparetka, merlin, muaslak, carpet, opiumsoby, gapik
+5: fenix
+  1: 5430, 2040, BEACH, 1+2, TAK, ciaparetka, kosa, grubas, wojciecch, grimonmon
+6:
+  1: 19070, 1100, BEACH, 1+2, NIE, , fenix, carpet, faust, karoll, juri, vanorafsson, wojciecch, golon
+7: smokq
+  1: 24800, 5630, BEACH, 1+2, TAK, karoll, smazonyorzech, demon, inka, piston, alvin, beslarin, vanorafsson, gapik, kacper17, lissovsky
+8:
+  1: 7000, 0, BEACH, 3, NIE, , vanorafsson, faust, arkadiuspl, inka, piston
+9:
+  1: 8400, 0, BEACH, 3, NIE, , faust, piston, golon, ciaparetka, paueu, wojciecch, gapik
+10: kacper17
+  1: 7200, 2890, BEACH, 4, TAK, smazonyorzech, karoll, carpet, golon, muaslak, juicycat, fenix, paueu, ciaparetka
+11: kacper17
+  1: 3700, 2769, BEACH, 4, TAK, vanorafsson, piston, beslarin, yuegre, paueu
+12: yuegre
+  1: 17000, 5090, BEACH, 4, TAK, golon, kacper17, piston, fenix, alvin
+13: fenix
+  1: 22700, 8800, BEACH, 4, TAK, kacper17, smazonyorzech, golon, inka, smokq, yuegre, lissovsky, fenix, arkadiuspl, karoll
+14:
+  1: 16900, 0, FORT, 1, NIE, , faust, kacper17, merlin, vanorafsson, piston, jenny, opiumsoby
+15: faust
+  1: 5800, 23500, FORT, 1, TAK, karoll, kacper17, golon, smokq, carpet, piston, fenix, yuegre, wojciecch
+16:
+  1: 2350, 0, FORT, 2, NIE, , faust, jenny, piston
+17:
+  1: 11250, 0, FORT, 2, NIE, , faust, karoll, filx
+18:
+  1: 4160, 0, FORT, 4, NIE, , wojciecch, gapik, piston, faust, kacper17
+
+CTA:
+1: kacper17 - karoll, gapik, golon, ertecse, smazonyorzech, fenix, inka, smokq, faust, beslarin, yuegre, sziba, vanorafsson, wojciecch, gapik
+2: kacper17 - karoll, gapik, sasza, smazonyorzech, fenix, carpet, inka, wojciecch, cezar, faust, muaslak
+3: kacper17 - karoll, carpet, lissovsky, inka, smazonyorzech, faust, golon
+4: kacper17 - gapik, carpet, smokq, arkadiuspl, inka, juri, karoll, piston, golon, vanorafsson, faust, beslarin
+5: kacper17 - carpet, smokq, inka, karoll, piston, golon, vanorafsson, beslarin, vircynger, faust, juri
+6: kacper17 - gapik, carpet, smokq, arkadiuspl, inka, lissovsky, karoll, piston, golon, ciaparetka, faust, wojciecch, grimonmon
+7: kacper17 - gapik, carpet, smokq, arkadiuspl, inka, juri, opiumsoby, piston, karoll, beslarin, golon, faust
+8: faust - carpet, piston, inka, gapik, sziba, golon, smokq, karoll
+9: karoll - ertecse, carpet, alvin, inka, lissovsky, piston, gapik, golon, ciaparetka, faust, grimonmon, sziba
+10: kacper17 - gapik, golon, carpet, smokq, arkadiuspl, inka, juicycat, piston, smazonyorzech, karoll, cezar, vircynger, paueu, faust
+11: kacper17 - sziba, golon, smazonyorzech, carpet, arkadiuspl, smokq, cezar, faust, piston, vanorafsson, inka, lissovsky, fenix, sziba
+
+REKRUTACJA:
+fenix: 0.85
+vanorafsson: 0.7
+smokq: 1.05
