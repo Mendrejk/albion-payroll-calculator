@@ -1,0 +1,39 @@
+KONTENTY:
+1: yuegre
+  1: 12200, 0, BEACH, 1, TAK, yuegre, kacper17, demon, jenny, filx, golon, fenix
+2: yuegre
+  1: 12200, 0, BEACH, 1, TAK, yuegre, kacper17, wojciecch, juicycat, filx, ertecse, orzech, jenny
+3: yuegre
+  1: 11100, 0, BEACH, 1, TAK, yuegre, kacper17, wojciecch, juicycat, filx, ertecse, orzech, golon
+4: yuegre
+  1: 12700, 0, BEACH, 1, TAK, yuegre, kacper17, jenny
+5: yuegre
+  1: 12800, 13500, BEACH, 2, TAK, orzech, orafsson, karoll, ciepnijafa, inka, fenix
+6: fenix
+  1: 9600, 2910, BEACH, 2, TAK, orzech, kacper17, inka, yuegre, ciepnijafa, orafsson, karoll, beslarin, golon, filx
+7: fenix
+  1: 5400, 1870, BEACH, 2, TAK, kacper17, lissovsky, orzech, karoll, grimonmon, kosa19
+8: yuegre
+  1: 9290, 0, BEACH, 3, TAK, , jenny, opiumsoby, kacper17, demon (50%), ertecse (50%)
+9: yuegre
+  1: 8210, 0, BEACH, 3, TAK, , faust, wojciecch, piston, ertecse, sasza
+10: jenny
+  1: 11800, 0, BEACH, 4, TAK, kacper17, yuegre, orzech, (fr)genomm, (fr)yaksie, ciepnijafa
+11: fenix
+  1: 6900, 4000, BEACH, 4, TAK, kacper17, orzech, ciepnijafa, carpet, wojciecch, arkadius, orzech
+12:
+  1: 14900, 7320, BEACH, 4, NIE, , kacper17, orzech, ciepnijafa, yuegre, jenny, karoll, inka
+13: jenny
+  1: 9700, 535, BEACH, 4, TAK, kacper17, orzech, golon, ciepnijafa, yuegre, fenix
+14: fenix
+  1: 8300, 4680, BEACH, 4, TAK, kacper17, golon, orzech, ciepnijafa, yuegre, paueu
+15: ertecse
+  1: 3200, 530, BEACH, 2, TAK, kacper17, juri, inka, orzech, yuegre, ciepnijafa, maendrake, karoll, fenix, lissovsky
+16: ertecse
+  1: 27600, 14630, BEACH, 2BRAKUJACE, TAK, orzech, juri, merlin (50%), yuegre, ciepnijafa, lissovsky, kosa19, fenix, kacper17, wojciecch
+
+CTA:
+
+REKRUTACJA:
+orafsson: 0.5
+fenix: 0.2

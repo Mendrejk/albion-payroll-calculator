@@ -1,0 +1,37 @@
+KONTENTY:
+1:
+  1: 4940, 0, BEACH, 1+2, NIE, , kacper17, yuegre, van, kosa19
+  2: 3510, 0, BEACH, 1+2, NIE, , kacper17, yuegre, van, atimusz
+2: yuegre
+  1: 2875, 0, BEACH, 1+2, TAK, smokq, kacper17, golon, jennypl, opiumsoby
+  2: 2875, 0, BEACH, 1+2, TAK, kacper17, smokq, golon, jennypl, opiumsoby
+3:
+  1: 6800, 0, BEACH, 1+2, NIE, , karoll, van, rainbowek, demon, ciepnijafa
+4: smokq
+  1: 1470, 750, BEACH, 1+2, TAK, kacper17, ertecse, piston, arkadius, juicycat, faust, gapik, golon, yuegre, wojciecch, merlin, kosa19
+5: smokq
+  1: 14230, 3080, BEACH, 1+2, TAK, karoll, gapik, piston, arkadius, smokq, faust, (sz)schirecik, yuegre, atimusz, lisekpenisek, opiumsoby, golon
+6: smokq
+  1: 10100, 950, BEACH, 1+2, TAK, orzech, kacper17, karoll, inka, rainbowek, eillord, ciepnijafa, cezar, van, fenix, atimusz, piston (50%), (sz)kiep, (fr)zoolmaster
+7: smokq
+  1: 18300, 6330, BEACH, 1+2, TAK, orzech, kacper17, karoll, rainbowek, eillord, ciepnijafa, cezar, fenix, (sz)kiep, (fr)zoolmaster
+8: smokq
+  1: 15100, 4210, BEACH, 1+2, TAK, karoll, ertecse, piston, arkadius, gapik, carpetdiem, faust, atimusz, opiumsoby, kacper17, fenix, sasza, orzech, golon, kosa19
+9:
+  1: 51500, 24400, BEACH, 3, NIE, , kacper17, carpetdiem, paueu, golon, beslarin, piston, karoll, yuegre, gapik, merlin (50%), van, inka, lisekpenisek
+10: kacper17
+  1: 3600, 1879, BEACH, 3, TAK, kacper17, karoll, yuegre, jennypl, merlin, orzech, piston
+11:
+  1: 8800, 4700, BEACH, 3, NIE, , kacper17, piston, merlin, golon, karoll, orzech, inka, opiumsoby, paueu, van, yuegre
+12: fenix
+  1: 2900, 524, BEACH, 3, TAK, kacper17, karoll, wojciecch, orzech, atimusz, merlin
+
+CTA:
+1: sasza - smokq, inka, demon, golon, cezar, orzech, van, gapik, kacper17
+2: kacper17 - ertecse, klaudiuszs, orzech, carpetdiem, inka, smokq, juicycat, opiumsoby, ciepnijafa, golon, van, cezar, atimusz, faust, fenix, karoll, vircynger, eillord, merlin
+3: sasza - kacper17, sziba, golon, fenix, carpetdiem, faust, inka, smokq, atimusz, jennypl, cezar, vircynger, piston, gapik
+
+REKRUTACJA:
+van: 0.2
+smokq: 2
+fenix: 2

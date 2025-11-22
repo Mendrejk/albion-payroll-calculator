@@ -1,0 +1,59 @@
+Podatek w przedmiotach: 20 655k
+Podatek w gotówce: 7 485k
+Suma wypłat w przedmiotach: 163 802k
+Suma wypłat w gotówce: 58 652k
+Suma zwrotów w przedmiotach: 20 462k
+Suma zwrotów w gotówce: 7 318k
+Nick           | Wypłata w gotówce | Zwrot podatku | Punkty Zwrotu Podatku | LOOT BEACH - 1+2 | LOOT BEACH - 3+4
+-------------- | ----------------- | ------------- | --------------------- | ---------------- | ----------------
+kacper17       | 3 102k            | 3 007k        | 15.299999999999999    | 7 258k           | 2 690k          
+kosa19         | 422k              | 244k          | 1.25                  | 1 094k           | 0k              
+juicycat       | 1 034k            | 766k          | 3.9                   | 3 726k           | 0k              
+wojciecch      | 422k              | 48k           | 0.25                  | 1 094k           | 0k              
+van            | 1 616k            | 589k          | 2.9999999999999996    | 5 160k           | 0k              
+rannilover     | 422k              | 19k           | 0.1                   | 748k             | 0k              
+jenny          | 422k              | 255k          | 1.3000000000000003    | 748k             | 0k              
+smokq          | 1 868k            | 2 663k        | 13.550000000000002    | 3 078k           | 2 690k          
+karoll         | 4 640k            | 3 431k        | 17.45                 | 5 830k           | 7 866k          
+gapik          | 784k              | 550k          | 2.8000000000000003    | 2 666k           | 984k            
+fenix          | 1 066k            | 1 160k        | 5.8999999999999995    | 3 078k           | 276k            
+carpetdiem     | 1 400k            | 972k          | 4.950000000000001     | 5 182k           | 1 284k          
+orzech         | 1 030k            | 1 199k        | 6.100000000000001     | 3 078k           | 138k            
+sziba          | 0k                | 835k          | 4.25                  | 346k             | 0k              
+faust          | 512k              | 677k          | 3.4499999999999997    | 2 218k           | 0k              
+birh           | 994k              | 903k          | 4.6                   | 3 078k           | 0k              
+pukamanke      | 512k              | 235k          | 1.2000000000000002    | 2 752k           | 0k              
+yuegre         | 2 588k            | 717k          | 3.65                  | 4 292k           | 3 812k          
+golon          | 3 862k            | 903k          | 4.6000000000000005    | 2 732k           | 6 582k          
+klaudiuszs     | 994k              | 796k          | 4.05                  | 2 464k           | 0k              
+inka           | 3 608k            | 707k          | 3.6                   | 2 240k           | 6 744k          
+cezar          | 3 608k            | 884k          | 4.500000000000001     | 2 240k           | 6 744k          
+ciepnijafa     | 3 944k            | 432k          | 2.1999999999999997    | 3 800k           | 6 882k          
+eillord        | 3 378k            | 481k          | 2.45                  | 2 240k           | 5 598k          
+rainbowek      | 3 608k            | 314k          | 1.6                   | 2 240k           | 6 744k          
+piston         | 1 338k            | 766k          | 3.9                   | 168k             | 3 674k          
+(sz)chromoluki | 160k              | 38k           | 0.2                   | 336k             | 0k              
+(sz)lybybyby   | 160k              | 38k           | 0.2                   | 336k             | 0k              
+(sz)vepest     | 160k              | 38k           | 0.2                   | 336k             | 0k              
+(il)aim4ik     | 447k              | 117k          | 0.6000000000000001    | 986k             | 0k              
+(gd)jamniczeek | 367k              | 77k           | 0.4                   | 818k             | 0k              
+(il)ashura     | 2 574k            | 97k           | 0.5                   | 1 636k           | 4 054k          
+(il)nomernutey | 3 218k            | 127k          | 0.65                  | 1 636k           | 5 598k          
+lissovsky      | 0k                | 156k          | 0.8                   | 268k             | 0k              
+sasza          | 384k              | 97k           | 0.5                   | 0k               | 984k            
+demon          | 384k              | 137k          | 0.7000000000000001    | 0k               | 984k            
+merlin         | 680k              | 244k          | 1.25                  | 0k               | 1 682k          
+beslarin       | 2 070k            | 540k          | 2.75                  | 0k               | 5 200k          
+opiumsoby      | 644k              | 244k          | 1.25                  | 0k               | 1 544k          
+juriowsienko69 | 230k              | 28k           | 0.15000000000000002   | 0k               | 1 146k          
+lisekpenisek   | 0k                | 117k          | 0.6000000000000001    | 0k               | 0k              
+alvin          | 0k                | 195k          | 1.0                   | 0k               | 0k              
+arkadius       | 0k                | 235k          | 1.2000000000000002    | 0k               | 0k              
+ertecse        | 0k                | 235k          | 1.2000000000000002    | 0k               | 0k              
+zaluzja        | 0k                | 235k          | 1.2000000000000002    | 0k               | 0k              
+paueu          | 0k                | 117k          | 0.6000000000000001    | 0k               | 0k              
+atimusz        | 0k                | 490k          | 2.5                   | 0k               | 0k              
+araaraking     | 0k                | 117k          | 0.6000000000000001    | 0k               | 0k              
+polut          | 0k                | 176k          | 0.9                   | 0k               | 0k              
+han            | 0k                | 255k          | 1.3                   | 0k               | 0k              
+vircynger      | 0k                | 77k           | 0.4                   | 0k               | 0k              

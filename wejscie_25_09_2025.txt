@@ -1,0 +1,43 @@
+KONTENTY:
+1: fenix
+  1: 0, 5080, BEACH, 1, TAK, gapik, piston, fenix, kacper17, yuegre, grubas, faust
+2: fenix
+  1: 3980, 1410, BEACH, 1, TAK, kacper17, sziba, karoll, inka, smokq, orzech, yuegre, lissovsky, gapik, ertecse
+3: yuegre
+  1: 3530, 0, BEACH, 1, TAK, carpet, faust, wojciecch, grimonmon, piston, fenix
+4: smokq
+  1: 7890, 4105, BEACH, 1, TAK, orzech, sziba, vanorafsson, inka, smokq, fenix, yuegre, cezar, karoll, lissovsky
+5: fenix
+  1: 6800, 3221, BEACH, 1, TAK, sziba, wojciecch, orzech, grimonmon, karoll
+6: fenix
+  1: 15200, 5700, BEACH, 1, TAK, karoll, orzech, golon, yuegre, carpet, lissovsky, inka, cezar, beslarin, opiumsoby, kosa19
+7: fenix
+  1: 6990, 1650, BEACH, 2, TAK, karoll, orzech, yuegre, inka, (SZ)lingchi, (SZ)dzbaqnior
+8: fenix
+  1: 9210, 4340, BEACH, 2, TAK, karoll, orzech, fenix, inka, (sz)dzbaqnior, (sz)lingchi, (sz)llck, (sz)vemeis, (sz)chromoluki, (sz)montan96, (sz)zedsan, (sz)admiraljahas
+9: fenix
+  1: 2200, 3780, BEACH, 2, TAK, karoll, ertecse, (sz)lingchi, orzech, golon, wojciecch
+10: fenix
+  1: 15900, 5040, BEACH, 2, TAK, karoll, sziba, inka, (sz)lingchi, (sz)chromoluki, (sz)dzbaqnior, (sz)montan96, orzech, (sz)zedsan
+11: fenix
+  1: 8600, 4118, BEACH, 2, TAK, orzech, jenny, (fr)yaksie, gapik, (fr)genomm, ciepnijafa, kacper17
+12: fenix
+  1: 4760, 1350, BEACH, 3, TAK, kacper17, gapik, inka, orzech, ciepnijafa, ertecse, jenny, lissovsky, piston, golon
+13: karoll
+  1: 2410, 0, FORT, 1, TAK, karoll, orzech, faust, smokq, (sz)vemeis, (sz)dzbaqnior, juri, kosa19, grimonmon
+
+CTA:
+1: karoll - jenny, alvin, inka, opiumsoby, wojciecch, cezar, piston, yuegre, faust
+2: karoll - gapik, alvin, smokq, muaslak, inka, juicycat, opiumsoby, piston, yuegre, abrakadabr, faust
+3: karoll - smokq, inka, piston, cezar, vanorafsson, yuegre, faust, sziba
+4: karoll - ertecse, smokq, carpet, demon, vanorafsson, juicycat, opiumsoby, piston, paueu, faust, sziba
+5: karoll - ertecse, carpet, smokq, lissovsky, golon, cezar, yuegre, gapik, grimonmon, faust
+6: kacper17 - johnny, sziba, jenny, ertecse, orzech, fenix, inka, lissovsky, golon, cezar, piston, vanorafsson, zboczonystaszek
+7: karoll - ertecse, gapik, faust, vanorafsson, fenix, inka, juicycat, shamanbic, carpet, golon, piston, kosa19, orzech, cezar, yuegre, paueu
+8: karoll - sziba, demon, ertecse, paueu, carpet, opiumsoby, juicycat, inka, lissovsky, golon, piston, gapik, abrakadabr, faust
+
+REKRUTACJA:
+karoll: 8.8
+vanorafsson: 0.66
+fenix: 1.1
+smokq: 2.2

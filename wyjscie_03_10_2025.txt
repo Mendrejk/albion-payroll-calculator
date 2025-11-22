@@ -1,0 +1,39 @@
+Podatek w przedmiotach: 17 661k
+Podatek w gotówce: 5 089k
+Suma wypłat w przedmiotach: 140 655k
+Suma wypłat w gotówce: 39 905k
+Suma zwrotów w przedmiotach: 17 583k
+Suma zwrotów w gotówce: 4 980k
+Nick       | Wypłata w gotówce | Zwrot podatku | Punkty Zwrotu Podatku | LOOT BEACH - 1 | LOOT BEACH - 2 | LOOT BEACH - 2BRAKUJACE | LOOT BEACH - 3 | LOOT BEACH - 4
+---------- | ----------------- | ------------- | --------------------- | -------------- | -------------- | ----------------------- | -------------- | --------------
+yuegre     | 4 334k            | 5 023k        | 5.75                  | 7 110k         | 2 392k         | 2 102k                  | 2 580k         | 5 106k        
+kacper17   | 3 460k            | 3 494k        | 4.0                   | 7 110k         | 1 546k         | 2 102k                  | 1 486k         | 5 894k        
+demon      | 0k                | 174k          | 0.2                   | 1 394k         | 0k             | 0k                      | 743k           | 0k            
+jenny      | 896k              | 1 178k        | 1.35                  | 6 000k         | 0k             | 0k                      | 1 486k         | 4 158k        
+filx       | 210k              | 392k          | 0.45000000000000007   | 3 724k         | 698k           | 0k                      | 0k             | 0k            
+golon      | 804k              | 480k          | 0.55                  | 2 504k         | 698k           | 0k                      | 0k             | 2 056k        
+fenix      | 4 166k            | 2 664k        | 3.05                  | 1 394k         | 3 008k         | 2 102k                  | 0k             | 2 844k        
+wojciecch  | 1 570k            | 480k          | 0.55                  | 2 330k         | 0k             | 2 102k                  | 1 094k         | 788k          
+juicycat   | 0k                | 174k          | 0.2                   | 2 330k         | 0k             | 0k                      | 0k             | 0k            
+ertecse    | 1 152k            | 1 659k        | 1.9                   | 2 330k         | 232k           | 2 102k                  | 1 837k         | 0k            
+orzech     | 5 002k            | 2 489k        | 2.8500000000000005    | 2 330k         | 3 008k         | 2 102k                  | 0k             | 5 894k        
+orafsson   | 1 752k            | 654k          | 0.75                  | 0k             | 2 160k         | 0k                      | 0k             | 0k            
+karoll     | 2 838k            | 436k          | 0.5                   | 0k             | 3 008k         | 0k                      | 0k             | 1 702k        
+ciepnijafa | 4 790k            | 829k          | 0.95                  | 0k             | 2 392k         | 2 102k                  | 0k             | 5 894k        
+inka       | 2 626k            | 349k          | 0.4                   | 0k             | 2 392k         | 0k                      | 0k             | 1 702k        
+beslarin   | 210k              | 130k          | 0.15000000000000002   | 0k             | 698k           | 0k                      | 0k             | 0k            
+lissovsky  | 1 364k            | 349k          | 0.4                   | 0k             | 848k           | 2 102k                  | 0k             | 0k            
+grimonmon  | 212k              | 87k           | 0.1                   | 0k             | 616k           | 0k                      | 0k             | 0k            
+kosa19     | 1 326k            | 218k          | 0.25                  | 0k             | 616k           | 2 102k                  | 0k             | 0k            
+opiumsoby  | 0k                | 87k           | 0.1                   | 0k             | 0k             | 0k                      | 1 486k         | 0k            
+faust      | 0k                | 87k           | 0.1                   | 0k             | 0k             | 0k                      | 1 094k         | 0k            
+piston     | 0k                | 87k           | 0.1                   | 0k             | 0k             | 0k                      | 1 094k         | 0k            
+sasza      | 0k                | 87k           | 0.1                   | 0k             | 0k             | 0k                      | 1 094k         | 0k            
+(fr)genomm | 0k                | 87k           | 0.1                   | 0k             | 0k             | 0k                      | 0k             | 1 348k        
+(fr)yaksie | 0k                | 87k           | 0.1                   | 0k             | 0k             | 0k                      | 0k             | 1 348k        
+carpet     | 456k              | 87k           | 0.1                   | 0k             | 0k             | 0k                      | 0k             | 788k          
+arkadius   | 456k              | 87k           | 0.1                   | 0k             | 0k             | 0k                      | 0k             | 788k          
+paueu      | 534k              | 87k           | 0.1                   | 0k             | 0k             | 0k                      | 0k             | 948k          
+juri       | 1 152k            | 261k          | 0.30000000000000004   | 0k             | 232k           | 2 102k                  | 0k             | 0k            
+maendrake  | 38k               | 130k          | 0.15000000000000002   | 0k             | 232k           | 0k                      | 0k             | 0k            
+merlin     | 557k              | 130k          | 0.15000000000000002   | 0k             | 0k             | 1 051k                  | 0k             | 0k            

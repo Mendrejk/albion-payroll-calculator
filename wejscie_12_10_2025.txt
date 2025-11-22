@@ -1,0 +1,45 @@
+KONTENTY:
+1: ertecse
+  1: 2570, 520, BEACH, 1, TAK, karoll, juri, inka, orzech, yuegre, ciepnijafa, van, fenix, kacper17, lissovsky
+2: ertecse
+  1: 11230, 2470, BEACH, 1, TAK, orzech, van, yuegre, ciepnijafa, lissovsky, karoll, piston, inka, (fr)zoolmaster, kacper17, (fr)kotangens, fenix
+3: ertecse
+  1: 2200, 0, BEACH, 1, TAK, kacper17, juri, orzech, yuegre, ciepnijafa, lissovsky, inka, (fr)zoolmaster, fenix
+4: ertecse
+  1: 2800, 1170 , BEACH, 1, TAK, kacper17, juri, orzech, ciepnijafa, lissovsky, inka, (fr)zoolmaster, fenix
+5: yuegre
+  1: 3400, 1420, BEACH, 1, TAK, golon, sasza, fenix, piston, filx, wojciecch
+6: smokq
+  1: 8000, 3200, BEACH, 1, TAK, kacper17, gapik, jenny, juri, piston, merlin, zaluzja, golon, paueu, yuegre
+7: smokq
+  1: 54500, 1250, BEACH, 1, TAK, sasza, piston, ertecse, arkadiuspl, faust, opiumsoby, vircynger, kacper17, wojciecch, golon, van, paueu
+8: fenix
+  1: 25400, 7800, BEACH, 2, TAK, kacper17, orzech, merlin, wojciecch, yuegre, (sz)schirecik
+9: fenix
+  1: 8800, 3510, BEACH, 2, TAK, kacper17, van, yuegre, (fr)zoolmaster, jenny
+10: kacper17
+  1: 13430, 747, BEACH, 2, TAK, kacper17, jenny, paueu, van, yuegre
+11: yuegre
+  1: 11300, 0, BEACH, 3, TAK, yuegre, kacper17, orzech, jenny, golon, sasza
+12:
+  1: 12300, 500, BEACH, 3, NIE, , kacper17, beslarin, wojciecch, van, yuegre, demon, atimusz
+13: ertecse
+  1: 4190, 610, BEACH, 4, TAK, karoll, orzech, eillord, lissovsky, yuegre, golon, kacper17, piston (50%), merlin (50%), inka, kosa19, ciepnijafa, juri, smokq
+14: ertecse
+  1: 13800, 2980, BEACH, 4, TAK, karoll, orzech, eillord, lissovsky, yuegre, golon, kacper17, piston (50%), inka, kosa19, ciepnijafa, juri (50%), smokq, van
+15: kacper17
+  1: 18750, 0, FORT, 1, TAK, kacper17, orzech, wojciecch, kosa19, fenix, jenny, ertecse, beslarin
+16:
+  1: 250, 0, FORT, 1, NIE, , kacper17
+
+CTA:
+1: kacper17 - sziba, sasza, karoll, orzech, alvin, arkadiuspl, inka, ciepnijafa, smokq, juicycat, golon, juri, cezar, paueu, klaudiuszs, vircynger, ertecse, fenix, faust, yuegre, beslarin, lissovsky
+2: kacper17 - orzech, fenix, beslarin, van, inka, cezar, paueu, golon, faust, yuegre, ciepnijafa, sasza, klaudiuszs
+3: kacper17 - ertecse, jenny, golon, carpet, smokq, piston, orzech, juri, inka, lissovsky, karoll, cezar, klaudiuszs, paueu, yuegre, gapik, sasza, beslarin, wojciecch, sziba
+4: karoll - inka, eillord, carpet, van, beslarin, golon, jenny, cezar
+5: kacper17 - sziba, klaudiuszs, ertecse, jenny, fenix, inka, smokq, lissovsky, golon, cezar, van, paueu, yuegre, paueu
+6: karoll - sasza, jenny, carpet, inka, juicycat, golon, piston, cezar, faust, merlin, vircynger, paueu, atimusz, yuegre, van, eillord, ciepnijafa
+
+REKRUTACJA:
+fenix: 7.8
+van: 0.165

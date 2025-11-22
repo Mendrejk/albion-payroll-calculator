@@ -1,0 +1,45 @@
+KONTENTY:
+1: kacper17
+  1: 6550, 3704, BEACH, 1+2, TAK, kosa19, juicycat, wojciecch, van, rannilover, jenny
+2: smokq
+  1: 5650, 0, BEACH, 1+2, TAK, karoll, gapik, fenix, carpetdiem, juicycat, orzech, kacper17, sziba, faust, wojciecch, kosa19, birh
+3:
+  1: 11700, 3200, BEACH, 1+2, NIE, , faust, kacper17, pukamanke, karoll, juicycat
+4: smokq
+  1: 7400, 1520, BEACH, 1+2, TAK, birh, gapik, fenix, karoll, carpetdiem, juicycat, yuegre, golon, kacper17, klaudiuszs, orzech
+5:
+  1: 4400, 0, BEACH, 1+2, NIE, , karoll, van, pukamanke, carpetdiem
+6: smokq
+  1: 8000, 3830, BEACH, 1+2, TAK, orzech, karoll, golon, inka, birh, cezar, ciepnijafa, fenix, eillord, rainbowek, yuegre, klaudiuszs, van, kacper17, piston (50%), (sz)chromoluki, (sz)lybybyby, (sz)vepest, (il)aim4ik (50%)
+7: smokq
+  1: 9600, 3240, BEACH, 1+2, TAK, orzech, karoll, golon, inka, birh, cezar, ciepnijafa, fenix, eillord, rainbowek, yuegre, klaudiuszs, van, kacper17, carpetdiem, (gd)jamniczeek (50%), (il)ashura, (il)nomernutey, (il)aim4ik (50%)
+8: smokq
+  1: 29300, 14219, BEACH, 1+2, TAK, orzech, karoll, golon, inka, birh, cezar, ciepnijafa, fenix, eillord, rainbowek, yuegre, klaudiuszs, van, kacper17, carpetdiem, (gd)jamniczeek (50%), (il)ashura, (il)nomernutey, (il)aim4ik (50%)
+9: karoll
+  1: 5720, 0, BEACH, 1+2, TAK, karoll, gapik, golon, inka, ciepnijafa, birh, cezar, smokq, kacper17, juicycat, rainbowek, yuegre, eillord, carpetdiem, fenix, orzech, lissovsky
+10: kacper17
+  1: 11700, 2255, BEACH, 1+2, TAK, carpetdiem, ciepnijafa, van, yuegre, gapik
+11: yuegre
+  1: 8610, 3370, BEACH, 3+4, TAK, karoll, sasza, piston, demon, gapik, golon
+12: fenix
+  1: 1380, 368, BEACH, 3+4, TAK, carpetdiem, fenix, orzech, ciepnijafa, yuegre, merlin, karoll, fenix, orzech
+13: karoll
+  1: 50680, 23000, BEACH, 3+4, TAK, karoll, golon, inka, ciepnijafa, cezar, rainbowek, (il)nomernutey, (il)ashura, eillord, beslarin
+14: karoll
+  1: 27030, 11300, BEACH, 3+4, TAK, karoll, kacper17, piston, inka, ciepnijafa, smokq, (il)nomernutey, cezar, rainbowek, eillord, opiumsoby, golon, yuegre, merlin
+15: karoll
+  1: 17200, 3450, BEACH, 3+4, TAK, karoll, kacper17, piston, inka, ciepnijafa, smokq, rainbowek, yuegre, cezar, carpetdiem, beslarin, juriowsienko69
+
+CTA:
+1: kacper17 - karoll, sziba, gapik, lisekpenisek, orzech, fenix, beslarin, carpetdiem, alvin, arkadius, inka, juicycat, smokq, lissovsky, opiumsoby, pukamanke, cezar, ertecse, piston, jenny, merlin, klaudiuszs, faust, golon, zaluzja, paueu, van, birh, atimusz
+2: kacper17 - karoll, sziba, gapik, jenny, orzech, fenix, carpetdiem, birh, arkadius, smokq, juicycat, inka, klaudiuszs, pukamanke, eillord, piston, ertecse, cezar, faust, golon, zaluzja, kosa19, beslarin, demon, araaraking, atimusz, arkadius
+3: kacper17 - karoll, orzech, fenix, yuegre, carpetdiem, birh, juicycat, golon, eillord, cezar, beslarin, klaudiuszs, faust, sziba, van, alvin, piston, smokq, gapik
+4: sziba - sasza, birh, klaudiuszs, fenix, yuegre, smokq, van, juicycat, inka, golon, cezar, faust, atimusz, piston, beslarin
+5: kacper17 - karoll, gapik, orzech, fenix, carpetdiem, birh, smokq, polut, atimusz, opiumsoby, piston, cezar, beslarin, juicycat, yuegre, klaudiuszs, golon, han, faust, sziba
+6: kacper17 - orzech, carpetdiem, birh, smokq, ciepnijafa, golon, cezar, piston, vircynger, juicycat, faust, van, inka, han, klaudiuszs, yuegre, fenix, merlin, polut
+7: karoll - kacper17, han, atimusz, piston, rainbowek, carpetdiem, smokq, juicycat, inka, ciepnijafa, van, golon, cezar, eillord, klaudiuszs, faust, juicycat, atimusz, eillord, rainbowek
+
+REKRUTACJA:
+karoll: 5.25
+smokq: 5.25
+fenix: 1.3
