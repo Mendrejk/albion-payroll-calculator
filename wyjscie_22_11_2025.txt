@@ -1,0 +1,50 @@
+Podatek w przedmiotach: 12 390k
+Podatek w gotówce: 2 109k
+Suma wypłat w przedmiotach: 98 168k
+Suma wypłat w gotówce: 15 808k
+Suma zwrotów w przedmiotach: 12 261k
+Suma zwrotów w gotówce: 1 972k
+Nick          | Wypłata w gotówce | Zwrot podatku | Punkty Zwrotu Podatku | LOOT BEACH - 1 | LOOT BEACH - 2 | LOOT BEACH - 3 | LOOT FORT - 1 | LOOT FORT - 2 | LOOT FORT - 3
+------------- | ----------------- | ------------- | --------------------- | -------------- | -------------- | -------------- | ------------- | ------------- | -------------
+orzech        | 1 494k            | 861k          | 5.4                   | 3 176k         | 750k           | 368k           | 700k          | 2 090k        | 1 334k       
+yuegre        | 682k              | 278k          | 1.7500000000000004    | 2 274k         | 440k           | 0k             | 700k          | 2 090k        | 1 334k       
+arkadius      | 324k              | 215k          | 1.35                  | 2 274k         | 0k             | 0k             | 0k            | 0k            | 1 334k       
+koniu         | 554k              | 71k           | 0.45                  | 1 884k         | 0k             | 0k             | 0k            | 2 090k        | 1 334k       
+orafsson      | 506k              | 358k          | 2.2500000000000004    | 2 274k         | 310k           | 0k             | 0k            | 2 090k        | 0k           
+rainbowek     | 606k              | 390k          | 2.45                  | 2 274k         | 310k           | 0k             | 700k          | 2 090k        | 1 334k       
+smokq         | 406k              | 972k          | 6.1                   | 1 110k         | 440k           | 0k             | 0k            | 0k            | 0k           
+karoll        | 1 388k            | 1 410k        | 8.85                  | 2 012k         | 440k           | 368k           | 700k          | 2 090k        | 1 334k       
+piston        | 688k              | 366k          | 2.3                   | 1 110k         | 750k           | 0k             | 0k            | 2 090k        | 0k           
+inka          | 612k              | 1 474k        | 9.25                  | 1 110k         | 750k           | 0k             | 0k            | 0k            | 1 334k       
+afa           | 484k              | 151k          | 0.9500000000000001    | 1 292k         | 0k             | 0k             | 0k            | 0k            | 0k           
+birh          | 788k              | 382k          | 2.4000000000000004    | 1 110k         | 750k           | 0k             | 0k            | 2 090k        | 1 334k       
+drx           | 224k              | 71k           | 0.45000000000000007   | 1 110k         | 0k             | 0k             | 0k            | 0k            | 0k           
+cezar         | 784k              | 438k          | 2.75                  | 1 830k         | 310k           | 0k             | 0k            | 2 090k        | 0k           
+fenix         | 988k              | 581k          | 3.65                  | 902k           | 440k           | 368k           | 0k            | 0k            | 1 334k       
+carpet        | 638k              | 413k          | 2.6000000000000005    | 902k           | 0k             | 0k             | 700k          | 0k            | 1 334k       
+merlin        | 706k              | 111k          | 0.7000000000000001    | 902k           | 0k             | 368k           | 0k            | 0k            | 0k           
+eillord       | 260k              | 79k           | 0.5                   | 182k           | 0k             | 0k             | 0k            | 0k            | 0k           
+gapik         | 388k              | 287k          | 1.8                   | 0k             | 750k           | 0k             | 700k          | 0k            | 1 334k       
+(il)drsteal   | 288k              | 47k           | 0.30000000000000004   | 0k             | 750k           | 0k             | 0k            | 0k            | 0k           
+beslarin      | 106k              | 230k          | 1.4500000000000002    | 0k             | 310k           | 0k             | 0k            | 0k            | 0k           
+juri          | 282k              | 318k          | 2.0                   | 0k             | 310k           | 0k             | 0k            | 2 090k        | 0k           
+sziba         | 358k              | 685k          | 4.3                   | 0k             | 440k           | 0k             | 0k            | 2 090k        | 0k           
+kosa          | 350k              | 103k          | 0.65                  | 0k             | 440k           | 368k           | 0k            | 0k            | 0k           
+(il)dilux1    | 182k              | 23k           | 0.15000000000000002   | 0k             | 440k           | 0k             | 0k            | 0k            | 0k           
+(il)aim4ik    | 182k              | 23k           | 0.15000000000000002   | 0k             | 440k           | 0k             | 0k            | 0k            | 0k           
+(sz)schirecik | 168k              | 15k           | 0.1                   | 0k             | 0k             | 368k           | 0k            | 0k            | 0k           
+wojciecch     | 268k              | 159k          | 1.0                   | 0k             | 0k             | 368k           | 700k          | 0k            | 1 334k       
+faust         | 100k              | 318k          | 2.0000000000000004    | 0k             | 0k             | 0k             | 700k          | 0k            | 1 334k       
+sasza         | 276k              | 1 035k        | 6.5                   | 0k             | 0k             | 0k             | 0k            | 2 090k        | 1 334k       
+pukamanke     | 176k              | 134k          | 0.8500000000000001    | 0k             | 0k             | 0k             | 0k            | 2 090k        | 0k           
+golon         | 276k              | 278k          | 1.7500000000000002    | 0k             | 0k             | 0k             | 0k            | 2 090k        | 1 334k       
+johhny        | 176k              | 71k           | 0.45000000000000007   | 0k             | 0k             | 0k             | 0k            | 2 090k        | 0k           
+soliba        | 100k              | 79k           | 0.5                   | 0k             | 0k             | 0k             | 0k            | 0k            | 1 334k       
+han           | 0k                | 126k          | 0.8                   | 0k             | 0k             | 0k             | 0k            | 0k            | 0k           
+juicycat      | 0k                | 206k          | 1.3                   | 0k             | 0k             | 0k             | 0k            | 0k            | 0k           
+klaudiusz     | 0k                | 238k          | 1.5                   | 0k             | 0k             | 0k             | 0k            | 0k            | 0k           
+vircynger     | 0k                | 95k           | 0.6000000000000001    | 0k             | 0k             | 0k             | 0k            | 0k            | 0k           
+alvin         | 0k                | 62k           | 0.4                   | 0k             | 0k             | 0k             | 0k            | 0k            | 0k           
+demon         | 0k                | 62k           | 0.4                   | 0k             | 0k             | 0k             | 0k            | 0k            | 0k           
+ertecse       | 0k                | 62k           | 0.4                   | 0k             | 0k             | 0k             | 0k            | 0k            | 0k           
+kacper17      | 0k                | 956k          | 6.0                   | 0k             | 0k             | 0k             | 0k            | 0k            | 0k           

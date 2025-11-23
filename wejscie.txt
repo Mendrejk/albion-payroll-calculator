@@ -1,0 +1,38 @@
+KONTENTY:
+1:
+  1: 3770, 0, BEACH, 1, NIE, , orzech, yuegre, arkadius, koniu, orafsson, rainbowek
+  2: 4970, 0, BEACH, 1, NIE, , orzech, yuegre, arkadius, koniu, orafsson, rainbowek
+2: smokq
+  1: 18060, 3670, BEACH, 1, TAK, karoll, orzech, piston, inka, afa, rainbowek, birh, arkadius, drx, cezar, yuegre, orafsson
+3: fenix
+  1: 6300, 2440, BEACH, 1, TAK, carpet, koniu, orzech, cezar, merlin, karoll
+4:  fenix
+  1: 1600, 2290, BEACH, 1, TAK, carpet, karoll, merlin, eillord, orzech, afa
+5: orzech
+  1: 4270, 1480, BEACH, 2, TAK, orzech, orafsson, piston, inka, gapik, rainbowek, (il)drsteal, beslarin, birh, cezar, juri
+6: orzech
+  1: 7730, 3200, BEACH, 2, TAK, orzech, gapik, piston, inka, birh, smokq, yuegre, fenix, sziba, kosa, karoll, (il)drsteal, (il)dilux1, (il)aim4ik
+7: fenix
+  1: 3220, 1480, BEACH, 3, TAK, fenix, (sz)schirecik, merlin, wojciecch, kosa, orzech, karoll
+8:
+  1: 7000, 0, FORT, 1, NIE, , karoll, faust, carpet, wojciecch, orzech, gapik, rainbowek, yuegre
+9: sasza
+  1: 39200, 3330, FORT, 2, TAK, sasza, orzech, koniu, rainbowek, karoll, pukamanke, birh, golon, cezar, johhny, juri, sziba, yuegre, piston, orafsson
+10: sasza
+  1: 26700, 2000, FORT, 3, TAK, sasza, karoll, fenix, wojciecch, arkadius, orzech, birh, golon, gapik, yuegre, koniu, faust, inka, rainbowek, carpet, soliba
+
+CTA:
+1: sziba - karoll, han, golon, juri, orzech, beslarin, rainbowek, arkadius, inka, juicycat, orafsson, cezar, klaudiusz, yuegre, smokq, afa, piston, faust
+2: karoll - birh, golon, soliba, johhny, arkadius, inka, afa, cezar, juri, smokq, yuegre, orafsson, faust
+3: sasza - wojciecch, golon, gapik, klaudiusz, birh, juri, orzech, fenix, carpet, yuegre, juicycat, inka, karoll, cezar, rainbowek, orafsson, faust
+4: sasza - sziba, fenix, inka, juicycat, orafsson, gapik, beslarin, orzech, cezar
+5: karoll - orafsson, smokq, fenix, rainbowek, inka, juri, orzech, wojciecch, piston, birh, vircynger, cezar, sziba
+6: sziba - smokq, orzech, beslarin, birh, drx, inka, carpet, cezar, klaudiusz, pukamanke, vircynger, piston, arkadius, faust
+7: karoll - gapik, han, faust, klaudiusz, fenix, rainbowek, alvin, inka, demon, carpet, kosa, smokq, pukamanke, beslarin, ertecse, eillord, piston, merlin
+8: karoll - gapik, golon, juri, birh, rainbowek, carpet, inka, juicycat, cezar, piston
+
+REKRUTACJA:
+kacper17: 6
+inka: 6
+smokq: 3.5
+orafsson: 0.2
