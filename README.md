@@ -1,22 +1,97 @@
-[![official JetBrains project](https://jb.gg/badges/official-plastic.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)
-[![Kotlin](https://img.shields.io/badge/Kotlin-2.0-blue.svg?style=flat&logo=kotlin)](https://kotlinlang.org)
+[![Kotlin](https://img.shields.io/badge/Kotlin-2.1.20-blue.svg?style=flat&logo=kotlin)](https://kotlinlang.org)
+[![Version](https://img.shields.io/badge/version-2.0.0-green.svg)](https://github.com)
 
-# Kotlin/Native Template
+# Albion Payroll Calculator v2.0.0
 
-A mostly-empty template to get started creating a Kotlin/Native project. 
+A Kotlin Multiplatform application for calculating guild payroll in Albion Online. Features both a command-line interface (CLI) and a modern graphical user interface (GUI).
 
-## Getting Started
+## 🚀 Quick Start
 
-1. On the project page, click on the `Use this template` button
-2. Click on the `Create a new repository` drop-down item
-3. Fill in the details of the new repository you'll be creating under your account
-4. Click the `Create repository` button
-5. Browse to your repository and make the needed changes there.
+### GUI Version (Recommended)
+1. Download `AlbionPayrollCalculator-2.0.0-portable.zip` from releases
+2. Extract the ZIP anywhere (desktop, USB drive, etc.)
+3. Run `AlbionPayrollCalculator/AlbionPayrollCalculator.exe`
+4. No installation or admin rights needed!
 
-## Code of conduct
+### CLI Version
+```bash
+./gradlew runReleaseExecutableNative
+```
 
-Please read [our code of conduct](https://github.com/jetbrains#code-of-conduct).
+## 📋 Features
 
-## License
+- **Payroll Calculation** - Automated guild payroll processing
+- **Tax Management** - 20% tax split (10% guild, 10% returns)
+- **Content Organization** - Support for organizers and callers
+- **CTA Tracking** - Call to Arms participation rewards
+- **Recruitment Bonuses** - Tax return points for recruiters
+- **Name Similarity Detection** - Catches potential duplicate entries
+- **Multiple Output Formats** - CSV and Discord markdown
 
-This project is licensed under the Apache 2.0 License - see the [LICENSE.md](LICENSE.md) file for details
+## 🏗️ Project Structure
+
+This is a **Kotlin Multiplatform** project with two targets:
+
+- **CLI** (`src/nativeMain`) - Native command-line version
+- **GUI** (`src/desktopMain`) - Compose Desktop graphical interface
+- **Shared** (`src/commonMain`) - Common business logic
+
+## 📖 Documentation
+
+- [GUI Documentation](GUI_README.md) - Desktop app guide
+- [Algorithm Documentation](Algorithm.md) - Calculation details
+- [Release Notes](RELEASE_NOTES_v2.0.0.md) - What's new in v2.0
+
+## 🛠️ Building from Source
+
+### Requirements
+- JDK 17+ (OpenJDK 24 recommended)
+- Gradle 8.4+
+
+### Commands
+```bash
+# Run GUI in development
+./gradlew desktopRun
+
+# Build portable ZIP distribution
+./gradlew packagePortableZip
+
+# Run CLI
+./gradlew runReleaseExecutableNative
+
+# Build CLI binary
+./gradlew linkReleaseExecutableNative
+```
+
+## 📦 Output Files
+
+The calculator generates:
+- `wyjscie_DD_MM_YYYY.txt` - Formatted payroll table
+- `wyjscie_discord_DD_MM_YYYY.md` - Discord-ready markdown
+
+## 🎯 Input Format
+
+Place your payroll data in `wejscie.txt`:
+
+```
+KONTENTY:
+1: organizer_name
+  1: items, cash, location, tab, has_organizer, caller, participant1, participant2, ...
+  2: items, cash, location, tab, has_organizer, caller, participant1, ...
+
+CTA:
+1: caller - participant1, participant2, participant3
+
+REKRUTACJA:
+recruiter_name: points
+```
+
+See `przykladoweWejscie.txt` for a complete example.
+
+## 🔧 Configuration
+
+The project uses `gradle.properties` for Java configuration. Update `org.gradle.java.home` if needed.
+
+## 📝 License
+
+This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE) file for details.

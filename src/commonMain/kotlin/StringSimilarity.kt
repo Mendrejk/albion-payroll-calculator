@@ -46,3 +46,29 @@ fun jaroWinklerSimilarity(s1: String, s2: String): Double {
     val scalingFactor = 0.1
     return jaro + prefix * scalingFactor * (1 - jaro)
 }
+
+fun printSimilarNames(participants: Participants, similarityThreshold: Double = 0.75) {
+    val names = participants.keys.toList()
+    val similarNames = mutableMapOf<String, MutableList<String>>()
+
+    for (i in names.indices) {
+        for (j in i + 1 until names.size) {
+            val name1 = names[i].lowercase()
+            val name2 = names[j].lowercase()
+            val similarity = jaroWinklerSimilarity(name1, name2)
+            if (similarity >= similarityThreshold) {
+                similarNames.getOrPut(names[i]) { mutableListOf() }.add(names[j])
+                similarNames.getOrPut(names[j]) { mutableListOf() }.add(names[i])
+            }
+        }
+    }
+
+    if (similarNames.isNotEmpty()) {
+        println("Detected similar names:")
+        similarNames.forEach { (name, similars) ->
+            println("$name -> ${similars.joinToString(", ")}")
+        }
+    } else {
+        println("No similar names detected.")
+    }
+}
