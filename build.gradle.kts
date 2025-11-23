@@ -55,6 +55,11 @@ kotlin {
             implementation("org.jetbrains.kotlinx:kotlinx-datetime:0.4.0")
         }
 
+        // Shared tests
+        commonTest.dependencies {
+            implementation(kotlin("test"))
+        }
+
         // Native CLI dependencies
         nativeMain.dependencies {
             implementation("com.squareup.okio:okio:3.9.1")

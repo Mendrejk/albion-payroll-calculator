@@ -61,6 +61,9 @@ This is a **Kotlin Multiplatform** project with two targets:
 
 # Build CLI binary
 ./gradlew linkReleaseExecutableNative
+
+# Run tests
+./gradlew allTests
 ```
 
 ## 📦 Output Files
