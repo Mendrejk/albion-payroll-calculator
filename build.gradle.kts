@@ -123,3 +123,23 @@ tasks.register<Zip>("packagePortableZip") {
         println("Extract and run AlbionPayrollCalculator/AlbionPayrollCalculator.exe")
     }
 }
+
+// Alias for running the desktop GUI (for convenience)
+tasks.register("runGui") {
+    dependsOn("run")
+    group = "application"
+    description = "Runs the desktop GUI application (alias for 'run')"
+}
+
+// Aliases for CLI tasks (for convenience)
+tasks.register("runCli") {
+    dependsOn("runReleaseExecutableNative")
+    group = "application"
+    description = "Runs the CLI application (alias for 'runReleaseExecutableNative')"
+}
+
+tasks.register("buildCli") {
+    dependsOn("linkReleaseExecutableNative")
+    group = "build"
+    description = "Builds the CLI executable (alias for 'linkReleaseExecutableNative')"
+}

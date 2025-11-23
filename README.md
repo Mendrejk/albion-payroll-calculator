@@ -7,15 +7,26 @@ A Kotlin Multiplatform application for calculating guild payroll in Albion Onlin
 
 ## 🚀 Quick Start
 
-### GUI Version (Recommended)
+### For End Users
 1. Download `AlbionPayrollCalculator-2.0.0-portable.zip` from releases
 2. Extract the ZIP anywhere (desktop, USB drive, etc.)
 3. Run `AlbionPayrollCalculator/AlbionPayrollCalculator.exe`
 4. No installation or admin rights needed!
 
-### CLI Version
+### For Developers
+
+**Using PowerShell Scripts (Easiest):**
+```powershell
+.\run-gui.ps1          # Run GUI
+.\run-cli.ps1          # Run CLI
+.\build-portable.ps1   # Build portable ZIP
+.\run-tests.ps1        # Run tests
+```
+
+**Using Gradle Directly:**
 ```bash
-./gradlew runReleaseExecutableNative
+./gradlew run          # Run GUI
+./gradlew runCli       # Run CLI
 ```
 
 ## 📋 Features
@@ -38,6 +49,7 @@ This is a **Kotlin Multiplatform** project with two targets:
 
 ## 📖 Documentation
 
+- **[Quick Start Guide](docs/QUICK_START.md)** - Get started in 5 minutes
 - [GUI Documentation](docs/GUI_README.md) - Desktop app guide
 - [Distribution Guide](docs/DISTRIBUTION_GUIDE.md) - Building and packaging
 - [File Organization](docs/FILE_ORGANIZATION.md) - Project structure
@@ -54,16 +66,16 @@ This is a **Kotlin Multiplatform** project with two targets:
 ### Commands
 ```bash
 # Run GUI in development
-./gradlew desktopRun
+./gradlew run          # or: ./gradlew runGui
+
+# Run CLI
+./gradlew runCli       # or: ./gradlew runReleaseExecutableNative
 
 # Build portable ZIP distribution
 ./gradlew packagePortableZip
 
-# Run CLI
-./gradlew runReleaseExecutableNative
-
 # Build CLI binary
-./gradlew linkReleaseExecutableNative
+./gradlew buildCli     # or: ./gradlew linkReleaseExecutableNative
 
 # Run tests
 ./gradlew allTests
