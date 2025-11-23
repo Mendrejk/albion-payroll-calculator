@@ -3,7 +3,7 @@
 ## For End Users
 
 ### What You Get
-- **File:** `AlbionPayrollCalculator-2.0.0-portable.zip` (92 MB)
+- **File:** `AlbionPayrollCalculator-2.1.0-portable.zip` (92 MB)
 - **Type:** Truly portable - no installation required
 - **Contents:** Application + embedded Java runtime
 
@@ -48,7 +48,7 @@
 ./gradlew packagePortableZip
 ```
 
-Output: `build/distributions/AlbionPayrollCalculator-2.0.0-portable.zip`
+Output: `build/distributions/AlbionPayrollCalculator-2.1.0-portable.zip`
 
 **Alternative - Folder Only:**
 ```bash
@@ -65,12 +65,12 @@ Output: `build/compose/portable/AlbionPayrollCalculator/`
 ### What Gets Built
 
 ```
-AlbionPayrollCalculator-2.0.0-portable.zip
+AlbionPayrollCalculator-2.1.0-portable.zip
 └── AlbionPayrollCalculator/
     ├── AlbionPayrollCalculator.exe  (586 KB launcher)
     ├── README.txt                    (usage instructions)
     ├── app/                          (application JARs)
-    │   └── AlbionPayrollCalculator-2.0.0.jar
+    │   └── AlbionPayrollCalculator-2.1.0.jar
     └── runtime/                      (embedded JVM)
         ├── bin/
         ├── conf/

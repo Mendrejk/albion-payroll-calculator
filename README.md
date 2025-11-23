@@ -1,14 +1,14 @@
 [![Kotlin](https://img.shields.io/badge/Kotlin-2.1.20-blue.svg?style=flat&logo=kotlin)](https://kotlinlang.org)
-[![Version](https://img.shields.io/badge/version-2.0.0-green.svg)](https://github.com)
+[![Version](https://img.shields.io/badge/version-2.1.0-green.svg)](https://github.com)
 
-# Albion Payroll Calculator v2.0.0
+# Albion Payroll Calculator v2.1.0
 
 A Kotlin Multiplatform application for calculating guild payroll in Albion Online. Features both a command-line interface (CLI) and a modern graphical user interface (GUI).
 
 ## 🚀 Quick Start
 
 ### For End Users
-1. Download `AlbionPayrollCalculator-2.0.0-portable.zip` from releases
+1. Download `AlbionPayrollCalculator-2.1.0-portable.zip` from releases
 2. Extract the ZIP anywhere (desktop, USB drive, etc.)
 3. Run `AlbionPayrollCalculator/AlbionPayrollCalculator.exe`
 4. No installation or admin rights needed!
@@ -31,6 +31,7 @@ A Kotlin Multiplatform application for calculating guild payroll in Albion Onlin
 
 ## 📋 Features
 
+- **Interactive Input Builder** - Create payroll data step-by-step in the GUI (NEW!)
 - **Payroll Calculation** - Automated guild payroll processing
 - **Tax Management** - 20% tax split (10% guild, 10% returns)
 - **Content Organization** - Support for organizers and callers
@@ -50,6 +51,7 @@ This is a **Kotlin Multiplatform** project with two targets:
 ## 📖 Documentation
 
 - **[Quick Start Guide](docs/QUICK_START.md)** - Get started in 5 minutes
+- **[Interactive Input Guide](docs/INTERACTIVE_INPUT_GUIDE.md)** - Build payroll data step-by-step (NEW!)
 - [GUI Documentation](docs/GUI_README.md) - Desktop app guide
 - [Distribution Guide](docs/DISTRIBUTION_GUIDE.md) - Building and packaging
 - [File Organization](docs/FILE_ORGANIZATION.md) - Project structure

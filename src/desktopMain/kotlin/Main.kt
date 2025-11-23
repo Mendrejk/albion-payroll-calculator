@@ -22,6 +22,7 @@ class AppState {
     var payrollResult by mutableStateOf<Payroll?>(null)
     var errorMessage by mutableStateOf<String?>(null)
     var isCalculating by mutableStateOf(false)
+    val interactiveInputState = InteractiveInputState() // Hoist interactive input state here
 }
 
 @Composable
@@ -29,7 +30,7 @@ class AppState {
 fun App() {
     val appState = remember { AppState() }
     var selectedTab by remember { mutableStateOf(0) }
-    val tabs = listOf("Wejście", "Wyniki")
+    val tabs = listOf("Kreator", "Plik", "Wyniki")
 
     MaterialTheme {
         Scaffold(
@@ -47,8 +48,9 @@ fun App() {
         ) { padding ->
             Box(modifier = Modifier.padding(padding)) {
                 when (selectedTab) {
-                    0 -> InputScreen(appState) { selectedTab = 1 }
-                    1 -> ResultsScreen(appState)
+                    0 -> InteractiveInputScreen(appState, appState.interactiveInputState) { selectedTab = 2 }
+                    1 -> InputScreen(appState) { selectedTab = 2 }
+                    2 -> ResultsScreen(appState)
                 }
             }
         }
@@ -320,7 +322,7 @@ fun ResultsScreen(appState: AppState) {
 fun main() = application {
     Window(
         onCloseRequest = ::exitApplication,
-        title = "Albion Payroll Calculator v2.0.0",
+        title = "Albion Payroll Calculator v2.1.0",
         state = rememberWindowState(width = 1000.dp, height = 700.dp)
     ) {
         App()

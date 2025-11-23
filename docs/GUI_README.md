@@ -40,7 +40,7 @@ The project is now a **Kotlin Multiplatform** project with two targets:
 
 This creates a truly portable ZIP file:
 ```
-build/distributions/AlbionPayrollCalculator-2.0.0-portable.zip
+build/distributions/AlbionPayrollCalculator-2.1.0-portable.zip
 ```
 
 **What you get:**

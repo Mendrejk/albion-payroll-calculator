@@ -22,7 +22,7 @@ or
 ```bash
 ./gradlew packagePortableZip
 ```
-Output: `build/distributions/AlbionPayrollCalculator-2.0.0-portable.zip`
+Output: `build/distributions/AlbionPayrollCalculator-2.1.0-portable.zip`
 
 ### CLI Executable
 ```bash

@@ -114,8 +114,8 @@ fun calculateItemsAndCash(contentInputs: List<ContentInput>): List<Content> {
                     cashLeftToDistribute -= cashHaulShareUnit * participationShare
                 }
 
-                assert(itemsLeftToDistribute == itemsRemainder)
-                assert(cashLeftToDistribute == cashRemainder)
+                check(itemsLeftToDistribute == itemsRemainder) { "Items distribution mismatch" }
+                check(cashLeftToDistribute == cashRemainder) { "Cash distribution mismatch" }
             }
 
             Content(
