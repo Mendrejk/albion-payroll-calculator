@@ -38,9 +38,12 @@ This is a **Kotlin Multiplatform** project with two targets:
 
 ## 📖 Documentation
 
-- [GUI Documentation](GUI_README.md) - Desktop app guide
-- [Algorithm Documentation](Algorithm.md) - Calculation details
-- [Release Notes](RELEASE_NOTES_v2.0.0.md) - What's new in v2.0
+- [GUI Documentation](docs/GUI_README.md) - Desktop app guide
+- [Distribution Guide](docs/DISTRIBUTION_GUIDE.md) - Building and packaging
+- [File Organization](docs/FILE_ORGANIZATION.md) - Project structure
+- [Testing Guide](docs/TESTING.md) - Running and writing tests
+- [Algorithm Documentation](docs/Algorithm.md) - Calculation details
+- [Release Notes](docs/RELEASE_NOTES_v2.0.0.md) - What's new in v2.0
 
 ## 🛠️ Building from Source
 
