@@ -339,7 +339,8 @@ fun ContentCard(content: ContentData, state: InteractiveInputState, onDelete: ()
                     modifier = Modifier.fillMaxWidth(),
                     placeholder = { Text("np. smokq, fenix") },
                     enabled = content.isEditing,
-                    readOnly = !content.isEditing
+                    readOnly = !content.isEditing,
+                    singleLine = true
                 )
                 
                 Spacer(modifier = Modifier.height(12.dp))
@@ -434,7 +435,8 @@ fun HaulCard(haul: HaulData, number: Int, state: InteractiveInputState, onDelete
                     modifier = Modifier.weight(1f),
                     placeholder = { Text("np. 3770") },
                     enabled = haul.isEditing,
-                    readOnly = !haul.isEditing
+                    readOnly = !haul.isEditing,
+                    singleLine = true
                 )
                 OutlinedTextField(
                     value = haul.cashK,
@@ -443,7 +445,8 @@ fun HaulCard(haul: HaulData, number: Int, state: InteractiveInputState, onDelete
                     modifier = Modifier.weight(1f),
                     placeholder = { Text("np. 0") },
                     enabled = haul.isEditing,
-                    readOnly = !haul.isEditing
+                    readOnly = !haul.isEditing,
+                    singleLine = true
                 )
             }
             
@@ -454,11 +457,7 @@ fun HaulCard(haul: HaulData, number: Int, state: InteractiveInputState, onDelete
                 val defaultLocations = listOf("BEACH", "FORT STERLING", "LYMHURST")
                 val allLocations = defaultLocations + state.customLocations
                 
-                ExposedDropdownMenuBox(
-                    expanded = locationExpanded && haul.isEditing,
-                    onExpandedChange = { if (haul.isEditing) locationExpanded = it },
-                    modifier = Modifier.weight(1f)
-                ) {
+                Box(modifier = Modifier.weight(1f)) {
                     OutlinedTextField(
                         value = haul.location,
                         onValueChange = { newValue ->
@@ -469,16 +468,23 @@ fun HaulCard(haul: HaulData, number: Int, state: InteractiveInputState, onDelete
                         label = { Text("Lokacja") },
                         trailingIcon = { 
                             if (haul.isEditing) {
-                                ExposedDropdownMenuDefaults.TrailingIcon(expanded = locationExpanded)
+                                IconButton(onClick = { locationExpanded = !locationExpanded }) {
+                                    Icon(
+                                        if (locationExpanded) Icons.Default.KeyboardArrowUp else Icons.Default.KeyboardArrowDown,
+                                        contentDescription = "Pokaż opcje"
+                                    )
+                                }
                             }
                         },
-                        modifier = Modifier.menuAnchor(),
+                        modifier = Modifier.fillMaxWidth(),
                         placeholder = { Text("Wybierz lub wpisz") },
                         enabled = haul.isEditing,
-                        readOnly = !haul.isEditing
+                        readOnly = !haul.isEditing,
+                        singleLine = true
                     )
-                    ExposedDropdownMenu(
-                        expanded = locationExpanded,
+                    
+                    DropdownMenu(
+                        expanded = locationExpanded && haul.isEditing,
                         onDismissRequest = { locationExpanded = false }
                     ) {
                         allLocations.forEach { location ->
@@ -500,7 +506,8 @@ fun HaulCard(haul: HaulData, number: Int, state: InteractiveInputState, onDelete
                     modifier = Modifier.weight(1f),
                     placeholder = { Text("np. 1") },
                     enabled = haul.isEditing,
-                    readOnly = !haul.isEditing
+                    readOnly = !haul.isEditing,
+                    singleLine = true
                 )
             }
             
@@ -533,7 +540,8 @@ fun HaulCard(haul: HaulData, number: Int, state: InteractiveInputState, onDelete
                 modifier = Modifier.fillMaxWidth(),
                 placeholder = { Text("np. karoll lub karoll(il)") },
                 enabled = haul.isEditing,
-                readOnly = !haul.isEditing
+                readOnly = !haul.isEditing,
+                singleLine = true
             )
             
             Spacer(modifier = Modifier.height(8.dp))
@@ -649,7 +657,8 @@ fun CtaCard(cta: CtaData, onDelete: () -> Unit) {
                 modifier = Modifier.fillMaxWidth(),
                 placeholder = { Text("np. sziba") },
                 enabled = cta.isEditing,
-                readOnly = !cta.isEditing
+                readOnly = !cta.isEditing,
+                singleLine = true
             )
             
             Spacer(modifier = Modifier.height(8.dp))
@@ -724,7 +733,8 @@ fun RecruitmentCard(recruitment: RecruitmentData, onDelete: () -> Unit) {
                 onValueChange = { recruitment.recruiter = it },
                 label = { Text("Rekruter") },
                 modifier = Modifier.weight(2f),
-                placeholder = { Text("np. kacper17") }
+                placeholder = { Text("np. kacper17") },
+                singleLine = true
             )
             
             OutlinedTextField(
@@ -732,7 +742,8 @@ fun RecruitmentCard(recruitment: RecruitmentData, onDelete: () -> Unit) {
                 onValueChange = { recruitment.points = it },
                 label = { Text("Punkty") },
                 modifier = Modifier.weight(1f),
-                placeholder = { Text("np. 6") }
+                placeholder = { Text("np. 6") },
+                singleLine = true
             )
             
             IconButton(onClick = onDelete) {
