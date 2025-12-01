@@ -5,6 +5,7 @@ import kotlinx.datetime.TimeZone
 import kotlinx.datetime.toLocalDateTime
 import okio.FileSystem
 import okio.Path.Companion.toPath
+import kotlin.toString
 
 fun getCurrentFormattedDate(): String {
     val currentDate = Clock.System.now().toLocalDateTime(TimeZone.currentSystemDefault()).date
@@ -47,8 +48,11 @@ fun computeEnergyBalance(inputLines: List<String>): EnergyResult {
 
 fun runEnergyBalance() {
     val formattedDate = getCurrentFormattedDate()
-    val inputFilePath = "energia/in/energia_${formattedDate}.txt".toPath()
-    val outputFilePath = "energia/out/energy_balance_${formattedDate}.txt".toPath()
+    val now = Clock.System.now().toLocalDateTime(TimeZone.currentSystemDefault()).date
+    val year = now.year.toString()
+    val month = now.monthNumber.toString().padStart(2, '0')
+    val inputFilePath = "energia/${year}/${month}/input/energia_${formattedDate}.txt".toPath()
+    val outputFilePath = "energia/${year}/${month}/output/energy_balance_${formattedDate}.txt".toPath()
 
     val inputLines = mutableListOf<String>()
     FileSystem.SYSTEM.read(inputFilePath) {

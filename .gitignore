@@ -15,6 +15,7 @@ build/
 .idea/compiler.xml
 .idea/libraries/
 .idea/copilot*
+.idea/artifacts/
 *.iws
 *.iml
 *.ipr

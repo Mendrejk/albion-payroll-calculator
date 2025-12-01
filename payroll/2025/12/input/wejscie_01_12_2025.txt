@@ -1,0 +1,43 @@
+KONTENTY:
+1:
+  1: 12200, 2000, BEACH, 1, NIE, , faust, vanorafsson, demon, juri, juicycat, vircynger
+2: kacper17
+  1: 19300, 5530, BEACH, 1, TAK, kacper17, gapik, piston, faust, golon, johnny, yuegre, birh, orzech, karoll, inka, rainbowek
+3: fenix
+  1: 2900, 2253, BEACH, 1, TAK, orzech, c1p3k, carpet, karoll, rainbowek, arkadius
+4:
+  1: 15750, 0, BEACH, 2, NIE, , faust, golon, piston, rainbowek, juri, sasza, sziba
+  2: 9650, 0, BEACH, 2, NIE, , faust, golon, piston, rainbowek, juri
+5: fenix
+  1: 9200, 3210, BEACH, 3, TAK, orzech, gapik, inka, smokq, vanorafsson, yuegre, karoll, birh, arkadius, kacper17, pukamanke (50%), cezar, (il)drsteal, (hp)damion (50%)
+6: faust
+  1: 7070, 3150, BEACH, 3, TAK, faust, yuegre, birh, carpet, wojciecch, kosa, rainbowek
+7:
+  1: 6830, 340, BEACH, 3, NIE, , faust, juicycat, juri, vanorafsson
+8:
+  1: 8900, 720, BEACH, 3, NIE, , faust, juicycat, juri, vanorafsson, beslarin
+9: birh
+  1: 23200, 5700, BEACH, 4, TAK, birh, kosa, johnny, rainbowek, golon
+10: birh
+  1: 5800, 0, BEACH, 4, TAK, sziba, wojciecch, inka, golon
+11:
+  1: 5690, 0, FORT, 1, NIE, , faust, gapik, sziba, piston, yuegre
+12:
+  1: 11200, 0, FORT, 2, NIE, , faust, birh, gapik, karoll, yuegre, lisek, juri, rainbowek, juicycat, piston
+
+CTA:
+1: sziba - han, birh, muaslak, carpet, arkadius, karoll, golon, wojciecch, faust, pukamanke, piston, merlin, klaudiusz
+2: sziba - golon, beslarin, vanorafsson, inka, cezar, faust, wojciecch, piston, yuegre
+3: sziba - gapik, schirecik, jenny, beslarin, birh, demon, carpet, inka, wojciecch, faust, pukamanke, merlin, piston, golon
+4: sziba - juri, rainbowek, demon, klaudiusz, vanorafsson, inka, carpet, cezar, faust, pukamanke, vircynger
+5: sziba - faust, birh, rainbowek, carpet, arkadius, juicycat, piston, faust
+6: karoll - sziba, faust, rainbowek, carpet, arkadius, inka, juicycat, juri, kacper17, piston, vircynger, vanorafsson
+7: kacper17 - gapik, han, orzech, alvin, carpet, birh, faust, juicycat, klaudiusz, wojciecch, vircynger, cezar, piston, rainbowek
+8: kacper17 - gapik, sziba, koniu, orzech, alvin, carpet, arkadius, inka, juri, juicycat, karoll, wojciecch, cezar, piston, rainbowek, faust, vircynger
+9: kacper17 - gapik, han, orzech, carpet, birh, golon, faust, karoll, cezar, piston, sziba, yuegre
+10: kacper17 - sasza, golon, juri, alvin, orzech, merlin, carpet, klaudiusz, inka, smokq, juicycat, schirecik, pukamanke, eillord, cezar, piston, arkadius, fenix, faust, gapik, zaluzja
+
+REKRUTACJA:
+xxkaroll: 5
+xxvanorafsson: 0.15
+xxsmokq: 2.5
